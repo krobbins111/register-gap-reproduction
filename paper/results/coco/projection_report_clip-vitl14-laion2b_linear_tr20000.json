@@ -1,0 +1,26 @@
+{
+  "dataset": "coco",
+  "embed_model": "laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 20000,
+  "n_val": 3000,
+  "gallery_size": 5000,
+  "n_test_queries": 5000,
+  "raw_query": {
+    "R@1": 0.4454,
+    "R@5": 0.6922,
+    "R@10": 0.7806,
+    "R@50": 0.9508,
+    "MRR": 0.5594617415368552
+  },
+  "projected_query": {
+    "R@1": 0.4322,
+    "R@5": 0.6896,
+    "R@10": 0.7876,
+    "R@50": 0.958,
+    "MRR": 0.5530695376524208
+  },
+  "projection_gain_R@50": 0.0072
+}

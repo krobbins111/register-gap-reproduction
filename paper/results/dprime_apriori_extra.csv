@@ -1,0 +1,6 @@
+dataset,backbone,dprime_apriori_train,n_train,source
+nwpu,georsclip-vitb32,2.4823,25199,train_embs_georsclip-vitb32.npz
+nwpu,remoteclip-vitl14,2.4970,25199,train_embs_remoteclip-vitl14.npz
+rocov2,default,2.2407,59962,train_embs.npz
+rocov2,medsiglip,2.3913,59962,train_embs_medsiglip.npz
+semart,default,1.4502,19244,train_embs.npz

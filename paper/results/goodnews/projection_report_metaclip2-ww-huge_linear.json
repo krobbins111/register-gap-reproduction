@@ -1,0 +1,26 @@
+{
+  "dataset": "goodnews",
+  "embed_model": "facebook/metaclip-2-worldwide-huge-quickgelu",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 49998,
+  "n_val": 5000,
+  "gallery_size": 4999,
+  "n_test_queries": 4999,
+  "raw_query": {
+    "R@1": 0.7609521904380876,
+    "R@5": 0.8983796759351871,
+    "R@10": 0.9315863172634526,
+    "R@50": 0.9737947589517904,
+    "MRR": 0.8242544048036414
+  },
+  "projected_query": {
+    "R@1": 0.7359471894378876,
+    "R@5": 0.8901780356071214,
+    "R@10": 0.9265853170634126,
+    "R@50": 0.9765953190638128,
+    "MRR": 0.8065165369611532
+  },
+  "projection_gain_R@50": 0.0028
+}

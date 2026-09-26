@@ -1,0 +1,71 @@
+{
+ "dataset": "coco",
+ "mtag": "clip-vitl14-laion2b",
+ "seed": 0,
+ "raw": {
+  "R@1": 0.4454,
+  "R@5": 0.6922,
+  "R@10": 0.7806,
+  "R@50": 0.9508,
+  "MRR": 0.5594617415368552
+ },
+ "both": {
+  "R@1": 0.4502,
+  "R@5": 0.711,
+  "R@10": 0.8038,
+  "R@50": 0.9622,
+  "MRR": 0.5712143731239637
+ },
+ "shared": {
+  "R@1": 0.442,
+  "R@5": 0.6954,
+  "R@10": 0.7922,
+  "R@50": 0.9588,
+  "MRR": 0.5606667759180313
+ },
+ "twostretch": {
+  "R@1": 0.4506,
+  "R@5": 0.706,
+  "R@10": 0.7988,
+  "R@50": 0.9596,
+  "MRR": 0.5698857621964426
+ },
+ "equiv_check": {
+  "R@1": 0.4502,
+  "R@5": 0.711,
+  "R@10": 0.8038,
+  "R@50": 0.9622,
+  "MRR": 0.5712143731239637
+ },
+ "edge": {
+  "both_minus_shared@50": 0.0034,
+  "stretch_asym@50": 0.0008,
+  "rel_rotation@50": 0.0026,
+  "both_minus_shared@10": 0.0116,
+  "stretch_asym@10": 0.0066,
+  "rel_rotation@10": 0.005
+ },
+ "equiv_abs_err@50": 0.0,
+ "rel_rotation_stats": {
+  "fro_dist_per_sqrtd": 0.1648,
+  "mean_angle_deg": 6.002,
+  "max_angle_deg": 39.036,
+  "diag_mean": 0.98642,
+  "top64_subblock_diag_mean": 0.98648
+ },
+ "stretch_asym_stats": {
+  "S_diff_fro_rel": 0.9493,
+  "sig_t_range": [
+   0.2324,
+   1.4515
+  ],
+  "sig_i_range": [
+   0.2669,
+   1.8798
+  ]
+ },
+ "dprime": {
+  "raw": 4.9794,
+  "both": 5.3516
+ }
+}

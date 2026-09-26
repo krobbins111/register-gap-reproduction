@@ -1,0 +1,30 @@
+{
+  "dataset": "semart",
+  "embed_model": "google/siglip2-so400m-patch16-384",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 100,
+  "n_val": 1069,
+  "gallery_size": 1069,
+  "n_test_queries": 1069,
+  "raw_query": {
+    "R@1": 0.15902712815715622,
+    "R@5": 0.2899906454630496,
+    "R@10": 0.35827876520112256,
+    "R@50": 0.5556594948550047,
+    "MRR": 0.2301862256299378
+  },
+  "projected_query": {
+    "R@1": 0.166510757717493,
+    "R@5": 0.3077642656688494,
+    "R@10": 0.38260056127221703,
+    "R@50": 0.598690364826941,
+    "MRR": 0.2412667130414688
+  },
+  "reference_raw_R@50": 0.554,
+  "reference_llm_rewrite_R@50": 0.815,
+  "reference_self_retrieval_ceiling_R@50": 0.987,
+  "projection_gain_R@50": 0.043,
+  "frac_of_rewrite_gain_recovered_R@50": 0.1659
+}

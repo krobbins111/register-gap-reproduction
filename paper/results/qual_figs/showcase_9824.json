@@ -1,0 +1,31 @@
+{
+ "q": 9824,
+ "file": "ROCOv2_2023_test_009869.jpg",
+ "caption": "Dental X-ray of the patient\u2019s maxillary left region.",
+ "rank_raw": 135,
+ "rank_after": 1,
+ "raw_top": [
+  2532,
+  4249,
+  3287,
+  5612,
+  9469
+ ],
+ "mapped_top": [
+  9824,
+  9156,
+  9683,
+  5636,
+  7366
+ ],
+ "mapped_top_from": [
+  135,
+  363,
+  16,
+  302,
+  102
+ ],
+ "n_gallery": 9927,
+ "score_true_raw": 0.1310761421918869,
+ "score_true_after": 0.4307476878166199
+}

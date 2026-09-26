@@ -1,0 +1,26 @@
+{
+  "dataset": "treeoflife",
+  "embed_model": "facebook/metaclip-2-worldwide-huge-quickgelu",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 8400,
+  "n_val": 1793,
+  "gallery_size": 1793,
+  "n_test_queries": 1793,
+  "raw_query": {
+    "R@1": 0.2091466815393196,
+    "R@5": 0.3798103736754044,
+    "R@10": 0.456776352481874,
+    "R@50": 0.6675962074735081,
+    "MRR": 0.29302432329312517
+  },
+  "projected_query": {
+    "R@1": 0.21639709983268265,
+    "R@5": 0.40658114891243724,
+    "R@10": 0.5069715560513106,
+    "R@50": 0.7618516452872282,
+    "MRR": 0.3144998903106529
+  },
+  "projection_gain_R@50": 0.0943
+}

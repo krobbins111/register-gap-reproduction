@@ -1,0 +1,8 @@
+# tables + figures from the committed results (paper/build.py), store + verification (scripts/)
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+# training the maps (ltg/maps, paper/ablations) and the verification retrain
+torch>=2.2
+# re-embedding raw data (paper/legacy) and LoRA (paper/ablations/lora_finetune.py) only
+# transformers>=4.45  open_clip_torch  datasets  pillow  peft  spacy

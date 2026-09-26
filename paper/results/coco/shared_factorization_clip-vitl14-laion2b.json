@@ -1,0 +1,72 @@
+{
+  "dataset": "coco",
+  "mtag": "clip-vitl14-laion2b",
+  "seed": 0,
+  "epochs": 30,
+  "apriori_train_dprime_raw": 4.9531,
+  "sv_max": 1.6294,
+  "sv_min": 0.1725,
+  "sv_median": 0.9937,
+  "n_sv_gt_1.05": 124,
+  "n_sv_lt_0.95": 165,
+  "norm_b": 0.0956,
+  "det_sign_R": 1.0,
+  "variants": {
+    "raw": {
+      "R@1": 0.4454,
+      "R@5": 0.6922,
+      "R@10": 0.7806,
+      "R@50": 0.9508,
+      "MRR": 0.5594617415368552,
+      "dprime": 4.9794,
+      "gain@50": 0.0,
+      "gain@10": 0.0,
+      "frac_of_full@50": 0.0
+    },
+    "R": {
+      "R@1": 0.4454,
+      "R@5": 0.6922,
+      "R@10": 0.7806,
+      "R@50": 0.9508,
+      "MRR": 0.5594617415368552,
+      "dprime": 4.9794,
+      "gain@50": 0.0,
+      "gain@10": 0.0,
+      "frac_of_full@50": 0.0
+    },
+    "S": {
+      "R@1": 0.442,
+      "R@5": 0.6942,
+      "R@10": 0.793,
+      "R@50": 0.9594,
+      "MRR": 0.5604940489394057,
+      "dprime": 5.2284,
+      "gain@50": 0.0086,
+      "gain@10": 0.0124,
+      "frac_of_full@50": 1.075
+    },
+    "bias": {
+      "R@1": 0.448,
+      "R@5": 0.6956,
+      "R@10": 0.783,
+      "R@50": 0.9498,
+      "MRR": 0.562707399035131,
+      "dprime": 5.0397,
+      "gain@50": -0.001,
+      "gain@10": 0.0024,
+      "frac_of_full@50": -0.125
+    },
+    "full": {
+      "R@1": 0.442,
+      "R@5": 0.6954,
+      "R@10": 0.7922,
+      "R@50": 0.9588,
+      "MRR": 0.5606667759180313,
+      "dprime": 5.2182,
+      "gain@50": 0.008,
+      "gain@10": 0.0116,
+      "frac_of_full@50": 1.0
+    }
+  },
+  "note": "shared protocol: variant applied to BOTH test queries and test gallery, then renormalized. A = R.S (right polar); R = U V^T rotation, S = V Sigma V^T stretch."
+}

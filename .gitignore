@@ -23,3 +23,8 @@ docs/registergap/**/*.png
 **/__pycache__/
 *.pyc
 results/_reproduce/
+
+# scratch moved out by the sandbox (cannot delete on this mount) - delete by hand
+_to_delete/
+# one 5.7 MB map is committed so paper/analysis/make_paper_figs.py can draw the spectrum figure without a cache
+!paper/results/nwpu/shared_map_default.npz

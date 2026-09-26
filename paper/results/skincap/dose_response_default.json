@@ -1,0 +1,81 @@
+{
+  "dataset": "skincap",
+  "mtag": "default",
+  "epochs": 30,
+  "seeds": [
+    0,
+    1
+  ],
+  "n_full": 2800,
+  "r_dprime_vs_R50_across_doses": 0.9861,
+  "points": [
+    {
+      "n_train": 0,
+      "R@50": 0.6555183946488294,
+      "R@10": 0.391304347826087,
+      "dprime": 1.7277,
+      "seeds": 0
+    },
+    {
+      "n_train": 100,
+      "seeds": 2,
+      "R@50": 0.745,
+      "R@50_std": 0.0092,
+      "R@10": 0.4691,
+      "R@10_std": 0.0092,
+      "dprime": 2.0712,
+      "dprime_std": 0.0115
+    },
+    {
+      "n_train": 250,
+      "seeds": 2,
+      "R@50": 0.76,
+      "R@50_std": 0.0008,
+      "R@10": 0.4666,
+      "R@10_std": 0.0017,
+      "dprime": 2.1011,
+      "dprime_std": 0.0161
+    },
+    {
+      "n_train": 500,
+      "seeds": 2,
+      "R@50": 0.7759,
+      "R@50_std": 0.0017,
+      "R@10": 0.5192,
+      "R@10_std": 0.0025,
+      "dprime": 2.1149,
+      "dprime_std": 0.0094
+    },
+    {
+      "n_train": 1000,
+      "seeds": 2,
+      "R@50": 0.8077,
+      "R@50_std": 0.0033,
+      "R@10": 0.5527,
+      "R@10_std": 0.0125,
+      "dprime": 2.292,
+      "dprime_std": 0.0002
+    },
+    {
+      "n_train": 2500,
+      "seeds": 2,
+      "R@50": 0.8361,
+      "R@50_std": 0.0033,
+      "R@10": 0.6162,
+      "R@10_std": 0.0042,
+      "dprime": 2.477,
+      "dprime_std": 0.0071
+    },
+    {
+      "n_train": 2800,
+      "seeds": 2,
+      "R@50": 0.842,
+      "R@50_std": 0.0042,
+      "R@10": 0.6079,
+      "R@10_std": 0.0025,
+      "dprime": 2.5103,
+      "dprime_std": 0.0284
+    }
+  ],
+  "note": "shared map, standard recipe; test d'/recall under shared protocol; n=0 row is the raw anchor"
+}

@@ -1,0 +1,114 @@
+{
+  "dataset": "coco",
+  "mtag": "metaclip2-ww-huge",
+  "arch": "linear",
+  "epochs": 30,
+  "lr": 0.0001,
+  "batch": 256,
+  "temp": 0.05,
+  "sym_loss": false,
+  "seeds": [
+    0,
+    1
+  ],
+  "n_train": 20000,
+  "n_val": 3000,
+  "n_test": 5000,
+  "train_geometry": {
+    "txt_near_dup@0.9": 0.1668,
+    "img_near_dup@0.9": 0.0859,
+    "txt_mean_pair_cos": 0.3281,
+    "img_mean_pair_cos": 0.4833,
+    "matched_pair_cos": 0.2585
+  },
+  "raw": {
+    "R@1": 0.4566,
+    "R@5": 0.6974,
+    "R@10": 0.7824,
+    "R@50": 0.9446,
+    "MRR": 0.5679481265297858,
+    "dprime": 5.0944
+  },
+  "arms": {
+    "both": {
+      "R@1": 0.462,
+      "R@1_std": 0.0002,
+      "R@5": 0.7184,
+      "R@5_std": 0.0004,
+      "R@10": 0.8152,
+      "R@10_std": 0.0002,
+      "R@50": 0.9635,
+      "R@50_std": 0.0003,
+      "MRR": 0.5808,
+      "MRR_std": 0.001,
+      "dprime": 5.3202,
+      "dprime_std": 0.0051,
+      "gal_near_dup@0.9_post": 0.0076,
+      "gal_near_dup@0.9_post_std": 0.0,
+      "gain@50": 0.0189,
+      "gain@10": 0.0328,
+      "delta_dprime": 0.2258,
+      "map_svd_text": {
+        "sv_max": 1.609,
+        "sv_min": 0.099,
+        "sv_median": 0.998,
+        "frob_W": 4.615,
+        "n_sv_gt_1.05": 159,
+        "n_sv_lt_0.95": 163,
+        "mean_cos_x_Ax": 0.8233,
+        "mean_rot_deg": 34.58
+      },
+      "map_svd_image": {
+        "sv_max": 2.353,
+        "sv_min": 0.223,
+        "sv_median": 0.991,
+        "frob_W": 6.195,
+        "n_sv_gt_1.05": 161,
+        "n_sv_lt_0.95": 231,
+        "mean_cos_x_Ax": 0.83,
+        "mean_rot_deg": 33.9
+      }
+    },
+    "shared": {
+      "R@1": 0.4396,
+      "R@1_std": 0.003,
+      "R@5": 0.7043,
+      "R@5_std": 0.0099,
+      "R@10": 0.802,
+      "R@10_std": 0.009,
+      "R@50": 0.9588,
+      "R@50_std": 0.0018,
+      "MRR": 0.5614,
+      "MRR_std": 0.0057,
+      "dprime": 5.1129,
+      "dprime_std": 0.1463,
+      "gal_near_dup@0.9_post": 0.0154,
+      "gal_near_dup@0.9_post_std": 0.0086,
+      "gain@50": 0.0142,
+      "gain@10": 0.0196,
+      "delta_dprime": 0.0185,
+      "map_svd_text": {
+        "sv_max": 1.739,
+        "sv_min": 0.173,
+        "sv_median": 0.993,
+        "frob_W": 3.855,
+        "n_sv_gt_1.05": 121,
+        "n_sv_lt_0.95": 149,
+        "mean_cos_x_Ax": 0.8787,
+        "mean_rot_deg": 28.51
+      },
+      "map_svd_image": {
+        "tied": true,
+        "sv_max": 1.739,
+        "sv_min": 0.173,
+        "sv_median": 0.993,
+        "frob_W": 3.855,
+        "n_sv_gt_1.05": 121,
+        "n_sv_lt_0.95": 149,
+        "mean_cos_x_Ax": 0.9143,
+        "mean_rot_deg": 23.89
+      }
+    }
+  },
+  "deploy_note": "text arm: per-query transform, index untouched. image/both/shared arms: gallery must be re-transformed and re-indexed whenever the map changes."
+}

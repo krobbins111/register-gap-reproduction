@@ -1,0 +1,31 @@
+{
+ "q": 1754,
+ "file": "ROCOv2_2023_test_001761.jpg",
+ "caption": "A 35-year-old woman with PAS.Coronal T2 SSFSE performed at 32 weeks gestation shows moderately heterogeneous signal intensity with abnormal intraplacental dark bands (arrows) and disorganized subplacental hypervascularity (asterisk). Pathological examination revealed placenta percreta. PAS = placenta accreta spectrum",
+ "rank_raw": 316,
+ "rank_after": 1,
+ "raw_top": [
+  8218,
+  4960,
+  3792,
+  9010,
+  6870
+ ],
+ "mapped_top": [
+  1754,
+  274,
+  6592,
+  8453,
+  277
+ ],
+ "mapped_top_from": [
+  316,
+  465,
+  141,
+  959,
+  705
+ ],
+ "n_gallery": 9927,
+ "score_true_raw": 0.14018063247203827,
+ "score_true_after": 0.411343514919281
+}

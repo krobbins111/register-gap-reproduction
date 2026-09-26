@@ -1,0 +1,26 @@
+{
+  "dataset": "nwpu",
+  "embed_model": "facebook/metaclip-2-worldwide-huge-quickgelu",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 25199,
+  "n_val": 3150,
+  "gallery_size": 3150,
+  "n_test_queries": 3150,
+  "raw_query": {
+    "R@1": 0.03936507936507937,
+    "R@5": 0.14444444444444443,
+    "R@10": 0.2346031746031746,
+    "R@50": 0.6507936507936508,
+    "MRR": 0.10860775278514824
+  },
+  "projected_query": {
+    "R@1": 0.08,
+    "R@5": 0.2679365079365079,
+    "R@10": 0.42412698412698413,
+    "R@50": 0.8866666666666667,
+    "MRR": 0.1886039637281151
+  },
+  "projection_gain_R@50": 0.2359
+}

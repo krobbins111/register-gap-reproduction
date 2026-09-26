@@ -1,0 +1,80 @@
+{
+  "dataset": "fashion200k",
+  "mtag": "default",
+  "n_train": 50000,
+  "raw": {
+    "R@1": 0.41328265653130625,
+    "R@5": 0.7031406281256252,
+    "R@10": 0.8047609521904381,
+    "R@50": 0.9535907181436287,
+    "MRR": 0.5441946821205425,
+    "dprime": 4.175
+  },
+  "note": "retrieval translations of Tip-Adapter(-F) (arXiv:2111.03930) and CLIP-Adapter (arXiv:2110.04544); alpha/beta/ratio tuned on val R@50; CLIP-Adapter uses our standard training recipe for architecture-only comparison",
+  "tip_adapter": {
+    "R@1": 0.393878775755151,
+    "R@5": 0.6803360672134426,
+    "R@10": 0.7883576715343069,
+    "R@50": 0.9495899179835967,
+    "MRR": 0.5261699829620423,
+    "dprime": 3.9449,
+    "alpha": 0.25,
+    "beta": 10.0,
+    "gain@50": -0.004
+  },
+  "tip_adapter_f": {
+    "R@1": 0.3939,
+    "R@5": 0.6803,
+    "R@10": 0.7884,
+    "R@50": 0.9496,
+    "MRR": 0.5262,
+    "dprime": 3.9449,
+    "R@50_std": 0.0,
+    "alpha": 0.25,
+    "beta": 10.0,
+    "epochs": 20,
+    "lr": 0.001,
+    "gain@50": -0.004
+  },
+  "clip_adapter": {
+    "text": {
+      "R@1": 0.5442,
+      "R@5": 0.8362,
+      "R@10": 0.9127,
+      "R@50": 0.9865,
+      "MRR": 0.6715,
+      "dprime": 4.6573,
+      "R@50_std": 0.0005,
+      "ratio": 0.6,
+      "placement": "text",
+      "epochs": 30,
+      "gain@50": 0.0329
+    },
+    "image": {
+      "R@1": 0.5783,
+      "R@5": 0.8586,
+      "R@10": 0.9289,
+      "R@50": 0.9927,
+      "MRR": 0.7005,
+      "dprime": 4.6397,
+      "R@50_std": 0.0003,
+      "ratio": 0.4,
+      "placement": "image",
+      "epochs": 30,
+      "gain@50": 0.0391
+    },
+    "both": {
+      "R@1": 0.6142,
+      "R@5": 0.889,
+      "R@10": 0.9478,
+      "R@50": 0.9953,
+      "MRR": 0.7329,
+      "dprime": 4.5895,
+      "R@50_std": 0.0003,
+      "ratio": 0.6,
+      "placement": "both",
+      "epochs": 30,
+      "gain@50": 0.0417
+    }
+  }
+}

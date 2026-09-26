@@ -1,0 +1,136 @@
+{
+ "dataset": "rocov2",
+ "encoder": "clip-vitl14-laion2b",
+ "model_id": "laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+ "seed": 0,
+ "lora": {
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "towers": "both",
+  "targets": "q,k,v,out projections",
+  "epochs": 10,
+  "batch": 64,
+  "lr": 0.0001,
+  "tau": 0.05,
+  "loss": "text->image in-batch InfoNCE",
+  "precision": "bf16 autocast + gradient checkpointing",
+  "test": {
+   "R@1": 0.0986,
+   "R@10": 0.3011,
+   "R@50": 0.534
+  }
+ },
+ "n_train": 20000,
+ "n_val": 9903,
+ "n_test": 9927,
+ "params_trainable": 4325376,
+ "params_total": 431941889,
+ "raw_hf": {
+  "R@1": 0.0304,
+  "R@10": 0.1002,
+  "R@50": 0.2137
+ },
+ "train": {
+  "wall_clock_s": 4257.2,
+  "peak_gpu_mem_GB": 4.54,
+  "best_epoch": 7,
+  "best_val_R50": 0.5359,
+  "curve": [
+   {
+    "epoch": 1,
+    "loss": 1.7668,
+    "val_R50": 0.4462
+   },
+   {
+    "epoch": 2,
+    "loss": 1.2075,
+    "val_R50": 0.4853
+   },
+   {
+    "epoch": 3,
+    "loss": 0.9699,
+    "val_R50": 0.5114
+   },
+   {
+    "epoch": 4,
+    "loss": 0.7927,
+    "val_R50": 0.5252
+   },
+   {
+    "epoch": 5,
+    "loss": 0.6441,
+    "val_R50": 0.5287
+   },
+   {
+    "epoch": 6,
+    "loss": 0.5164,
+    "val_R50": 0.5302
+   },
+   {
+    "epoch": 7,
+    "loss": 0.417,
+    "val_R50": 0.5359
+   },
+   {
+    "epoch": 8,
+    "loss": 0.3385,
+    "val_R50": 0.5281
+   },
+   {
+    "epoch": 9,
+    "loss": 0.27,
+    "val_R50": 0.5297
+   },
+   {
+    "epoch": 10,
+    "loss": 0.2346,
+    "val_R50": 0.5271
+   }
+  ]
+ },
+ "reembed_wall_clock_s": 267.6,
+ "raw_cached": {
+  "R@1": 0.0295,
+  "R@10": 0.1006,
+  "R@50": 0.216
+ },
+ "maps": {
+  "maps_batch64": {
+   "R@1": 0.0506,
+   "R@10": 0.179,
+   "R@50": 0.3843,
+   "wall_clock_s": 20.7,
+   "peak_gpu_mem_GB": 2.08,
+   "params_trainable": 1181184
+  },
+  "maps_batch256": {
+   "R@1": 0.0563,
+   "R@10": 0.1912,
+   "R@50": 0.3941,
+   "wall_clock_s": 12.2,
+   "peak_gpu_mem_GB": 2.09,
+   "params_trainable": 1181184
+  },
+  "maps_on_lora": {
+   "R@1": 0.1019,
+   "R@10": 0.3064,
+   "R@50": 0.5408,
+   "wall_clock_s": 12.1
+  }
+ },
+ "coco_forgetting": {
+  "n": 5000,
+  "raw": {
+   "R@1": 0.4448,
+   "R@10": 0.7778,
+   "R@50": 0.9492
+  },
+  "lora": {
+   "R@1": 0.4218,
+   "R@10": 0.7712,
+   "R@50": 0.9384
+  }
+ },
+ "total_wall_clock_s": 4727.4
+}

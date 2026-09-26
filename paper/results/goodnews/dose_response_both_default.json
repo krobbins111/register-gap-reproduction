@@ -1,0 +1,112 @@
+{
+  "dataset": "goodnews",
+  "mtag": "default",
+  "epochs": 30,
+  "seeds": [
+    0,
+    1
+  ],
+  "n_full": 49998,
+  "r_dprime_vs_R50_across_doses": 0.8495,
+  "points": [
+    {
+      "n_train": 0,
+      "R@50": 0.5825165033006602,
+      "R@10": 0.4396879375875175,
+      "dprime": 2.9005,
+      "seeds": 0
+    },
+    {
+      "n_train": 100,
+      "seeds": 2,
+      "R@50": 0.6107,
+      "R@50_std": 0.0004,
+      "R@10": 0.4587,
+      "R@10_std": 0.0012,
+      "dprime": 3.252,
+      "dprime_std": 0.0345
+    },
+    {
+      "n_train": 250,
+      "seeds": 2,
+      "R@50": 0.6118,
+      "R@50_std": 0.0015,
+      "R@10": 0.4597,
+      "R@10_std": 0.0022,
+      "dprime": 3.3653,
+      "dprime_std": 0.0059
+    },
+    {
+      "n_train": 500,
+      "seeds": 2,
+      "R@50": 0.6154,
+      "R@50_std": 0.0029,
+      "R@10": 0.4578,
+      "R@10_std": 0.0047,
+      "dprime": 3.3063,
+      "dprime_std": 0.0405
+    },
+    {
+      "n_train": 1000,
+      "seeds": 2,
+      "R@50": 0.6138,
+      "R@50_std": 0.0007,
+      "R@10": 0.4554,
+      "R@10_std": 0.0013,
+      "dprime": 3.1484,
+      "dprime_std": 0.0185
+    },
+    {
+      "n_train": 2500,
+      "seeds": 2,
+      "R@50": 0.6486,
+      "R@50_std": 0.0005,
+      "R@10": 0.467,
+      "R@10_std": 0.0009,
+      "dprime": 3.1423,
+      "dprime_std": 0.026
+    },
+    {
+      "n_train": 5000,
+      "seeds": 2,
+      "R@50": 0.6715,
+      "R@50_std": 0.0036,
+      "R@10": 0.4882,
+      "R@10_std": 0.0009,
+      "dprime": 3.3506,
+      "dprime_std": 0.0086
+    },
+    {
+      "n_train": 10000,
+      "seeds": 2,
+      "R@50": 0.69,
+      "R@50_std": 0.0017,
+      "R@10": 0.5049,
+      "R@10_std": 0.0006,
+      "dprime": 3.4673,
+      "dprime_std": 0.0201
+    },
+    {
+      "n_train": 20000,
+      "seeds": 2,
+      "R@50": 0.7072,
+      "R@50_std": 0.0001,
+      "R@10": 0.5191,
+      "R@10_std": 0.0008,
+      "dprime": 3.5351,
+      "dprime_std": 0.0257
+    },
+    {
+      "n_train": 49998,
+      "seeds": 2,
+      "R@50": 0.7287,
+      "R@50_std": 0.0016,
+      "R@10": 0.5381,
+      "R@10_std": 0.0024,
+      "dprime": 3.6549,
+      "dprime_std": 0.0053
+    }
+  ],
+  "arm": "both",
+  "note": "both map(s), standard recipe; test d'/recall; n=0 row is the raw anchor"
+}

@@ -1,0 +1,101 @@
+{
+  "dataset": "rocov2",
+  "mtag": "default",
+  "epochs": 30,
+  "seeds": [
+    0,
+    1
+  ],
+  "n_full": 20000,
+  "r_dprime_vs_R50_across_doses": 0.9985,
+  "points": [
+    {
+      "n_train": 0,
+      "R@50": 0.4935025687518888,
+      "R@10": 0.257479601087942,
+      "dprime": 2.7078,
+      "seeds": 0
+    },
+    {
+      "n_train": 100,
+      "seeds": 2,
+      "R@50": 0.5066,
+      "R@50_std": 0.0004,
+      "R@10": 0.2689,
+      "R@10_std": 0.0003,
+      "dprime": 2.7846,
+      "dprime_std": 0.0063
+    },
+    {
+      "n_train": 250,
+      "seeds": 2,
+      "R@50": 0.5093,
+      "R@50_std": 0.0004,
+      "R@10": 0.2683,
+      "R@10_std": 0.001,
+      "dprime": 2.7904,
+      "dprime_std": 0.0059
+    },
+    {
+      "n_train": 500,
+      "seeds": 2,
+      "R@50": 0.51,
+      "R@50_std": 0.0007,
+      "R@10": 0.2684,
+      "R@10_std": 0.0008,
+      "dprime": 2.7915,
+      "dprime_std": 0.0053
+    },
+    {
+      "n_train": 1000,
+      "seeds": 2,
+      "R@50": 0.5093,
+      "R@50_std": 0.0005,
+      "R@10": 0.2696,
+      "R@10_std": 0.0014,
+      "dprime": 2.7931,
+      "dprime_std": 0.0014
+    },
+    {
+      "n_train": 2500,
+      "seeds": 2,
+      "R@50": 0.5197,
+      "R@50_std": 0.002,
+      "R@10": 0.2685,
+      "R@10_std": 0.0012,
+      "dprime": 2.8521,
+      "dprime_std": 0.0248
+    },
+    {
+      "n_train": 5000,
+      "seeds": 2,
+      "R@50": 0.5418,
+      "R@50_std": 0.0005,
+      "R@10": 0.2915,
+      "R@10_std": 0.002,
+      "dprime": 2.9658,
+      "dprime_std": 0.009
+    },
+    {
+      "n_train": 10000,
+      "seeds": 2,
+      "R@50": 0.5595,
+      "R@50_std": 0.0005,
+      "R@10": 0.3078,
+      "R@10_std": 0.0008,
+      "dprime": 3.0468,
+      "dprime_std": 0.0151
+    },
+    {
+      "n_train": 20000,
+      "seeds": 2,
+      "R@50": 0.5771,
+      "R@50_std": 0.0003,
+      "R@10": 0.3188,
+      "R@10_std": 0.0006,
+      "dprime": 3.1173,
+      "dprime_std": 0.001
+    }
+  ],
+  "note": "shared map, standard recipe; test d'/recall under shared protocol; n=0 row is the raw anchor"
+}

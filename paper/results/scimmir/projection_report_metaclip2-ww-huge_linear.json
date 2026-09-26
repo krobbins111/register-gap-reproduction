@@ -1,0 +1,26 @@
+{
+  "dataset": "scimmir",
+  "embed_model": "facebook/metaclip-2-worldwide-huge-quickgelu",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 16184,
+  "n_val": 3467,
+  "gallery_size": 3467,
+  "n_test_queries": 3467,
+  "raw_query": {
+    "R@1": 0.36717623305451397,
+    "R@5": 0.5431208537640612,
+    "R@10": 0.61349870204788,
+    "R@50": 0.7666570522065186,
+    "MRR": 0.45212831846755874
+  },
+  "projected_query": {
+    "R@1": 0.3576579175079319,
+    "R@5": 0.5607153158350159,
+    "R@10": 0.6481107585809057,
+    "R@50": 0.8177098355927315,
+    "MRR": 0.4549181930345677
+  },
+  "projection_gain_R@50": 0.0511
+}

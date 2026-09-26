@@ -1,0 +1,26 @@
+{
+  "dataset": "facad",
+  "embed_model": "facebook/metaclip-2-worldwide-huge-quickgelu",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 8754,
+  "n_val": 1874,
+  "gallery_size": 1874,
+  "n_test_queries": 1874,
+  "raw_query": {
+    "R@1": 0.5672358591248666,
+    "R@5": 0.8319103521878335,
+    "R@10": 0.9087513340448239,
+    "R@50": 0.9829242262540021,
+    "MRR": 0.6847877952185093
+  },
+  "projected_query": {
+    "R@1": 0.5891141942369263,
+    "R@5": 0.8676627534685165,
+    "R@10": 0.9332977588046958,
+    "R@50": 0.9871931696905016,
+    "MRR": 0.7067151809678568
+  },
+  "projection_gain_R@50": 0.0043
+}

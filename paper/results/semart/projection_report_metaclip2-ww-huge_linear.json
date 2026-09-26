@@ -1,0 +1,26 @@
+{
+  "dataset": "semart",
+  "embed_model": "facebook/metaclip-2-worldwide-huge-quickgelu",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 19244,
+  "n_val": 1069,
+  "gallery_size": 1069,
+  "n_test_queries": 1069,
+  "raw_query": {
+    "R@1": 0.3863423760523854,
+    "R@5": 0.6492048643592142,
+    "R@10": 0.7343311506080449,
+    "R@50": 0.8952291861552854,
+    "MRR": 0.5061489919688268
+  },
+  "projected_query": {
+    "R@1": 0.4293732460243218,
+    "R@5": 0.6931711880261927,
+    "R@10": 0.7885874649204865,
+    "R@50": 0.9298409728718429,
+    "MRR": 0.5512053414336521
+  },
+  "projection_gain_R@50": 0.0346
+}

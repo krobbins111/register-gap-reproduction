@@ -1,0 +1,26 @@
+{
+  "dataset": "skincap",
+  "embed_model": "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 2800,
+  "n_val": 598,
+  "gallery_size": 598,
+  "n_test_queries": 598,
+  "raw_query": {
+    "R@1": 0.11705685618729098,
+    "R@5": 0.27591973244147155,
+    "R@10": 0.3762541806020067,
+    "R@50": 0.6505016722408027,
+    "MRR": 0.2004913095800788
+  },
+  "projected_query": {
+    "R@1": 0.12876254180602006,
+    "R@5": 0.33612040133779264,
+    "R@10": 0.44816053511705684,
+    "R@50": 0.7675585284280937,
+    "MRR": 0.23558133464094327
+  },
+  "projection_gain_R@50": 0.1171
+}

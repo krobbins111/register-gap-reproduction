@@ -1,0 +1,80 @@
+{
+  "dataset": "rocov2",
+  "mtag": "default",
+  "n_train": 59962,
+  "raw": {
+    "R@1": 0.0719250528860683,
+    "R@5": 0.18172660421073838,
+    "R@10": 0.257479601087942,
+    "R@50": 0.4935025687518888,
+    "MRR": 0.13445616078878575,
+    "dprime": 2.7078
+  },
+  "note": "retrieval translations of Tip-Adapter(-F) (arXiv:2111.03930) and CLIP-Adapter (arXiv:2110.04544); alpha/beta/ratio tuned on val R@50; CLIP-Adapter uses our standard training recipe for architecture-only comparison",
+  "tip_adapter": {
+    "R@1": 0.06245592827641785,
+    "R@5": 0.1637957086733152,
+    "R@10": 0.2322957590409993,
+    "R@50": 0.45713710083610354,
+    "MRR": 0.1197060411122211,
+    "dprime": 2.5145,
+    "alpha": 0.25,
+    "beta": 10.0,
+    "gain@50": -0.0364
+  },
+  "tip_adapter_f": {
+    "R@1": 0.0625,
+    "R@5": 0.1638,
+    "R@10": 0.2323,
+    "R@50": 0.4571,
+    "MRR": 0.1197,
+    "dprime": 2.5145,
+    "R@50_std": 0.0,
+    "alpha": 0.25,
+    "beta": 10.0,
+    "epochs": 20,
+    "lr": 0.001,
+    "gain@50": -0.0364
+  },
+  "clip_adapter": {
+    "text": {
+      "R@1": 0.0676,
+      "R@5": 0.1959,
+      "R@10": 0.2778,
+      "R@50": 0.5402,
+      "MRR": 0.1384,
+      "dprime": 3.147,
+      "R@50_std": 0.0019,
+      "ratio": 0.6,
+      "placement": "text",
+      "epochs": 30,
+      "gain@50": 0.0467
+    },
+    "image": {
+      "R@1": 0.0923,
+      "R@5": 0.237,
+      "R@10": 0.326,
+      "R@50": 0.5827,
+      "MRR": 0.1701,
+      "dprime": 3.1669,
+      "R@50_std": 0.0007,
+      "ratio": 0.6,
+      "placement": "image",
+      "epochs": 30,
+      "gain@50": 0.0892
+    },
+    "both": {
+      "R@1": 0.1043,
+      "R@5": 0.2502,
+      "R@10": 0.3459,
+      "R@50": 0.6066,
+      "MRR": 0.1836,
+      "dprime": 3.2009,
+      "R@50_std": 0.0011,
+      "ratio": 0.4,
+      "placement": "both",
+      "epochs": 30,
+      "gain@50": 0.1131
+    }
+  }
+}

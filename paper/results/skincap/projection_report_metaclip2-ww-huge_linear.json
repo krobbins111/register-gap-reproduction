@@ -1,0 +1,26 @@
+{
+  "dataset": "skincap",
+  "embed_model": "facebook/metaclip-2-worldwide-huge-quickgelu",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 2800,
+  "n_val": 598,
+  "gallery_size": 598,
+  "n_test_queries": 598,
+  "raw_query": {
+    "R@1": 0.11036789297658862,
+    "R@5": 0.3010033444816054,
+    "R@10": 0.4331103678929766,
+    "R@50": 0.68561872909699,
+    "MRR": 0.20944041734390312
+  },
+  "projected_query": {
+    "R@1": 0.17391304347826086,
+    "R@5": 0.4498327759197324,
+    "R@10": 0.5869565217391305,
+    "R@50": 0.8411371237458194,
+    "MRR": 0.30936702251981696
+  },
+  "projection_gain_R@50": 0.1555
+}

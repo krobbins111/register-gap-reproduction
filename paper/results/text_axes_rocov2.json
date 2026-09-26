@@ -1,0 +1,1068 @@
+{
+ "n": 9927,
+ "mag_mean": 0.6134905219078064,
+ "mag_std": 0.056237488985061646,
+ "magnitude": {
+  "q25": 0.5786050856113434,
+  "q75": 0.6365366280078888,
+  "most_moved": [
+   {
+    "cap": "Preoperative US of TGDC.",
+    "mag": 0.9240893721580505,
+    "rank_raw": 1425,
+    "rank_after": 3158
+   },
+   {
+    "cap": "AP Pelvis, pre-operative.",
+    "mag": 0.9088225960731506,
+    "rank_raw": 6015,
+    "rank_after": 1698
+   },
+   {
+    "cap": "T2 Axial Flair MRI Brain With Persistent Frontal Sinusitis",
+    "mag": 0.8980027437210083,
+    "rank_raw": 356,
+    "rank_after": 481
+   },
+   {
+    "cap": "(Patient 1) HRCT chest (noncontrast)",
+    "mag": 0.8965438008308411,
+    "rank_raw": 3263,
+    "rank_after": 2129
+   },
+   {
+    "cap": "Early sagittal T2-weighted MRI.",
+    "mag": 0.8958339095115662,
+    "rank_raw": 268,
+    "rank_after": 16
+   },
+   {
+    "cap": "Chest X-ray.",
+    "mag": 0.8945766091346741,
+    "rank_raw": 5670,
+    "rank_after": 359
+   }
+  ],
+  "least_moved": [
+   {
+    "cap": "Paramedian cut of the CBCT-scan superimposed with a dental wax-up and the SSM-based tooth axis reconstruction (both in yellow). The SSM-based prediction of the ",
+    "mag": 0.47542479634284973,
+    "rank_raw": 13,
+    "rank_after": 25
+   },
+   {
+    "cap": "Ultrasound image of the rectus femoris muscle with definition of cross-sectional area (dashed line); RF: rectus femoris; VI: vastus intermedius; VL: vastus late",
+    "mag": 0.4749525189399719,
+    "rank_raw": 13,
+    "rank_after": 1
+   },
+   {
+    "cap": "Posteroanterior chest X-ray showing the three prostheses and the CardioMEMS device.",
+    "mag": 0.47195348143577576,
+    "rank_raw": 26,
+    "rank_after": 6
+   },
+   {
+    "cap": "Selection of six rectangular ROI with size of 20 pixels \u00d7 20 pixels. The red, green, and blue rectangles, respectively, represent ROI of the anterior horn, the ",
+    "mag": 0.46098825335502625,
+    "rank_raw": 1,
+    "rank_after": 1
+   },
+   {
+    "cap": "Myocardial oedema assessment was based on signal intensity ratio of myocardium over skeletal muscle (green areas highlighted). The signal intensity ration is 2.",
+    "mag": 0.45497357845306396,
+    "rank_raw": 4,
+    "rank_after": 1
+   },
+   {
+    "cap": "Maximum distances between third ventricle lateral margin is presented in purple color (D). Brain width measured along line D is presented in yellow (D1)",
+    "mag": 0.4504367709159851,
+    "rank_raw": 4,
+    "rank_after": 5
+   }
+  ],
+  "words_most_moved": [
+   [
+    "dyspnea",
+    3.05,
+    10,
+    0
+   ],
+   [
+    "ggo",
+    2.84,
+    8,
+    0
+   ],
+   [
+    "markings",
+    2.84,
+    8,
+    0
+   ],
+   [
+    "care",
+    2.84,
+    8,
+    0
+   ],
+   [
+    "response",
+    2.84,
+    8,
+    0
+   ],
+   [
+    "did",
+    2.84,
+    8,
+    0
+   ],
+   [
+    "lad",
+    2.46,
+    17,
+    1
+   ],
+   [
+    "later",
+    2.27,
+    14,
+    1
+   ],
+   [
+    "opacity",
+    2.27,
+    33,
+    3
+   ],
+   [
+    "recurrence",
+    2.25,
+    23,
+    2
+   ],
+   [
+    "cough",
+    2.2,
+    13,
+    1
+   ],
+   [
+    "consolidation",
+    2.16,
+    63,
+    7
+   ]
+  ],
+  "words_least_moved": [
+   [
+    "knee",
+    -4.39,
+    0,
+    39
+   ],
+   [
+    "psoas",
+    -3.9,
+    0,
+    24
+   ],
+   [
+    "eye",
+    -3.67,
+    0,
+    19
+   ],
+   [
+    "wire",
+    -3.44,
+    0,
+    15
+   ],
+   [
+    "clavicle",
+    -3.37,
+    0,
+    14
+   ],
+   [
+    "patella",
+    -3.22,
+    0,
+    12
+   ],
+   [
+    "then",
+    -3.22,
+    0,
+    12
+   ],
+   [
+    "two-dimensional",
+    -3.22,
+    0,
+    12
+   ],
+   [
+    "tangent",
+    -3.14,
+    0,
+    11
+   ],
+   [
+    "ventral",
+    -3.14,
+    0,
+    11
+   ],
+   [
+    "guide",
+    -3.14,
+    0,
+    11
+   ],
+   [
+    "longus",
+    -3.14,
+    0,
+    11
+   ]
+  ],
+  "mean_len_most": 19.672844480257858,
+  "mean_len_least": 24.39403706688155
+ },
+ "corr_mag_logrank_raw": 0.43688799921468274,
+ "corr_mag_logrank_improvement": 0.10576032599896669,
+ "corr_mag_caplen": -0.1389283114140906,
+ "axes": [
+  {
+   "axis": 1,
+   "energy_share": 0.08950980007648468,
+   "pos_caps": [
+    {
+     "cap": "Sagittal slice of an arterial phase CT scan, demonstrating return to normal opacification of the abdominal aorta (white arrows) and the superior mesenteric arte",
+     "proj": 0.47078025341033936
+    },
+    {
+     "cap": "Postoperative lateral view radiograph of the left ankle at three months, shows united posterior malleolar fracture (white arrow).",
+     "proj": 0.4621056318283081
+    },
+    {
+     "cap": "Sagittal view of the contrast chest computed tomography revealing bilateral pleural effusion (white stars) and the presence of a left ventricular thrombus (hori",
+     "proj": 0.45542553067207336
+    },
+    {
+     "cap": "Abdominal computed tomography, transverse section showing the aorta. A transverse section of an abdominal computed tomography with contrast in which the white a",
+     "proj": 0.448309063911438
+    },
+    {
+     "cap": "perioperative angiography showing the total occlusion of the left hypogastric artery (blue arrow) and the aneurysm of the common iliac artery (red arrow)",
+     "proj": 0.44820845127105713
+    },
+    {
+     "cap": "Coronal conventional angiography image of the left hip and proximal femur demonstrates the arterial flow to the hip, while the green arrow demonstrates active b",
+     "proj": 0.44105100631713867
+    }
+   ],
+   "neg_caps": [
+    {
+     "cap": "Bronchiectasis (BR) on HRCT in a patient with RA.",
+     "proj": -0.5638124346733093
+    },
+    {
+     "cap": "HRCT with further resolution of infiltrative changes (May 2019).",
+     "proj": -0.564810037612915
+    },
+    {
+     "cap": "Swallow X-ray after the ESG procedure",
+     "proj": -0.5686700940132141
+    },
+    {
+     "cap": "Chest X-ray on admission.",
+     "proj": -0.577534019947052
+    },
+    {
+     "cap": "The X-ray image during TACE.",
+     "proj": -0.5850302577018738
+    },
+    {
+     "cap": "Chest X-ray was normal.",
+     "proj": -0.6028560400009155
+    }
+   ],
+   "words_pos": [
+    [
+     "superficial",
+     3.5,
+     16,
+     0
+    ],
+    [
+     "ultrasonographic",
+     3.5,
+     16,
+     0
+    ],
+    [
+     "selective",
+     3.37,
+     14,
+     0
+    ],
+    [
+     "displaced",
+     3.3,
+     13,
+     0
+    ],
+    [
+     "celiac",
+     3.3,
+     13,
+     0
+    ],
+    [
+     "occluded",
+     3.22,
+     12,
+     0
+    ],
+    [
+     "mural",
+     3.22,
+     12,
+     0
+    ],
+    [
+     "transoesophageal",
+     3.22,
+     12,
+     0
+    ],
+    [
+     "arteriovenous",
+     3.22,
+     12,
+     0
+    ],
+    [
+     "peripancreatic",
+     3.14,
+     11,
+     0
+    ],
+    [
+     "mesentery",
+     3.14,
+     11,
+     0
+    ],
+    [
+     "terminal",
+     3.05,
+     10,
+     0
+    ]
+   ],
+   "words_neg": [
+    [
+     "cephalometric",
+     -3.05,
+     0,
+     10
+    ],
+    [
+     "ggo",
+     -3.05,
+     0,
+     10
+    ],
+    [
+     "ray",
+     -3.02,
+     1,
+     30
+    ],
+    [
+     "february",
+     -2.84,
+     0,
+     8
+    ],
+    [
+     "calculation",
+     -2.84,
+     0,
+     8
+    ],
+    [
+     "posteroanterior",
+     -2.37,
+     2,
+     26
+    ],
+    [
+     "recurrence",
+     -2.16,
+     2,
+     21
+    ],
+    [
+     "discharge",
+     -2.12,
+     1,
+     12
+    ],
+    [
+     "cough",
+     -2.12,
+     1,
+     12
+    ],
+    [
+     "opg",
+     -2.12,
+     1,
+     12
+    ],
+    [
+     "covid-",
+     -2.06,
+     5,
+     42
+    ],
+    [
+     "x-rays",
+     -2.04,
+     1,
+     11
+    ]
+   ],
+   "corr_proj_logrank_raw": -0.4026272119001042,
+   "corr_proj_rank_improvement": -0.06883286903180506,
+   "cos_gap": 0.11878574639558792
+  },
+  {
+   "axis": 2,
+   "energy_share": 0.0564301460981369,
+   "pos_caps": [
+    {
+     "cap": "Postoperative chest radiograph at the intensive care unit. Immediate postoperative chest X-ray revealed diffuse haziness of the entire right lung field.",
+     "proj": 0.43713438510894775
+    },
+    {
+     "cap": "Chest radiograph taken on admission.",
+     "proj": 0.4320153594017029
+    },
+    {
+     "cap": "Postoperative radiograph. Postoperative radiograph taken on postoperative day 2 shows good-size matching and aeration of both lung grafts.",
+     "proj": 0.4252670407295227
+    },
+    {
+     "cap": "Chest radiograph before discharge demonstrating resolved pulmonary edema.",
+     "proj": 0.4116060733795166
+    },
+    {
+     "cap": "Chest radiograph posteroanterior (PA) view suggestive of consolidations at the upper lobe of the right lung with indistinct borders.",
+     "proj": 0.40466129779815674
+    },
+    {
+     "cap": "Chest radiograph was initially read as revealing a possible left lower lung opacity.",
+     "proj": 0.40087321400642395
+    }
+   ],
+   "neg_caps": [
+    {
+     "cap": "Repeat computed tomography (CT) of the abdomen and pelvis with new peritoneal enhancement suggestive of peritonitis.",
+     "proj": -0.39531588554382324
+    },
+    {
+     "cap": "Initial CT abdomen and pelvis \u2013 image 2Focal area of fat in the right lower quadrant anterior to the abdominal wall measuring 6.6 x 1.8 cm consistent with lipom",
+     "proj": -0.3976808190345764
+    },
+    {
+     "cap": "KidneysAbdominal computed tomography (CT) scan without intravenous contrast medium. Normal kidneys.",
+     "proj": -0.4094005227088928
+    },
+    {
+     "cap": "CT abdomen post drainage (axial slice).",
+     "proj": -0.41313135623931885
+    },
+    {
+     "cap": "Contrast-enhanced computed tomography (CT), venous phase, axial view",
+     "proj": -0.413987398147583
+    },
+    {
+     "cap": "Abdominal CT image showing no metastasis or local recurrent lesion. CT, computed tomography.",
+     "proj": -0.4375120997428894
+    }
+   ],
+   "words_pos": [
+    [
+     "x-ray",
+     7.47,
+     646,
+     0
+    ],
+    [
+     "radiograph",
+     7.27,
+     555,
+     0
+    ],
+    [
+     "echocardiogram",
+     5.78,
+     152,
+     0
+    ],
+    [
+     "transthoracic",
+     5.37,
+     102,
+     0
+    ],
+    [
+     "echocardiography",
+     5.28,
+     94,
+     0
+    ],
+    [
+     "panoramic",
+     5.02,
+     73,
+     0
+    ],
+    [
+     "transesophageal",
+     4.66,
+     51,
+     0
+    ],
+    [
+     "radiographs",
+     4.62,
+     49,
+     0
+    ],
+    [
+     "parasternal",
+     4.57,
+     47,
+     0
+    ],
+    [
+     "radiographic",
+     4.51,
+     44,
+     0
+    ],
+    [
+     "fixation",
+     4.31,
+     36,
+     0
+    ],
+    [
+     "fluoroscopy",
+     4.25,
+     34,
+     0
+    ]
+   ],
+   "words_neg": [
+    [
+     "computed",
+     -6.74,
+     1,
+     839
+    ],
+    [
+     "tomography",
+     -6.0,
+     3,
+     902
+    ],
+    [
+     "contrast-enhanced",
+     -5.83,
+     0,
+     159
+    ],
+    [
+     "weighted",
+     -5.43,
+     0,
+     109
+    ],
+    [
+     "enhanced",
+     -5.1,
+     0,
+     79
+    ],
+    [
+     "mesenteric",
+     -4.67,
+     0,
+     52
+    ],
+    [
+     "enhancing",
+     -4.64,
+     0,
+     50
+    ],
+    [
+     "retroperitoneal",
+     -4.48,
+     0,
+     43
+    ],
+    [
+     "stranding",
+     -4.44,
+     0,
+     41
+    ],
+    [
+     "hypodense",
+     -4.36,
+     0,
+     38
+    ],
+    [
+     "scan",
+     -4.24,
+     13,
+     684
+    ],
+    [
+     "uptake",
+     -4.19,
+     0,
+     32
+    ]
+   ],
+   "corr_proj_logrank_raw": -0.11106659962016084,
+   "corr_proj_rank_improvement": -0.06405116906752739,
+   "cos_gap": 0.022879697382450104
+  },
+  {
+   "axis": 3,
+   "energy_share": 0.04272213205695152,
+   "pos_caps": [
+    {
+     "cap": "Computed tomography of the chest on postoperative day 4.",
+     "proj": 0.4293880760669708
+    },
+    {
+     "cap": "Computed tomography image of the chest at 2 mo post operation showing that the hydrothorax subsided and lung recruitment.",
+     "proj": 0.42827796936035156
+    },
+    {
+     "cap": "Non-contrast computed tomography image of the patient\u2019s chest showing bilateral pleural effusions and infiltrative shadows.",
+     "proj": 0.4209405183792114
+    },
+    {
+     "cap": "Computed tomography angiography of the chest showing interstitial edema, mild bibasilar atelectasis, and cardiomegaly.",
+     "proj": 0.4068422317504883
+    },
+    {
+     "cap": "Computed tomography of the chest showing bilateral ground-glass appearance, mild right-sided pleural effusion, and enlarged cardiac silhouette (likely pericardi",
+     "proj": 0.4050979018211365
+    },
+    {
+     "cap": "Thoracic computed tomography (CT) at day 9 after admission revealed a bilateral central pulmonary embolism.",
+     "proj": 0.4045043885707855
+    }
+   ],
+   "neg_caps": [
+    {
+     "cap": "Optic nerve sheath diameter. High frequency 5-10 MHz linear probe in \u201cOphthalmic\u201d or \u201cVenous\u201d preset with probe gently placed on upper eyelid in horizontal plan",
+     "proj": -0.2942087650299072
+    },
+    {
+     "cap": "Sagittal T2-weighted fast spin-echo sequence; 53 y/o female; congenital block vertebra C6/7 with degenerative changes in segment C5/6 (disk prolapse) and otherw",
+     "proj": -0.3049352169036865
+    },
+    {
+     "cap": "In the ultrasound examination performed at the 32nd week of gestation, the allantoic cyst was no longer visible and replaced by an omphalocele of 35 \u00d7 31 millim",
+     "proj": -0.31256747245788574
+    },
+    {
+     "cap": "A hypoechoic, lobulated, circumscribed lesion with posterior acoustic enhancement and minimal signs of vascular enhancement on color Doppler imaging of the righ",
+     "proj": -0.32447826862335205
+    },
+    {
+     "cap": "Pubertal gilt (V2/W3). Urine bladder (UB), intestinal loop (IL) and uterus (U) appear as well distinguishable structures. UB shows a completely anechoic structu",
+     "proj": -0.3254166543483734
+    },
+    {
+     "cap": "Follow-up MRI visit after 2 months. A new appearance of acetabular bone edema as a widespread signal alteration of the bone spongiosa of the left acetabular roo",
+     "proj": -0.33588704466819763
+    }
+   ],
+   "words_pos": [
+    [
+     "chest",
+     5.4,
+     1141,
+     9
+    ],
+    [
+     "consolidation",
+     5.39,
+     104,
+     0
+    ],
+    [
+     "infiltrates",
+     5.18,
+     85,
+     0
+    ],
+    [
+     "mediastinal",
+     5.1,
+     79,
+     0
+    ],
+    [
+     "pneumothorax",
+     5.01,
+     72,
+     0
+    ],
+    [
+     "lungs",
+     5.01,
+     72,
+     0
+    ],
+    [
+     "thorax",
+     4.73,
+     55,
+     0
+    ],
+    [
+     "glass",
+     4.62,
+     49,
+     0
+    ],
+    [
+     "computerized",
+     4.59,
+     48,
+     0
+    ],
+    [
+     "atelectasis",
+     4.44,
+     41,
+     0
+    ],
+    [
+     "cardiomegaly",
+     4.39,
+     39,
+     0
+    ],
+    [
+     "pneumomediastinum",
+     4.39,
+     39,
+     0
+    ]
+   ],
+   "words_neg": [
+    [
+     "weighted",
+     -6.3,
+     0,
+     245
+    ],
+    [
+     "signal",
+     -5.6,
+     0,
+     128
+    ],
+    [
+     "doppler",
+     -5.15,
+     0,
+     83
+    ],
+    [
+     "hypoechoic",
+     -5.07,
+     0,
+     77
+    ],
+    [
+     "ultrasound",
+     -4.8,
+     3,
+     364
+    ],
+    [
+     "hyperechoic",
+     -4.64,
+     0,
+     50
+    ],
+    [
+     "tendon",
+     -4.55,
+     0,
+     46
+    ],
+    [
+     "uterus",
+     -4.53,
+     0,
+     45
+    ],
+    [
+     "flair",
+     -4.53,
+     0,
+     45
+    ],
+    [
+     "hyperintense",
+     -4.53,
+     0,
+     45
+    ],
+    [
+     "transvaginal",
+     -4.53,
+     0,
+     45
+    ],
+    [
+     "mri",
+     -4.52,
+     5,
+     421
+    ]
+   ],
+   "corr_proj_logrank_raw": 0.1356375023463283,
+   "corr_proj_rank_improvement": 0.003365632848675078,
+   "cos_gap": 0.11321330070495605
+  },
+  {
+   "axis": 4,
+   "energy_share": 0.034666694700717926,
+   "pos_caps": [
+    {
+     "cap": "Postoperative abdominal X-ray. Bowel gas pattern is nonobstructive and postsurgical changes from spinal fusion.",
+     "proj": 0.28445592522621155
+    },
+    {
+     "cap": "Lateral view did not show signs of fracture",
+     "proj": 0.2817332148551941
+    },
+    {
+     "cap": "Post-operative radiograph showing complete resection of pubic tumor.",
+     "proj": 0.28006666898727417
+    },
+    {
+     "cap": "Follow-up tubogram showing the good passage of the bile duct.",
+     "proj": 0.2770506739616394
+    },
+    {
+     "cap": "AP supine X-ray of the abdomen showing moderate gaseous distention of the small bowel.",
+     "proj": 0.2766522765159607
+    },
+    {
+     "cap": "Intraoperative retrograde ureterography showed that the ectopic ureter was visible.",
+     "proj": 0.2760859429836273
+    }
+   ],
+   "neg_caps": [
+    {
+     "cap": "Four days later, pulmonary CT in the Case 10 patient showed dimensional extension of the previously described lesions, with a tendency of small-holding. In conc",
+     "proj": -0.3456762731075287
+    },
+    {
+     "cap": "Representative case with pulmonary cryptococcosis showed a nodule accompanied by pleural stretch signs, positive for CrAg in the lung aspirate, but negative in ",
+     "proj": -0.34797438979148865
+    },
+    {
+     "cap": "A chest CT of a 35-year-old woman with no significant past medical history presenting with progressive dyspnea, chest pain, and hemoptysis showing typical groun",
+     "proj": -0.3505347967147827
+    },
+    {
+     "cap": "Diffuse alveolo-interstitial opacities involving all zones on the right side. The main pulmonary trunk is prominent (as seen below the aortic knuckle on the lef",
+     "proj": -0.35242176055908203
+    },
+    {
+     "cap": "Subsequent chest radiograph of the same three-year-old patient with Multisystem Inflammatory Syndrome in Children showing a mildly enlarged cardiothymic silhoue",
+     "proj": -0.356222540140152
+    },
+    {
+     "cap": "A 32-year-old male patient with COVID-19 pneumonia with a known diagnosis of asthma. Typical presentation according to RSNA guidelines, CORADS score given as 5.",
+     "proj": -0.3902518153190613
+    }
+   ],
+   "words_pos": [
+    [
+     "intussusception",
+     3.3,
+     13,
+     0
+    ],
+    [
+     "varus",
+     3.14,
+     11,
+     0
+    ],
+    [
+     "sacroiliac",
+     2.95,
+     9,
+     0
+    ],
+    [
+     "cholangiogram",
+     2.95,
+     9,
+     0
+    ],
+    [
+     "ileus",
+     2.84,
+     8,
+     0
+    ],
+    [
+     "cecum",
+     2.84,
+     8,
+     0
+    ],
+    [
+     "orthopantomogram",
+     2.57,
+     19,
+     1
+    ],
+    [
+     "ileum",
+     2.46,
+     17,
+     1
+    ],
+    [
+     "fixation",
+     2.41,
+     27,
+     2
+    ],
+    [
+     "sigmoid",
+     2.4,
+     16,
+     1
+    ],
+    [
+     "periapical",
+     2.33,
+     25,
+     2
+    ],
+    [
+     "ureter",
+     2.29,
+     24,
+     2
+    ]
+   ],
+   "words_neg": [
+    [
+     "pleural",
+     -5.81,
+     0,
+     156
+    ],
+    [
+     "opacities",
+     -5.53,
+     0,
+     119
+    ],
+    [
+     "consolidation",
+     -4.92,
+     0,
+     66
+    ],
+    [
+     "asterisk",
+     -4.8,
+     0,
+     59
+    ],
+    [
+     "covid-",
+     -4.73,
+     0,
+     55
+    ],
+    [
+     "lungs",
+     -4.69,
+     0,
+     53
+    ],
+    [
+     "infiltrates",
+     -4.67,
+     0,
+     52
+    ],
+    [
+     "parasternal",
+     -4.64,
+     0,
+     50
+    ],
+    [
+     "pneumonia",
+     -4.59,
+     0,
+     48
+    ],
+    [
+     "atrium",
+     -4.55,
+     1,
+     134
+    ],
+    [
+     "hyperechoic",
+     -4.53,
+     0,
+     45
+    ],
+    [
+     "patchy",
+     -4.48,
+     0,
+     43
+    ]
+   ],
+   "corr_proj_logrank_raw": -0.04453291000280418,
+   "corr_proj_rank_improvement": -0.07370178980824432,
+   "cos_gap": 0.04734319448471069
+  }
+ ]
+}

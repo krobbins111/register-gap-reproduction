@@ -1,0 +1,26 @@
+{
+  "dataset": "fashion200k",
+  "embed_model": "facebook/metaclip-2-worldwide-huge-quickgelu",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 50000,
+  "n_val": 4999,
+  "gallery_size": 4999,
+  "n_test_queries": 4999,
+  "raw_query": {
+    "R@1": 0.3444688937787557,
+    "R@5": 0.6007201440288058,
+    "R@10": 0.7041408281656332,
+    "R@50": 0.9025805161032207,
+    "MRR": 0.4648330139034837
+  },
+  "projected_query": {
+    "R@1": 0.4378875775155031,
+    "R@5": 0.7245449089817964,
+    "R@10": 0.8195639127825565,
+    "R@50": 0.9547909581916383,
+    "MRR": 0.5665858668049578
+  },
+  "projection_gain_R@50": 0.0522
+}

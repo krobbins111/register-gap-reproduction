@@ -1,0 +1,26 @@
+{
+  "dataset": "coco",
+  "embed_model": "google/siglip-so400m-patch14-384",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 20000,
+  "n_val": 3000,
+  "gallery_size": 5000,
+  "n_test_queries": 5000,
+  "raw_query": {
+    "R@1": 0.513,
+    "R@5": 0.7446,
+    "R@10": 0.8198,
+    "R@50": 0.9546,
+    "MRR": 0.6195291527324324
+  },
+  "projected_query": {
+    "R@1": 0.4968,
+    "R@5": 0.7486,
+    "R@10": 0.8262,
+    "R@50": 0.9612,
+    "MRR": 0.6103157933795301
+  },
+  "projection_gain_R@50": 0.0066
+}

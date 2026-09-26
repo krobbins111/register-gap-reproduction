@@ -1,0 +1,31 @@
+{
+ "q": 4080,
+ "file": "ROCOv2_2023_test_004097.jpg",
+ "caption": "Axial maximum intensity projection CT angiography image showing coronary abnormality in a TGA patient after ASO. The right coronary artery is seen arising from the LM and coursing anterior to the RVOT before entering into the right atrioventricular groove.Ao: neo-aortic root, ASO: arterial switch operation, CT: computed tomography, LM: left main trunk, RCA: right coronary artery, RVOT: right ventricular outflow tract, TGA: transposition of the great arteries.",
+ "rank_raw": 280,
+ "rank_after": 1,
+ "raw_top": [
+  9633,
+  5748,
+  5381,
+  6795,
+  4909
+ ],
+ "mapped_top": [
+  4080,
+  6338,
+  6337,
+  6341,
+  2398
+ ],
+ "mapped_top_from": [
+  280,
+  96,
+  326,
+  405,
+  289
+ ],
+ "n_gallery": 9927,
+ "score_true_raw": 0.16075323522090912,
+ "score_true_after": 0.5954728126525879
+}

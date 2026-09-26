@@ -1,0 +1,26 @@
+{
+  "dataset": "coco",
+  "embed_model": "facebook/metaclip-2-worldwide-huge-quickgelu",
+  "arch": "linear",
+  "hidden": 1024,
+  "epochs": 30,
+  "n_train": 20000,
+  "n_val": 3000,
+  "gallery_size": 5000,
+  "n_test_queries": 5000,
+  "raw_query": {
+    "R@1": 0.4566,
+    "R@5": 0.6974,
+    "R@10": 0.7824,
+    "R@50": 0.9446,
+    "MRR": 0.5679481265297858
+  },
+  "projected_query": {
+    "R@1": 0.425,
+    "R@5": 0.6774,
+    "R@10": 0.7842,
+    "R@50": 0.9526,
+    "MRR": 0.5440497223208307
+  },
+  "projection_gain_R@50": 0.008
+}

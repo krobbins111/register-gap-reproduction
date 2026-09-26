@@ -1,0 +1,66 @@
+{
+ "collection": "skincap",
+ "encoder": "siglip2-base-16-256",
+ "cap": 32,
+ "grid": 8,
+ "tag": "_save",
+ "protocol": {
+  "name": "Derm1M whole-collection gallery",
+  "gallery": 4000,
+  "queries": 600
+ },
+ "frozen": {
+  "R@1": 0.023333333333333334,
+  "R@5": 0.051666666666666666,
+  "R@10": 0.08333333333333333,
+  "R@50": 0.21,
+  "median_rank": 323.5
+ },
+ "pooled": {
+  "R@1": 0.04,
+  "R@5": 0.10833333333333334,
+  "R@10": 0.15833333333333333,
+  "R@50": 0.3933333333333333,
+  "median_rank": 82.5
+ },
+ "set": {
+  "R@1": 0.055,
+  "R@5": 0.15,
+  "R@10": 0.22333333333333333,
+  "R@50": 0.49,
+  "median_rank": 52.5
+ },
+ "setw": {
+  "R@1": 0.06166666666666667,
+  "R@5": 0.155,
+  "R@10": 0.2683333333333333,
+  "R@50": 0.5383333333333333,
+  "median_rank": 43.0
+ },
+ "published": {
+  "protocol": "Derm1M (Yan et al., ICCV 2025) Table 4: whole SkinCAP as gallery, zero-shot text-to-image",
+  "rows": {
+   "CLIP-B/16": {
+    "R@10": 0.0592,
+    "R@50": 0.186
+   },
+   "SigLIP-B/16": {
+    "R@10": 0.0955,
+    "R@50": 0.2585
+   },
+   "BiomedCLIP": {
+    "R@10": 0.1238,
+    "R@50": 0.3304
+   },
+   "MONET": {
+    "R@10": 0.1492,
+    "R@50": 0.349
+   },
+   "DermLIP (PanDerm-B), best published": {
+    "R@10": 0.2128,
+    "R@50": 0.462
+   }
+  },
+  "caveat": "our maps see 2,800 in-domain pairs; DermLIP is zero-shot from 1M dermatology pairs; our queries are the 600 held-out captions"
+ }
+}

@@ -1,0 +1,523 @@
+{
+ "imported_from": "story/sets/colab_results_tips_2026-09-22.json",
+ "ties": "geq",
+ "collection": "rocov2",
+ "encoder": "tipsv2-b14",
+ "n": {
+  "train": 13326,
+  "val": 1651,
+  "test": 9927
+ },
+ "phrases_per_caption": 5.866527465467395,
+ "frozen": {
+  "R@1": 0.005943386723078473,
+  "R@5": 0.01964339679661529,
+  "R@10": 0.031227964138208924,
+  "R@50": 0.09338168631006347,
+  "median_rank": 912.0,
+  "R@10_ci": [
+   0.028105167724388033,
+   0.03495517276115644
+  ]
+ },
+ "pooled": {
+  "R@1": 0.0182331016419865,
+  "R@5": 0.0626573990127934,
+  "R@10": 0.09680668882844767,
+  "R@50": 0.25395386320137,
+  "median_rank": 192.0,
+  "R@10_ci": [
+   0.0912637251939156,
+   0.10275007555152614
+  ],
+  "val_R@10": 0.55,
+  "lam": 1.0,
+  "tau": 0.05000000074505806
+ },
+ "set": {
+  "R@1": 0.02357207615593835,
+  "R@5": 0.07655887982270575,
+  "R@10": 0.11786038077969176,
+  "R@50": 0.2890097713307142,
+  "median_rank": 173.0,
+  "R@10_ci": [
+   0.11161226956784527,
+   0.12390702125516269
+  ],
+  "val_R@10": 0.56,
+  "lam": 8.381879806518555,
+  "tau": 0.0016571222804486752
+ },
+ "phrases_only": {
+  "R@1": 0.017326483328296564,
+  "R@5": 0.05580739397602498,
+  "R@10": 0.08854638863705047,
+  "R@50": 0.2277626674725496,
+  "median_rank": 243.0,
+  "R@10_ci": [
+   0.08340888485947416,
+   0.09378714616701923
+  ],
+  "val_R@10": 0.49,
+  "lam": 9.721131324768066,
+  "tau": 0.04975500702857971
+ },
+ "patches_only": {
+  "R@1": 0.01531177596454115,
+  "R@5": 0.047748564521003324,
+  "R@10": 0.07958094086833888,
+  "R@50": 0.2288707565226151,
+  "median_rank": 235.0,
+  "R@10_ci": [
+   0.0743427017225748,
+   0.08502065075047849
+  ],
+  "val_R@10": 0.494,
+  "lam": 6.027013301849365,
+  "tau": 0.013962995260953903
+ },
+ "setw": {
+  "R@1": 0.025788254256069305,
+  "R@5": 0.08340888485947416,
+  "R@10": 0.12350156139820691,
+  "R@50": 0.30049360330412006,
+  "median_rank": 161.0,
+  "R@10_ci": [
+   0.11674977334542158,
+   0.12964893724186563
+  ],
+  "val_R@10": 0.564,
+  "lam": 7.798967361450195,
+  "tau": 0.0015457262052223086,
+  "gate": {
+   "effective_phrases": 5.3412184715271,
+   "mean_phrases": 6.103656768798828,
+   "lowest": [
+    [
+     "metastatic disease",
+     -1.29,
+     7
+    ],
+    [
+     "the evaluation",
+     -1.29,
+     5
+    ],
+    [
+     "the middle",
+     -1.29,
+     10
+    ],
+    [
+     "consolidation",
+     -1.28,
+     33
+    ],
+    [
+     "disruption",
+     -1.28,
+     6
+    ],
+    [
+     "the relationship",
+     -1.26,
+     6
+    ],
+    [
+     "evaluation",
+     -1.26,
+     8
+    ],
+    [
+     "the disappearance",
+     -1.25,
+     5
+    ],
+    [
+     "admission",
+     -1.25,
+     127
+    ],
+    [
+     "completion",
+     -1.25,
+     6
+    ],
+    [
+     "interpretation",
+     -1.23,
+     15
+    ],
+    [
+     "the placement",
+     -1.23,
+     6
+    ],
+    [
+     "comparison",
+     -1.22,
+     10
+    ],
+    [
+     "the difference",
+     -1.22,
+     11
+    ],
+    [
+     "hospital admission",
+     -1.21,
+     8
+    ],
+    [
+     "the age",
+     -1.2,
+     5
+    ],
+    [
+     "the extension",
+     -1.18,
+     5
+    ],
+    [
+     "consolidations",
+     -1.17,
+     9
+    ],
+    [
+     "the site",
+     -1.15,
+     28
+    ],
+    [
+     "a cystic lesion",
+     -1.15,
+     5
+    ]
+   ],
+   "highest": [
+    [
+     "black arrowheads",
+     1.12,
+     5
+    ],
+    [
+     "red arrowhead",
+     1.0,
+     5
+    ],
+    [
+     "white arrowheads",
+     0.94,
+     8
+    ],
+    [
+     "arrowheads",
+     0.84,
+     51
+    ],
+    [
+     "white arrowhead",
+     0.83,
+     21
+    ],
+    [
+     "arrow head",
+     0.75,
+     5
+    ],
+    [
+     "(red arrows",
+     0.7,
+     11
+    ],
+    [
+     "yellow arrows",
+     0.69,
+     43
+    ],
+    [
+     "green arrows",
+     0.69,
+     14
+    ],
+    [
+     "arrowhead",
+     0.68,
+     86
+    ],
+    [
+     "black arrows",
+     0.66,
+     42
+    ],
+    [
+     "arrows",
+     0.62,
+     240
+    ],
+    [
+     "(yellow arrows",
+     0.62,
+     17
+    ],
+    [
+     "yellow arrow",
+     0.58,
+     88
+    ],
+    [
+     "blue arrows",
+     0.55,
+     43
+    ],
+    [
+     "red arrow",
+     0.55,
+     269
+    ],
+    [
+     "green arrow",
+     0.55,
+     51
+    ],
+    [
+     "blue arrow",
+     0.55,
+     135
+    ],
+    [
+     "(green arrow",
+     0.53,
+     8
+    ],
+    [
+     "arrow points",
+     0.52,
+     6
+    ]
+   ]
+  }
+ },
+ "phrases_only_w": {
+  "R@1": 0.01772942480104765,
+  "R@5": 0.060239750176286896,
+  "R@10": 0.09348242167825123,
+  "R@50": 0.2419663543870253,
+  "median_rank": 217.0,
+  "R@10_ci": [
+   0.0877405056915483,
+   0.0990253853127833
+  ],
+  "val_R@10": 0.486,
+  "lam": 8.625263214111328,
+  "tau": 0.045659806579351425,
+  "gate": {
+   "effective_phrases": 4.858701705932617,
+   "mean_phrases": 6.103656768798828,
+   "lowest": [
+    [
+     "the disappearance",
+     -1.62,
+     5
+    ],
+    [
+     "loss",
+     -1.59,
+     23
+    ],
+    [
+     "the difference",
+     -1.59,
+     11
+    ],
+    [
+     "the relationship",
+     -1.59,
+     6
+    ],
+    [
+     "the evaluation",
+     -1.56,
+     5
+    ],
+    [
+     "the middle",
+     -1.53,
+     10
+    ],
+    [
+     "the extension",
+     -1.52,
+     5
+    ],
+    [
+     "the age",
+     -1.47,
+     5
+    ],
+    [
+     "the distance",
+     -1.47,
+     46
+    ],
+    [
+     "disruption",
+     -1.47,
+     6
+    ],
+    [
+     "removal",
+     -1.46,
+     18
+    ],
+    [
+     "distance",
+     -1.46,
+     15
+    ],
+    [
+     "the placement",
+     -1.45,
+     6
+    ],
+    [
+     "consolidation",
+     -1.45,
+     33
+    ],
+    [
+     "absence",
+     -1.44,
+     24
+    ],
+    [
+     "evaluation",
+     -1.44,
+     8
+    ],
+    [
+     "completion",
+     -1.43,
+     6
+    ],
+    [
+     "consolidations",
+     -1.42,
+     9
+    ],
+    [
+     "interest",
+     -1.42,
+     33
+    ],
+    [
+     "metastatic disease",
+     -1.4,
+     7
+    ]
+   ],
+   "highest": [
+    [
+     "coronary angiogram",
+     1.4,
+     35
+    ],
+    [
+     "sagittal mri",
+     1.26,
+     7
+    ],
+    [
+     "coronal mri",
+     1.13,
+     6
+    ],
+    [
+     "endoscopic ultrasonography",
+     1.11,
+     6
+    ],
+    [
+     "frontal chest radiograph",
+     1.11,
+     5
+    ],
+    [
+     "transoesophageal echocardiogram",
+     1.07,
+     9
+    ],
+    [
+     "transesophageal echocardiogram",
+     1.04,
+     27
+    ],
+    [
+     "ct pulmonary angiogram",
+     1.03,
+     6
+    ],
+    [
+     "lung ultrasound",
+     1.01,
+     6
+    ],
+    [
+     "ct brain",
+     1.0,
+     8
+    ],
+    [
+     "endoscopic ultrasound",
+     0.97,
+     13
+    ],
+    [
+     "transthoracic echocardiogram",
+     0.95,
+     49
+    ],
+    [
+     "chest ct image",
+     0.93,
+     5
+    ],
+    [
+     "transoesophageal echocardiography",
+     0.93,
+     6
+    ],
+    [
+     "abdominal ultrasound",
+     0.92,
+     18
+    ],
+    [
+     "chest x-ray",
+     0.9,
+     92
+    ],
+    [
+     "transesophageal echocardiography",
+     0.9,
+     17
+    ],
+    [
+     "mri abdomen",
+     0.9,
+     6
+    ],
+    [
+     "chest x ray",
+     0.88,
+     9
+    ],
+    [
+     "mri brain",
+     0.88,
+     26
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,9588 @@
+{
+ "imported_from": "story/directions/directions.json",
+ "ties": "geq",
+ "collection": "skincap",
+ "encoder": "siglip2-base-16-256",
+ "pooled/Wt": {
+  "frob": 5.827,
+  "energy_top8": 0.376,
+  "energy_top16": 0.547,
+  "top_s": [
+   1.581,
+   1.392,
+   1.294,
+   1.263,
+   1.218,
+   1.152,
+   1.076,
+   1.038,
+   0.994,
+   0.92,
+   0.902,
+   0.863,
+   0.817,
+   0.785,
+   0.757,
+   0.753
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.581,
+    "cos_uv": -0.42,
+    "specificity": 0.38,
+    "own_mean": 0.495,
+    "own_sd": 0.052,
+    "coco_mean": 0.115,
+    "v_own+": [
+     [
+      "symmetrically distributed erythematous plaques",
+      0.421
+     ],
+     [
+      "multiple annular erythematous patches",
+      0.417
+     ],
+     [
+      "multiple erythematous papules",
+      0.41
+     ],
+     [
+      "severe erythema multiforme drug eruption",
+      0.408
+     ],
+     [
+      "a pale red nodular lesion",
+      0.408
+     ],
+     [
+      "clearly demarcated erythematous patches",
+      0.402
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a video game controller",
+      0.143
+     ],
+     [
+      "a computer keyboard",
+      0.142
+     ],
+     [
+      "a nintendo wii game controller",
+      0.141
+     ],
+     [
+      "a female tennis player",
+      0.139
+     ],
+     [
+      "a brown horse",
+      0.135
+     ],
+     [
+      "a game controller",
+      0.134
+     ]
+    ],
+    "v_own-": [
+     [
+      "line",
+      -0.025
+     ],
+     [
+      "growths",
+      -0.028
+     ],
+     [
+      "any part",
+      -0.031
+     ],
+     [
+      "the palm",
+      -0.035
+     ],
+     [
+      "fusion",
+      -0.035
+     ],
+     [
+      "warmth",
+      -0.039
+     ]
+    ],
+    "u_own+": [
+     [
+      "pinhead",
+      -0.596
+     ],
+     [
+      "the tick",
+      -0.606
+     ],
+     [
+      "arms",
+      -0.643
+     ],
+     [
+      "macules",
+      -0.672
+     ],
+     [
+      "scattered red wheals",
+      -0.679
+     ],
+     [
+      "excision",
+      -0.68
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      -0.581
+     ],
+     [
+      "a green and white bus",
+      -0.624
+     ],
+     [
+      "a green street sign",
+      -0.632
+     ],
+     [
+      "a green motorcycle",
+      -0.647
+     ],
+     [
+      "a vehicle",
+      -0.656
+     ],
+     [
+      "four men",
+      -0.664
+     ]
+    ],
+    "u_own-": [
+     [
+      "a chronic, recurrent inflammatory skin condition",
+      0.923
+     ],
+     [
+      "a chronic, recurrent inflammatory skin disease",
+      0.92
+     ],
+     [
+      "a chronic, recurrent skin disease",
+      0.918
+     ],
+     [
+      "a chronic, recurrent skin condition",
+      0.917
+     ],
+     [
+      "a chronic and recurrent inflammatory skin condition",
+      0.915
+     ],
+     [
+      "a chronic recurrent inflammatory skin disease",
+      0.914
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a kitten",
+      0.825
+     ],
+     [
+      "another person",
+      0.822
+     ],
+     [
+      "bnsf",
+      0.822
+     ],
+     [
+      "a grill",
+      0.822
+     ],
+     [
+      "an image",
+      0.822
+     ],
+     [
+      "a contraption",
+      0.822
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.392,
+    "cos_uv": 0.45,
+    "specificity": 0.019,
+    "own_mean": 0.014,
+    "own_sd": 0.027,
+    "coco_mean": -0.005,
+    "v_own+": [
+     [
+      "fingertip ulcers",
+      0.108
+     ],
+     [
+      "the toenail",
+      0.107
+     ],
+     [
+      "psoriatic nail disease",
+      0.105
+     ],
+     [
+      "uneven nail surface",
+      0.105
+     ],
+     [
+      "psoriatic nail",
+      0.102
+     ],
+     [
+      "the toe area",
+      0.094
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a glove",
+      0.087
+     ],
+     [
+      "black shorts",
+      0.071
+     ],
+     [
+      "a banana tree",
+      0.067
+     ],
+     [
+      "sinks",
+      0.064
+     ],
+     [
+      "the sink",
+      0.062
+     ],
+     [
+      "a black dog",
+      0.062
+     ]
+    ],
+    "v_own-": [
+     [
+      "multiple purple-red patches",
+      0.073
+     ],
+     [
+      "multiple red wheals",
+      0.068
+     ],
+     [
+      "axillae",
+      0.068
+     ],
+     [
+      "axilla",
+      0.057
+     ],
+     [
+      "multiple oval-shaped red patches",
+      0.055
+     ],
+     [
+      "wheals",
+      0.054
+     ]
+    ],
+    "u_own+": [
+     [
+      "the toenail",
+      0.137
+     ],
+     [
+      "the toe",
+      0.12
+     ],
+     [
+      "the nail",
+      0.114
+     ],
+     [
+      "the fingernail",
+      0.11
+     ],
+     [
+      "dermatoscopy examination",
+      0.107
+     ],
+     [
+      "nail separation",
+      0.107
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a glove",
+      0.08
+     ],
+     [
+      "an apple",
+      0.076
+     ],
+     [
+      "a stone",
+      0.071
+     ],
+     [
+      "an egg",
+      0.068
+     ],
+     [
+      "a carrot",
+      0.068
+     ],
+     [
+      "a tennis ball",
+      0.065
+     ]
+    ],
+    "u_own-": [
+     [
+      "severe erythema multiforme drug eruption",
+      0.144
+     ],
+     [
+      "sunburn dermatitis",
+      0.137
+     ],
+     [
+      "multiple erythema",
+      0.135
+     ],
+     [
+      "pityriasis rosea",
+      0.132
+     ],
+     [
+      "multiple annular erythema",
+      0.132
+     ],
+     [
+      "follicular pityriasis rubra pilaris",
+      0.132
+     ]
+    ],
+    "u_coco-": [
+     [
+      "two pizzas",
+      0.069
+     ],
+     [
+      "a red couch",
+      0.066
+     ],
+     [
+      "bunches",
+      0.062
+     ],
+     [
+      "a red car",
+      0.059
+     ],
+     [
+      "a red train",
+      0.056
+     ],
+     [
+      "her arms",
+      0.055
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 1.294,
+    "cos_uv": 0.51,
+    "specificity": 0.019,
+    "own_mean": -0.013,
+    "own_sd": 0.028,
+    "coco_mean": -0.032,
+    "v_own+": [
+     [
+      "surface ulceration",
+      0.089
+     ],
+     [
+      "the toe",
+      0.083
+     ],
+     [
+      "nail destruction",
+      0.082
+     ],
+     [
+      "nail plate",
+      0.081
+     ],
+     [
+      "the toe area",
+      0.074
+     ],
+     [
+      "the foot",
+      0.073
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the edge",
+      0.055
+     ],
+     [
+      "the building",
+      0.054
+     ],
+     [
+      "the house",
+      0.051
+     ],
+     [
+      "the hill",
+      0.05
+     ],
+     [
+      "action",
+      0.048
+     ],
+     [
+      "the land",
+      0.047
+     ]
+    ],
+    "v_own-": [
+     [
+      "a male",
+      0.082
+     ],
+     [
+      "a keloid",
+      0.079
+     ],
+     [
+      "the sebaceous gland ducts",
+      0.077
+     ],
+     [
+      "blue-gray or brown patches",
+      0.076
+     ],
+     [
+      "a female",
+      0.075
+     ],
+     [
+      "multiple red wheals",
+      0.075
+     ]
+    ],
+    "u_own+": [
+     [
+      "fingertip ulcers",
+      0.169
+     ],
+     [
+      "surface ulceration",
+      0.15
+     ],
+     [
+      "a photo showing ulceration",
+      0.145
+     ],
+     [
+      "partial ulceration",
+      0.139
+     ],
+     [
+      "local ulceration",
+      0.138
+     ],
+     [
+      "skin ulcer",
+      0.136
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a glove",
+      0.095
+     ],
+     [
+      "shoes",
+      0.075
+     ],
+     [
+      "skateboard tricks",
+      0.07
+     ],
+     [
+      "his hand",
+      0.067
+     ],
+     [
+      "a foot",
+      0.064
+     ],
+     [
+      "hand",
+      0.064
+     ]
+    ],
+    "u_own-": [
+     [
+      "pityriasis versicolor",
+      0.123
+     ],
+     [
+      "the trunk, neck",
+      0.119
+     ],
+     [
+      "both cheeks",
+      0.113
+     ],
+     [
+      "neck area",
+      0.106
+     ],
+     [
+      "bilateral cheeks",
+      0.103
+     ],
+     [
+      "the anterior chest",
+      0.101
+     ]
+    ],
+    "u_coco-": [
+     [
+      "their backs",
+      0.087
+     ],
+     [
+      "a shirtless man",
+      0.081
+     ],
+     [
+      "neck",
+      0.08
+     ],
+     [
+      "the neck",
+      0.072
+     ],
+     [
+      "a blue shirt",
+      0.065
+     ],
+     [
+      "a row",
+      0.065
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 1.263,
+    "cos_uv": 0.44,
+    "specificity": 0.019,
+    "own_mean": -0.035,
+    "own_sd": 0.028,
+    "coco_mean": -0.054,
+    "v_own+": [
+     [
+      "pale red",
+      0.07
+     ],
+     [
+      "raised red edges",
+      0.061
+     ],
+     [
+      "deep red papulonodules",
+      0.06
+     ],
+     [
+      "red and pale white streaks",
+      0.059
+     ],
+     [
+      "necrotic crusts",
+      0.057
+     ],
+     [
+      "a waxy sheen",
+      0.054
+     ]
+    ],
+    "v_coco+": [
+     [
+      "toppings",
+      0.052
+     ],
+     [
+      "veggies",
+      0.038
+     ],
+     [
+      "vegetables",
+      0.036
+     ],
+     [
+      "sand",
+      0.031
+     ],
+     [
+      "their backs",
+      0.029
+     ],
+     [
+      "some trees",
+      0.029
+     ]
+    ],
+    "v_own-": [
+     [
+      "the external genitalia photo",
+      0.114
+     ],
+     [
+      "nail psoriasis",
+      0.11
+     ],
+     [
+      "the toenails",
+      0.11
+     ],
+     [
+      "a finger",
+      0.103
+     ],
+     [
+      "the external genitalia",
+      0.097
+     ],
+     [
+      "the nail area",
+      0.096
+     ]
+    ],
+    "u_own+": [
+     [
+      "skin biopsy",
+      0.185
+     ],
+     [
+      "a skin biopsy",
+      0.173
+     ],
+     [
+      "skin dermoscopy",
+      0.172
+     ],
+     [
+      "further skin biopsy",
+      0.171
+     ],
+     [
+      "possibly skin biopsy",
+      0.169
+     ],
+     [
+      "dermatoscopy",
+      0.168
+     ]
+    ],
+    "u_coco+": [
+     [
+      "their backs",
+      0.114
+     ],
+     [
+      "the back",
+      0.109
+     ],
+     [
+      "her shoulder",
+      0.094
+     ],
+     [
+      "clocks",
+      0.092
+     ],
+     [
+      "a small pizza",
+      0.092
+     ],
+     [
+      "a patch",
+      0.091
+     ]
+    ],
+    "u_own-": [
+     [
+      "a nail disease",
+      0.058
+     ],
+     [
+      "facial deformities",
+      0.056
+     ],
+     [
+      "the upper and lower lips",
+      0.056
+     ],
+     [
+      "the metatarsophalangeal joint",
+      0.056
+     ],
+     [
+      "both eyelids",
+      0.053
+     ],
+     [
+      "the big toe",
+      0.053
+     ]
+    ],
+    "u_coco-": [
+     [
+      "its mouth",
+      0.034
+     ],
+     [
+      "his mouth",
+      0.032
+     ],
+     [
+      "a zebra grazing",
+      0.029
+     ],
+     [
+      "her mouth",
+      0.027
+     ],
+     [
+      "a black and white photograph",
+      0.026
+     ],
+     [
+      "a zebra",
+      0.023
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 1.218,
+    "cos_uv": 0.53,
+    "specificity": 0.004,
+    "own_mean": 0.015,
+    "own_sd": 0.028,
+    "coco_mean": 0.011,
+    "v_own+": [
+     [
+      "this chest photo",
+      0.092
+     ],
+     [
+      "crusted erosions",
+      0.087
+     ],
+     [
+      "some crusted erosions",
+      0.077
+     ],
+     [
+      "a crust",
+      0.073
+     ],
+     [
+      "abrasions",
+      0.071
+     ],
+     [
+      "a nevus",
+      0.065
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a dugout",
+      0.085
+     ],
+     [
+      "an obstacle",
+      0.057
+     ],
+     [
+      "a bite",
+      0.049
+     ],
+     [
+      "the curb",
+      0.048
+     ],
+     [
+      "a zoo",
+      0.047
+     ],
+     [
+      "a snow covered slope",
+      0.042
+     ]
+    ],
+    "v_own-": [
+     [
+      "both hands",
+      0.148
+     ],
+     [
+      "the patient's fingers",
+      0.14
+     ],
+     [
+      "hands",
+      0.128
+     ],
+     [
+      "the hands",
+      0.122
+     ],
+     [
+      "both palms",
+      0.12
+     ],
+     [
+      "toes",
+      0.118
+     ]
+    ],
+    "u_own+": [
+     [
+      "oral squamous cell carcinoma",
+      0.071
+     ],
+     [
+      "a basal cell carcinoma",
+      0.066
+     ],
+     [
+      "a central ulcer",
+      0.062
+     ],
+     [
+      "nodular basal cell carcinoma",
+      0.061
+     ],
+     [
+      "cystic basal cell carcinoma",
+      0.06
+     ],
+     [
+      "basal cell carcinoma",
+      0.06
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a helmet",
+      0.033
+     ],
+     [
+      "his head",
+      0.029
+     ],
+     [
+      "a shirtless man",
+      0.024
+     ],
+     [
+      "a rocky hillside",
+      0.021
+     ],
+     [
+      "a patch",
+      0.02
+     ],
+     [
+      "her head",
+      0.02
+     ]
+    ],
+    "u_own-": [
+     [
+      "both hands",
+      0.193
+     ],
+     [
+      "hands",
+      0.178
+     ],
+     [
+      "wrists",
+      0.177
+     ],
+     [
+      "both palms",
+      0.177
+     ],
+     [
+      "the finger joints",
+      0.168
+     ],
+     [
+      "the hands",
+      0.165
+     ]
+    ],
+    "u_coco-": [
+     [
+      "hands",
+      0.178
+     ],
+     [
+      "hand",
+      0.16
+     ],
+     [
+      "each hand",
+      0.159
+     ],
+     [
+      "their hand",
+      0.156
+     ],
+     [
+      "their hands",
+      0.154
+     ],
+     [
+      "his hand",
+      0.15
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 1.152,
+    "cos_uv": 0.41,
+    "specificity": 0.013,
+    "own_mean": 0.001,
+    "own_sd": 0.027,
+    "coco_mean": -0.013,
+    "v_own+": [
+     [
+      "both lower legs",
+      0.087
+     ],
+     [
+      "slightly elevated edges",
+      0.086
+     ],
+     [
+      "darker edges",
+      0.082
+     ],
+     [
+      "armpits",
+      0.081
+     ],
+     [
+      "irregularly shaped black patches",
+      0.079
+     ],
+     [
+      "the armpits",
+      0.079
+     ]
+    ],
+    "v_coco+": [
+     [
+      "her arms",
+      0.077
+     ],
+     [
+      "a blue sign",
+      0.075
+     ],
+     [
+      "a blue shirt",
+      0.063
+     ],
+     [
+      "a brown teddy",
+      0.06
+     ],
+     [
+      "a metallic refrigerator freezer",
+      0.058
+     ],
+     [
+      "a doorway",
+      0.058
+     ]
+    ],
+    "v_own-": [
+     [
+      "a basal cell carcinoma",
+      0.08
+     ],
+     [
+      "the patient's facial skin",
+      0.073
+     ],
+     [
+      "a soybean",
+      0.071
+     ],
+     [
+      "a calcifying epithelioma",
+      0.071
+     ],
+     [
+      "lichen simplex chronicus",
+      0.069
+     ],
+     [
+      "skin calcification",
+      0.068
+     ]
+    ],
+    "u_own+": [
+     [
+      "the patient's lower limbs",
+      0.179
+     ],
+     [
+      "bilateral upper limbs",
+      0.136
+     ],
+     [
+      "both lower limbs",
+      0.135
+     ],
+     [
+      "lower limbs",
+      0.126
+     ],
+     [
+      "the patient's forearm",
+      0.123
+     ],
+     [
+      "both upper limbs",
+      0.116
+     ]
+    ],
+    "u_coco+": [
+     [
+      "her arms",
+      0.103
+     ],
+     [
+      "the arm",
+      0.085
+     ],
+     [
+      "his lap",
+      0.078
+     ],
+     [
+      "black shorts",
+      0.071
+     ],
+     [
+      "an open refrigerator",
+      0.061
+     ],
+     [
+      "a white refrigerator freezer",
+      0.06
+     ]
+    ],
+    "u_own-": [
+     [
+      "squeezing pimples",
+      0.154
+     ],
+     [
+      "whiteheads",
+      0.145
+     ],
+     [
+      "blackhead comedones",
+      0.132
+     ],
+     [
+      "common acne",
+      0.131
+     ],
+     [
+      "blackheads",
+      0.131
+     ],
+     [
+      "comedones",
+      0.131
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a face",
+      0.082
+     ],
+     [
+      "its head",
+      0.059
+     ],
+     [
+      "head",
+      0.058
+     ],
+     [
+      "it's head",
+      0.057
+     ],
+     [
+      "his face",
+      0.055
+     ],
+     [
+      "its mouth",
+      0.052
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 1.076,
+    "cos_uv": 0.47,
+    "specificity": 0.027,
+    "own_mean": 0.021,
+    "own_sd": 0.027,
+    "coco_mean": -0.007,
+    "v_own+": [
+     [
+      "the patient's cheeks",
+      0.1
+     ],
+     [
+      "the patient's face",
+      0.1
+     ],
+     [
+      "both cheeks",
+      0.097
+     ],
+     [
+      "a woman's face",
+      0.095
+     ],
+     [
+      "bilateral cheeks",
+      0.089
+     ],
+     [
+      "the t-zone (forehead, nose",
+      0.089
+     ]
+    ],
+    "v_coco+": [
+     [
+      "his face",
+      0.084
+     ],
+     [
+      "her head",
+      0.083
+     ],
+     [
+      "a face",
+      0.075
+     ],
+     [
+      "their heads",
+      0.074
+     ],
+     [
+      "head",
+      0.073
+     ],
+     [
+      "it's head",
+      0.071
+     ]
+    ],
+    "v_own-": [
+     [
+      "lichen striatus",
+      0.07
+     ],
+     [
+      "a fungal skin infection",
+      0.067
+     ],
+     [
+      "glans",
+      0.066
+     ],
+     [
+      "a dark brown patch",
+      0.066
+     ],
+     [
+      "an irregularly shaped brown patch",
+      0.066
+     ],
+     [
+      "flat lichen",
+      0.066
+     ]
+    ],
+    "u_own+": [
+     [
+      "forehead",
+      0.115
+     ],
+     [
+      "a round red papule",
+      0.111
+     ],
+     [
+      "rosacea",
+      0.111
+     ],
+     [
+      "facial erythema",
+      0.106
+     ],
+     [
+      "nasal inflammation",
+      0.105
+     ],
+     [
+      "facial redness",
+      0.102
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a face",
+      0.078
+     ],
+     [
+      "a sad face",
+      0.068
+     ],
+     [
+      "head",
+      0.064
+     ],
+     [
+      "his face",
+      0.061
+     ],
+     [
+      "their heads",
+      0.055
+     ],
+     [
+      "its head",
+      0.04
+     ]
+    ],
+    "u_own-": [
+     [
+      "scrotum",
+      0.137
+     ],
+     [
+      "a penis",
+      0.137
+     ],
+     [
+      "the foreskin",
+      0.136
+     ],
+     [
+      "the glans penis",
+      0.135
+     ],
+     [
+      "the penile foreskin",
+      0.134
+     ],
+     [
+      "striae gravidarum",
+      0.132
+     ]
+    ],
+    "u_coco-": [
+     [
+      "tail",
+      0.106
+     ],
+     [
+      "his shirt",
+      0.089
+     ],
+     [
+      "a shirtless man",
+      0.088
+     ],
+     [
+      "a bikini",
+      0.082
+     ],
+     [
+      "hands",
+      0.078
+     ],
+     [
+      "his hands",
+      0.077
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 1.038,
+    "cos_uv": 0.48,
+    "specificity": 0.01,
+    "own_mean": 0.025,
+    "own_sd": 0.028,
+    "coco_mean": 0.015,
+    "v_own+": [
+     [
+      "clustered yellow pustules",
+      0.124
+     ],
+     [
+      "multiple dilated hair follicles",
+      0.095
+     ],
+     [
+      "multiple yellow papules",
+      0.094
+     ],
+     [
+      "multiple light yellow papules",
+      0.091
+     ],
+     [
+      "multiple pale yellow papules",
+      0.09
+     ],
+     [
+      "molluscum contagiosum",
+      0.089
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a yellow surfboard",
+      0.1
+     ],
+     [
+      "a curb",
+      0.079
+     ],
+     [
+      "a white surfboard",
+      0.078
+     ],
+     [
+      "white sprinkles",
+      0.077
+     ],
+     [
+      "a yellow bus",
+      0.07
+     ],
+     [
+      "white shorts",
+      0.069
+     ]
+    ],
+    "v_own-": [
+     [
+      "the armpits",
+      0.081
+     ],
+     [
+      "the axilla",
+      0.076
+     ],
+     [
+      "axilla",
+      0.074
+     ],
+     [
+      "armpits",
+      0.073
+     ],
+     [
+      "neck region",
+      0.07
+     ],
+     [
+      "both cheeks",
+      0.067
+     ]
+    ],
+    "u_own+": [
+     [
+      "the leg",
+      0.105
+     ],
+     [
+      "the lower leg",
+      0.104
+     ],
+     [
+      "the right lower leg",
+      0.096
+     ],
+     [
+      "the lower limbs",
+      0.095
+     ],
+     [
+      "the feet",
+      0.094
+     ],
+     [
+      "the lower limb",
+      0.087
+     ]
+    ],
+    "u_coco+": [
+     [
+      "tail",
+      0.082
+     ],
+     [
+      "a yellow surfboard",
+      0.071
+     ],
+     [
+      "white sprinkles",
+      0.07
+     ],
+     [
+      "a rainy day",
+      0.069
+     ],
+     [
+      "white shorts",
+      0.064
+     ],
+     [
+      "shoes",
+      0.063
+     ]
+    ],
+    "u_own-": [
+     [
+      "a butterfly-shaped facial rash",
+      0.132
+     ],
+     [
+      "eyelid redness",
+      0.129
+     ],
+     [
+      "neck erythema",
+      0.122
+     ],
+     [
+      "butterfly-shaped facial rash",
+      0.121
+     ],
+     [
+      "rosacea",
+      0.121
+     ],
+     [
+      "facial erythema",
+      0.116
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an elderly woman",
+      0.076
+     ],
+     [
+      "neck",
+      0.071
+     ],
+     [
+      "an older woman",
+      0.069
+     ],
+     [
+      "an umpire",
+      0.052
+     ],
+     [
+      "a selfie",
+      0.051
+     ],
+     [
+      "the neck",
+      0.051
+     ]
+    ]
+   }
+  ]
+ },
+ "pooled/Wi": {
+  "frob": 5.913,
+  "energy_top8": 0.259,
+  "energy_top16": 0.421,
+  "top_s": [
+   1.357,
+   1.103,
+   1.069,
+   1.044,
+   1.021,
+   0.971,
+   0.96,
+   0.921,
+   0.895,
+   0.877,
+   0.862,
+   0.853,
+   0.834,
+   0.816,
+   0.807,
+   0.794
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.357,
+    "cos_uv": -0.44,
+    "specificity": 0.395,
+    "own_mean": 0.499,
+    "own_sd": 0.063,
+    "coco_mean": 0.104,
+    "v_own+": [
+     [
+      "extensive edematous erythema",
+      0.233
+     ],
+     [
+      "nodular erythema",
+      0.231
+     ],
+     [
+      "extensive erythema",
+      0.23
+     ],
+     [
+      "actinic keratosis",
+      0.229
+     ],
+     [
+      "a pigmented nevus",
+      0.228
+     ],
+     [
+      "annular erythema",
+      0.228
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a patch",
+      0.102
+     ],
+     [
+      "a body",
+      0.086
+     ],
+     [
+      "a close",
+      0.077
+     ],
+     [
+      "her shoulder",
+      0.074
+     ],
+     [
+      "an elderly man",
+      0.072
+     ],
+     [
+      "a man",
+      0.071
+     ]
+    ],
+    "v_own-": [
+     [
+      "contact",
+      0.033
+     ],
+     [
+      "other parts",
+      0.02
+     ],
+     [
+      "various parts",
+      0.02
+     ],
+     [
+      "excision",
+      0.017
+     ],
+     [
+      "clothing",
+      0.017
+     ],
+     [
+      "guidance",
+      0.017
+     ]
+    ],
+    "u_own+": [
+     [
+      "the tick",
+      -0.012
+     ],
+     [
+      "presents",
+      -0.013
+     ],
+     [
+      "mung beans",
+      -0.014
+     ],
+     [
+      "environments",
+      -0.015
+     ],
+     [
+      "confirmation",
+      -0.015
+     ],
+     [
+      "the invasion",
+      -0.018
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an empty train station",
+      0.062
+     ],
+     [
+      "a blue and green tennis court",
+      0.051
+     ],
+     [
+      "a dining room table",
+      0.043
+     ],
+     [
+      "a busy city street",
+      0.027
+     ],
+     [
+      "a dining room",
+      0.023
+     ],
+     [
+      "parked motorcycles",
+      0.022
+     ]
+    ],
+    "u_own-": [
+     [
+      "folliculitis decalvans",
+      0.174
+     ],
+     [
+      "benign skin growths",
+      0.172
+     ],
+     [
+      "a fungal skin infection",
+      0.171
+     ],
+     [
+      "mild lichenification",
+      0.17
+     ],
+     [
+      "this common skin condition",
+      0.17
+     ],
+     [
+      "cutaneous myiasis",
+      0.169
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a patch",
+      0.123
+     ],
+     [
+      "a close",
+      0.114
+     ],
+     [
+      "a close up photo",
+      0.113
+     ],
+     [
+      "bowls",
+      0.112
+     ],
+     [
+      "a body",
+      0.11
+     ],
+     [
+      "three men",
+      0.11
+     ]
+    ],
+    "v_images+": [
+     "Upon examination, scattered millet to soybean-sized dome-shaped pale red papules with some",
+     "This is an image showing skin lesions on the trunk, with multiple red patches covered with",
+     "Based on the description and appearance of the scattered purplish-red nodules with obvious",
+     "This is an image of skin lesions on the neck showing erythema, erosion, and crusting, cons"
+    ],
+    "v_images-": [
+     "Flake edematous erythema on the face, neck, and upper limbs, partially fused, with unclear",
+     "The skin lesions in these mice, with partial or complete whitening of the fur, are consist",
+     "The patient presents with generalized skin laxity, and considering the clinical manifestat"
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.103,
+    "cos_uv": 0.38,
+    "specificity": 0.017,
+    "own_mean": 0.022,
+    "own_sd": 0.06,
+    "coco_mean": 0.005,
+    "v_own+": [
+     [
+      "sunburn dermatitis",
+      0.079
+     ],
+     [
+      "sunburn",
+      0.073
+     ],
+     [
+      "the nipple",
+      0.07
+     ],
+     [
+      "white eyelashes",
+      0.065
+     ],
+     [
+      "tinea corporis",
+      0.062
+     ],
+     [
+      "a port-wine stain",
+      0.062
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an umpire",
+      0.063
+     ],
+     [
+      "the toilet",
+      0.057
+     ],
+     [
+      "a toilette",
+      0.052
+     ],
+     [
+      "a toilet",
+      0.05
+     ],
+     [
+      "a shirtless man",
+      0.046
+     ],
+     [
+      "tomato sauce",
+      0.044
+     ]
+    ],
+    "v_own-": [
+     [
+      "black dots",
+      0.088
+     ],
+     [
+      "the popliteal fossa",
+      0.08
+     ],
+     [
+      "the popliteal",
+      0.076
+     ],
+     [
+      "the anterior shin",
+      0.072
+     ],
+     [
+      "small pustules",
+      0.072
+     ],
+     [
+      "the lower leg",
+      0.071
+     ]
+    ],
+    "u_own+": [
+     [
+      "sunburn dermatitis",
+      0.154
+     ],
+     [
+      "neck erythema",
+      0.137
+     ],
+     [
+      "severe erythema multiforme drug eruption",
+      0.131
+     ],
+     [
+      "insect bite dermatitis",
+      0.129
+     ],
+     [
+      "acute dermatitis",
+      0.125
+     ],
+     [
+      "streaky erythema",
+      0.124
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red car",
+      0.067
+     ],
+     [
+      "the wild",
+      0.056
+     ],
+     [
+      "an umpire",
+      0.054
+     ],
+     [
+      "a red motorcycle",
+      0.054
+     ],
+     [
+      "a red fire",
+      0.053
+     ],
+     [
+      "a skateboard trick",
+      0.05
+     ]
+    ],
+    "u_own-": [
+     [
+      "multiple round nodules",
+      0.15
+     ],
+     [
+      "some nodules",
+      0.149
+     ],
+     [
+      "multiple blue-purple nodules",
+      0.143
+     ],
+     [
+      "the nodules",
+      0.142
+     ],
+     [
+      "skin-colored nodules",
+      0.141
+     ],
+     [
+      "nodules",
+      0.14
+     ]
+    ],
+    "u_coco-": [
+     [
+      "potatoes",
+      0.086
+     ],
+     [
+      "pears",
+      0.075
+     ],
+     [
+      "onions",
+      0.071
+     ],
+     [
+      "tomatoes",
+      0.066
+     ],
+     [
+      "some people",
+      0.065
+     ],
+     [
+      "their heads",
+      0.064
+     ]
+    ],
+    "v_images+": [
+     "This is an image of skin lesions on the trunk, showing edematous erythema, papules, and ve",
+     "This is a photo showing skin lesions on the anterior chest. There are symmetrical butterfl",
+     "This is a photo of perineal skin lesion, showing extensive erythema on labia majora and pe",
+     "Scleroderma is a rare chronic autoimmune disease characterized by fibrosis and hardening o"
+    ],
+    "v_images-": [
+     "Based on the appearance of the isolated purplish-red nodules with a rough surface on the u",
+     "There are keratotic papules on the back of the hand with the same color as the skin. Commo",
+     "This description suggests that the patient may have black papules with uniform color and w"
+    ]
+   },
+   {
+    "k": 3,
+    "s": 1.069,
+    "cos_uv": 0.41,
+    "specificity": 0.02,
+    "own_mean": 0.066,
+    "own_sd": 0.058,
+    "coco_mean": 0.046,
+    "v_own+": [
+     [
+      "hyperkeratosis",
+      0.118
+     ],
+     [
+      "sarcoptes scabiei mites",
+      0.109
+     ],
+     [
+      "common warts",
+      0.108
+     ],
+     [
+      "molluscum contagiosum",
+      0.106
+     ],
+     [
+      "clustered pustules",
+      0.105
+     ],
+     [
+      "clustered yellow pustules",
+      0.104
+     ]
+    ],
+    "v_coco+": [
+     [
+      "white sprinkles",
+      0.077
+     ],
+     [
+      "two young boys",
+      0.072
+     ],
+     [
+      "small children",
+      0.069
+     ],
+     [
+      "some children",
+      0.067
+     ],
+     [
+      "two pizzas",
+      0.065
+     ],
+     [
+      "young children",
+      0.064
+     ]
+    ],
+    "v_own-": [
+     [
+      "this chest photo",
+      0.068
+     ],
+     [
+      "chest",
+      0.066
+     ],
+     [
+      "the chest",
+      0.065
+     ],
+     [
+      "a dark red hemispherical nodule",
+      0.064
+     ],
+     [
+      "the areola",
+      0.058
+     ],
+     [
+      "the left breast",
+      0.058
+     ]
+    ],
+    "u_own+": [
+     [
+      "multiple lice",
+      0.099
+     ],
+     [
+      "both lower limbs",
+      0.097
+     ],
+     [
+      "lower limbs",
+      0.096
+     ],
+     [
+      "the lower limbs",
+      0.092
+     ],
+     [
+      "the patient's lower limbs",
+      0.091
+     ],
+     [
+      "feet",
+      0.09
+     ]
+    ],
+    "u_coco+": [
+     [
+      "hands",
+      0.07
+     ],
+     [
+      "white sprinkles",
+      0.067
+     ],
+     [
+      "some skis",
+      0.064
+     ],
+     [
+      "a yellow surfboard",
+      0.063
+     ],
+     [
+      "mustard",
+      0.061
+     ],
+     [
+      "skis",
+      0.059
+     ]
+    ],
+    "u_own-": [
+     [
+      "a single red nodule",
+      0.2
+     ],
+     [
+      "a smooth red nodule",
+      0.191
+     ],
+     [
+      "a bright red nodule",
+      0.189
+     ],
+     [
+      "a round, bright red nodule",
+      0.188
+     ],
+     [
+      "a dark red nodule",
+      0.183
+     ],
+     [
+      "a single dark red patch",
+      0.18
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red light",
+      0.105
+     ],
+     [
+      "a red stop sign",
+      0.102
+     ],
+     [
+      "a red apple",
+      0.102
+     ],
+     [
+      "a red tie",
+      0.081
+     ],
+     [
+      "a red shirt",
+      0.081
+     ],
+     [
+      "a red car",
+      0.076
+     ]
+    ],
+    "v_images+": [
+     "This is an image of skin lesions on both lower extremities, showing multiple papules and n",
+     "In this case, the multiple papules on the lower limbs with some surfaces scratched are hig",
+     "The photo shows diffuse, firm, brownish keratotic papules with fusion on the lower leg, ch",
+     "Based on the description and appearance of dense purple-red nodules on the lower leg, the "
+    ],
+    "v_images-": [
+     "The patient presents with patchy erythema, suggestive of conditions such as urticaria and ",
+     "Shoulder red patches may be caused by various skin conditions and further investigation is",
+     "There are papules on the cheeks with the same color as the skin, which could be indicative"
+    ]
+   },
+   {
+    "k": 4,
+    "s": 1.044,
+    "cos_uv": 0.37,
+    "specificity": 0.061,
+    "own_mean": 0.07,
+    "own_sd": 0.047,
+    "coco_mean": 0.01,
+    "v_own+": [
+     [
+      "the scapular region",
+      0.113
+     ],
+     [
+      "the shoulder and back area",
+      0.106
+     ],
+     [
+      "the patient's back",
+      0.102
+     ],
+     [
+      "elastic fibers",
+      0.096
+     ],
+     [
+      "the trunk showing scattered red papules",
+      0.096
+     ],
+     [
+      "collagen fibers",
+      0.095
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the back",
+      0.084
+     ],
+     [
+      "a yellow surfboard",
+      0.075
+     ],
+     [
+      "their backs",
+      0.071
+     ],
+     [
+      "yellow shirt",
+      0.069
+     ],
+     [
+      "a blue jacket",
+      0.069
+     ],
+     [
+      "tail",
+      0.068
+     ]
+    ],
+    "v_own-": [
+     [
+      "eye pain",
+      0.079
+     ],
+     [
+      "conjunctivitis",
+      0.063
+     ],
+     [
+      "insect bites",
+      0.057
+     ],
+     [
+      "eye inflammation",
+      0.056
+     ],
+     [
+      "the eyes",
+      0.054
+     ],
+     [
+      "dark brown",
+      0.053
+     ]
+    ],
+    "u_own+": [
+     [
+      "scalp hygiene",
+      0.11
+     ],
+     [
+      "several red papules",
+      0.104
+     ],
+     [
+      "sarcoptes scabiei mites",
+      0.102
+     ],
+     [
+      "follicular keratosis",
+      0.1
+     ],
+     [
+      "itchy papules",
+      0.099
+     ],
+     [
+      "seborrheic keratosis",
+      0.098
+     ]
+    ],
+    "u_coco+": [
+     [
+      "their backs",
+      0.064
+     ],
+     [
+      "parked motorcycles",
+      0.059
+     ],
+     [
+      "sinks",
+      0.053
+     ],
+     [
+      "the back",
+      0.052
+     ],
+     [
+      "tomato sauce",
+      0.05
+     ],
+     [
+      "cigarettes",
+      0.046
+     ]
+    ],
+    "u_own-": [
+     [
+      "the patient's lower limbs",
+      0.14
+     ],
+     [
+      "multiple purple-red nodules",
+      0.128
+     ],
+     [
+      "bilateral cheeks",
+      0.123
+     ],
+     [
+      "multiple purplish-red nodules",
+      0.118
+     ],
+     [
+      "dense purple-red nodules",
+      0.113
+     ],
+     [
+      "both lower limbs",
+      0.11
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a sad face",
+      0.087
+     ],
+     [
+      "a face",
+      0.083
+     ],
+     [
+      "his face",
+      0.076
+     ],
+     [
+      "a giraffe",
+      0.06
+     ],
+     [
+      "a single giraffe",
+      0.059
+     ],
+     [
+      "its mouth",
+      0.057
+     ]
+    ],
+    "v_images+": [
+     "This is a photo showing red patches on the chest with scattered scales, clear borders, con",
+     "Without sufficient information from this image, a precise diagnosis cannot be made. Furthe",
+     "The patient presents with keratotic papules that are slightly lighter in color than the su",
+     "Actinic keratosis is a common chronic skin disease caused by prolonged sun exposure. It ty"
+    ],
+    "v_images-": [
+     "This is a photo of facial skin lesion showing large patches of purple-red discoloration wi",
+     "This is a photo of the upper limb. The photo shows scattered round erythema with some vesi",
+     "A port-wine stain is a common vascular skin lesion that typically appears as deep red or p"
+    ]
+   },
+   {
+    "k": 5,
+    "s": 1.021,
+    "cos_uv": 0.33,
+    "specificity": 0.037,
+    "own_mean": 0.037,
+    "own_sd": 0.053,
+    "coco_mean": 0.0,
+    "v_own+": [
+     [
+      "a light brown, flat, irregularly shaped patch",
+      0.074
+     ],
+     [
+      "a pale red patch",
+      0.073
+     ],
+     [
+      "red and pale white streaks",
+      0.066
+     ],
+     [
+      "detachment",
+      0.063
+     ],
+     [
+      "a pale red nodule",
+      0.061
+     ],
+     [
+      "a light brown patch",
+      0.057
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an orange and white cat",
+      0.117
+     ],
+     [
+      "an orange cat",
+      0.078
+     ],
+     [
+      "an orange frisbee",
+      0.057
+     ],
+     [
+      "two young boys",
+      0.043
+     ],
+     [
+      "a calico cat",
+      0.042
+     ],
+     [
+      "four men",
+      0.038
+     ]
+    ],
+    "v_own-": [
+     [
+      "the patient's fingers",
+      0.096
+     ],
+     [
+      "the patient's forearm",
+      0.091
+     ],
+     [
+      "black crusts",
+      0.091
+     ],
+     [
+      "the trunk showing scattered red papules",
+      0.086
+     ],
+     [
+      "scattered purple-red papules",
+      0.086
+     ],
+     [
+      "the black papules",
+      0.084
+     ]
+    ],
+    "u_own+": [
+     [
+      "a light yellow center",
+      0.145
+     ],
+     [
+      "a yellow-white color",
+      0.12
+     ],
+     [
+      "a light yellow color",
+      0.116
+     ],
+     [
+      "a pale yellow color",
+      0.112
+     ],
+     [
+      "pale yellow",
+      0.097
+     ],
+     [
+      "red and pale white streaks",
+      0.091
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a yellow surfboard",
+      0.13
+     ],
+     [
+      "a yellow bus",
+      0.121
+     ],
+     [
+      "an orange and white cat",
+      0.094
+     ],
+     [
+      "yellow shirt",
+      0.079
+     ],
+     [
+      "an egg",
+      0.076
+     ],
+     [
+      "a public transit bus",
+      0.072
+     ]
+    ],
+    "u_own-": [
+     [
+      "scattered black spots",
+      0.153
+     ],
+     [
+      "melanocytic nevus",
+      0.151
+     ],
+     [
+      "black crusts",
+      0.147
+     ],
+     [
+      "black scabs",
+      0.147
+     ],
+     [
+      "purple-black papules",
+      0.147
+     ],
+     [
+      "black papules",
+      0.146
+     ]
+    ],
+    "u_coco-": [
+     [
+      "her arms",
+      0.097
+     ],
+     [
+      "the arm",
+      0.081
+     ],
+     [
+      "hands",
+      0.078
+     ],
+     [
+      "each hand",
+      0.077
+     ],
+     [
+      "his hands",
+      0.074
+     ],
+     [
+      "their hands",
+      0.072
+     ]
+    ],
+    "v_images+": [
+     "This photo shows congestion and swelling on the upper lip with some desquamation, which is",
+     "Based on the description, the photo shows light yellow verrucous patches with clear border",
+     "This is a typical presentation of skin calcinosis, which is usually caused by abnormal met",
+     "This is a photo of the hip and thigh showing multiple streak-like dark red patches and thi"
+    ],
+    "v_images-": [
+     "Multiple irregularly shaped black pigmented spots of different sizes are present on both h",
+     "The dark red nodules on the back of the hand with central ulceration and scab formation re",
+     "The skin lesion presents as red-brown patches with clear and regular borders, considering "
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.971,
+    "cos_uv": 0.34,
+    "specificity": 0.038,
+    "own_mean": -0.001,
+    "own_sd": 0.065,
+    "coco_mean": -0.039,
+    "v_own+": [
+     [
+      "a bright red patch",
+      0.121
+     ],
+     [
+      "a round red patch",
+      0.118
+     ],
+     [
+      "a circular red patch",
+      0.106
+     ],
+     [
+      "a round, bright red nodule",
+      0.104
+     ],
+     [
+      "a dark red patch",
+      0.102
+     ],
+     [
+      "a single dark red patch",
+      0.1
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red fire hydrant",
+      0.064
+     ],
+     [
+      "a red umbrella",
+      0.064
+     ],
+     [
+      "a red couch",
+      0.054
+     ],
+     [
+      "a red and white boat",
+      0.051
+     ],
+     [
+      "a red light",
+      0.05
+     ],
+     [
+      "a red chair",
+      0.05
+     ]
+    ],
+    "v_own-": [
+     [
+      "vitiligo",
+      0.156
+     ],
+     [
+      "a congenital melanocytic nevus",
+      0.099
+     ],
+     [
+      "brownish patches",
+      0.096
+     ],
+     [
+      "pityriasis versicolor",
+      0.095
+     ],
+     [
+      "brown patches",
+      0.091
+     ],
+     [
+      "melanosis",
+      0.091
+     ]
+    ],
+    "u_own+": [
+     [
+      "pyogenic granuloma",
+      0.159
+     ],
+     [
+      "a pyogenic granuloma",
+      0.157
+     ],
+     [
+      "oral ulcers",
+      0.154
+     ],
+     [
+      "annular granuloma",
+      0.153
+     ],
+     [
+      "a bright red nodule",
+      0.15
+     ],
+     [
+      "a round, bright red nodule",
+      0.146
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red and white boat",
+      0.11
+     ],
+     [
+      "tomato sauce",
+      0.11
+     ],
+     [
+      "a red apple",
+      0.101
+     ],
+     [
+      "a red train",
+      0.1
+     ],
+     [
+      "a red couch",
+      0.098
+     ],
+     [
+      "a red motorcycle",
+      0.095
+     ]
+    ],
+    "u_own-": [
+     [
+      "irregular brown patches",
+      0.137
+     ],
+     [
+      "blue-gray or brown patches",
+      0.135
+     ],
+     [
+      "dark brown or black patches",
+      0.134
+     ],
+     [
+      "dark brown patches",
+      0.133
+     ],
+     [
+      "reddish-brown patches",
+      0.129
+     ],
+     [
+      "possibly a melanocytic nevus",
+      0.126
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a brown teddy",
+      0.1
+     ],
+     [
+      "a brown bird",
+      0.077
+     ],
+     [
+      "a brown teddy bear",
+      0.073
+     ],
+     [
+      "a brown bear",
+      0.071
+     ],
+     [
+      "a large brown dog",
+      0.07
+     ],
+     [
+      "tail",
+      0.07
+     ]
+    ],
+    "v_images+": [
+     "Basal cell carcinoma is diagnosed based on the observation of brownish patches, central de",
+     "The patient presents with a red, pea-sized, dome-shaped nodule on the skin with surface ul",
+     "Based on the described clinical presentation of dome-shaped red papules the size of quail ",
+     "This is a picture showing a light red patch with central ulceration and erosion on the for"
+    ],
+    "v_images-": [
+     "This is a photo of a skin lesion on the shoulder. It shows large dark brown patches, rough",
+     "According to the features of the lesions shown in the photo of the female back, it could b",
+     "The patient presents with scattered brown patches of varying sizes and shapes on the trunk"
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.96,
+    "cos_uv": 0.22,
+    "specificity": 0.013,
+    "own_mean": -0.027,
+    "own_sd": 0.073,
+    "coco_mean": -0.04,
+    "v_own+": [
+     [
+      "armpits",
+      0.145
+     ],
+     [
+      "breasts",
+      0.135
+     ],
+     [
+      "pityriasis versicolor",
+      0.129
+     ],
+     [
+      "the chest skin",
+      0.124
+     ],
+     [
+      "excessive sweating",
+      0.122
+     ],
+     [
+      "stretch marks",
+      0.12
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a zebra grazing",
+      0.084
+     ],
+     [
+      "a black and white cow",
+      0.082
+     ],
+     [
+      "zebra standing",
+      0.078
+     ],
+     [
+      "a shirtless man",
+      0.077
+     ],
+     [
+      "white shorts",
+      0.073
+     ],
+     [
+      "her arms",
+      0.072
+     ]
+    ],
+    "v_own-": [
+     [
+      "the patient's feet",
+      0.071
+     ],
+     [
+      "wound care",
+      0.068
+     ],
+     [
+      "a louse",
+      0.062
+     ],
+     [
+      "local wound care",
+      0.06
+     ],
+     [
+      "blood scabs",
+      0.059
+     ],
+     [
+      "a hemangioma",
+      0.056
+     ]
+    ],
+    "u_own+": [
+     [
+      "bilateral upper limbs",
+      0.212
+     ],
+     [
+      "upper limbs",
+      0.183
+     ],
+     [
+      "the patient's forearm",
+      0.179
+     ],
+     [
+      "the scapular region",
+      0.179
+     ],
+     [
+      "axillae",
+      0.177
+     ],
+     [
+      "the axillary region",
+      0.173
+     ]
+    ],
+    "u_coco+": [
+     [
+      "her arms",
+      0.148
+     ],
+     [
+      "their backs",
+      0.137
+     ],
+     [
+      "the arm",
+      0.134
+     ],
+     [
+      "her shoulder",
+      0.128
+     ],
+     [
+      "a tree branch",
+      0.122
+     ],
+     [
+      "a tie",
+      0.121
+     ]
+    ],
+    "u_own-": [
+     [
+      "the toe area",
+      0.05
+     ],
+     [
+      "the big toe",
+      0.039
+     ],
+     [
+      "the toenail",
+      0.031
+     ],
+     [
+      "the toe",
+      0.026
+     ],
+     [
+      "the left foot",
+      0.025
+     ],
+     [
+      "the toenails",
+      0.025
+     ]
+    ],
+    "u_coco-": [
+     [
+      "head",
+      0.011
+     ],
+     [
+      "shoes",
+      0.003
+     ],
+     [
+      "front",
+      0.001
+     ],
+     [
+      "it's head",
+      -0.001
+     ],
+     [
+      "the front",
+      -0.002
+     ],
+     [
+      "the steps",
+      -0.005
+     ]
+    ],
+    "v_images+": [
+     "On the skin surface, pinpoint-sized follicular white papules with homomorphic reaction can",
+     "This is a photo of a skin lesion on the right chest. It shows mildly keratotic pigmented p",
+     "This presentation of skin lesions as purple-red, firm patches with clear borders and smoot",
+     "The patient's oral mucosa shows diffuse thickening with a mossy appearance, consistent wit"
+    ],
+    "v_images-": [
+     "The patient presents with smooth-surfaced, 3mm in diameter, semi-spherical papules on the ",
+     "The patient presents with red superficial ulcers at the distal extremities and disappearan",
+     "The cornified nodules on the inner side of the toe are consistent with the clinical featur"
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.921,
+    "cos_uv": -0.01,
+    "specificity": 0.029,
+    "own_mean": 0.009,
+    "own_sd": 0.072,
+    "coco_mean": -0.021,
+    "v_own+": [
+     [
+      "skin tags",
+      0.12
+     ],
+     [
+      "a skin tag",
+      0.117
+     ],
+     [
+      "skin tag",
+      0.114
+     ],
+     [
+      "dermatofibroma",
+      0.093
+     ],
+     [
+      "thin white scales",
+      0.082
+     ],
+     [
+      "the popliteal fossa",
+      0.08
+     ]
+    ],
+    "v_coco+": [
+     [
+      "white shorts",
+      0.087
+     ],
+     [
+      "his lap",
+      0.068
+     ],
+     [
+      "black shorts",
+      0.058
+     ],
+     [
+      "yellow shirt",
+      0.058
+     ],
+     [
+      "shorts",
+      0.051
+     ],
+     [
+      "three windows",
+      0.048
+     ]
+    ],
+    "v_own-": [
+     [
+      "breakdown",
+      0.084
+     ],
+     [
+      "fluid",
+      0.075
+     ],
+     [
+      "destruction",
+      0.073
+     ],
+     [
+      "discharge",
+      0.068
+     ],
+     [
+      "type",
+      0.065
+     ],
+     [
+      "severe damage",
+      0.065
+     ]
+    ],
+    "u_own+": [
+     [
+      "yellow-red scaly patches",
+      0.203
+     ],
+     [
+      "red scaly patches",
+      0.195
+     ],
+     [
+      "pityriasis rosea",
+      0.188
+     ],
+     [
+      "red and pale white streaks",
+      0.185
+     ],
+     [
+      "scattered pale red papules",
+      0.185
+     ],
+     [
+      "erythematous scaly diseases",
+      0.183
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red light",
+      0.136
+     ],
+     [
+      "a red train",
+      0.135
+     ],
+     [
+      "red shirt",
+      0.132
+     ],
+     [
+      "a red and white boat",
+      0.13
+     ],
+     [
+      "a red car",
+      0.125
+     ],
+     [
+      "a red fire",
+      0.122
+     ]
+    ],
+    "u_own-": [
+     [
+      "a tick",
+      0.059
+     ],
+     [
+      "the toe",
+      0.052
+     ],
+     [
+      "a toe",
+      0.051
+     ],
+     [
+      "a melanoma",
+      0.049
+     ],
+     [
+      "the toenail",
+      0.046
+     ],
+     [
+      "a finger",
+      0.044
+     ]
+    ],
+    "u_coco-": [
+     [
+      "directions",
+      0.021
+     ],
+     [
+      "a glove",
+      0.018
+     ],
+     [
+      "an apple",
+      0.016
+     ],
+     [
+      "a ball",
+      0.015
+     ],
+     [
+      "a video game controller",
+      0.014
+     ],
+     [
+      "a game controller",
+      0.012
+     ]
+    ],
+    "v_images+": [
+     "The patient presents with skin lesions characterized by red patches covered with thick whi",
+     "On the trunk, there are skin-colored papules without hair, suggesting a possible diagnosis",
+     "This picture shows scattered black-brown raised lesions with prominent surface keratinizat",
+     "The multiple gray-brown papules with clear borders and rough surfaces seen in the image ar"
+    ],
+    "v_images-": [
+     "This is a picture of skin lesions on the face, showing multiple lice and nits at the root ",
+     "This is a photo of facial skin lesions showing edematous erythema and vesicles distributed",
+     "Based on the image showing edematous infiltrated erythema on the nasal skin with dilated c"
+    ]
+   }
+  ]
+ },
+ "set/Wt": {
+  "frob": 4.641,
+  "energy_top8": 0.36,
+  "energy_top16": 0.528,
+  "top_s": [
+   1.411,
+   1.019,
+   0.987,
+   0.943,
+   0.885,
+   0.856,
+   0.839,
+   0.794,
+   0.779,
+   0.718,
+   0.71,
+   0.67,
+   0.646,
+   0.632,
+   0.614,
+   0.596
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.411,
+    "cos_uv": -0.52,
+    "specificity": 0.394,
+    "own_mean": 0.515,
+    "own_sd": 0.055,
+    "coco_mean": 0.12,
+    "v_own+": [
+     [
+      "symmetrically distributed erythematous plaques",
+      0.441
+     ],
+     [
+      "multiple annular erythematous patches",
+      0.437
+     ],
+     [
+      "multiple erythematous papules",
+      0.433
+     ],
+     [
+      "severe erythema multiforme drug eruption",
+      0.432
+     ],
+     [
+      "a pale red nodular lesion",
+      0.424
+     ],
+     [
+      "clearly demarcated erythematous patches",
+      0.423
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a female tennis player",
+      0.146
+     ],
+     [
+      "a video game controller",
+      0.143
+     ],
+     [
+      "a tennis court playing tennis",
+      0.142
+     ],
+     [
+      "a nintendo wii game controller",
+      0.142
+     ],
+     [
+      "two tennis players",
+      0.142
+     ],
+     [
+      "a computer keyboard",
+      0.141
+     ]
+    ],
+    "v_own-": [
+     [
+      "line",
+      -0.033
+     ],
+     [
+      "any part",
+      -0.037
+     ],
+     [
+      "the palm",
+      -0.039
+     ],
+     [
+      "breakdown",
+      -0.041
+     ],
+     [
+      "growths",
+      -0.041
+     ],
+     [
+      "warmth",
+      -0.042
+     ]
+    ],
+    "u_own+": [
+     [
+      "the tick",
+      -0.563
+     ],
+     [
+      "pinhead",
+      -0.566
+     ],
+     [
+      "arms",
+      -0.594
+     ],
+     [
+      "macules",
+      -0.615
+     ],
+     [
+      "excision",
+      -0.631
+     ],
+     [
+      "front",
+      -0.634
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      -0.548
+     ],
+     [
+      "a green and white bus",
+      -0.584
+     ],
+     [
+      "a green street sign",
+      -0.591
+     ],
+     [
+      "a green motorcycle",
+      -0.609
+     ],
+     [
+      "a vehicle",
+      -0.614
+     ],
+     [
+      "four men",
+      -0.614
+     ]
+    ],
+    "u_own-": [
+     [
+      "a chronic, recurrent inflammatory skin condition",
+      0.902
+     ],
+     [
+      "a chronic, recurrent inflammatory skin disease",
+      0.9
+     ],
+     [
+      "a chronic, recurrent skin disease",
+      0.896
+     ],
+     [
+      "a chronic and recurrent inflammatory skin condition",
+      0.893
+     ],
+     [
+      "a chronic recurrent inflammatory skin disease",
+      0.892
+     ],
+     [
+      "a chronic, recurrent skin condition",
+      0.891
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a kitten",
+      0.762
+     ],
+     [
+      "an image",
+      0.762
+     ],
+     [
+      "a young child",
+      0.761
+     ],
+     [
+      "a device",
+      0.761
+     ],
+     [
+      "a male tennis player",
+      0.761
+     ],
+     [
+      "a wedding cake",
+      0.76
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.019,
+    "cos_uv": 0.28,
+    "specificity": 0.007,
+    "own_mean": -0.021,
+    "own_sd": 0.028,
+    "coco_mean": -0.027,
+    "v_own+": [
+     [
+      "skin tone",
+      0.088
+     ],
+     [
+      "papule",
+      0.067
+     ],
+     [
+      "nodule",
+      0.066
+     ],
+     [
+      "macule",
+      0.066
+     ],
+     [
+      "pustule",
+      0.06
+     ],
+     [
+      "bulla",
+      0.058
+     ]
+    ],
+    "v_coco+": [
+     [
+      "tomato sauce",
+      0.064
+     ],
+     [
+      "unripe bananas",
+      0.063
+     ],
+     [
+      "some trees",
+      0.054
+     ],
+     [
+      "some wood",
+      0.049
+     ],
+     [
+      "onions",
+      0.045
+     ],
+     [
+      "a banana tree",
+      0.044
+     ]
+    ],
+    "v_own-": [
+     [
+      "multiple purple-red patches",
+      0.095
+     ],
+     [
+      "large purple-red patches",
+      0.093
+     ],
+     [
+      "a chronic autoimmune disease",
+      0.091
+     ],
+     [
+      "a common chronic autoimmune disease",
+      0.09
+     ],
+     [
+      "this autoimmune disease",
+      0.089
+     ],
+     [
+      "various-sized purple-red patches",
+      0.086
+     ]
+    ],
+    "u_own+": [
+     [
+      "skin tags",
+      0.181
+     ],
+     [
+      "a skin tag",
+      0.175
+     ],
+     [
+      "skin tag",
+      0.171
+     ],
+     [
+      "molluscum contagiosum",
+      0.162
+     ],
+     [
+      "several centimeters",
+      0.155
+     ],
+     [
+      "skin biopsy",
+      0.153
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a pen",
+      0.097
+     ],
+     [
+      "directions",
+      0.096
+     ],
+     [
+      "a slope",
+      0.087
+     ],
+     [
+      "a ribbon",
+      0.086
+     ],
+     [
+      "an object",
+      0.083
+     ],
+     [
+      "a clock",
+      0.082
+     ]
+    ],
+    "u_own-": [
+     [
+      "severe erythema multiforme drug eruption",
+      0.061
+     ],
+     [
+      "dyshidrotic eczema",
+      0.057
+     ],
+     [
+      "eye inflammation",
+      0.049
+     ],
+     [
+      "dark red crusts",
+      0.048
+     ],
+     [
+      "impaired blood circulation",
+      0.048
+     ],
+     [
+      "oozing",
+      0.046
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a wet road",
+      0.024
+     ],
+     [
+      "a black and white photograph",
+      0.023
+     ],
+     [
+      "a red and white boat",
+      0.021
+     ],
+     [
+      "a zebra grazing",
+      0.021
+     ],
+     [
+      "a black and white cow",
+      0.019
+     ],
+     [
+      "a leaf filled tree",
+      0.017
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.987,
+    "cos_uv": 0.46,
+    "specificity": 0.0,
+    "own_mean": 0.013,
+    "own_sd": 0.035,
+    "coco_mean": 0.013,
+    "v_own+": [
+     [
+      "multiple purple-red patches",
+      0.084
+     ],
+     [
+      "large purple-red patches",
+      0.084
+     ],
+     [
+      "nodular sclerosis",
+      0.083
+     ],
+     [
+      "multiple purplish-red nodules",
+      0.079
+     ],
+     [
+      "brucellosis",
+      0.078
+     ],
+     [
+      "multiple purple-red nodules",
+      0.077
+     ]
+    ],
+    "v_coco+": [
+     [
+      "graffiti",
+      0.063
+     ],
+     [
+      "sheep",
+      0.054
+     ],
+     [
+      "cheese",
+      0.052
+     ],
+     [
+      "ties",
+      0.051
+     ],
+     [
+      "pillows",
+      0.05
+     ],
+     [
+      "jars",
+      0.05
+     ]
+    ],
+    "v_own-": [
+     [
+      "the toe area",
+      0.161
+     ],
+     [
+      "the toe",
+      0.154
+     ],
+     [
+      "the big toe",
+      0.151
+     ],
+     [
+      "the toes",
+      0.15
+     ],
+     [
+      "the toenail",
+      0.147
+     ],
+     [
+      "the toenails",
+      0.143
+     ]
+    ],
+    "u_own+": [
+     [
+      "sunburn dermatitis",
+      0.088
+     ],
+     [
+      "pityriasis versicolor",
+      0.088
+     ],
+     [
+      "pityriasis rosea",
+      0.083
+     ],
+     [
+      "sunburn",
+      0.078
+     ],
+     [
+      "follicular red pityriasis",
+      0.078
+     ],
+     [
+      "skin rash",
+      0.077
+     ]
+    ],
+    "u_coco+": [
+     [
+      "their backs",
+      0.03
+     ],
+     [
+      "the back",
+      0.018
+     ],
+     [
+      "a shirtless man",
+      0.009
+     ],
+     [
+      "red shirt",
+      0.001
+     ],
+     [
+      "her shoulder",
+      -0.0
+     ],
+     [
+      "a body",
+      -0.004
+     ]
+    ],
+    "u_own-": [
+     [
+      "the toenail",
+      0.222
+     ],
+     [
+      "the metatarsophalangeal joint",
+      0.208
+     ],
+     [
+      "fingertip ulcers",
+      0.202
+     ],
+     [
+      "the toe",
+      0.198
+     ],
+     [
+      "the toenails",
+      0.197
+     ],
+     [
+      "a common nail disease",
+      0.197
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a glove",
+      0.152
+     ],
+     [
+      "a skateboard trick",
+      0.127
+     ],
+     [
+      "shoes",
+      0.127
+     ],
+     [
+      "a ring",
+      0.113
+     ],
+     [
+      "skateboard tricks",
+      0.112
+     ],
+     [
+      "a hand",
+      0.107
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.943,
+    "cos_uv": 0.37,
+    "specificity": 0.03,
+    "own_mean": -0.019,
+    "own_sd": 0.028,
+    "coco_mean": -0.049,
+    "v_own+": [
+     [
+      "necrotic crusts",
+      0.08
+     ],
+     [
+      "extensive erosion",
+      0.074
+     ],
+     [
+      "exudative crusts",
+      0.072
+     ],
+     [
+      "the edge",
+      0.072
+     ],
+     [
+      "central erosion",
+      0.071
+     ],
+     [
+      "surface erosion",
+      0.068
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the edge",
+      0.072
+     ],
+     [
+      "corner",
+      0.062
+     ],
+     [
+      "country",
+      0.055
+     ],
+     [
+      "gold",
+      0.052
+     ],
+     [
+      "shore",
+      0.048
+     ],
+     [
+      "dirt",
+      0.047
+     ]
+    ],
+    "v_own-": [
+     [
+      "the patient's trunk",
+      0.099
+     ],
+     [
+      "the offending medication",
+      0.097
+     ],
+     [
+      "enough clinical information",
+      0.094
+     ],
+     [
+      "a thorough medical history",
+      0.093
+     ],
+     [
+      "a slight bulge",
+      0.089
+     ],
+     [
+      "medical history taking",
+      0.089
+     ]
+    ],
+    "u_own+": [
+     [
+      "blood scabs",
+      0.126
+     ],
+     [
+      "surface ulceration",
+      0.124
+     ],
+     [
+      "skin ulcer",
+      0.121
+     ],
+     [
+      "skin ulceration",
+      0.12
+     ],
+     [
+      "a skin ulcer",
+      0.11
+     ],
+     [
+      "ulceration",
+      0.106
+     ]
+    ],
+    "u_coco+": [
+     [
+      "slices",
+      0.028
+     ],
+     [
+      "a glove",
+      0.025
+     ],
+     [
+      "a patch",
+      0.023
+     ],
+     [
+      "a slice",
+      0.019
+     ],
+     [
+      "donut",
+      0.017
+     ],
+     [
+      "the edge",
+      0.017
+     ]
+    ],
+    "u_own-": [
+     [
+      "both cheeks",
+      0.144
+     ],
+     [
+      "the nostrils",
+      0.143
+     ],
+     [
+      "the nasal wings",
+      0.135
+     ],
+     [
+      "the trunk, neck",
+      0.132
+     ],
+     [
+      "the nose area",
+      0.13
+     ],
+     [
+      "the upper and lower lips",
+      0.129
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the neck",
+      0.102
+     ],
+     [
+      "a green shirt",
+      0.098
+     ],
+     [
+      "a row",
+      0.098
+     ],
+     [
+      "a blue shirt",
+      0.098
+     ],
+     [
+      "a boy",
+      0.095
+     ],
+     [
+      "a face",
+      0.094
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.885,
+    "cos_uv": 0.41,
+    "specificity": 0.011,
+    "own_mean": -0.006,
+    "own_sd": 0.036,
+    "coco_mean": -0.016,
+    "v_own+": [
+     [
+      "both lower limbs",
+      0.161
+     ],
+     [
+      "lower limbs",
+      0.152
+     ],
+     [
+      "the patient's lower limbs",
+      0.143
+     ],
+     [
+      "both upper limbs",
+      0.143
+     ],
+     [
+      "both lower legs",
+      0.135
+     ],
+     [
+      "the lower limbs",
+      0.131
+     ]
+    ],
+    "v_coco+": [
+     [
+      "some skis",
+      0.067
+     ],
+     [
+      "skis",
+      0.064
+     ],
+     [
+      "a black umbrella",
+      0.06
+     ],
+     [
+      "two glasses",
+      0.06
+     ],
+     [
+      "a spoon",
+      0.056
+     ],
+     [
+      "hands",
+      0.056
+     ]
+    ],
+    "v_own-": [
+     [
+      "a basal cell carcinoma",
+      0.136
+     ],
+     [
+      "cystic basal cell carcinoma",
+      0.116
+     ],
+     [
+      "basal cell carcinoma",
+      0.115
+     ],
+     [
+      "a sebaceous cyst",
+      0.112
+     ],
+     [
+      "the red patch",
+      0.109
+     ],
+     [
+      "a bright red patch",
+      0.106
+     ]
+    ],
+    "u_own+": [
+     [
+      "the patient's lower limbs",
+      0.185
+     ],
+     [
+      "lower limbs",
+      0.171
+     ],
+     [
+      "both lower limbs",
+      0.169
+     ],
+     [
+      "both forearms",
+      0.162
+     ],
+     [
+      "forearms",
+      0.162
+     ],
+     [
+      "wrists",
+      0.16
+     ]
+    ],
+    "u_coco+": [
+     [
+      "her arms",
+      0.12
+     ],
+     [
+      "hands",
+      0.117
+     ],
+     [
+      "black shorts",
+      0.102
+     ],
+     [
+      "his hands",
+      0.101
+     ],
+     [
+      "each hand",
+      0.099
+     ],
+     [
+      "their hands",
+      0.093
+     ]
+    ],
+    "u_own-": [
+     [
+      "oral squamous cell carcinoma",
+      0.108
+     ],
+     [
+      "a basal cell carcinoma",
+      0.105
+     ],
+     [
+      "nodular basal cell carcinoma",
+      0.098
+     ],
+     [
+      "situ squamous cell carcinoma",
+      0.091
+     ],
+     [
+      "possible squamous cell carcinoma",
+      0.09
+     ],
+     [
+      "cystic basal cell carcinoma",
+      0.083
+     ]
+    ],
+    "u_coco-": [
+     [
+      "his head",
+      0.068
+     ],
+     [
+      "a helmet",
+      0.062
+     ],
+     [
+      "her head",
+      0.062
+     ],
+     [
+      "head",
+      0.06
+     ],
+     [
+      "a patch",
+      0.058
+     ],
+     [
+      "it's head",
+      0.054
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.856,
+    "cos_uv": 0.35,
+    "specificity": 0.008,
+    "own_mean": -0.008,
+    "own_sd": 0.031,
+    "coco_mean": -0.016,
+    "v_own+": [
+     [
+      "dark red crusts",
+      0.121
+     ],
+     [
+      "black crusts",
+      0.114
+     ],
+     [
+      "the dark red patches",
+      0.091
+     ],
+     [
+      "skin tone",
+      0.09
+     ],
+     [
+      "dark brown or black patches",
+      0.089
+     ],
+     [
+      "dark brown patches",
+      0.087
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a large brown dog",
+      0.085
+     ],
+     [
+      "a brown dog",
+      0.076
+     ],
+     [
+      "a metallic refrigerator freezer",
+      0.073
+     ],
+     [
+      "their trunks",
+      0.072
+     ],
+     [
+      "a brown cow",
+      0.07
+     ],
+     [
+      "two brown bears",
+      0.069
+     ]
+    ],
+    "v_own-": [
+     [
+      "the patient's forehead",
+      0.11
+     ],
+     [
+      "the metatarsophalangeal joint",
+      0.099
+     ],
+     [
+      "the palm",
+      0.092
+     ],
+     [
+      "the patient's clinical presentation",
+      0.089
+     ],
+     [
+      "a possible granuloma",
+      0.088
+     ],
+     [
+      "the patient's clinical symptoms",
+      0.085
+     ]
+    ],
+    "u_own+": [
+     [
+      "bilateral upper limbs",
+      0.105
+     ],
+     [
+      "chest",
+      0.1
+     ],
+     [
+      "the patient's lower limbs",
+      0.1
+     ],
+     [
+      "this chest photo",
+      0.1
+     ],
+     [
+      "the axillary region",
+      0.096
+     ],
+     [
+      "the anterior chest",
+      0.095
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a shirtless man",
+      0.067
+     ],
+     [
+      "a metallic refrigerator freezer",
+      0.059
+     ],
+     [
+      "a white refrigerator freezer",
+      0.058
+     ],
+     [
+      "her arms",
+      0.057
+     ],
+     [
+      "an open refrigerator",
+      0.052
+     ],
+     [
+      "a brown teddy",
+      0.052
+     ]
+    ],
+    "u_own-": [
+     [
+      "psoriatic nail disease",
+      0.14
+     ],
+     [
+      "the fingernail",
+      0.135
+     ],
+     [
+      "a common nail disease",
+      0.132
+     ],
+     [
+      "paronychia",
+      0.131
+     ],
+     [
+      "a nail disease",
+      0.13
+     ],
+     [
+      "psoriatic nail",
+      0.128
+     ]
+    ],
+    "u_coco-": [
+     [
+      "it's head",
+      0.077
+     ],
+     [
+      "its head",
+      0.076
+     ],
+     [
+      "hand",
+      0.074
+     ],
+     [
+      "a glove",
+      0.073
+     ],
+     [
+      "hands",
+      0.07
+     ],
+     [
+      "his hand",
+      0.069
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.839,
+    "cos_uv": 0.33,
+    "specificity": 0.015,
+    "own_mean": 0.013,
+    "own_sd": 0.031,
+    "coco_mean": -0.002,
+    "v_own+": [
+     [
+      "nodule",
+      0.077
+     ],
+     [
+      "the coronal sulcus",
+      0.076
+     ],
+     [
+      "the patient's cheeks",
+      0.076
+     ],
+     [
+      "papule, pustule, erythema",
+      0.075
+     ],
+     [
+      "papule",
+      0.075
+     ],
+     [
+      "the patient's face",
+      0.075
+     ]
+    ],
+    "v_coco+": [
+     [
+      "their heads",
+      0.065
+     ],
+     [
+      "a toddler",
+      0.064
+     ],
+     [
+      "head",
+      0.063
+     ],
+     [
+      "it's head",
+      0.062
+     ],
+     [
+      "a photograph",
+      0.059
+     ],
+     [
+      "its head",
+      0.059
+     ]
+    ],
+    "v_own-": [
+     [
+      "a skin tag",
+      0.119
+     ],
+     [
+      "skin tags",
+      0.117
+     ],
+     [
+      "mild lichenification",
+      0.113
+     ],
+     [
+      "skin allergy tests",
+      0.11
+     ],
+     [
+      "skin tag",
+      0.107
+     ],
+     [
+      "a dark brown patch",
+      0.105
+     ]
+    ],
+    "u_own+": [
+     [
+      "several red papules",
+      0.15
+     ],
+     [
+      "several dark red papules",
+      0.148
+     ],
+     [
+      "the multiple red papules",
+      0.137
+     ],
+     [
+      "facial papules",
+      0.136
+     ],
+     [
+      "the scattered red papules",
+      0.135
+     ],
+     [
+      "typical acne vulgaris",
+      0.133
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a face",
+      0.067
+     ],
+     [
+      "their heads",
+      0.06
+     ],
+     [
+      "his face",
+      0.049
+     ],
+     [
+      "a pile",
+      0.046
+     ],
+     [
+      "head",
+      0.045
+     ],
+     [
+      "a sad face",
+      0.044
+     ]
+    ],
+    "u_own-": [
+     [
+      "joint hypermobility",
+      0.123
+     ],
+     [
+      "a penis",
+      0.122
+     ],
+     [
+      "the foreskin",
+      0.121
+     ],
+     [
+      "the glans penis",
+      0.12
+     ],
+     [
+      "the upper limb",
+      0.118
+     ],
+     [
+      "the penile foreskin",
+      0.116
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a glove",
+      0.102
+     ],
+     [
+      "hand",
+      0.097
+     ],
+     [
+      "his hand",
+      0.097
+     ],
+     [
+      "one hand",
+      0.096
+     ],
+     [
+      "a hand",
+      0.095
+     ],
+     [
+      "her hand",
+      0.095
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.794,
+    "cos_uv": 0.36,
+    "specificity": 0.01,
+    "own_mean": 0.014,
+    "own_sd": 0.039,
+    "coco_mean": 0.004,
+    "v_own+": [
+     [
+      "a single pale red nodule",
+      0.125
+     ],
+     [
+      "a circular red patch",
+      0.121
+     ],
+     [
+      "a round, bright red nodule",
+      0.12
+     ],
+     [
+      "large circular red patches",
+      0.11
+     ],
+     [
+      "a smooth red nodule",
+      0.108
+     ],
+     [
+      "a round red patch",
+      0.108
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red light",
+      0.066
+     ],
+     [
+      "a red stop sign",
+      0.065
+     ],
+     [
+      "a very tall clock tower",
+      0.062
+     ],
+     [
+      "the big ben clock tower",
+      0.062
+     ],
+     [
+      "an orange frisbee",
+      0.062
+     ],
+     [
+      "a stop sign",
+      0.058
+     ]
+    ],
+    "v_own-": [
+     [
+      "black scabs",
+      0.116
+     ],
+     [
+      "black crusts",
+      0.115
+     ],
+     [
+      "scalp hygiene",
+      0.112
+     ],
+     [
+      "scalp",
+      0.104
+     ],
+     [
+      "the scalp",
+      0.097
+     ],
+     [
+      "blood crusts",
+      0.096
+     ]
+    ],
+    "u_own+": [
+     [
+      "a circular red patch",
+      0.15
+     ],
+     [
+      "a round red patch",
+      0.137
+     ],
+     [
+      "a bright red patch",
+      0.134
+     ],
+     [
+      "a pale red patch",
+      0.134
+     ],
+     [
+      "circular red patches",
+      0.128
+     ],
+     [
+      "a single red patch",
+      0.126
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an orange frisbee",
+      0.083
+     ],
+     [
+      "a red umbrella",
+      0.076
+     ],
+     [
+      "a red apple",
+      0.07
+     ],
+     [
+      "a red couch",
+      0.068
+     ],
+     [
+      "a red fire",
+      0.067
+     ],
+     [
+      "a frisbee",
+      0.065
+     ]
+    ],
+    "u_own-": [
+     [
+      "congenital melanocytic nevus",
+      0.119
+     ],
+     [
+      "a congenital melanocytic nevus",
+      0.102
+     ],
+     [
+      "melanocytic nevus",
+      0.094
+     ],
+     [
+      "freckles",
+      0.093
+     ],
+     [
+      "a melanocytic nevus",
+      0.092
+     ],
+     [
+      "scalp hygiene",
+      0.09
+     ]
+    ],
+    "u_coco-": [
+     [
+      "two young boys",
+      0.064
+     ],
+     [
+      "a brown teddy",
+      0.057
+     ],
+     [
+      "two sinks",
+      0.057
+     ],
+     [
+      "a picture",
+      0.056
+     ],
+     [
+      "boys",
+      0.055
+     ],
+     [
+      "sinks",
+      0.054
+     ]
+    ]
+   }
+  ]
+ },
+ "set/Wi": {
+  "frob": 4.471,
+  "energy_top8": 0.291,
+  "energy_top16": 0.465,
+  "top_s": [
+   1.129,
+   0.915,
+   0.835,
+   0.821,
+   0.793,
+   0.774,
+   0.756,
+   0.729,
+   0.714,
+   0.697,
+   0.679,
+   0.658,
+   0.645,
+   0.639,
+   0.624,
+   0.614
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.129,
+    "cos_uv": -0.59,
+    "specificity": 0.415,
+    "own_mean": 0.527,
+    "own_sd": 0.071,
+    "coco_mean": 0.112,
+    "v_own+": [
+     [
+      "actinic keratosis",
+      0.243
+     ],
+     [
+      "persistent erythematous papules",
+      0.235
+     ],
+     [
+      "follicular keratosis",
+      0.235
+     ],
+     [
+      "blue nevus",
+      0.234
+     ],
+     [
+      "extensive edematous erythema",
+      0.234
+     ],
+     [
+      "multiple erythematous papules",
+      0.233
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a patch",
+      0.111
+     ],
+     [
+      "a body",
+      0.085
+     ],
+     [
+      "her shoulder",
+      0.079
+     ],
+     [
+      "a close",
+      0.074
+     ],
+     [
+      "a  field",
+      0.073
+     ],
+     [
+      "a shirtless man",
+      0.071
+     ]
+    ],
+    "v_own-": [
+     [
+      "contact",
+      0.037
+     ],
+     [
+      "other parts",
+      0.02
+     ],
+     [
+      "various parts",
+      0.02
+     ],
+     [
+      "excision",
+      0.02
+     ],
+     [
+      "guidance",
+      0.019
+     ],
+     [
+      "professional advice",
+      0.018
+     ]
+    ],
+    "u_own+": [
+     [
+      "presents",
+      0.034
+     ],
+     [
+      "environments",
+      0.032
+     ],
+     [
+      "management",
+      0.022
+     ],
+     [
+      "confirmation",
+      0.021
+     ],
+     [
+      "the bridge",
+      0.021
+     ],
+     [
+      "summer",
+      0.02
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an empty train station",
+      0.101
+     ],
+     [
+      "a blue and green tennis court",
+      0.087
+     ],
+     [
+      "a dining room table",
+      0.085
+     ],
+     [
+      "a dining room",
+      0.068
+     ],
+     [
+      "a large kitchen",
+      0.063
+     ],
+     [
+      "a skateboard trick",
+      0.062
+     ]
+    ],
+    "u_own-": [
+     [
+      "a fungal skin infection",
+      0.174
+     ],
+     [
+      "benign skin growths",
+      0.17
+     ],
+     [
+      "scaly skin lesions",
+      0.169
+     ],
+     [
+      "lichen simplex chronicus",
+      0.169
+     ],
+     [
+      "mild lichenification",
+      0.168
+     ],
+     [
+      "lichen planus",
+      0.168
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a patch",
+      0.094
+     ],
+     [
+      "neck",
+      0.087
+     ],
+     [
+      "a body",
+      0.083
+     ],
+     [
+      "her shoulder",
+      0.075
+     ],
+     [
+      "the neck",
+      0.074
+     ],
+     [
+      "a close",
+      0.072
+     ]
+    ],
+    "v_images+": [
+     "Upon examination, scattered millet to soybean-sized dome-shaped pale red papules with some",
+     "Based on the description and appearance of the scattered purplish-red nodules with obvious",
+     "Light-induced hyperkeratosis of the sweat ducts is characterized by scattered 1-3mm red ke",
+     "The diagnosis of \"hidradenitis suppurativa\" is characterized by localized skin lesions wit"
+    ],
+    "v_images-": [
+     "Flake edematous erythema on the face, neck, and upper limbs, partially fused, with unclear",
+     "The presence of a pillar-like growth in front of the ear may suggest a congenital accessor",
+     "The patient presents with generalized skin laxity, and considering the clinical manifestat"
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.915,
+    "cos_uv": 0.13,
+    "specificity": 0.005,
+    "own_mean": 0.011,
+    "own_sd": 0.084,
+    "coco_mean": 0.006,
+    "v_own+": [
+     [
+      "several centimeters",
+      0.125
+     ],
+     [
+      "black dots",
+      0.11
+     ],
+     [
+      "small pustules",
+      0.104
+     ],
+     [
+      "allergen testing",
+      0.103
+     ],
+     [
+      "molluscum contagiosum",
+      0.101
+     ],
+     [
+      "tick bites",
+      0.1
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a tall clock",
+      0.082
+     ],
+     [
+      "a parking meter",
+      0.078
+     ],
+     [
+      "a clock",
+      0.077
+     ],
+     [
+      "a large clock tower",
+      0.077
+     ],
+     [
+      "clocks",
+      0.076
+     ],
+     [
+      "a field flying kites",
+      0.072
+     ]
+    ],
+    "v_own-": [
+     [
+      "oozing",
+      0.052
+     ],
+     [
+      "rhinophyma",
+      0.052
+     ],
+     [
+      "dark red crusts",
+      0.052
+     ],
+     [
+      "sexual contact",
+      0.047
+     ],
+     [
+      "suggestive",
+      0.047
+     ],
+     [
+      "the foreskin",
+      0.046
+     ]
+    ],
+    "u_own+": [
+     [
+      "skin tone",
+      0.146
+     ],
+     [
+      "nodules",
+      0.128
+     ],
+     [
+      "a round red papule",
+      0.123
+     ],
+     [
+      "nodule",
+      0.121
+     ],
+     [
+      "papule",
+      0.121
+     ],
+     [
+      "macule",
+      0.119
+     ]
+    ],
+    "u_coco+": [
+     [
+      "tomatoes",
+      0.092
+     ],
+     [
+      "a fork",
+      0.071
+     ],
+     [
+      "bowls",
+      0.064
+     ],
+     [
+      "potatoes",
+      0.063
+     ],
+     [
+      "cones",
+      0.06
+     ],
+     [
+      "parking lot",
+      0.059
+     ]
+    ],
+    "u_own-": [
+     [
+      "sunburn dermatitis",
+      0.099
+     ],
+     [
+      "the erythematous patches",
+      0.098
+     ],
+     [
+      "drug-induced dermatitis",
+      0.098
+     ],
+     [
+      "erythema migrans",
+      0.098
+     ],
+     [
+      "severe erythema multiforme drug eruption",
+      0.096
+     ],
+     [
+      "drug allergy reaction",
+      0.091
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the wild",
+      0.063
+     ],
+     [
+      "the zoo",
+      0.056
+     ],
+     [
+      "the runway",
+      0.056
+     ],
+     [
+      "a picture",
+      0.056
+     ],
+     [
+      "a red car",
+      0.055
+     ],
+     [
+      "the wilderness",
+      0.054
+     ]
+    ],
+    "v_images+": [
+     "Based on the appearance of the isolated purplish-red nodules with a rough surface on the u",
+     "There are keratotic papules on the back of the hand with the same color as the skin. Commo",
+     "The photo shows a symmetric black-brown patch with relatively regular edges but uneven col",
+     "The description of black papules on the trunk, with relatively uniform color, regular marg"
+    ],
+    "v_images-": [
+     "This is a photo of perineal skin lesion, showing extensive erythema on labia majora and pe",
+     "Behcet's disease is a chronic recurrent autoimmune disease characterized by round painful ",
+     "Vitiligo is a common chronic skin condition characterized by depigmented patches on the sk"
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.835,
+    "cos_uv": 0.16,
+    "specificity": 0.023,
+    "own_mean": 0.055,
+    "own_sd": 0.072,
+    "coco_mean": 0.032,
+    "v_own+": [
+     [
+      "adjuvant radiation therapy",
+      0.101
+     ],
+     [
+      "radiation therapy",
+      0.098
+     ],
+     [
+      "possible squamous cell carcinoma",
+      0.096
+     ],
+     [
+      "situ squamous cell carcinoma",
+      0.093
+     ],
+     [
+      "a purplish-red patch",
+      0.093
+     ],
+     [
+      "wound debridement",
+      0.09
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a number",
+      0.054
+     ],
+     [
+      "a large bird",
+      0.05
+     ],
+     [
+      "a ribbon",
+      0.05
+     ],
+     [
+      "an elderly woman",
+      0.048
+     ],
+     [
+      "directions",
+      0.047
+     ],
+     [
+      "a crane",
+      0.047
+     ]
+    ],
+    "v_own-": [
+     [
+      "insect eggs",
+      0.109
+     ],
+     [
+      "pores",
+      0.099
+     ],
+     [
+      "keratosis pilaris",
+      0.097
+     ],
+     [
+      "clogged pores",
+      0.091
+     ],
+     [
+      "blackheads",
+      0.085
+     ],
+     [
+      "blocked pores",
+      0.084
+     ]
+    ],
+    "u_own+": [
+     [
+      "the red patch",
+      0.102
+     ],
+     [
+      "a red patch",
+      0.095
+     ],
+     [
+      "a single red patch",
+      0.094
+     ],
+     [
+      "a bright red patch",
+      0.094
+     ],
+     [
+      "skin tone",
+      0.094
+     ],
+     [
+      "the itch mite",
+      0.092
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the edge",
+      0.086
+     ],
+     [
+      "the hood",
+      0.068
+     ],
+     [
+      "the corner",
+      0.068
+     ],
+     [
+      "the game",
+      0.06
+     ],
+     [
+      "the neck",
+      0.059
+     ],
+     [
+      "a red light",
+      0.057
+     ]
+    ],
+    "u_own-": [
+     [
+      "the patient's lower limbs",
+      0.198
+     ],
+     [
+      "multiple purplish-red nodules",
+      0.142
+     ],
+     [
+      "lower limbs",
+      0.13
+     ],
+     [
+      "the patient's clinical presentation",
+      0.13
+     ],
+     [
+      "both lower limbs",
+      0.129
+     ],
+     [
+      "both lower extremities",
+      0.122
+     ]
+    ],
+    "u_coco-": [
+     [
+      "some skis",
+      0.087
+     ],
+     [
+      "wine glasses",
+      0.08
+     ],
+     [
+      "skis",
+      0.075
+     ],
+     [
+      "two cups",
+      0.073
+     ],
+     [
+      "multiple computers",
+      0.073
+     ],
+     [
+      "two elephants",
+      0.071
+     ]
+    ],
+    "v_images+": [
+     "There are papules on the cheeks with the same color as the skin, which could be indicative",
+     "There are red papules on the forehead, located at the central umbilicus, suggestive of a p",
+     "The patient presents with multiple black melanin spots along the edge of the hairline, wit",
+     "In the patient, there are erythematous papules with a horny texture on the forehead, which"
+    ],
+    "v_images-": [
+     "This image shows multiple white papules and plaques on the skin, consistent with the diagn",
+     "Visible on the patient's skin are purple-red polygonal papules with regular morphology, cl",
+     "The diagnosis is lichen planus, which is a common skin condition characterized by multiple"
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.821,
+    "cos_uv": 0.18,
+    "specificity": 0.047,
+    "own_mean": 0.035,
+    "own_sd": 0.07,
+    "coco_mean": -0.012,
+    "v_own+": [
+     [
+      "furuncle",
+      0.081
+     ],
+     [
+      "hairline",
+      0.075
+     ],
+     [
+      "neck area",
+      0.072
+     ],
+     [
+      "skin texture",
+      0.071
+     ],
+     [
+      "the hairline",
+      0.07
+     ],
+     [
+      "a pale red patch",
+      0.069
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the back",
+      0.048
+     ],
+     [
+      "the neck",
+      0.046
+     ],
+     [
+      "neck",
+      0.042
+     ],
+     [
+      "their backs",
+      0.039
+     ],
+     [
+      "a pink umbrella",
+      0.035
+     ],
+     [
+      "blonde hair",
+      0.031
+     ]
+    ],
+    "v_own-": [
+     [
+      "the patient's lower limbs",
+      0.142
+     ],
+     [
+      "extensive necrosis",
+      0.112
+     ],
+     [
+      "scattered ulcers",
+      0.109
+     ],
+     [
+      "the patient's feet",
+      0.109
+     ],
+     [
+      "multiple ulcers",
+      0.105
+     ],
+     [
+      "malnutrition",
+      0.103
+     ]
+    ],
+    "u_own+": [
+     [
+      "a basal cell carcinoma",
+      0.149
+     ],
+     [
+      "a sebaceous cyst",
+      0.148
+     ],
+     [
+      "a follicular cyst",
+      0.143
+     ],
+     [
+      "a pale red nodular lesion",
+      0.142
+     ],
+     [
+      "a sweat gland cyst",
+      0.14
+     ],
+     [
+      "a common skin cyst",
+      0.14
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an outdoor party",
+      0.107
+     ],
+     [
+      "a busy street",
+      0.1
+     ],
+     [
+      "an apple",
+      0.097
+     ],
+     [
+      "tomato sauce",
+      0.095
+     ],
+     [
+      "a busy city street",
+      0.093
+     ],
+     [
+      "a christmas tree",
+      0.093
+     ]
+    ],
+    "u_own-": [
+     [
+      "both lower legs",
+      0.09
+     ],
+     [
+      "both lower limbs",
+      0.087
+     ],
+     [
+      "scattered black spots",
+      0.081
+     ],
+     [
+      "lower limbs",
+      0.078
+     ],
+     [
+      "both thighs",
+      0.071
+     ],
+     [
+      "black crusts",
+      0.07
+     ]
+    ],
+    "u_coco-": [
+     [
+      "two brown bears",
+      0.055
+     ],
+     [
+      "a brown cow",
+      0.051
+     ],
+     [
+      "a brown teddy",
+      0.05
+     ],
+     [
+      "a large brown dog",
+      0.049
+     ],
+     [
+      "a brown bear",
+      0.045
+     ],
+     [
+      "black shorts",
+      0.045
+     ]
+    ],
+    "v_images+": [
+     "The diagnosis is lichen planus, characterized by scattered pinpoint-sized follicular white",
+     "The presence of these dense 1-2mm pale white papules or flat plaques is a typical presenta",
+     "This is a typical presentation of basal cell carcinoma, characterized by a pale red patch ",
+     "On the skin surface, pinpoint-sized follicular white papules with homomorphic reaction can"
+    ],
+    "v_images-": [
+     "The photograph shows widespread red patches and papules on the lower limbs, covered with t",
+     "Based on the clinical presentation and pathological examination results, the preliminary d",
+     "The diagnosis of neutrophilic dermatosis is a rare, chronic autoimmune disease characteriz"
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.793,
+    "cos_uv": -0.03,
+    "specificity": 0.005,
+    "own_mean": -0.005,
+    "own_sd": 0.116,
+    "coco_mean": -0.01,
+    "v_own+": [
+     [
+      "the nostrils",
+      0.052
+     ],
+     [
+      "the chest",
+      0.05
+     ],
+     [
+      "the hair",
+      0.046
+     ],
+     [
+      "an irregularly shaped brown patch",
+      0.046
+     ],
+     [
+      "axillae",
+      0.046
+     ],
+     [
+      "the nasal tip",
+      0.045
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a cloud",
+      0.054
+     ],
+     [
+      "a brown bird",
+      0.052
+     ],
+     [
+      "a brown building",
+      0.049
+     ],
+     [
+      "tail",
+      0.048
+     ],
+     [
+      "beverages",
+      0.048
+     ],
+     [
+      "a brown horse",
+      0.047
+     ]
+    ],
+    "v_own-": [
+     [
+      "type",
+      0.083
+     ],
+     [
+      "front",
+      0.072
+     ],
+     [
+      "this rare genetic skin disorder",
+      0.062
+     ],
+     [
+      "uv rays",
+      0.062
+     ],
+     [
+      "nail bed",
+      0.061
+     ],
+     [
+      "scab formation",
+      0.06
+     ]
+    ],
+    "u_own+": [
+     [
+      "a light yellow center",
+      0.138
+     ],
+     [
+      "oval-shaped brown patches",
+      0.125
+     ],
+     [
+      "z-shaped linear red patches",
+      0.112
+     ],
+     [
+      "the trunk area",
+      0.11
+     ],
+     [
+      "yellowish-gray discoloration",
+      0.105
+     ],
+     [
+      "relatively uniform color",
+      0.104
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a smaller cow",
+      0.088
+     ],
+     [
+      "a large brown dog",
+      0.086
+     ],
+     [
+      "a single giraffe",
+      0.086
+     ],
+     [
+      "a large long train",
+      0.084
+     ],
+     [
+      "a blue plate",
+      0.083
+     ],
+     [
+      "an orange and white cat",
+      0.082
+     ]
+    ],
+    "u_own-": [
+     [
+      "brucellosis",
+      0.111
+     ],
+     [
+      "fungal infections",
+      0.101
+     ],
+     [
+      "fungal infection",
+      0.096
+     ],
+     [
+      "eczema",
+      0.093
+     ],
+     [
+      "skin infection",
+      0.093
+     ],
+     [
+      "folliculitis",
+      0.09
+     ]
+    ],
+    "u_coco-": [
+     [
+      "birds",
+      0.042
+     ],
+     [
+      "doughnuts",
+      0.041
+     ],
+     [
+      "vegetables",
+      0.04
+     ],
+     [
+      "junk",
+      0.04
+     ],
+     [
+      "a birthday cake",
+      0.04
+     ],
+     [
+      "action",
+      0.039
+     ]
+    ],
+    "v_images+": [
+     "There is a skin-colored polypoid protrusion on the skin. Based on the description of the s",
+     "Pale-colored growth with thin base, suggestive of skin tag. Skin tags are common skin lesi",
+     "Black macules. The lesions are generally symmetrical in shape with slightly uneven colorat",
+     "On the smooth skin, there are small bumps with a smooth surface, possibly indicating a seb"
+    ],
+    "v_images-": [
+     "This is a picture of skin lesions on the sole of the foot, showing a pale red patch with s",
+     "This is an image of skin lesions on the lower leg, showing various sizes of purplish-red s",
+     "The diagnosis is lichen planus, which is a common chronic inflammatory skin disease often "
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.774,
+    "cos_uv": -0.02,
+    "specificity": 0.004,
+    "own_mean": 0.023,
+    "own_sd": 0.056,
+    "coco_mean": 0.019,
+    "v_own+": [
+     [
+      "skin tags",
+      0.106
+     ],
+     [
+      "skin tag",
+      0.091
+     ],
+     [
+      "genital areas",
+      0.087
+     ],
+     [
+      "the human papillomavirus",
+      0.086
+     ],
+     [
+      "a skin tag",
+      0.086
+     ],
+     [
+      "human papillomavirus",
+      0.085
+     ]
+    ],
+    "v_coco+": [
+     [
+      "small children",
+      0.064
+     ],
+     [
+      "two children",
+      0.058
+     ],
+     [
+      "several children",
+      0.057
+     ],
+     [
+      "children",
+      0.054
+     ],
+     [
+      "seats",
+      0.052
+     ],
+     [
+      "a wet suit",
+      0.051
+     ]
+    ],
+    "v_own-": [
+     [
+      "rosacea",
+      0.093
+     ],
+     [
+      "eyelid redness",
+      0.084
+     ],
+     [
+      "forehead",
+      0.083
+     ],
+     [
+      "facial redness",
+      0.08
+     ],
+     [
+      "the redness",
+      0.071
+     ],
+     [
+      "reddish-brown edges",
+      0.07
+     ]
+    ],
+    "u_own+": [
+     [
+      "eczema",
+      0.168
+     ],
+     [
+      "sunburn dermatitis",
+      0.161
+     ],
+     [
+      "solar dermatitis",
+      0.149
+     ],
+     [
+      "psoriasis",
+      0.147
+     ],
+     [
+      "atopic dermatitis",
+      0.145
+     ],
+     [
+      "photocontact dermatitis",
+      0.144
+     ]
+    ],
+    "u_coco+": [
+     [
+      "mustard",
+      0.107
+     ],
+     [
+      "bath tub",
+      0.102
+     ],
+     [
+      "two hot dogs",
+      0.097
+     ],
+     [
+      "a wetsuit",
+      0.097
+     ],
+     [
+      "unripe bananas",
+      0.095
+     ],
+     [
+      "hot dogs",
+      0.093
+     ]
+    ],
+    "u_own-": [
+     [
+      "a single red nodule",
+      0.13
+     ],
+     [
+      "a smooth red nodule",
+      0.118
+     ],
+     [
+      "a solitary nodule",
+      0.112
+     ],
+     [
+      "a red nodule",
+      0.112
+     ],
+     [
+      "a bright red nodule",
+      0.109
+     ],
+     [
+      "a dark red nodule",
+      0.109
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a ball",
+      0.052
+     ],
+     [
+      "the ball",
+      0.04
+     ],
+     [
+      "image",
+      0.038
+     ],
+     [
+      "a blue sign",
+      0.038
+     ],
+     [
+      "no image",
+      0.035
+     ],
+     [
+      "a ribbon",
+      0.034
+     ]
+    ],
+    "v_images+": [
+     "This picture shows scattered black-brown raised lesions with prominent surface keratinizat",
+     "On this photo of the trunk, a circular white nodule can be seen, which is diagnosed as a t",
+     "Diagnosis: The patient presents with scattered purple-red and yellow papules, some showing",
+     "The photograph shows a black-brown dome-shaped papule with a smooth surface, clear borders"
+    ],
+    "v_images-": [
+     "The facial photo shows infiltrative erythema in a butterfly-shaped distribution over the c",
+     "On the right upper eyelid, there are irregular pale red patches with dilated capillaries, ",
+     "This is an image of facial skin lesion showing large purple-red patches on the right side "
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.756,
+    "cos_uv": 0.05,
+    "specificity": 0.041,
+    "own_mean": 0.081,
+    "own_sd": 0.071,
+    "coco_mean": 0.04,
+    "v_own+": [
+     [
+      "pityriasis versicolor",
+      0.136
+     ],
+     [
+      "striae gravidarum",
+      0.135
+     ],
+     [
+      "bilateral upper limbs",
+      0.13
+     ],
+     [
+      "striae distensae",
+      0.13
+     ],
+     [
+      "striae",
+      0.127
+     ],
+     [
+      "breasts",
+      0.126
+     ]
+    ],
+    "v_coco+": [
+     [
+      "zebra standing",
+      0.105
+     ],
+     [
+      "an orange and white cat",
+      0.101
+     ],
+     [
+      "a zebra grazing",
+      0.098
+     ],
+     [
+      "giraffe",
+      0.097
+     ],
+     [
+      "zebras",
+      0.096
+     ],
+     [
+      "other zebras",
+      0.093
+     ]
+    ],
+    "v_own-": [
+     [
+      "a louse",
+      0.072
+     ],
+     [
+      "nits",
+      0.063
+     ],
+     [
+      "scalp itching",
+      0.055
+     ],
+     [
+      "a basal cell carcinoma",
+      0.051
+     ],
+     [
+      "nodular basal cell carcinoma",
+      0.047
+     ],
+     [
+      "the outer canthus",
+      0.046
+     ]
+    ],
+    "u_own+": [
+     [
+      "armpits",
+      0.112
+     ],
+     [
+      "hair follicle openings",
+      0.111
+     ],
+     [
+      "the hair follicle openings",
+      0.107
+     ],
+     [
+      "a hair follicle",
+      0.106
+     ],
+     [
+      "the hair follicles",
+      0.105
+     ],
+     [
+      "the anus",
+      0.102
+     ]
+    ],
+    "u_coco+": [
+     [
+      "their backs",
+      0.069
+     ],
+     [
+      "tail",
+      0.067
+     ],
+     [
+      "a blue jacket",
+      0.061
+     ],
+     [
+      "a shirt",
+      0.058
+     ],
+     [
+      "a bikini",
+      0.055
+     ],
+     [
+      "her shoulder",
+      0.05
+     ]
+    ],
+    "u_own-": [
+     [
+      "light red",
+      0.119
+     ],
+     [
+      "a child's face",
+      0.114
+     ],
+     [
+      "the patient's forehead",
+      0.113
+     ],
+     [
+      "an infant's face",
+      0.113
+     ],
+     [
+      "pale red",
+      0.11
+     ],
+     [
+      "a butterfly-shaped facial rash",
+      0.108
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red fire",
+      0.106
+     ],
+     [
+      "a red car",
+      0.101
+     ],
+     [
+      "a red light",
+      0.096
+     ],
+     [
+      "head",
+      0.094
+     ],
+     [
+      "a red train",
+      0.093
+     ],
+     [
+      "a red and white boat",
+      0.089
+     ]
+    ],
+    "v_images+": [
+     "Hyperpigmentation is a common skin condition characterized by the appearance of linear or ",
+     "The photo shows red patches and papules distributed along linear patterns on both thighs, ",
+     "This is a photo of the hip and thigh showing multiple streak-like dark red patches and thi",
+     "Based on the photo showing the brown-gray reticular patches on the chest, the diagnosis is"
+    ],
+    "v_images-": [
+     "The photo shows a single, flat, tan-colored patch with clear borders and a rough surface, ",
+     "In this case, there are visible raised dark brown patches with irregular borders, mild inf",
+     "Based on the description of the skin lesion in the eyelid area showing small, pale yellow,"
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.729,
+    "cos_uv": 0.09,
+    "specificity": 0.03,
+    "own_mean": 0.074,
+    "own_sd": 0.077,
+    "coco_mean": 0.044,
+    "v_own+": [
+     [
+      "hyperkeratosis",
+      0.13
+     ],
+     [
+      "clustered yellow pustules",
+      0.129
+     ],
+     [
+      "epidermal hyperplasia",
+      0.127
+     ],
+     [
+      "nits",
+      0.126
+     ],
+     [
+      "excessive keratinocyte proliferation",
+      0.123
+     ],
+     [
+      "the hair follicle openings",
+      0.121
+     ]
+    ],
+    "v_coco+": [
+     [
+      "their teeth",
+      0.061
+     ],
+     [
+      "blonde hair",
+      0.057
+     ],
+     [
+      "head",
+      0.056
+     ],
+     [
+      "his teeth",
+      0.055
+     ],
+     [
+      "toppings",
+      0.052
+     ],
+     [
+      "their heads",
+      0.05
+     ]
+    ],
+    "v_own-": [
+     [
+      "easy bruising",
+      0.063
+     ],
+     [
+      "the elbow",
+      0.062
+     ],
+     [
+      "axillae",
+      0.062
+     ],
+     [
+      "a butterfly-shaped rash",
+      0.06
+     ],
+     [
+      "forearm",
+      0.056
+     ],
+     [
+      "the right thigh",
+      0.051
+     ]
+    ],
+    "u_own+": [
+     [
+      "scattered blisters",
+      0.043
+     ],
+     [
+      "molluscum contagiosum",
+      0.033
+     ],
+     [
+      "pain or burning sensation",
+      0.028
+     ],
+     [
+      "nummular eczema",
+      0.028
+     ],
+     [
+      "scattered erythematous papules",
+      0.027
+     ],
+     [
+      "the palm",
+      0.027
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a helmet",
+      0.033
+     ],
+     [
+      "white sprinkles",
+      0.028
+     ],
+     [
+      "a dining room table",
+      0.024
+     ],
+     [
+      "electronics",
+      0.022
+     ],
+     [
+      "a pile",
+      0.018
+     ],
+     [
+      "the bathroom",
+      0.016
+     ]
+    ],
+    "u_own-": [
+     [
+      "large circular red patches",
+      0.16
+     ],
+     [
+      "oval-shaped brown patches",
+      0.157
+     ],
+     [
+      "an irregularly shaped brown patch",
+      0.151
+     ],
+     [
+      "pigment loss",
+      0.151
+     ],
+     [
+      "blue-gray or brown patches",
+      0.146
+     ],
+     [
+      "uneven pigment deposition",
+      0.144
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red light",
+      0.101
+     ],
+     [
+      "a pink umbrella",
+      0.097
+     ],
+     [
+      "a large brown dog",
+      0.093
+     ],
+     [
+      "base",
+      0.09
+     ],
+     [
+      "tail",
+      0.089
+     ],
+     [
+      "a red stop sign",
+      0.087
+     ]
+    ],
+    "v_images+": [
+     "This is a photo of facial skin lesion showing inflammatory papules and nodules, consistent",
+     "On this facial photograph, we can see densely distributed pinhead-sized white papules on t",
+     "Based on the description provided, the image shows papules and whiteheads consistent with ",
+     "This is a photo of facial skin lesions showing millet-sized papules with some yellowish-wh"
+    ],
+    "v_images-": [
+     "This is a picture of skin lesion on the dorsum of the foot, showing circular red patches w",
+     "Scleroderma is a chronic and progressive connective tissue disease characterized by gradua",
+     "This is a picture of skin lesion on the back, showing pale red patches with clear borders,"
+    ]
+   }
+  ]
+ },
+ "setw/Wt": {
+  "frob": 4.576,
+  "energy_top8": 0.366,
+  "energy_top16": 0.536,
+  "top_s": [
+   1.378,
+   1.122,
+   0.981,
+   0.923,
+   0.887,
+   0.818,
+   0.794,
+   0.777,
+   0.759,
+   0.728,
+   0.703,
+   0.659,
+   0.641,
+   0.631,
+   0.604,
+   0.589
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.378,
+    "cos_uv": -0.51,
+    "specificity": 0.394,
+    "own_mean": 0.514,
+    "own_sd": 0.055,
+    "coco_mean": 0.119,
+    "v_own+": [
+     [
+      "symmetrically distributed erythematous plaques",
+      0.442
+     ],
+     [
+      "multiple annular erythematous patches",
+      0.439
+     ],
+     [
+      "multiple erythematous papules",
+      0.435
+     ],
+     [
+      "severe erythema multiforme drug eruption",
+      0.434
+     ],
+     [
+      "a congenital melanocytic nevus",
+      0.429
+     ],
+     [
+      "a pale red nodular lesion",
+      0.428
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a female tennis player",
+      0.145
+     ],
+     [
+      "two tennis players",
+      0.14
+     ],
+     [
+      "a red light",
+      0.14
+     ],
+     [
+      "a tennis court playing tennis",
+      0.139
+     ],
+     [
+      "a nintendo wii game controller",
+      0.139
+     ],
+     [
+      "a video game controller",
+      0.137
+     ]
+    ],
+    "v_own-": [
+     [
+      "line",
+      -0.03
+     ],
+     [
+      "any part",
+      -0.034
+     ],
+     [
+      "breakdown",
+      -0.036
+     ],
+     [
+      "warmth",
+      -0.038
+     ],
+     [
+      "excision",
+      -0.038
+     ],
+     [
+      "the palm",
+      -0.039
+     ]
+    ],
+    "u_own+": [
+     [
+      "the tick",
+      -0.542
+     ],
+     [
+      "pinhead",
+      -0.548
+     ],
+     [
+      "arms",
+      -0.568
+     ],
+     [
+      "macules",
+      -0.598
+     ],
+     [
+      "the deposition",
+      -0.619
+     ],
+     [
+      "rays",
+      -0.62
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      -0.535
+     ],
+     [
+      "a green and white bus",
+      -0.573
+     ],
+     [
+      "a green street sign",
+      -0.581
+     ],
+     [
+      "four men",
+      -0.587
+     ],
+     [
+      "a green motorcycle",
+      -0.595
+     ],
+     [
+      "a vehicle",
+      -0.598
+     ]
+    ],
+    "u_own-": [
+     [
+      "a chronic, recurrent inflammatory skin condition",
+      0.891
+     ],
+     [
+      "a chronic, recurrent inflammatory skin disease",
+      0.888
+     ],
+     [
+      "a chronic, recurrent skin disease",
+      0.885
+     ],
+     [
+      "a chronic and recurrent inflammatory skin condition",
+      0.881
+     ],
+     [
+      "a chronic, recurrent skin condition",
+      0.879
+     ],
+     [
+      "a chronic recurrent inflammatory skin disease",
+      0.879
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an image",
+      0.748
+     ],
+     [
+      "a kitten",
+      0.747
+     ],
+     [
+      "a contraption",
+      0.745
+     ],
+     [
+      "a very nice bathroom",
+      0.745
+     ],
+     [
+      "a wedding cake",
+      0.745
+     ],
+     [
+      "another person",
+      0.745
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.122,
+    "cos_uv": 0.45,
+    "specificity": 0.045,
+    "own_mean": 0.07,
+    "own_sd": 0.03,
+    "coco_mean": 0.025,
+    "v_own+": [
+     [
+      "infectious diseases",
+      0.186
+     ],
+     [
+      "diseases",
+      0.185
+     ],
+     [
+      "various diseases",
+      0.18
+     ],
+     [
+      "other diseases",
+      0.18
+     ],
+     [
+      "systemic diseases",
+      0.179
+     ],
+     [
+      "inflammation",
+      0.176
+     ]
+    ],
+    "v_coco+": [
+     [
+      "animals",
+      0.126
+     ],
+     [
+      "meats",
+      0.122
+     ],
+     [
+      "graffiti",
+      0.122
+     ],
+     [
+      "video games",
+      0.115
+     ],
+     [
+      "meat",
+      0.113
+     ],
+     [
+      "cigarettes",
+      0.113
+     ]
+    ],
+    "v_own-": [
+     [
+      "skin tone",
+      0.118
+     ],
+     [
+      "the big toe",
+      0.111
+     ],
+     [
+      "the toe",
+      0.096
+     ],
+     [
+      "the toe area",
+      0.091
+     ],
+     [
+      "the glans",
+      0.091
+     ],
+     [
+      "the toes",
+      0.088
+     ]
+    ],
+    "u_own+": [
+     [
+      "excision",
+      0.004
+     ],
+     [
+      "front",
+      0.001
+     ],
+     [
+      "discharge",
+      -0.003
+     ],
+     [
+      "a picture",
+      -0.004
+     ],
+     [
+      "disturbances",
+      -0.005
+     ],
+     [
+      "disruption",
+      -0.007
+     ]
+    ],
+    "u_coco+": [
+     [
+      "front",
+      0.001
+     ],
+     [
+      "a picture",
+      -0.004
+     ],
+     [
+      "photos",
+      -0.012
+     ],
+     [
+      "no image",
+      -0.014
+     ],
+     [
+      "side",
+      -0.015
+     ],
+     [
+      "one",
+      -0.018
+     ]
+    ],
+    "u_own-": [
+     [
+      "the metatarsophalangeal joint",
+      0.269
+     ],
+     [
+      "the toe",
+      0.265
+     ],
+     [
+      "the toes",
+      0.262
+     ],
+     [
+      "the nostril",
+      0.253
+     ],
+     [
+      "the lower eyelids",
+      0.251
+     ],
+     [
+      "the toenail",
+      0.251
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the arm",
+      0.195
+     ],
+     [
+      "the neck",
+      0.189
+     ],
+     [
+      "their hand",
+      0.183
+     ],
+     [
+      "his hand",
+      0.177
+     ],
+     [
+      "a glove",
+      0.175
+     ],
+     [
+      "their hands",
+      0.174
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.981,
+    "cos_uv": 0.34,
+    "specificity": 0.004,
+    "own_mean": -0.021,
+    "own_sd": 0.031,
+    "coco_mean": -0.025,
+    "v_own+": [
+     [
+      "a pale red nodular lesion",
+      0.07
+     ],
+     [
+      "pale red",
+      0.063
+     ],
+     [
+      "red and pale white streaks",
+      0.059
+     ],
+     [
+      "scattered pale red papules",
+      0.059
+     ],
+     [
+      "a pale red flat lesion",
+      0.057
+     ],
+     [
+      "deep red papulonodules",
+      0.057
+     ]
+    ],
+    "v_coco+": [
+     [
+      "tomato sauce",
+      0.059
+     ],
+     [
+      "onions",
+      0.057
+     ],
+     [
+      "carrots",
+      0.056
+     ],
+     [
+      "some trees",
+      0.056
+     ],
+     [
+      "veggies",
+      0.052
+     ],
+     [
+      "some wood",
+      0.048
+     ]
+    ],
+    "v_own-": [
+     [
+      "the knee area",
+      0.09
+     ],
+     [
+      "this autoimmune disease",
+      0.084
+     ],
+     [
+      "the knee",
+      0.083
+     ],
+     [
+      "the knee joint",
+      0.083
+     ],
+     [
+      "the left upper arm",
+      0.082
+     ],
+     [
+      "the right upper arm",
+      0.081
+     ]
+    ],
+    "u_own+": [
+     [
+      "skin tags",
+      0.175
+     ],
+     [
+      "a skin tag",
+      0.168
+     ],
+     [
+      "skin tag",
+      0.166
+     ],
+     [
+      "molluscum contagiosum",
+      0.155
+     ],
+     [
+      "skin biopsy",
+      0.15
+     ],
+     [
+      "further skin biopsy",
+      0.147
+     ]
+    ],
+    "u_coco+": [
+     [
+      "directions",
+      0.096
+     ],
+     [
+      "a pen",
+      0.087
+     ],
+     [
+      "area",
+      0.087
+     ],
+     [
+      "a ribbon",
+      0.087
+     ],
+     [
+      "a slope",
+      0.086
+     ],
+     [
+      "a clock",
+      0.085
+     ]
+    ],
+    "u_own-": [
+     [
+      "black crusts",
+      0.056
+     ],
+     [
+      "nail psoriasis",
+      0.054
+     ],
+     [
+      "the metatarsophalangeal joint",
+      0.051
+     ],
+     [
+      "dark red crusts",
+      0.051
+     ],
+     [
+      "fingertip ulcers",
+      0.05
+     ],
+     [
+      "severe erythema multiforme drug eruption",
+      0.05
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a wet road",
+      0.025
+     ],
+     [
+      "shoes",
+      0.022
+     ],
+     [
+      "a black and white photograph",
+      0.022
+     ],
+     [
+      "a leaf filled tree",
+      0.021
+     ],
+     [
+      "the toilet",
+      0.02
+     ],
+     [
+      "a red and white boat",
+      0.02
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.923,
+    "cos_uv": 0.36,
+    "specificity": 0.033,
+    "own_mean": -0.02,
+    "own_sd": 0.029,
+    "coco_mean": -0.053,
+    "v_own+": [
+     [
+      "necrotic crusts",
+      0.096
+     ],
+     [
+      "surface ulceration",
+      0.078
+     ],
+     [
+      "the edge",
+      0.077
+     ],
+     [
+      "central erosion",
+      0.076
+     ],
+     [
+      "extensive erosion",
+      0.075
+     ],
+     [
+      "crusts",
+      0.075
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the edge",
+      0.077
+     ],
+     [
+      "corner",
+      0.067
+     ],
+     [
+      "gold",
+      0.057
+     ],
+     [
+      "the corner",
+      0.052
+     ],
+     [
+      "country",
+      0.048
+     ],
+     [
+      "slices",
+      0.046
+     ]
+    ],
+    "v_own-": [
+     [
+      "enough clinical information",
+      0.114
+     ],
+     [
+      "the patient's medical history and laboratory test results",
+      0.106
+     ],
+     [
+      "a rare genetic disorder",
+      0.106
+     ],
+     [
+      "a thorough medical history",
+      0.104
+     ],
+     [
+      "possibly laboratory tests",
+      0.104
+     ],
+     [
+      "an autosomal dominant genetic disease",
+      0.103
+     ]
+    ],
+    "u_own+": [
+     [
+      "skin ulcer",
+      0.133
+     ],
+     [
+      "blood scabs",
+      0.133
+     ],
+     [
+      "surface ulceration",
+      0.13
+     ],
+     [
+      "a skin ulcer",
+      0.125
+     ],
+     [
+      "skin ulceration",
+      0.125
+     ],
+     [
+      "a scab",
+      0.123
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a patch",
+      0.039
+     ],
+     [
+      "slices",
+      0.03
+     ],
+     [
+      "a glove",
+      0.029
+     ],
+     [
+      "the edge",
+      0.028
+     ],
+     [
+      "a slice",
+      0.028
+     ],
+     [
+      "donut",
+      0.026
+     ]
+    ],
+    "u_own-": [
+     [
+      "both cheeks",
+      0.124
+     ],
+     [
+      "bilateral cheeks",
+      0.108
+     ],
+     [
+      "white streaks",
+      0.107
+     ],
+     [
+      "puberty",
+      0.107
+     ],
+     [
+      "an infant's face",
+      0.105
+     ],
+     [
+      "pityriasis versicolor",
+      0.105
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green shirt",
+      0.095
+     ],
+     [
+      "a boy",
+      0.095
+     ],
+     [
+      "a blue shirt",
+      0.093
+     ],
+     [
+      "a cloudy blue sky",
+      0.089
+     ],
+     [
+      "a zebra",
+      0.088
+     ],
+     [
+      "a sunny day",
+      0.088
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.887,
+    "cos_uv": 0.29,
+    "specificity": 0.002,
+    "own_mean": 0.015,
+    "own_sd": 0.031,
+    "coco_mean": 0.013,
+    "v_own+": [
+     [
+      "skin allergy tests",
+      0.148
+     ],
+     [
+      "a skin tag",
+      0.138
+     ],
+     [
+      "skin tag",
+      0.137
+     ],
+     [
+      "allergen testing",
+      0.135
+     ],
+     [
+      "genetic testing",
+      0.133
+     ],
+     [
+      "skin tags",
+      0.131
+     ]
+    ],
+    "v_coco+": [
+     [
+      "sinks",
+      0.097
+     ],
+     [
+      "the sink",
+      0.095
+     ],
+     [
+      "electronics",
+      0.085
+     ],
+     [
+      "sink",
+      0.082
+     ],
+     [
+      "uniforms",
+      0.081
+     ],
+     [
+      "a white sink",
+      0.079
+     ]
+    ],
+    "v_own-": [
+     [
+      "multiple purple-red nodules",
+      0.101
+     ],
+     [
+      "multiple purplish-red nodules",
+      0.091
+     ],
+     [
+      "dense purple-red nodules",
+      0.08
+     ],
+     [
+      "purple-red nodules",
+      0.068
+     ],
+     [
+      "multiple blue-purple nodules",
+      0.067
+     ],
+     [
+      "papule",
+      0.066
+     ]
+    ],
+    "u_own+": [
+     [
+      "dermatoscopy examination",
+      0.107
+     ],
+     [
+      "accurate diagnosis",
+      0.106
+     ],
+     [
+      "elastic fibers",
+      0.104
+     ],
+     [
+      "surgery",
+      0.104
+     ],
+     [
+      "diagnostic confirmation",
+      0.104
+     ],
+     [
+      "a precise diagnosis",
+      0.102
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a cigarette",
+      0.104
+     ],
+     [
+      "a helmet",
+      0.094
+     ],
+     [
+      "electronics",
+      0.092
+     ],
+     [
+      "directions",
+      0.089
+     ],
+     [
+      "a stone",
+      0.089
+     ],
+     [
+      "a toothbrush",
+      0.088
+     ]
+    ],
+    "u_own-": [
+     [
+      "several dark red papules",
+      0.151
+     ],
+     [
+      "several red papules",
+      0.145
+     ],
+     [
+      "multiple erythematous papules",
+      0.143
+     ],
+     [
+      "follicular pityriasis rubra pilaris",
+      0.141
+     ],
+     [
+      "multiple annular erythematous patches",
+      0.14
+     ],
+     [
+      "pityriasis versicolor",
+      0.139
+     ]
+    ],
+    "u_coco-": [
+     [
+      "her arms",
+      0.067
+     ],
+     [
+      "the arm",
+      0.051
+     ],
+     [
+      "two pizzas",
+      0.051
+     ],
+     [
+      "bunches",
+      0.045
+     ],
+     [
+      "a flock",
+      0.036
+     ],
+     [
+      "some oranges",
+      0.034
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.818,
+    "cos_uv": 0.39,
+    "specificity": 0.007,
+    "own_mean": 0.017,
+    "own_sd": 0.031,
+    "coco_mean": 0.01,
+    "v_own+": [
+     [
+      "this chest photo",
+      0.111
+     ],
+     [
+      "the trunk showing",
+      0.083
+     ],
+     [
+      "z-shaped linear red patches",
+      0.079
+     ],
+     [
+      "the exact cause",
+      0.079
+     ],
+     [
+      "the trunk area",
+      0.078
+     ],
+     [
+      "purple-red.. malignant",
+      0.078
+     ]
+    ],
+    "v_coco+": [
+     [
+      "suitcases",
+      0.074
+     ],
+     [
+      "a very nice bathroom",
+      0.072
+     ],
+     [
+      "a red light",
+      0.072
+     ],
+     [
+      "an elderly woman",
+      0.067
+     ],
+     [
+      "a dugout",
+      0.067
+     ],
+     [
+      "three women",
+      0.065
+     ]
+    ],
+    "v_own-": [
+     [
+      "the metatarsophalangeal joint",
+      0.09
+     ],
+     [
+      "nail psoriasis",
+      0.09
+     ],
+     [
+      "paronychia",
+      0.089
+     ],
+     [
+      "the palm",
+      0.086
+     ],
+     [
+      "joint hypermobility",
+      0.083
+     ],
+     [
+      "fingertips",
+      0.08
+     ]
+    ],
+    "u_own+": [
+     [
+      "large purple-red patches",
+      0.112
+     ],
+     [
+      "multiple purple-red patches",
+      0.108
+     ],
+     [
+      "various-sized purple-red patches",
+      0.103
+     ],
+     [
+      "several dark red patches",
+      0.092
+     ],
+     [
+      "a purplish-red patch",
+      0.09
+     ],
+     [
+      "purple-red patches",
+      0.086
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a patch",
+      0.024
+     ],
+     [
+      "her shoulder",
+      0.014
+     ],
+     [
+      "a red fire",
+      0.013
+     ],
+     [
+      "a red and white boat",
+      0.007
+     ],
+     [
+      "an obstacle",
+      0.006
+     ],
+     [
+      "the lid",
+      0.005
+     ]
+    ],
+    "u_own-": [
+     [
+      "a nail disease",
+      0.187
+     ],
+     [
+      "a common nail disease",
+      0.184
+     ],
+     [
+      "psoriatic nail disease",
+      0.18
+     ],
+     [
+      "paronychia",
+      0.18
+     ],
+     [
+      "fingertips",
+      0.175
+     ],
+     [
+      "fingers",
+      0.171
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a glove",
+      0.15
+     ],
+     [
+      "hands",
+      0.148
+     ],
+     [
+      "his hands",
+      0.135
+     ],
+     [
+      "hand",
+      0.134
+     ],
+     [
+      "one hand",
+      0.129
+     ],
+     [
+      "his hand",
+      0.128
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.794,
+    "cos_uv": 0.25,
+    "specificity": 0.011,
+    "own_mean": -0.008,
+    "own_sd": 0.039,
+    "coco_mean": -0.019,
+    "v_own+": [
+     [
+      "dark brown or black patches",
+      0.174
+     ],
+     [
+      "dark brown patches",
+      0.159
+     ],
+     [
+      "black crusts",
+      0.155
+     ],
+     [
+      "pigmented spots",
+      0.154
+     ],
+     [
+      "skin hyperpigmentation",
+      0.154
+     ],
+     [
+      "brown or black patches",
+      0.154
+     ]
+    ],
+    "v_coco+": [
+     [
+      "dirt",
+      0.078
+     ],
+     [
+      "a metallic refrigerator freezer",
+      0.074
+     ],
+     [
+      "a brown teddy",
+      0.073
+     ],
+     [
+      "black shirt",
+      0.073
+     ],
+     [
+      "two brown bears",
+      0.071
+     ],
+     [
+      "a large brown dog",
+      0.069
+     ]
+    ],
+    "v_own-": [
+     [
+      "the patient's forehead",
+      0.121
+     ],
+     [
+      "the nasal cavity",
+      0.098
+     ],
+     [
+      "the patient's clinical presentation",
+      0.096
+     ],
+     [
+      "the nasal dorsum",
+      0.092
+     ],
+     [
+      "the patient's history and clinical presentation",
+      0.091
+     ],
+     [
+      "the patient's face",
+      0.09
+     ]
+    ],
+    "u_own+": [
+     [
+      "bilateral upper limbs",
+      0.152
+     ],
+     [
+      "the patient's lower limbs",
+      0.127
+     ],
+     [
+      "upper limbs",
+      0.112
+     ],
+     [
+      "both upper limbs",
+      0.101
+     ],
+     [
+      "lower limbs",
+      0.09
+     ],
+     [
+      "both lower limbs",
+      0.089
+     ]
+    ],
+    "u_coco+": [
+     [
+      "her arms",
+      0.101
+     ],
+     [
+      "a brown bird",
+      0.095
+     ],
+     [
+      "a brown teddy",
+      0.088
+     ],
+     [
+      "a zebra standing",
+      0.087
+     ],
+     [
+      "zebra standing",
+      0.083
+     ],
+     [
+      "a shirtless man",
+      0.081
+     ]
+    ],
+    "u_own-": [
+     [
+      "rosacea",
+      0.132
+     ],
+     [
+      "facial papules",
+      0.127
+     ],
+     [
+      "squeezing pimples",
+      0.126
+     ],
+     [
+      "forehead",
+      0.124
+     ],
+     [
+      "nasal inflammation",
+      0.124
+     ],
+     [
+      "facial redness",
+      0.117
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a face",
+      0.073
+     ],
+     [
+      "a red apple",
+      0.067
+     ],
+     [
+      "head",
+      0.062
+     ],
+     [
+      "it's head",
+      0.062
+     ],
+     [
+      "a red umbrella",
+      0.061
+     ],
+     [
+      "a red couch",
+      0.06
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.777,
+    "cos_uv": 0.29,
+    "specificity": 0.016,
+    "own_mean": 0.012,
+    "own_sd": 0.04,
+    "coco_mean": -0.004,
+    "v_own+": [
+     [
+      "large circular red patches",
+      0.107
+     ],
+     [
+      "adjuvant radiation therapy",
+      0.107
+     ],
+     [
+      "annular granuloma",
+      0.106
+     ],
+     [
+      "a single pale red nodule",
+      0.105
+     ],
+     [
+      "a circular red patch",
+      0.1
+     ],
+     [
+      "dermoscopy examination",
+      0.1
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a white clock tower",
+      0.073
+     ],
+     [
+      "the big ben clock tower",
+      0.067
+     ],
+     [
+      "a red stop sign",
+      0.062
+     ],
+     [
+      "a blue sign",
+      0.061
+     ],
+     [
+      "a large clock tower",
+      0.06
+     ],
+     [
+      "a very tall clock tower",
+      0.058
+     ]
+    ],
+    "v_own-": [
+     [
+      "the chest",
+      0.096
+     ],
+     [
+      "the head",
+      0.095
+     ],
+     [
+      "blood crusts",
+      0.093
+     ],
+     [
+      "dark red crusts",
+      0.081
+     ],
+     [
+      "the scalp",
+      0.08
+     ],
+     [
+      "black crusts",
+      0.08
+     ]
+    ],
+    "u_own+": [
+     [
+      "the elbow",
+      0.153
+     ],
+     [
+      "the ankle",
+      0.144
+     ],
+     [
+      "the right lower leg",
+      0.141
+     ],
+     [
+      "ankle",
+      0.138
+     ],
+     [
+      "a tick bite",
+      0.129
+     ],
+     [
+      "the ankle area",
+      0.128
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the arm",
+      0.11
+     ],
+     [
+      "an orange frisbee",
+      0.106
+     ],
+     [
+      "a frisbee",
+      0.099
+     ],
+     [
+      "the frisbee",
+      0.095
+     ],
+     [
+      "a skateboard trick",
+      0.095
+     ],
+     [
+      "skateboard tricks",
+      0.087
+     ]
+    ],
+    "u_own-": [
+     [
+      "facial sebaceous adenoma",
+      0.117
+     ],
+     [
+      "facial papules",
+      0.111
+     ],
+     [
+      "the face, scalp",
+      0.111
+     ],
+     [
+      "seborrheic keratosis",
+      0.103
+     ],
+     [
+      "acne vulgaris",
+      0.1
+     ],
+     [
+      "blackhead comedones",
+      0.099
+     ]
+    ],
+    "u_coco-": [
+     [
+      "head",
+      0.064
+     ],
+     [
+      "a face",
+      0.062
+     ],
+     [
+      "their heads",
+      0.061
+     ],
+     [
+      "her head",
+      0.059
+     ],
+     [
+      "its head",
+      0.055
+     ],
+     [
+      "his face",
+      0.05
+     ]
+    ]
+   }
+  ]
+ },
+ "setw/Wi": {
+  "frob": 4.353,
+  "energy_top8": 0.293,
+  "energy_top16": 0.471,
+  "top_s": [
+   1.108,
+   0.881,
+   0.815,
+   0.793,
+   0.784,
+   0.762,
+   0.741,
+   0.718,
+   0.71,
+   0.683,
+   0.673,
+   0.651,
+   0.635,
+   0.624,
+   0.612,
+   0.602
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.108,
+    "cos_uv": -0.61,
+    "specificity": 0.416,
+    "own_mean": 0.528,
+    "own_sd": 0.071,
+    "coco_mean": 0.112,
+    "v_own+": [
+     [
+      "actinic keratosis",
+      0.243
+     ],
+     [
+      "follicular keratosis",
+      0.236
+     ],
+     [
+      "skin fibroma",
+      0.236
+     ],
+     [
+      "persistent erythematous papules",
+      0.236
+     ],
+     [
+      "blue nevus",
+      0.235
+     ],
+     [
+      "sebaceous nevus",
+      0.235
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a patch",
+      0.111
+     ],
+     [
+      "a body",
+      0.085
+     ],
+     [
+      "her shoulder",
+      0.082
+     ],
+     [
+      "a  field",
+      0.075
+     ],
+     [
+      "a close",
+      0.074
+     ],
+     [
+      "neck",
+      0.074
+     ]
+    ],
+    "v_own-": [
+     [
+      "contact",
+      0.036
+     ],
+     [
+      "excision",
+      0.021
+     ],
+     [
+      "other parts",
+      0.019
+     ],
+     [
+      "various parts",
+      0.019
+     ],
+     [
+      "guidance",
+      0.018
+     ],
+     [
+      "professional advice",
+      0.017
+     ]
+    ],
+    "u_own+": [
+     [
+      "presents",
+      0.035
+     ],
+     [
+      "environments",
+      0.033
+     ],
+     [
+      "the bridge",
+      0.025
+     ],
+     [
+      "confirmation",
+      0.023
+     ],
+     [
+      "summer",
+      0.021
+     ],
+     [
+      "presentation",
+      0.02
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an empty train station",
+      0.105
+     ],
+     [
+      "a blue and green tennis court",
+      0.088
+     ],
+     [
+      "a dining room table",
+      0.085
+     ],
+     [
+      "a dining room",
+      0.07
+     ],
+     [
+      "a skateboard trick",
+      0.066
+     ],
+     [
+      "a large kitchen",
+      0.065
+     ]
+    ],
+    "u_own-": [
+     [
+      "a fungal skin infection",
+      0.177
+     ],
+     [
+      "benign skin growths",
+      0.176
+     ],
+     [
+      "folliculitis decalvans",
+      0.174
+     ],
+     [
+      "skin calcinosis",
+      0.173
+     ],
+     [
+      "scaly skin lesions",
+      0.172
+     ],
+     [
+      "a contagious skin infestation",
+      0.171
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a patch",
+      0.096
+     ],
+     [
+      "neck",
+      0.087
+     ],
+     [
+      "a body",
+      0.084
+     ],
+     [
+      "her shoulder",
+      0.077
+     ],
+     [
+      "the neck",
+      0.073
+     ],
+     [
+      "a close up photo",
+      0.073
+     ]
+    ],
+    "v_images+": [
+     "Upon examination, scattered millet to soybean-sized dome-shaped pale red papules with some",
+     "Light-induced hyperkeratosis of the sweat ducts is characterized by scattered 1-3mm red ke",
+     "Based on the description and appearance of the scattered purplish-red nodules with obvious",
+     "The diagnosis of \"hidradenitis suppurativa\" is characterized by localized skin lesions wit"
+    ],
+    "v_images-": [
+     "Flake edematous erythema on the face, neck, and upper limbs, partially fused, with unclear",
+     "The presence of a pillar-like growth in front of the ear may suggest a congenital accessor",
+     "The patient presents with generalized skin laxity, and considering the clinical manifestat"
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.881,
+    "cos_uv": 0.11,
+    "specificity": 0.009,
+    "own_mean": 0.013,
+    "own_sd": 0.09,
+    "coco_mean": 0.004,
+    "v_own+": [
+     [
+      "several centimeters",
+      0.112
+     ],
+     [
+      "allergen testing",
+      0.103
+     ],
+     [
+      "skin tags",
+      0.101
+     ],
+     [
+      "skin tag",
+      0.098
+     ],
+     [
+      "skin biopsy",
+      0.095
+     ],
+     [
+      "tick bites",
+      0.094
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a pen",
+      0.072
+     ],
+     [
+      "a clock",
+      0.072
+     ],
+     [
+      "a tall clock",
+      0.07
+     ],
+     [
+      "clocks",
+      0.069
+     ],
+     [
+      "a large clock tower",
+      0.067
+     ],
+     [
+      "scissors",
+      0.066
+     ]
+    ],
+    "v_own-": [
+     [
+      "dark red crusts",
+      0.061
+     ],
+     [
+      "oozing",
+      0.06
+     ],
+     [
+      "melanosis",
+      0.056
+     ],
+     [
+      "suggestive",
+      0.055
+     ],
+     [
+      "the foreskin",
+      0.055
+     ],
+     [
+      "black crusts",
+      0.054
+     ]
+    ],
+    "u_own+": [
+     [
+      "sebaceous cysts",
+      0.136
+     ],
+     [
+      "common warts",
+      0.128
+     ],
+     [
+      "follicular keratosis",
+      0.122
+     ],
+     [
+      "epidermoid cysts",
+      0.121
+     ],
+     [
+      "a round red papule",
+      0.121
+     ],
+     [
+      "prominent keratosis",
+      0.117
+     ]
+    ],
+    "u_coco+": [
+     [
+      "tomatoes",
+      0.068
+     ],
+     [
+      "unripe bananas",
+      0.06
+     ],
+     [
+      "potatoes",
+      0.059
+     ],
+     [
+      "two apples",
+      0.053
+     ],
+     [
+      "cones",
+      0.053
+     ],
+     [
+      "some rocks",
+      0.052
+     ]
+    ],
+    "u_own-": [
+     [
+      "drug-induced dermatitis",
+      0.1
+     ],
+     [
+      "sunburn dermatitis",
+      0.09
+     ],
+     [
+      "erythema migrans",
+      0.088
+     ],
+     [
+      "drug allergy reaction",
+      0.088
+     ],
+     [
+      "severe erythema multiforme drug eruption",
+      0.087
+     ],
+     [
+      "potential allergens",
+      0.086
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a picture",
+      0.071
+     ],
+     [
+      "a black and white photograph",
+      0.067
+     ],
+     [
+      "a red car",
+      0.062
+     ],
+     [
+      "a zoo",
+      0.06
+     ],
+     [
+      "animals",
+      0.057
+     ],
+     [
+      "a red brick building",
+      0.056
+     ]
+    ],
+    "v_images+": [
+     "The description of black papules on the trunk, with relatively uniform color, regular marg",
+     "There are keratotic papules on the back of the hand with the same color as the skin. Commo",
+     "Brownish patch with relatively uniform color, likely to be a melanocytic nevus. It is reco",
+     "This is a rather general diagnosis that requires further clinical examination and patholog"
+    ],
+    "v_images-": [
+     "This is a photo of perineal skin lesion, showing extensive erythema on labia majora and pe",
+     "This is a picture showing small, flesh-colored papules on the penis, consistent with the c",
+     "This is a picture of skin lesions in the penile area with erythema, papules, mild lichenif"
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.815,
+    "cos_uv": 0.05,
+    "specificity": 0.009,
+    "own_mean": 0.042,
+    "own_sd": 0.072,
+    "coco_mean": 0.033,
+    "v_own+": [
+     [
+      "extensive necrosis",
+      0.12
+     ],
+     [
+      "local ulceration",
+      0.119
+     ],
+     [
+      "fingertip ulcers",
+      0.117
+     ],
+     [
+      "adjuvant radiation therapy",
+      0.116
+     ],
+     [
+      "wound debridement",
+      0.115
+     ],
+     [
+      "partial ulceration",
+      0.115
+     ]
+    ],
+    "v_coco+": [
+     [
+      "donut",
+      0.061
+     ],
+     [
+      "a doughnut",
+      0.061
+     ],
+     [
+      "a donut",
+      0.058
+     ],
+     [
+      "a large tower",
+      0.055
+     ],
+     [
+      "a tall church tower",
+      0.054
+     ],
+     [
+      "a metallic refrigerator freezer",
+      0.054
+     ]
+    ],
+    "v_own-": [
+     [
+      "pores",
+      0.093
+     ],
+     [
+      "enlarged pores",
+      0.085
+     ],
+     [
+      "keratosis pilaris",
+      0.083
+     ],
+     [
+      "blocked pores",
+      0.079
+     ],
+     [
+      "clogged pores",
+      0.075
+     ],
+     [
+      "skin texture",
+      0.073
+     ]
+    ],
+    "u_own+": [
+     [
+      "seborrheic keratosis",
+      0.075
+     ],
+     [
+      "the itch mite",
+      0.069
+     ],
+     [
+      "black crusts",
+      0.067
+     ],
+     [
+      "the lice",
+      0.067
+     ],
+     [
+      "itchy",
+      0.067
+     ],
+     [
+      "the edge",
+      0.065
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the edge",
+      0.065
+     ],
+     [
+      "the wild",
+      0.039
+     ],
+     [
+      "the dark",
+      0.036
+     ],
+     [
+      "the corner",
+      0.035
+     ],
+     [
+      "the game",
+      0.032
+     ],
+     [
+      "the hood",
+      0.032
+     ]
+    ],
+    "u_own-": [
+     [
+      "the patient's clinical presentation",
+      0.161
+     ],
+     [
+      "the patient's history and clinical presentation",
+      0.154
+     ],
+     [
+      "the patient's lower limbs",
+      0.15
+     ],
+     [
+      "some patients",
+      0.142
+     ],
+     [
+      "prompt surgical treatment",
+      0.142
+     ],
+     [
+      "a semi-spherical nodule",
+      0.142
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a large glass vase",
+      0.103
+     ],
+     [
+      "a christmas tree",
+      0.102
+     ],
+     [
+      "a grouping",
+      0.101
+     ],
+     [
+      "a small train",
+      0.101
+     ],
+     [
+      "a public transit bus",
+      0.099
+     ],
+     [
+      "a very tall clock tower",
+      0.098
+     ]
+    ],
+    "v_images+": [
+     "Based on the palm-sized ulcer with filthy yellow-black surface and raised edges resembling",
+     "The patient presents with red plaques that are flat and elevated, with clear borders, cons",
+     "This is a typical presentation of squamous cell carcinoma ulcer, characterized by a longit",
+     "This is a picture showing a skin lesion on the nose with red patches, raised edges, clear "
+    ],
+    "v_images-": [
+     "This image shows multiple white papules and plaques on the skin, consistent with the diagn",
+     "On this photo, an irregular pale white patch with clear borders is visible, consistent wit",
+     "The diagnosis is lichen planus, which is a common skin condition characterized by multiple"
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.793,
+    "cos_uv": 0.05,
+    "specificity": 0.046,
+    "own_mean": 0.064,
+    "own_sd": 0.101,
+    "coco_mean": 0.018,
+    "v_own+": [
+     [
+      "concave skin",
+      0.091
+     ],
+     [
+      "rough skin texture",
+      0.075
+     ],
+     [
+      "striae distensae",
+      0.073
+     ],
+     [
+      "type",
+      0.073
+     ],
+     [
+      "longitudinal ridges",
+      0.072
+     ],
+     [
+      "front",
+      0.072
+     ]
+    ],
+    "v_coco+": [
+     [
+      "front",
+      0.072
+     ],
+     [
+      "side",
+      0.062
+     ],
+     [
+      "a cut",
+      0.058
+     ],
+     [
+      "one piece",
+      0.057
+     ],
+     [
+      "the side",
+      0.053
+     ],
+     [
+      "picture",
+      0.05
+     ]
+    ],
+    "v_own-": [
+     [
+      "the patient's lower limbs",
+      0.068
+     ],
+     [
+      "the offending drugs",
+      0.059
+     ],
+     [
+      "insects",
+      0.056
+     ],
+     [
+      "warm and moist environments",
+      0.053
+     ],
+     [
+      "a malignant tumor",
+      0.053
+     ],
+     [
+      "food allergies",
+      0.053
+     ]
+    ],
+    "u_own+": [
+     [
+      "a basal cell carcinoma",
+      0.114
+     ],
+     [
+      "a follicular cyst",
+      0.113
+     ],
+     [
+      "a skin cyst",
+      0.109
+     ],
+     [
+      "a common skin cyst",
+      0.105
+     ],
+     [
+      "the axilla",
+      0.104
+     ],
+     [
+      "skin cyst",
+      0.103
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an outdoor party",
+      0.071
+     ],
+     [
+      "directions",
+      0.063
+     ],
+     [
+      "a busy street",
+      0.062
+     ],
+     [
+      "a busy city street",
+      0.061
+     ],
+     [
+      "a baseball game",
+      0.056
+     ],
+     [
+      "cheese",
+      0.055
+     ]
+    ],
+    "u_own-": [
+     [
+      "the patient's lower limbs",
+      0.122
+     ],
+     [
+      "both lower legs",
+      0.113
+     ],
+     [
+      "both lower limbs",
+      0.109
+     ],
+     [
+      "both shins",
+      0.099
+     ],
+     [
+      "lower limbs",
+      0.099
+     ],
+     [
+      "the lower limbs",
+      0.097
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a brown cow",
+      0.093
+     ],
+     [
+      "a toddler",
+      0.088
+     ],
+     [
+      "a brown teddy",
+      0.086
+     ],
+     [
+      "a large brown dog",
+      0.086
+     ],
+     [
+      "a brown bear",
+      0.085
+     ],
+     [
+      "two brown bears",
+      0.083
+     ]
+    ],
+    "v_images+": [
+     "This is a photo showing yellow papules on the upper lip, which are either in millet-like o",
+     "Based on the symptoms and physical examination, the preliminary diagnosis for the red patc",
+     "The patient's oral mucosa shows diffuse thickening with a mossy appearance, consistent wit",
+     "This is a typical presentation of basal cell carcinoma, characterized by a pale red patch "
+    ],
+    "v_images-": [
+     "In this case, the patient presents with erythema and vesicles on the lower limbs, suggesti",
+     "Irregularly-shaped brown patches with small papules at the edge of the skin lesions, sugge",
+     "The photograph shows widespread red patches and papules on the lower limbs, covered with t"
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.784,
+    "cos_uv": 0.21,
+    "specificity": 0.041,
+    "own_mean": 0.049,
+    "own_sd": 0.085,
+    "coco_mean": 0.008,
+    "v_own+": [
+     [
+      "the trunk, neck",
+      0.076
+     ],
+     [
+      "the areola",
+      0.068
+     ],
+     [
+      "neck area",
+      0.066
+     ],
+     [
+      "the lip",
+      0.064
+     ],
+     [
+      "the auricle",
+      0.063
+     ],
+     [
+      "the shoulder and back area",
+      0.063
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the neck",
+      0.055
+     ],
+     [
+      "neck",
+      0.052
+     ],
+     [
+      "an orange and white cat",
+      0.049
+     ],
+     [
+      "a pink umbrella",
+      0.04
+     ],
+     [
+      "the lid",
+      0.04
+     ],
+     [
+      "tail",
+      0.04
+     ]
+    ],
+    "v_own-": [
+     [
+      "black scabs",
+      0.099
+     ],
+     [
+      "blood scabs",
+      0.089
+     ],
+     [
+      "insect eggs",
+      0.084
+     ],
+     [
+      "clustered pustules",
+      0.082
+     ],
+     [
+      "neutrophils",
+      0.078
+     ],
+     [
+      "malignant freckle-like nevus",
+      0.077
+     ]
+    ],
+    "u_own+": [
+     [
+      "a solitary dark red patch",
+      0.149
+     ],
+     [
+      "a single red patch",
+      0.141
+     ],
+     [
+      "the trunk area",
+      0.136
+     ],
+     [
+      "the trunk showing",
+      0.134
+     ],
+     [
+      "a pale red patch",
+      0.128
+     ],
+     [
+      "a light yellow center",
+      0.127
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a cigarette",
+      0.087
+     ],
+     [
+      "a red apple",
+      0.087
+     ],
+     [
+      "the sink",
+      0.085
+     ],
+     [
+      "the stop sign",
+      0.084
+     ],
+     [
+      "a white sink",
+      0.083
+     ],
+     [
+      "the oven",
+      0.083
+     ]
+    ],
+    "u_own-": [
+     [
+      "lower limbs",
+      0.08
+     ],
+     [
+      "both lower limbs",
+      0.078
+     ],
+     [
+      "pediculicides",
+      0.076
+     ],
+     [
+      "both lower extremities",
+      0.07
+     ],
+     [
+      "edema",
+      0.069
+     ],
+     [
+      "forearms",
+      0.066
+     ]
+    ],
+    "u_coco-": [
+     [
+      "children",
+      0.049
+     ],
+     [
+      "bunches",
+      0.044
+     ],
+     [
+      "a foot",
+      0.042
+     ],
+     [
+      "horses",
+      0.037
+     ],
+     [
+      "tree",
+      0.036
+     ],
+     [
+      "kids",
+      0.034
+     ]
+    ],
+    "v_images+": [
+     "This photo shows congestion and swelling on the upper lip with some desquamation, which is",
+     "The photograph shows diffusely light red patches on the neck with clear borders, consisten",
+     "The patient presents with patchy erythema, suggestive of conditions such as urticaria and ",
+     "This photograph shows a seborrheic crust at the junction of the fingertip and nail plate, "
+    ],
+    "v_images-": [
+     "The patient presents with scattered areas of pigment depigmentation and pigmented depositi",
+     "This is an image of skin lesions on both lower extremities, showing multiple papules and n",
+     "This is an image of skin lesions on the upper limb, showing large ulcers on the extensor s"
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.762,
+    "cos_uv": -0.17,
+    "specificity": 0.014,
+    "own_mean": 0.021,
+    "own_sd": 0.057,
+    "coco_mean": 0.007,
+    "v_own+": [
+     [
+      "rosacea",
+      0.093
+     ],
+     [
+      "a dark red patch",
+      0.09
+     ],
+     [
+      "a bright red patch",
+      0.089
+     ],
+     [
+      "a single dark red patch",
+      0.087
+     ],
+     [
+      "reddish-brown edges",
+      0.087
+     ],
+     [
+      "slightly red edges",
+      0.085
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red and white boat",
+      0.07
+     ],
+     [
+      "a red fire hydrant",
+      0.065
+     ],
+     [
+      "a red apple",
+      0.064
+     ],
+     [
+      "a calico cat",
+      0.063
+     ],
+     [
+      "head",
+      0.059
+     ],
+     [
+      "a face",
+      0.056
+     ]
+    ],
+    "v_own-": [
+     [
+      "skin tags",
+      0.086
+     ],
+     [
+      "skin tag",
+      0.074
+     ],
+     [
+      "a skin tag",
+      0.069
+     ],
+     [
+      "human papillomavirus",
+      0.062
+     ],
+     [
+      "the human papillomavirus",
+      0.061
+     ],
+     [
+      "human papillomavirus infection",
+      0.056
+     ]
+    ],
+    "u_own+": [
+     [
+      "differential diagnosis",
+      0.061
+     ],
+     [
+      "a single red nodule",
+      0.059
+     ],
+     [
+      "prompt diagnosis",
+      0.058
+     ],
+     [
+      "medical diagnosis",
+      0.057
+     ],
+     [
+      "a more accurate diagnosis",
+      0.057
+     ],
+     [
+      "your diagnosis",
+      0.056
+     ]
+    ],
+    "u_coco+": [
+     [
+      "image",
+      0.034
+     ],
+     [
+      "no image",
+      0.034
+     ],
+     [
+      "a very nice bathroom",
+      0.027
+     ],
+     [
+      "picture",
+      0.025
+     ],
+     [
+      "a contraption",
+      0.024
+     ],
+     [
+      "a photo",
+      0.022
+     ]
+    ],
+    "u_own-": [
+     [
+      "eczema",
+      0.173
+     ],
+     [
+      "tinea versicolor",
+      0.172
+     ],
+     [
+      "brown patches",
+      0.167
+     ],
+     [
+      "psoriasis",
+      0.165
+     ],
+     [
+      "sunburn dermatitis",
+      0.165
+     ],
+     [
+      "lice infestation",
+      0.163
+     ]
+    ],
+    "u_coco-": [
+     [
+      "mustard",
+      0.131
+     ],
+     [
+      "the wild",
+      0.131
+     ],
+     [
+      "hands",
+      0.119
+     ],
+     [
+      "carrots",
+      0.117
+     ],
+     [
+      "bath tub",
+      0.117
+     ],
+     [
+      "bananas",
+      0.116
+     ]
+    ],
+    "v_images+": [
+     "Facial patchy infiltrative erythema could be a symptom of various diseases such as lupus e",
+     "The facial photo shows infiltrative erythema in a butterfly-shaped distribution over the c",
+     "Based on the description of the photo showing a dark red nodule with a central ulcer and s",
+     "Without sufficient information from this image, a precise diagnosis cannot be made. Furthe"
+    ],
+    "v_images-": [
+     "This is a picture showing skin lesions on the back of the hand, characterized by discoid p",
+     "The image shows pale red papules on the skin, surrounded by multiple dilated hair follicle",
+     "White patches of various sizes with clear borders are visible on the anterior chest and up"
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.741,
+    "cos_uv": 0.09,
+    "specificity": 0.039,
+    "own_mean": 0.108,
+    "own_sd": 0.067,
+    "coco_mean": 0.07,
+    "v_own+": [
+     [
+      "partial desquamation",
+      0.132
+     ],
+     [
+      "the patient's fingers",
+      0.122
+     ],
+     [
+      "prominent surface keratinization",
+      0.116
+     ],
+     [
+      "mild erosion",
+      0.116
+     ],
+     [
+      "ichthyosis",
+      0.116
+     ],
+     [
+      "desquamation",
+      0.116
+     ]
+    ],
+    "v_coco+": [
+     [
+      "white sprinkles",
+      0.099
+     ],
+     [
+      "children",
+      0.096
+     ],
+     [
+      "two young boys",
+      0.093
+     ],
+     [
+      "a young child",
+      0.093
+     ],
+     [
+      "other zebras",
+      0.092
+     ],
+     [
+      "a child",
+      0.091
+     ]
+    ],
+    "v_own-": [
+     [
+      "a solitary dark red patch",
+      0.055
+     ],
+     [
+      "a single dark red patch",
+      0.054
+     ],
+     [
+      "a basal cell carcinoma",
+      0.053
+     ],
+     [
+      "a dark red patch",
+      0.05
+     ],
+     [
+      "nodular basal cell carcinoma",
+      0.05
+     ],
+     [
+      "a round red patch",
+      0.048
+     ]
+    ],
+    "u_own+": [
+     [
+      "the hair follicles",
+      0.088
+     ],
+     [
+      "hair follicles",
+      0.088
+     ],
+     [
+      "hair follicle openings",
+      0.088
+     ],
+     [
+      "multiple dilated hair follicles",
+      0.086
+     ],
+     [
+      "hair follicle keratinization",
+      0.081
+     ],
+     [
+      "blocked hair follicles",
+      0.079
+     ]
+    ],
+    "u_coco+": [
+     [
+      "white sprinkles",
+      0.046
+     ],
+     [
+      "game controllers",
+      0.037
+     ],
+     [
+      "multiple computers",
+      0.031
+     ],
+     [
+      "a flock",
+      0.028
+     ],
+     [
+      "a wet suit",
+      0.026
+     ],
+     [
+      "a shower",
+      0.025
+     ]
+    ],
+    "u_own-": [
+     [
+      "a circular red patch",
+      0.177
+     ],
+     [
+      "a bright red patch",
+      0.171
+     ],
+     [
+      "light red",
+      0.166
+     ],
+     [
+      "a pale red nodular lesion",
+      0.163
+     ],
+     [
+      "a round red patch",
+      0.162
+     ],
+     [
+      "pale red",
+      0.16
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red car",
+      0.134
+     ],
+     [
+      "a red and white boat",
+      0.134
+     ],
+     [
+      "a red train",
+      0.133
+     ],
+     [
+      "a red fire",
+      0.133
+     ],
+     [
+      "a red light",
+      0.132
+     ],
+     [
+      "a red fire hydrant",
+      0.129
+     ]
+    ],
+    "v_images+": [
+     "Hyperpigmentation is a common skin condition characterized by the appearance of linear or ",
+     "The dense distribution of small papules along the coronal sulcus with smooth surfaces that",
+     "This is an image showing irregular pigmentation and depigmentation on the skin of the lowe",
+     "The photo shows red patches and papules distributed along linear patterns on both thighs, "
+    ],
+    "v_images-": [
+     "In this case, there are visible raised dark brown patches with irregular borders, mild inf",
+     "This is a picture showing a light red patch with central ulceration and erosion on the for",
+     "This is a skin condition that is usually caused by prolonged sun exposure, resulting in da"
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.718,
+    "cos_uv": -0.12,
+    "specificity": 0.027,
+    "own_mean": 0.086,
+    "own_sd": 0.072,
+    "coco_mean": 0.059,
+    "v_own+": [
+     [
+      "the hair follicle opening",
+      0.126
+     ],
+     [
+      "the hair follicle openings",
+      0.121
+     ],
+     [
+      "hair follicle openings",
+      0.115
+     ],
+     [
+      "nits",
+      0.114
+     ],
+     [
+      "the hair follicle base",
+      0.113
+     ],
+     [
+      "a skin tag",
+      0.11
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the center",
+      0.065
+     ],
+     [
+      "an elderly man",
+      0.057
+     ],
+     [
+      "his head",
+      0.056
+     ],
+     [
+      "a small elephant",
+      0.054
+     ],
+     [
+      "long hair",
+      0.052
+     ],
+     [
+      "head",
+      0.052
+     ]
+    ],
+    "v_own-": [
+     [
+      "drug allergy reaction",
+      0.056
+     ],
+     [
+      "urticaria",
+      0.055
+     ],
+     [
+      "drug allergies",
+      0.054
+     ],
+     [
+      "food allergies",
+      0.053
+     ],
+     [
+      "axillae",
+      0.05
+     ],
+     [
+      "arms",
+      0.05
+     ]
+    ],
+    "u_own+": [
+     [
+      "contact dermatitis",
+      0.071
+     ],
+     [
+      "sunburn dermatitis",
+      0.069
+     ],
+     [
+      "photocontact dermatitis",
+      0.068
+     ],
+     [
+      "sun protection measures",
+      0.067
+     ],
+     [
+      "allergic contact dermatitis",
+      0.065
+     ],
+     [
+      "appropriate antibiotics",
+      0.065
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red and white boat",
+      0.064
+     ],
+     [
+      "appliances",
+      0.053
+     ],
+     [
+      "a red train",
+      0.045
+     ],
+     [
+      "a green and white bus",
+      0.041
+     ],
+     [
+      "a sunny day",
+      0.039
+     ],
+     [
+      "computers",
+      0.038
+     ]
+    ],
+    "u_own-": [
+     [
+      "multiple purple-red nodules",
+      0.187
+     ],
+     [
+      "a dark brown nodule",
+      0.183
+     ],
+     [
+      "purple nodules",
+      0.179
+     ],
+     [
+      "dense purple-red nodules",
+      0.178
+     ],
+     [
+      "purple-red nodules",
+      0.175
+     ],
+     [
+      "multiple purplish-red nodules",
+      0.173
+     ]
+    ],
+    "u_coco-": [
+     [
+      "her shoulder",
+      0.122
+     ],
+     [
+      "the arm",
+      0.11
+     ],
+     [
+      "neck",
+      0.105
+     ],
+     [
+      "the neck",
+      0.102
+     ],
+     [
+      "tail",
+      0.096
+     ],
+     [
+      "her arms",
+      0.084
+     ]
+    ],
+    "v_images+": [
+     "Based on the description provided, this condition may be a skin disorder, possibly follicu",
+     "This image does not provide enough clinical information for an accurate diagnosis and furt",
+     "Facial keratotic papules with the same skin color, suggestive of common warts. Common wart",
+     "This granulation tissue proliferation with a circular change at the edge could be caused b"
+    ],
+    "v_images-": [
+     "This is a photo of skin lesions on the left upper arm. The lesions present as scattered re",
+     "This is an image showing diffuse dark red patches with scales on the face, neck, and upper",
+     "The photo shows infiltrative erythema, papules, and extensive coalescence on the upper arm"
+    ]
+   }
+  ]
+ }
+}

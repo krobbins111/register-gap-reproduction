@@ -1,0 +1,9588 @@
+{
+ "imported_from": "story/directions/directions.json",
+ "ties": "geq",
+ "collection": "cityflow",
+ "encoder": "siglip2-base-16-256",
+ "pooled/Wt": {
+  "frob": 4.083,
+  "energy_top8": 0.429,
+  "energy_top16": 0.612,
+  "top_s": [
+   1.252,
+   1.12,
+   1.085,
+   0.922,
+   0.831,
+   0.754,
+   0.731,
+   0.714,
+   0.7,
+   0.644,
+   0.638,
+   0.629,
+   0.61,
+   0.588,
+   0.565,
+   0.546
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.252,
+    "cos_uv": -0.5,
+    "specificity": 0.224,
+    "own_mean": 0.472,
+    "own_sd": 0.1,
+    "coco_mean": 0.248,
+    "v_own+": [
+     [
+      "a large gray pickup truck",
+      0.407
+     ],
+     [
+      "a gray pickup truck",
+      0.404
+     ],
+     [
+      "a silver pickup truck",
+      0.401
+     ],
+     [
+      "a small gray sedan",
+      0.388
+     ],
+     [
+      "a black pickup truck",
+      0.382
+     ],
+     [
+      "a silver truck",
+      0.379
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red car",
+      0.354
+     ],
+     [
+      "a white truck",
+      0.346
+     ],
+     [
+      "a busy city street",
+      0.339
+     ],
+     [
+      "a busy street",
+      0.336
+     ],
+     [
+      "a black car",
+      0.331
+     ],
+     [
+      "a green and white bus",
+      0.315
+     ]
+    ],
+    "v_own-": [
+     [
+      "stands",
+      -0.067
+     ],
+     [
+      "pauses",
+      -0.076
+     ],
+     [
+      "swithches",
+      -0.085
+     ],
+     [
+      "camera",
+      -0.092
+     ],
+     [
+      "making",
+      -0.094
+     ],
+     [
+      "items",
+      -0.095
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red and yellow cement truck",
+      -0.596
+     ],
+     [
+      "front",
+      -0.665
+     ],
+     [
+      "crossed",
+      -0.67
+     ],
+     [
+      "the middle",
+      -0.674
+     ],
+     [
+      "a purple crossover",
+      -0.677
+     ],
+     [
+      "right side",
+      -0.688
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      -0.604
+     ],
+     [
+      "mustard",
+      -0.635
+     ],
+     [
+      "four men",
+      -0.635
+     ],
+     [
+      "a green grass covered field",
+      -0.65
+     ],
+     [
+      "yellow shirt",
+      -0.655
+     ],
+     [
+      "a picture",
+      -0.659
+     ]
+    ],
+    "u_own-": [
+     [
+      "another sedan",
+      0.844
+     ],
+     [
+      "a busy traffic",
+      0.842
+     ],
+     [
+      "another car",
+      0.841
+     ],
+     [
+      "a traffic",
+      0.841
+     ],
+     [
+      "a pickup truck",
+      0.84
+     ],
+     [
+      "a busy street",
+      0.84
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a roadway",
+      0.852
+     ],
+     [
+      "a busy city street",
+      0.843
+     ],
+     [
+      "a busy street",
+      0.84
+     ],
+     [
+      "a car",
+      0.838
+     ],
+     [
+      "a road",
+      0.837
+     ],
+     [
+      "a street scene",
+      0.834
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.12,
+    "cos_uv": 0.37,
+    "specificity": 0.022,
+    "own_mean": 0.027,
+    "own_sd": 0.044,
+    "coco_mean": 0.005,
+    "v_own+": [
+     [
+      "a stop",
+      0.135
+     ],
+     [
+      "turns left",
+      0.129
+     ],
+     [
+      "a stop sign",
+      0.125
+     ],
+     [
+      "stop behind",
+      0.123
+     ],
+     [
+      "left followed",
+      0.114
+     ],
+     [
+      "the stop sign",
+      0.113
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a stop sign",
+      0.141
+     ],
+     [
+      "a stop",
+      0.135
+     ],
+     [
+      "a red stop sign",
+      0.13
+     ],
+     [
+      "a green and white bus",
+      0.119
+     ],
+     [
+      "a green traffic light",
+      0.117
+     ],
+     [
+      "the stop sign",
+      0.113
+     ]
+    ],
+    "v_own-": [
+     [
+      "a red and yellow cement truck",
+      0.083
+     ],
+     [
+      "a blue pickup",
+      0.055
+     ],
+     [
+      "a blue pickup truck",
+      0.049
+     ],
+     [
+      "a parking lot",
+      0.047
+     ],
+     [
+      "the parking",
+      0.046
+     ],
+     [
+      "an empty cargo truck",
+      0.042
+     ]
+    ],
+    "u_own+": [
+     [
+      "a busy intersection",
+      0.047
+     ],
+     [
+      "turning right",
+      0.042
+     ],
+     [
+      "turns left",
+      0.041
+     ],
+     [
+      "turning left",
+      0.037
+     ],
+     [
+      "a green bus",
+      0.036
+     ],
+     [
+      "intersection",
+      0.031
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a green and white bus",
+      0.061
+     ],
+     [
+      "a green traffic light",
+      0.048
+     ],
+     [
+      "traffic lights",
+      0.026
+     ],
+     [
+      "an intersection",
+      0.022
+     ],
+     [
+      "a green bus",
+      0.021
+     ],
+     [
+      "a green street sign",
+      0.021
+     ]
+    ],
+    "u_own-": [
+     [
+      "a red and yellow cement truck",
+      0.139
+     ],
+     [
+      "a red truck",
+      0.104
+     ],
+     [
+      "an empty cargo truck",
+      0.097
+     ],
+     [
+      "a bright red truck",
+      0.097
+     ],
+     [
+      "the empty street",
+      0.096
+     ],
+     [
+      "a red pickup",
+      0.096
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red brick building",
+      0.106
+     ],
+     [
+      "the river",
+      0.1
+     ],
+     [
+      "a river",
+      0.097
+     ],
+     [
+      "an empty train station",
+      0.096
+     ],
+     [
+      "a dirt road",
+      0.094
+     ],
+     [
+      "a very tall building",
+      0.093
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 1.085,
+    "cos_uv": 0.3,
+    "specificity": 0.039,
+    "own_mean": 0.08,
+    "own_sd": 0.038,
+    "coco_mean": 0.041,
+    "v_own+": [
+     [
+      "a curved street",
+      0.179
+     ],
+     [
+      "a curvy road",
+      0.161
+     ],
+     [
+      "a curved road",
+      0.158
+     ],
+     [
+      "a bendy road",
+      0.145
+     ],
+     [
+      "the curved street",
+      0.143
+     ],
+     [
+      "after turning right.",
+      0.129
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a parking spot",
+      0.119
+     ],
+     [
+      "a parking lot",
+      0.118
+     ],
+     [
+      "parked motorcycles",
+      0.104
+     ],
+     [
+      "the parking lot",
+      0.098
+     ],
+     [
+      "a dirt road",
+      0.097
+     ],
+     [
+      "a parking meter",
+      0.093
+     ]
+    ],
+    "v_own-": [
+     [
+      "a black small suv",
+      0.041
+     ],
+     [
+      "a green wagon",
+      0.038
+     ],
+     [
+      "a billboard",
+      0.033
+     ],
+     [
+      "a black truck",
+      0.03
+     ],
+     [
+      "the highway",
+      0.025
+     ],
+     [
+      "high speed",
+      0.024
+     ]
+    ],
+    "u_own+": [
+     [
+      "a residential street",
+      0.03
+     ],
+     [
+      "another street",
+      0.007
+     ],
+     [
+      "a curved street",
+      0.001
+     ],
+     [
+      "the street",
+      -0.004
+     ],
+     [
+      "the s-shaped street",
+      -0.007
+     ],
+     [
+      "street",
+      -0.01
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a narrow street",
+      0.045
+     ],
+     [
+      "a city sidewalk",
+      0.019
+     ],
+     [
+      "a city street",
+      -0.002
+     ],
+     [
+      "a side walk",
+      -0.004
+     ],
+     [
+      "the street",
+      -0.004
+     ],
+     [
+      "street",
+      -0.01
+     ]
+    ],
+    "u_own-": [
+     [
+      "a three-way intersection",
+      0.185
+     ],
+     [
+      "a white truck",
+      0.177
+     ],
+     [
+      "a white cargo truck",
+      0.174
+     ],
+     [
+      "a white suv merges",
+      0.169
+     ],
+     [
+      "a white truck drives",
+      0.166
+     ],
+     [
+      "a major intersection",
+      0.165
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green and white bus",
+      0.193
+     ],
+     [
+      "an airport",
+      0.185
+     ],
+     [
+      "the airport",
+      0.182
+     ],
+     [
+      "a white truck",
+      0.177
+     ],
+     [
+      "a traffic sign",
+      0.177
+     ],
+     [
+      "traffic signs",
+      0.176
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.922,
+    "cos_uv": 0.29,
+    "specificity": 0.01,
+    "own_mean": -0.006,
+    "own_sd": 0.035,
+    "coco_mean": -0.016,
+    "v_own+": [
+     [
+      "a curved street",
+      0.112
+     ],
+     [
+      "the curved street",
+      0.106
+     ],
+     [
+      "a bend",
+      0.102
+     ],
+     [
+      "bend",
+      0.099
+     ],
+     [
+      "a blue van",
+      0.093
+     ],
+     [
+      "the curve",
+      0.089
+     ]
+    ],
+    "v_coco+": [
+     [
+      "zebra standing",
+      0.075
+     ],
+     [
+      "a curb",
+      0.068
+     ],
+     [
+      "an elephant",
+      0.068
+     ],
+     [
+      "a small elephant",
+      0.067
+     ],
+     [
+      "a blue jacket",
+      0.064
+     ],
+     [
+      "a white truck",
+      0.062
+     ]
+    ],
+    "v_own-": [
+     [
+      "grey suv stopping.",
+      0.07
+     ],
+     [
+      "a stop sign",
+      0.068
+     ],
+     [
+      "the stop sign",
+      0.064
+     ],
+     [
+      "large gray sedan turning left.",
+      0.056
+     ],
+     [
+      "signal",
+      0.05
+     ],
+     [
+      "pulls up",
+      0.049
+     ]
+    ],
+    "u_own+": [
+     [
+      "a curvy road",
+      0.094
+     ],
+     [
+      "a bendy road",
+      0.088
+     ],
+     [
+      "curving",
+      0.083
+     ],
+     [
+      "a curved road",
+      0.082
+     ],
+     [
+      "a winding road",
+      0.072
+     ],
+     [
+      "the winding road",
+      0.07
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a lush green forest",
+      0.068
+     ],
+     [
+      "a freeway",
+      0.067
+     ],
+     [
+      "the forest",
+      0.067
+     ],
+     [
+      "woods",
+      0.062
+     ],
+     [
+      "the woods",
+      0.06
+     ],
+     [
+      "an orange and white cat",
+      0.059
+     ]
+    ],
+    "u_own-": [
+     [
+      "a busy intersection",
+      0.036
+     ],
+     [
+      "parking lot",
+      0.035
+     ],
+     [
+      "a intersection",
+      0.034
+     ],
+     [
+      "an intersection",
+      0.033
+     ],
+     [
+      "a parking lot",
+      0.033
+     ],
+     [
+      "a stoplight",
+      0.032
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a town square",
+      0.069
+     ],
+     [
+      "a brick building",
+      0.069
+     ],
+     [
+      "a fruit stand",
+      0.069
+     ],
+     [
+      "a red brick building",
+      0.066
+     ],
+     [
+      "a store",
+      0.065
+     ],
+     [
+      "an office building",
+      0.064
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.831,
+    "cos_uv": 0.13,
+    "specificity": 0.02,
+    "own_mean": -0.029,
+    "own_sd": 0.052,
+    "coco_mean": -0.049,
+    "v_own+": [
+     [
+      "continuing straight",
+      0.123
+     ],
+     [
+      "right lane",
+      0.109
+     ],
+     [
+      "a lane",
+      0.096
+     ],
+     [
+      "the right lane",
+      0.094
+     ],
+     [
+      "a 1 lane road",
+      0.093
+     ],
+     [
+      "continues straight",
+      0.092
+     ]
+    ],
+    "v_coco+": [
+     [
+      "several rows",
+      0.094
+     ],
+     [
+      "a row",
+      0.073
+     ],
+     [
+      "a runway",
+      0.064
+     ],
+     [
+      "a bunch",
+      0.061
+     ],
+     [
+      "garnish",
+      0.058
+     ],
+     [
+      "a herd",
+      0.058
+     ]
+    ],
+    "v_own-": [
+     [
+      "a blue pickup truck",
+      0.135
+     ],
+     [
+      "a blue pickup",
+      0.123
+     ],
+     [
+      "a grey pickup truck",
+      0.121
+     ],
+     [
+      "a light gray vehicle",
+      0.121
+     ],
+     [
+      "a blue vehicle",
+      0.12
+     ],
+     [
+      "a silver pickup truck",
+      0.119
+     ]
+    ],
+    "u_own+": [
+     [
+      "a yellow sedan",
+      0.066
+     ],
+     [
+      "a red and yellow cement truck",
+      0.063
+     ],
+     [
+      "a grey pickup truck",
+      0.059
+     ],
+     [
+      "a purple sedan",
+      0.058
+     ],
+     [
+      "a gray pickup truck",
+      0.057
+     ],
+     [
+      "a green pickup truck",
+      0.056
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      0.079
+     ],
+     [
+      "a green frisbee",
+      0.064
+     ],
+     [
+      "an orange frisbee",
+      0.055
+     ],
+     [
+      "a skateboard trick",
+      0.052
+     ],
+     [
+      "two slices",
+      0.048
+     ],
+     [
+      "a frisbee",
+      0.048
+     ]
+    ],
+    "u_own-": [
+     [
+      "traffic",
+      0.08
+     ],
+     [
+      "no traffic",
+      0.076
+     ],
+     [
+      "the highway",
+      0.075
+     ],
+     [
+      "busy traffic",
+      0.075
+     ],
+     [
+      "stops",
+      0.072
+     ],
+     [
+      "a medium load traffic",
+      0.068
+     ]
+    ],
+    "u_coco-": [
+     [
+      "traffic",
+      0.08
+     ],
+     [
+      "a freeway",
+      0.077
+     ],
+     [
+      "an airport runway",
+      0.072
+     ],
+     [
+      "a rail",
+      0.071
+     ],
+     [
+      "railroad tracks",
+      0.069
+     ],
+     [
+      "the shoreline",
+      0.068
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.754,
+    "cos_uv": 0.15,
+    "specificity": 0.014,
+    "own_mean": -0.026,
+    "own_sd": 0.069,
+    "coco_mean": -0.04,
+    "v_own+": [
+     [
+      "a silver wagon",
+      0.108
+     ],
+     [
+      "a red van",
+      0.093
+     ],
+     [
+      "continues straight",
+      0.088
+     ],
+     [
+      "a white wagon",
+      0.087
+     ],
+     [
+      "a red wagon",
+      0.085
+     ],
+     [
+      "continuing straight",
+      0.081
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red and white boat",
+      0.074
+     ],
+     [
+      "a red chair",
+      0.056
+     ],
+     [
+      "a red couch",
+      0.055
+     ],
+     [
+      "a tub",
+      0.052
+     ],
+     [
+      "a white bath tub",
+      0.05
+     ],
+     [
+      "a dining room table",
+      0.049
+     ]
+    ],
+    "v_own-": [
+     [
+      "an intersection",
+      0.181
+     ],
+     [
+      "intersection",
+      0.175
+     ],
+     [
+      "a intersection",
+      0.173
+     ],
+     [
+      "the intersection",
+      0.168
+     ],
+     [
+      "a three-way intersection",
+      0.165
+     ],
+     [
+      "a busy intersection",
+      0.152
+     ]
+    ],
+    "u_own+": [
+     [
+      "a hill",
+      0.098
+     ],
+     [
+      "a blue car pauses",
+      0.09
+     ],
+     [
+      "a blue mpv",
+      0.09
+     ],
+     [
+      "a blue car",
+      0.089
+     ],
+     [
+      "the hill",
+      0.089
+     ],
+     [
+      "a blue midsize suv",
+      0.086
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a snowy hill",
+      0.127
+     ],
+     [
+      "a snowy slope",
+      0.126
+     ],
+     [
+      "a snow covered hill",
+      0.12
+     ],
+     [
+      "a rail",
+      0.11
+     ],
+     [
+      "a blue coat",
+      0.11
+     ],
+     [
+      "a snow covered slope",
+      0.11
+     ]
+    ],
+    "u_own-": [
+     [
+      "a white cargo truck",
+      0.052
+     ],
+     [
+      "a cargo truck",
+      0.049
+     ],
+     [
+      "an empty cargo truck",
+      0.044
+     ],
+     [
+      "a large pickup",
+      0.042
+     ],
+     [
+      "a large gray pickup truck",
+      0.04
+     ],
+     [
+      "a large pickup truck",
+      0.039
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a semi truck",
+      0.037
+     ],
+     [
+      "trucks",
+      0.029
+     ],
+     [
+      "a white truck",
+      0.025
+     ],
+     [
+      "two pizzas",
+      0.021
+     ],
+     [
+      "two young boys",
+      0.02
+     ],
+     [
+      "a truck",
+      0.019
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.731,
+    "cos_uv": -0.03,
+    "specificity": 0.024,
+    "own_mean": 0.024,
+    "own_sd": 0.1,
+    "coco_mean": -0.001,
+    "v_own+": [
+     [
+      "a maroon pickup truck",
+      0.266
+     ],
+     [
+      "a purple sedan",
+      0.259
+     ],
+     [
+      "a purple pickup truck",
+      0.253
+     ],
+     [
+      "a red sedan",
+      0.237
+     ],
+     [
+      "a blue pickup truck",
+      0.237
+     ],
+     [
+      "a red pickup truck",
+      0.232
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red car",
+      0.175
+     ],
+     [
+      "a black car",
+      0.172
+     ],
+     [
+      "a white truck",
+      0.148
+     ],
+     [
+      "a red and white boat",
+      0.145
+     ],
+     [
+      "a red motorcycle",
+      0.142
+     ],
+     [
+      "some cars",
+      0.136
+     ]
+    ],
+    "v_own-": [
+     [
+      "a black suv crossing",
+      0.12
+     ],
+     [
+      "a lane",
+      0.099
+     ],
+     [
+      "lane",
+      0.094
+     ],
+     [
+      "go straight",
+      0.085
+     ],
+     [
+      "a crosswalk",
+      0.085
+     ],
+     [
+      "the way",
+      0.084
+     ]
+    ],
+    "u_own+": [
+     [
+      "a purple suv",
+      0.088
+     ],
+     [
+      "the s-shaped street",
+      0.088
+     ],
+     [
+      "a three-way intersection",
+      0.084
+     ],
+     [
+      "the stop sign",
+      0.083
+     ],
+     [
+      "a green bus",
+      0.08
+     ],
+     [
+      "the intersection",
+      0.077
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a green street sign",
+      0.124
+     ],
+     [
+      "a blue and green tennis court",
+      0.113
+     ],
+     [
+      "a tennis court",
+      0.104
+     ],
+     [
+      "a bus stop",
+      0.102
+     ],
+     [
+      "a green frisbee",
+      0.096
+     ],
+     [
+      "a tennis court playing tennis",
+      0.093
+     ]
+    ],
+    "u_own-": [
+     [
+      "a silver pickup truck",
+      0.131
+     ],
+     [
+      "a white suv waits.",
+      0.121
+     ],
+     [
+      "a white suv merges",
+      0.115
+     ],
+     [
+      "a black pick up truck",
+      0.11
+     ],
+     [
+      "a grey pickup truck",
+      0.109
+     ],
+     [
+      "a black pickup truck",
+      0.108
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a white truck",
+      0.071
+     ],
+     [
+      "a vehicle",
+      0.067
+     ],
+     [
+      "a black car",
+      0.056
+     ],
+     [
+      "a truck",
+      0.051
+     ],
+     [
+      "trucks",
+      0.042
+     ],
+     [
+      "a car window",
+      0.04
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.714,
+    "cos_uv": 0.05,
+    "specificity": 0.001,
+    "own_mean": 0.014,
+    "own_sd": 0.072,
+    "coco_mean": 0.013,
+    "v_own+": [
+     [
+      "a three-way intersection",
+      0.149
+     ],
+     [
+      "an intersection",
+      0.148
+     ],
+     [
+      "a intersection",
+      0.142
+     ],
+     [
+      "a yellow sedan",
+      0.136
+     ],
+     [
+      "intersection",
+      0.132
+     ],
+     [
+      "a major intersection",
+      0.123
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an intersection",
+      0.148
+     ],
+     [
+      "a green traffic light",
+      0.109
+     ],
+     [
+      "a green motorcycle",
+      0.1
+     ],
+     [
+      "traffic lights",
+      0.092
+     ],
+     [
+      "a red fire hydrant",
+      0.088
+     ],
+     [
+      "a curb",
+      0.085
+     ]
+    ],
+    "v_own-": [
+     [
+      "a blue wagon moves",
+      0.118
+     ],
+     [
+      "a blue suv turning",
+      0.099
+     ],
+     [
+      "a gray wagon",
+      0.088
+     ],
+     [
+      "a blue suv",
+      0.088
+     ],
+     [
+      "a blue toyota",
+      0.088
+     ],
+     [
+      "a dark gray suv",
+      0.087
+     ]
+    ],
+    "u_own+": [
+     [
+      "a medium load traffic",
+      0.066
+     ],
+     [
+      "a highway",
+      0.06
+     ],
+     [
+      "a busy road",
+      0.055
+     ],
+     [
+      "a busy street",
+      0.055
+     ],
+     [
+      "a busy traffic",
+      0.054
+     ],
+     [
+      "following",
+      0.054
+     ]
+    ],
+    "u_coco+": [
+     [
+      "country",
+      0.062
+     ],
+     [
+      "a highway",
+      0.06
+     ],
+     [
+      "a freeway",
+      0.057
+     ],
+     [
+      "a black hat",
+      0.057
+     ],
+     [
+      "two young boys",
+      0.055
+     ],
+     [
+      "a busy street",
+      0.055
+     ]
+    ],
+    "u_own-": [
+     [
+      "a white suv waits.",
+      0.102
+     ],
+     [
+      "a white wagon",
+      0.089
+     ],
+     [
+      "a white mini van",
+      0.077
+     ],
+     [
+      "parking lot",
+      0.076
+     ],
+     [
+      "a small white sedan",
+      0.075
+     ],
+     [
+      "a parking lot",
+      0.072
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a parking spot",
+      0.084
+     ],
+     [
+      "the parking lot",
+      0.077
+     ],
+     [
+      "a parking lot",
+      0.072
+     ],
+     [
+      "a dry grass field",
+      0.069
+     ],
+     [
+      "a white sink",
+      0.067
+     ],
+     [
+      "grassy area",
+      0.066
+     ]
+    ]
+   }
+  ]
+ },
+ "pooled/Wi": {
+  "frob": 4.146,
+  "energy_top8": 0.381,
+  "energy_top16": 0.58,
+  "top_s": [
+   1.146,
+   1.124,
+   0.883,
+   0.857,
+   0.825,
+   0.808,
+   0.767,
+   0.735,
+   0.722,
+   0.688,
+   0.679,
+   0.651,
+   0.642,
+   0.632,
+   0.609,
+   0.588
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.146,
+    "cos_uv": 0.18,
+    "specificity": 0.102,
+    "own_mean": 0.19,
+    "own_sd": 0.046,
+    "coco_mean": 0.088,
+    "v_own+": [
+     [
+      "a purple jeep",
+      0.085
+     ],
+     [
+      "no cars",
+      0.068
+     ],
+     [
+      "the red suv",
+      0.066
+     ],
+     [
+      "a red truck",
+      0.066
+     ],
+     [
+      "no car",
+      0.065
+     ],
+     [
+      "the hill",
+      0.064
+     ]
+    ],
+    "v_coco+": [
+     [
+      "tall trees",
+      0.081
+     ],
+     [
+      "the river",
+      0.069
+     ],
+     [
+      "a rocky hillside",
+      0.066
+     ],
+     [
+      "the hill",
+      0.064
+     ],
+     [
+      "a red car",
+      0.063
+     ],
+     [
+      "some trees",
+      0.062
+     ]
+    ],
+    "v_own-": [
+     [
+      "switches",
+      0.043
+     ],
+     [
+      "a green bus",
+      0.03
+     ],
+     [
+      "a white cargo van",
+      0.03
+     ],
+     [
+      "swithches",
+      0.025
+     ],
+     [
+      "moving",
+      0.016
+     ],
+     [
+      "switching",
+      0.015
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red and yellow cement truck",
+      0.138
+     ],
+     [
+      "a bright red truck",
+      0.091
+     ],
+     [
+      "a red cargo truck",
+      0.088
+     ],
+     [
+      "a red truck",
+      0.086
+     ],
+     [
+      "a blue truck",
+      0.084
+     ],
+     [
+      "a red pickup",
+      0.083
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a narrow street",
+      0.073
+     ],
+     [
+      "the walls",
+      0.052
+     ],
+     [
+      "a dirt road",
+      0.05
+     ],
+     [
+      "the wall",
+      0.05
+     ],
+     [
+      "the road",
+      0.048
+     ],
+     [
+      "the river",
+      0.046
+     ]
+    ],
+    "u_own-": [
+     [
+      "turns left",
+      0.188
+     ],
+     [
+      "turning left",
+      0.178
+     ],
+     [
+      "intersection",
+      0.177
+     ],
+     [
+      "turn left",
+      0.177
+     ],
+     [
+      "turn right",
+      0.173
+     ],
+     [
+      "an intersection",
+      0.172
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an intersection",
+      0.172
+     ],
+     [
+      "a green traffic light",
+      0.154
+     ],
+     [
+      "a stop sign",
+      0.149
+     ],
+     [
+      "the stop sign",
+      0.141
+     ],
+     [
+      "a stop",
+      0.139
+     ],
+     [
+      "traffic lights",
+      0.135
+     ]
+    ],
+    "v_images+": [
+     "A gray SUV runs down the street.",
+     "A black SUV goes straight.",
+     "A black van keeps straights following a red vehicle.",
+     "A silver sedan slows down at an intersection but the light changes and it continues moving"
+    ],
+    "v_images-": [
+     "A white sedan turns right at the intersection followed by another white vehicle.",
+     "A white SUV stops at an intersection and then turns right.",
+     "Large white van makes right at intersection."
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.124,
+    "cos_uv": -0.44,
+    "specificity": 0.43,
+    "own_mean": 0.595,
+    "own_sd": 0.032,
+    "coco_mean": 0.165,
+    "v_own+": [
+     [
+      "several stopped vehicles",
+      0.172
+     ],
+     [
+      "a busy intersection",
+      0.167
+     ],
+     [
+      "a white suv merges",
+      0.166
+     ],
+     [
+      "intersection",
+      0.158
+     ],
+     [
+      "traffic",
+      0.152
+     ],
+     [
+      "a white suv waits.",
+      0.152
+     ]
+    ],
+    "v_coco+": [
+     [
+      "traffic",
+      0.152
+     ],
+     [
+      "an intersection",
+      0.147
+     ],
+     [
+      "a busy city street",
+      0.13
+     ],
+     [
+      "a crosswalk",
+      0.128
+     ],
+     [
+      "a busy street",
+      0.128
+     ],
+     [
+      "traffic lights",
+      0.123
+     ]
+    ],
+    "v_own-": [
+     [
+      "a black small suv",
+      0.003
+     ],
+     [
+      "reaching",
+      -0.003
+     ],
+     [
+      "stands",
+      -0.003
+     ],
+     [
+      "making",
+      -0.004
+     ],
+     [
+      "the other side",
+      -0.007
+     ],
+     [
+      "the back",
+      -0.009
+     ]
+    ],
+    "u_own+": [
+     [
+      "switches",
+      0.005
+     ],
+     [
+      "crossed",
+      -0.003
+     ],
+     [
+      "pulls up",
+      -0.007
+     ],
+     [
+      "stands",
+      -0.019
+     ],
+     [
+      "the light",
+      -0.019
+     ],
+     [
+      "reaching",
+      -0.02
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a large glass vase",
+      0.029
+     ],
+     [
+      "unripe bananas",
+      0.029
+     ],
+     [
+      "a restaurant table",
+      0.02
+     ],
+     [
+      "a female tennis player",
+      0.019
+     ],
+     [
+      "a wooden shelf",
+      0.019
+     ],
+     [
+      "zebra standing",
+      0.017
+     ]
+    ],
+    "u_own-": [
+     [
+      "the s-shaped street",
+      0.122
+     ],
+     [
+      "another maroon vehicle",
+      0.121
+     ],
+     [
+      "many other parked vehicles",
+      0.118
+     ],
+     [
+      "street",
+      0.117
+     ],
+     [
+      "driving down",
+      0.116
+     ],
+     [
+      "another red vehicle",
+      0.116
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a sidewalk",
+      0.12
+     ],
+     [
+      "a roadway",
+      0.118
+     ],
+     [
+      "street",
+      0.117
+     ],
+     [
+      "a street",
+      0.114
+     ],
+     [
+      "the street",
+      0.108
+     ],
+     [
+      "a parking spot",
+      0.108
+     ]
+    ],
+    "v_images+": [
+     "A silver sedan keeps straight following a white SUV.",
+     "A black sedan drives over the lines.",
+     "White suv going straight.",
+     "Silver pickup truck makes a left turn then keeps straight."
+    ],
+    "v_images-": [
+     "A black SUV runs down the street.",
+     "A white car continues down the street.",
+     "A blue SUV is keeping straight."
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.883,
+    "cos_uv": 0.12,
+    "specificity": 0.02,
+    "own_mean": 0.052,
+    "own_sd": 0.06,
+    "coco_mean": 0.032,
+    "v_own+": [
+     [
+      "a residential street",
+      0.107
+     ],
+     [
+      "the empty street",
+      0.095
+     ],
+     [
+      "the main street",
+      0.085
+     ],
+     [
+      "continuing straight",
+      0.083
+     ],
+     [
+      "a red and yellow cement truck",
+      0.082
+     ],
+     [
+      "the street",
+      0.08
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a narrow street",
+      0.101
+     ],
+     [
+      "a street scene",
+      0.082
+     ],
+     [
+      "the street",
+      0.08
+     ],
+     [
+      "a horse drawn carriage",
+      0.078
+     ],
+     [
+      "a brick building",
+      0.074
+     ],
+     [
+      "a street",
+      0.074
+     ]
+    ],
+    "v_own-": [
+     [
+      "a white mini van",
+      0.05
+     ],
+     [
+      "a white wagon",
+      0.049
+     ],
+     [
+      "a white car",
+      0.048
+     ],
+     [
+      "another white car",
+      0.047
+     ],
+     [
+      "a white sedan car",
+      0.042
+     ],
+     [
+      "a white sedan",
+      0.042
+     ]
+    ],
+    "u_own+": [
+     [
+      "a curvy road",
+      0.162
+     ],
+     [
+      "a curved road",
+      0.155
+     ],
+     [
+      "a curved street",
+      0.153
+     ],
+     [
+      "a parking lot",
+      0.139
+     ],
+     [
+      "parking lot",
+      0.139
+     ],
+     [
+      "a bendy road",
+      0.136
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a parking lot",
+      0.139
+     ],
+     [
+      "a skate park",
+      0.128
+     ],
+     [
+      "the parking lot",
+      0.128
+     ],
+     [
+      "a parking meter",
+      0.121
+     ],
+     [
+      "an intersection",
+      0.12
+     ],
+     [
+      "a parking spot",
+      0.113
+     ]
+    ],
+    "u_own-": [
+     [
+      "a white wagon",
+      0.208
+     ],
+     [
+      "a silver wagon",
+      0.159
+     ],
+     [
+      "a green wagon",
+      0.126
+     ],
+     [
+      "a small white suv",
+      0.123
+     ],
+     [
+      "another white suv",
+      0.118
+     ],
+     [
+      "a  black wagon",
+      0.118
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green and white bus",
+      0.14
+     ],
+     [
+      "white shorts",
+      0.122
+     ],
+     [
+      "a black and white cow",
+      0.11
+     ],
+     [
+      "a white truck",
+      0.106
+     ],
+     [
+      "a black and white cat",
+      0.106
+     ],
+     [
+      "a white bus",
+      0.106
+     ]
+    ],
+    "v_images+": [
+     "A blue SUV is keeping straight.",
+     "A large vehicle drives towards an intersection.",
+     "A purple SUV making a left turn at intersection.",
+     "A dark SUV drives down the road passing a parking lot."
+    ],
+    "v_images-": [
+     "A silver suv keeps straight.",
+     "A white SUV runs down the street behind another sedan.",
+     "A grey sedan goes slowly on the street following a large coach."
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.857,
+    "cos_uv": 0.32,
+    "specificity": 0.014,
+    "own_mean": 0.017,
+    "own_sd": 0.031,
+    "coco_mean": 0.003,
+    "v_own+": [
+     [
+      "a dark red van",
+      0.083
+     ],
+     [
+      "a red van",
+      0.08
+     ],
+     [
+      "a green bus",
+      0.079
+     ],
+     [
+      "a maroon van",
+      0.078
+     ],
+     [
+      "another red vehicle",
+      0.075
+     ],
+     [
+      "another red suv",
+      0.074
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red fire hydrant",
+      0.099
+     ],
+     [
+      "a green street sign",
+      0.097
+     ],
+     [
+      "a red shirt",
+      0.092
+     ],
+     [
+      "a red train",
+      0.092
+     ],
+     [
+      "red shirt",
+      0.092
+     ],
+     [
+      "a red umbrella",
+      0.088
+     ]
+    ],
+    "v_own-": [
+     [
+      "a silver pickup truck",
+      0.106
+     ],
+     [
+      "a white suv waits.",
+      0.099
+     ],
+     [
+      "a white pickup truck",
+      0.099
+     ],
+     [
+      "large white pickup truck",
+      0.098
+     ],
+     [
+      "a grey pickup truck",
+      0.096
+     ],
+     [
+      "a white pick up truck",
+      0.096
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red sedan",
+      0.348
+     ],
+     [
+      "a red pickup truck",
+      0.318
+     ],
+     [
+      "red car",
+      0.313
+     ],
+     [
+      "a maroon pickup truck",
+      0.303
+     ],
+     [
+      "another red car",
+      0.299
+     ],
+     [
+      "a red and yellow cement truck",
+      0.295
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red car",
+      0.285
+     ],
+     [
+      "a red motorcycle",
+      0.251
+     ],
+     [
+      "a red couch",
+      0.239
+     ],
+     [
+      "a red train",
+      0.238
+     ],
+     [
+      "a red and white boat",
+      0.236
+     ],
+     [
+      "a red chair",
+      0.204
+     ]
+    ],
+    "u_own-": [
+     [
+      "a curved street",
+      0.119
+     ],
+     [
+      "the empty street",
+      0.11
+     ],
+     [
+      "the street",
+      0.109
+     ],
+     [
+      "a black suv crossing",
+      0.109
+     ],
+     [
+      "the curved street",
+      0.109
+     ],
+     [
+      "the s-shaped street",
+      0.108
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the street",
+      0.109
+     ],
+     [
+      "a side walk",
+      0.106
+     ],
+     [
+      "a crosswalk",
+      0.105
+     ],
+     [
+      "a city sidewalk",
+      0.104
+     ],
+     [
+      "a sidewalk",
+      0.102
+     ],
+     [
+      "a street",
+      0.101
+     ]
+    ],
+    "v_images+": [
+     "A white car continues down the street.",
+     "Muddy blue SUV keeps straight behind a red vehicle.",
+     "A midsize white vehicle slow down while passing  a bus.",
+     "Suv bul car followed red sedan car."
+    ],
+    "v_images-": [
+     "A large burgundy minivan.",
+     "A white SUV runs down the street.",
+     "A gray SUV runs down the street followed by a black vehicle."
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.825,
+    "cos_uv": 0.4,
+    "specificity": 0.029,
+    "own_mean": 0.007,
+    "own_sd": 0.041,
+    "coco_mean": -0.021,
+    "v_own+": [
+     [
+      "a black jeep",
+      0.12
+     ],
+     [
+      "a purple jeep",
+      0.113
+     ],
+     [
+      "a black truck",
+      0.086
+     ],
+     [
+      "a black pickup truck",
+      0.086
+     ],
+     [
+      "another black vehicle",
+      0.081
+     ],
+     [
+      "a black pick up truck",
+      0.079
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a black car",
+      0.067
+     ],
+     [
+      "a black dress",
+      0.063
+     ],
+     [
+      "black shirt",
+      0.061
+     ],
+     [
+      "three vases",
+      0.054
+     ],
+     [
+      "the game",
+      0.048
+     ],
+     [
+      "parked motorcycles",
+      0.045
+     ]
+    ],
+    "v_own-": [
+     [
+      "a small white sedan",
+      0.134
+     ],
+     [
+      "a white sedan",
+      0.132
+     ],
+     [
+      "a white wagon",
+      0.127
+     ],
+     [
+      "a white cargo van",
+      0.125
+     ],
+     [
+      "a white van",
+      0.124
+     ],
+     [
+      "large white van",
+      0.121
+     ]
+    ],
+    "u_own+": [
+     [
+      "a black van",
+      0.201
+     ],
+     [
+      "a black truck",
+      0.19
+     ],
+     [
+      "another black vehicle",
+      0.178
+     ],
+     [
+      "a black jeep",
+      0.175
+     ],
+     [
+      "another black car",
+      0.169
+     ],
+     [
+      "a black vehicle",
+      0.159
+     ]
+    ],
+    "u_coco+": [
+     [
+      "black shirt",
+      0.183
+     ],
+     [
+      "a black dress",
+      0.163
+     ],
+     [
+      "a black car",
+      0.156
+     ],
+     [
+      "a black dog",
+      0.156
+     ],
+     [
+      "a black cat",
+      0.144
+     ],
+     [
+      "black shorts",
+      0.129
+     ]
+    ],
+    "u_own-": [
+     [
+      "a white sedan",
+      0.245
+     ],
+     [
+      "a small white sedan",
+      0.234
+     ],
+     [
+      "a white wagon",
+      0.233
+     ],
+     [
+      "a white sedan car",
+      0.226
+     ],
+     [
+      "another white car",
+      0.207
+     ],
+     [
+      "a white pickup",
+      0.207
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a white bus",
+      0.201
+     ],
+     [
+      "white",
+      0.197
+     ],
+     [
+      "a white building",
+      0.192
+     ],
+     [
+      "a white truck",
+      0.183
+     ],
+     [
+      "a white boat",
+      0.178
+     ],
+     [
+      "a white surfboard",
+      0.174
+     ]
+    ],
+    "v_images+": [
+     "A black SUV makes a right turn and then continues to go straight.",
+     "A black SUV runs down the street and follows a blue Toyota.",
+     "A black hatchback merges right.",
+     "A black sedan runs down the street alongside a large pickup truck."
+    ],
+    "v_images-": [
+     "A gray sedan goes down the street with most of the cars parked.",
+     "Gray 4 Door Sedan Goes Straight In The Middle Of Two Cars.",
+     "A small sedan drives down a residential street and passes parked cars."
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.808,
+    "cos_uv": 0.11,
+    "specificity": 0.003,
+    "own_mean": -0.086,
+    "own_sd": 0.068,
+    "coco_mean": -0.089,
+    "v_own+": [
+     [
+      "a black van",
+      0.034
+     ],
+     [
+      "a black pick-up truck",
+      0.031
+     ],
+     [
+      "moving",
+      0.028
+     ],
+     [
+      "a black truck",
+      0.021
+     ],
+     [
+      "a dark van",
+      0.021
+     ],
+     [
+      "pauses",
+      0.021
+     ]
+    ],
+    "v_coco+": [
+     [
+      "meats",
+      0.041
+     ],
+     [
+      "uniforms",
+      0.033
+     ],
+     [
+      "black shirt",
+      0.031
+     ],
+     [
+      "various foods",
+      0.03
+     ],
+     [
+      "airplanes",
+      0.028
+     ],
+     [
+      "a brick building",
+      0.028
+     ]
+    ],
+    "v_own-": [
+     [
+      "another red car",
+      0.107
+     ],
+     [
+      "a red pickup truck",
+      0.106
+     ],
+     [
+      "the red suv",
+      0.103
+     ],
+     [
+      "a red pickup",
+      0.101
+     ],
+     [
+      "red car",
+      0.099
+     ],
+     [
+      "a red sedan",
+      0.096
+     ]
+    ],
+    "u_own+": [
+     [
+      "a midsize black sedan",
+      0.149
+     ],
+     [
+      "a dark gray sedan",
+      0.145
+     ],
+     [
+      "a small black sedan",
+      0.137
+     ],
+     [
+      "a black sedan",
+      0.12
+     ],
+     [
+      "a midsize black sedan truns",
+      0.117
+     ],
+     [
+      "a black sedan car",
+      0.111
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a black car",
+      0.099
+     ],
+     [
+      "an intersection",
+      0.095
+     ],
+     [
+      "a crosswalk",
+      0.07
+     ],
+     [
+      "a black dress",
+      0.066
+     ],
+     [
+      "black shirt",
+      0.061
+     ],
+     [
+      "a black dog",
+      0.054
+     ]
+    ],
+    "u_own-": [
+     [
+      "a red van",
+      0.139
+     ],
+     [
+      "curving",
+      0.139
+     ],
+     [
+      "the curve",
+      0.136
+     ],
+     [
+      "a bright red truck",
+      0.133
+     ],
+     [
+      "a bend",
+      0.133
+     ],
+     [
+      "bend",
+      0.126
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red and white boat",
+      0.162
+     ],
+     [
+      "a red chair",
+      0.145
+     ],
+     [
+      "a red couch",
+      0.129
+     ],
+     [
+      "a red umbrella",
+      0.114
+     ],
+     [
+      "white",
+      0.114
+     ],
+     [
+      "a red shirt",
+      0.114
+     ]
+    ],
+    "v_images+": [
+     "A black sedan runs on the street.",
+     "A gray car is going straight.",
+     "Black sedan goes straight.",
+     "A silver SUV runs down the road followed by another black vehicle."
+    ],
+    "v_images-": [
+     "A blue SUV is keeping straight.",
+     "A black SUV runs down the street.",
+     "A maroon van turns left down a curved street."
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.767,
+    "cos_uv": -0.05,
+    "specificity": 0.006,
+    "own_mean": 0.008,
+    "own_sd": 0.079,
+    "coco_mean": 0.002,
+    "v_own+": [
+     [
+      "a medium load traffic",
+      0.048
+     ],
+     [
+      "the highway",
+      0.045
+     ],
+     [
+      "right lane",
+      0.043
+     ],
+     [
+      "passengers",
+      0.042
+     ],
+     [
+      "the left lane",
+      0.041
+     ],
+     [
+      "busy traffic",
+      0.039
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a freeway",
+      0.064
+     ],
+     [
+      "passengers",
+      0.042
+     ],
+     [
+      "an airport runway",
+      0.041
+     ],
+     [
+      "a highway",
+      0.038
+     ],
+     [
+      "traffic",
+      0.038
+     ],
+     [
+      "suits",
+      0.033
+     ]
+    ],
+    "v_own-": [
+     [
+      "a red pickup truck",
+      0.138
+     ],
+     [
+      "a red pickup",
+      0.134
+     ],
+     [
+      "the red suv",
+      0.117
+     ],
+     [
+      "a bright red truck",
+      0.114
+     ],
+     [
+      "a red and yellow cement truck",
+      0.107
+     ],
+     [
+      "a red truck",
+      0.107
+     ]
+    ],
+    "u_own+": [
+     [
+      "a black car",
+      0.2
+     ],
+     [
+      "a black pick up truck",
+      0.199
+     ],
+     [
+      "black car",
+      0.197
+     ],
+     [
+      "a black sedan car",
+      0.192
+     ],
+     [
+      "a dark gray sedan",
+      0.192
+     ],
+     [
+      "another gray sedan",
+      0.19
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a black car",
+      0.2
+     ],
+     [
+      "a black dog",
+      0.129
+     ],
+     [
+      "black shorts",
+      0.112
+     ],
+     [
+      "black shirt",
+      0.107
+     ],
+     [
+      "a black cat",
+      0.1
+     ],
+     [
+      "the car",
+      0.099
+     ]
+    ],
+    "u_own-": [
+     [
+      "continuing straight",
+      0.124
+     ],
+     [
+      "keep straight",
+      0.116
+     ],
+     [
+      "continues straight",
+      0.104
+     ],
+     [
+      "go straight",
+      0.104
+     ],
+     [
+      "right lane",
+      0.103
+     ],
+     [
+      "continues straight until",
+      0.101
+     ]
+    ],
+    "u_coco-": [
+     [
+      "several rows",
+      0.099
+     ],
+     [
+      "a row",
+      0.079
+     ],
+     [
+      "a red fire",
+      0.072
+     ],
+     [
+      "a red light",
+      0.072
+     ],
+     [
+      "two twin beds",
+      0.069
+     ],
+     [
+      "it's sides",
+      0.067
+     ]
+    ],
+    "v_images+": [
+     "A grey SUV stopping at the intersection before taking a right turn.",
+     "A white pickup truk is going straight slowly.",
+     "A silver sedan keeps straight and stops behind traffic.",
+     "Black sedan runs down the street amidst other vehicles."
+    ],
+    "v_images-": [
+     "A red pickup runs down the street followed by another black vehicle.",
+     "A white pickup truck keeps straight.",
+     "A silver SUV turns left onto the road and passes parked cars."
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.735,
+    "cos_uv": 0.16,
+    "specificity": 0.016,
+    "own_mean": 0.032,
+    "own_sd": 0.062,
+    "coco_mean": 0.017,
+    "v_own+": [
+     [
+      "street corner",
+      0.061
+     ],
+     [
+      "the empty street",
+      0.06
+     ],
+     [
+      "a dark gray sedan",
+      0.058
+     ],
+     [
+      "a residential street",
+      0.055
+     ],
+     [
+      "the s-shaped street",
+      0.053
+     ],
+     [
+      "a somewhat old grey mid-size sedan",
+      0.05
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a blue and green tennis court",
+      0.101
+     ],
+     [
+      "a city sidewalk",
+      0.092
+     ],
+     [
+      "a dugout",
+      0.078
+     ],
+     [
+      "a tennis court",
+      0.075
+     ],
+     [
+      "a curb",
+      0.074
+     ],
+     [
+      "a sidewalk",
+      0.073
+     ]
+    ],
+    "v_own-": [
+     [
+      "the red suv",
+      0.09
+     ],
+     [
+      "busy traffic",
+      0.065
+     ],
+     [
+      "traffic",
+      0.062
+     ],
+     [
+      "a red minivan",
+      0.062
+     ],
+     [
+      "red car",
+      0.061
+     ],
+     [
+      "a red hatchback",
+      0.06
+     ]
+    ],
+    "u_own+": [
+     [
+      "a dark gray sedan",
+      0.143
+     ],
+     [
+      "a grey sedan",
+      0.131
+     ],
+     [
+      "a black sedan car",
+      0.127
+     ],
+     [
+      "a gray sedan.",
+      0.126
+     ],
+     [
+      "another gray sedan",
+      0.125
+     ],
+     [
+      "a somewhat old grey mid-size sedan",
+      0.122
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a black car",
+      0.056
+     ],
+     [
+      "side",
+      0.052
+     ],
+     [
+      "the side",
+      0.041
+     ],
+     [
+      "door",
+      0.037
+     ],
+     [
+      "front",
+      0.037
+     ],
+     [
+      "soup",
+      0.033
+     ]
+    ],
+    "u_own-": [
+     [
+      "a red cargo truck",
+      0.257
+     ],
+     [
+      "a bright red truck",
+      0.255
+     ],
+     [
+      "a red truck",
+      0.254
+     ],
+     [
+      "a red and yellow cement truck",
+      0.232
+     ],
+     [
+      "a red pickup",
+      0.218
+     ],
+     [
+      "a red pickup truck",
+      0.211
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red train",
+      0.2
+     ],
+     [
+      "a red fire hydrant",
+      0.187
+     ],
+     [
+      "a red couch",
+      0.18
+     ],
+     [
+      "a red apple",
+      0.155
+     ],
+     [
+      "a red umbrella",
+      0.154
+     ],
+     [
+      "a red chair",
+      0.152
+     ]
+    ],
+    "v_images+": [
+     "A white sedan stopping at a stop sign.",
+     "A white sedan turns left.",
+     "A van drives ahead slowly and turns left.",
+     "A green cargo truck keeps straight down the road."
+    ],
+    "v_images-": [
+     "A white cargo truck drives up a hill in the right lane.",
+     "A white SUV runs down the street.",
+     "A white pick up truck moving straight alongside a red hatchback."
+    ]
+   }
+  ]
+ },
+ "set/Wt": {
+  "frob": 2.881,
+  "energy_top8": 0.449,
+  "energy_top16": 0.642,
+  "top_s": [
+   0.886,
+   0.811,
+   0.748,
+   0.634,
+   0.623,
+   0.582,
+   0.559,
+   0.532,
+   0.497,
+   0.488,
+   0.48,
+   0.457,
+   0.441,
+   0.418,
+   0.394,
+   0.391
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 0.886,
+    "cos_uv": -0.63,
+    "specificity": 0.231,
+    "own_mean": 0.503,
+    "own_sd": 0.112,
+    "coco_mean": 0.272,
+    "v_own+": [
+     [
+      "a large gray pickup truck",
+      0.461
+     ],
+     [
+      "a gray pickup truck",
+      0.458
+     ],
+     [
+      "a silver pickup truck",
+      0.455
+     ],
+     [
+      "a small gray sedan",
+      0.449
+     ],
+     [
+      "a black pickup truck",
+      0.448
+     ],
+     [
+      "a black truck",
+      0.445
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red car",
+      0.425
+     ],
+     [
+      "a black car",
+      0.408
+     ],
+     [
+      "a white truck",
+      0.398
+     ],
+     [
+      "a busy city street",
+      0.387
+     ],
+     [
+      "a busy street",
+      0.381
+     ],
+     [
+      "two cars",
+      0.372
+     ]
+    ],
+    "v_own-": [
+     [
+      "stands",
+      -0.102
+     ],
+     [
+      "pauses",
+      -0.113
+     ],
+     [
+      "swithches",
+      -0.119
+     ],
+     [
+      "the curve",
+      -0.119
+     ],
+     [
+      "right side",
+      -0.124
+     ],
+     [
+      "making",
+      -0.125
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red and yellow cement truck",
+      -0.541
+     ],
+     [
+      "the middle",
+      -0.57
+     ],
+     [
+      "crossed",
+      -0.571
+     ],
+     [
+      "front",
+      -0.572
+     ],
+     [
+      "a purple crossover",
+      -0.594
+     ],
+     [
+      "right side",
+      -0.595
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      -0.518
+     ],
+     [
+      "mustard",
+      -0.527
+     ],
+     [
+      "a green grass covered field",
+      -0.547
+     ],
+     [
+      "four men",
+      -0.549
+     ],
+     [
+      "yellow shirt",
+      -0.552
+     ],
+     [
+      "a wooden floor",
+      -0.559
+     ]
+    ],
+    "u_own-": [
+     [
+      "grey car",
+      0.763
+     ],
+     [
+      "another sedan",
+      0.763
+     ],
+     [
+      "another car",
+      0.762
+     ],
+     [
+      "a somewhat old grey mid-size sedan",
+      0.761
+     ],
+     [
+      "several other cars",
+      0.761
+     ],
+     [
+      "a busy street",
+      0.76
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a busy city street",
+      0.765
+     ],
+     [
+      "a roadway",
+      0.764
+     ],
+     [
+      "a car",
+      0.763
+     ],
+     [
+      "a busy street",
+      0.76
+     ],
+     [
+      "a street scene",
+      0.757
+     ],
+     [
+      "some cars",
+      0.757
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.811,
+    "cos_uv": 0.27,
+    "specificity": 0.043,
+    "own_mean": 0.069,
+    "own_sd": 0.081,
+    "coco_mean": 0.027,
+    "v_own+": [
+     [
+      "turns left",
+      0.207
+     ],
+     [
+      "turn left",
+      0.196
+     ],
+     [
+      "a stop sign",
+      0.195
+     ],
+     [
+      "turn right",
+      0.19
+     ],
+     [
+      "turning left",
+      0.19
+     ],
+     [
+      "a left turn",
+      0.181
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red stop sign",
+      0.215
+     ],
+     [
+      "a stop sign",
+      0.214
+     ],
+     [
+      "the stop sign",
+      0.176
+     ],
+     [
+      "a stop",
+      0.169
+     ],
+     [
+      "a green traffic light",
+      0.166
+     ],
+     [
+      "a stoplight",
+      0.163
+     ]
+    ],
+    "v_own-": [
+     [
+      "running straight",
+      0.052
+     ],
+     [
+      "a blue pickup",
+      0.052
+     ],
+     [
+      "a red and yellow cement truck",
+      0.052
+     ],
+     [
+      "a blue pickup truck",
+      0.047
+     ],
+     [
+      "straight the road",
+      0.043
+     ],
+     [
+      "a blue truck",
+      0.038
+     ]
+    ],
+    "u_own+": [
+     [
+      "a busy intersection",
+      0.019
+     ],
+     [
+      "switches",
+      0.009
+     ],
+     [
+      "intersection",
+      0.004
+     ],
+     [
+      "turning right",
+      -0.001
+     ],
+     [
+      "an intersection",
+      -0.001
+     ],
+     [
+      "a intersection",
+      -0.004
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a green traffic light",
+      0.016
+     ],
+     [
+      "a green and white bus",
+      0.014
+     ],
+     [
+      "traffic lights",
+      0.0
+     ],
+     [
+      "an intersection",
+      -0.001
+     ],
+     [
+      "a green street sign",
+      -0.002
+     ],
+     [
+      "umbrellas",
+      -0.008
+     ]
+    ],
+    "u_own-": [
+     [
+      "a red truck",
+      0.127
+     ],
+     [
+      "a red and yellow cement truck",
+      0.124
+     ],
+     [
+      "the highway",
+      0.123
+     ],
+     [
+      "the empty street",
+      0.119
+     ],
+     [
+      "a blue truck",
+      0.118
+     ],
+     [
+      "a silver truck",
+      0.114
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the river",
+      0.125
+     ],
+     [
+      "tall trees",
+      0.122
+     ],
+     [
+      "a red brick building",
+      0.12
+     ],
+     [
+      "bleachers",
+      0.114
+     ],
+     [
+      "an open field",
+      0.114
+     ],
+     [
+      "a red car",
+      0.114
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.748,
+    "cos_uv": 0.15,
+    "specificity": 0.041,
+    "own_mean": 0.1,
+    "own_sd": 0.051,
+    "coco_mean": 0.059,
+    "v_own+": [
+     [
+      "parked cars",
+      0.199
+     ],
+     [
+      "some parked cars",
+      0.191
+     ],
+     [
+      "a curvy road",
+      0.179
+     ],
+     [
+      "a curved road",
+      0.177
+     ],
+     [
+      "a curved street",
+      0.177
+     ],
+     [
+      "many parked vehicles",
+      0.17
+     ]
+    ],
+    "v_coco+": [
+     [
+      "parked motorcycles",
+      0.17
+     ],
+     [
+      "a parking lot",
+      0.165
+     ],
+     [
+      "a parking spot",
+      0.164
+     ],
+     [
+      "two cars",
+      0.156
+     ],
+     [
+      "the parking lot",
+      0.144
+     ],
+     [
+      "a parking meter",
+      0.134
+     ]
+    ],
+    "v_own-": [
+     [
+      "a black small suv",
+      0.091
+     ],
+     [
+      "a green wagon",
+      0.073
+     ],
+     [
+      "a black truck",
+      0.069
+     ],
+     [
+      "a black suv",
+      0.062
+     ],
+     [
+      "a  black wagon",
+      0.054
+     ],
+     [
+      "a black pick",
+      0.053
+     ]
+    ],
+    "u_own+": [
+     [
+      "a residential street",
+      0.018
+     ],
+     [
+      "another street",
+      -0.009
+     ],
+     [
+      "the street",
+      -0.016
+     ],
+     [
+      "the main street",
+      -0.017
+     ],
+     [
+      "a street",
+      -0.02
+     ],
+     [
+      "a row",
+      -0.023
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a narrow street",
+      0.029
+     ],
+     [
+      "a city sidewalk",
+      0.003
+     ],
+     [
+      "a side walk",
+      -0.01
+     ],
+     [
+      "a city street",
+      -0.015
+     ],
+     [
+      "the street",
+      -0.016
+     ],
+     [
+      "a street",
+      -0.02
+     ]
+    ],
+    "u_own-": [
+     [
+      "a three-way intersection",
+      0.202
+     ],
+     [
+      "a white suv merges",
+      0.19
+     ],
+     [
+      "several stopped vehicles",
+      0.173
+     ],
+     [
+      "a major intersection",
+      0.173
+     ],
+     [
+      "a white truck",
+      0.172
+     ],
+     [
+      "a white cargo truck",
+      0.171
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green and white bus",
+      0.192
+     ],
+     [
+      "an airport",
+      0.186
+     ],
+     [
+      "the airport",
+      0.186
+     ],
+     [
+      "a freeway",
+      0.182
+     ],
+     [
+      "traffic signs",
+      0.18
+     ],
+     [
+      "airplanes",
+      0.175
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.634,
+    "cos_uv": 0.07,
+    "specificity": 0.018,
+    "own_mean": -0.018,
+    "own_sd": 0.087,
+    "coco_mean": -0.036,
+    "v_own+": [
+     [
+      "a curved street",
+      0.117
+     ],
+     [
+      "a lane",
+      0.109
+     ],
+     [
+      "bend",
+      0.108
+     ],
+     [
+      "a bend",
+      0.103
+     ],
+     [
+      "lane",
+      0.102
+     ],
+     [
+      "the curved street",
+      0.102
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a side walk",
+      0.071
+     ],
+     [
+      "a narrow street",
+      0.067
+     ],
+     [
+      "sidewalk",
+      0.059
+     ],
+     [
+      "the street",
+      0.056
+     ],
+     [
+      "a path",
+      0.056
+     ],
+     [
+      "a sidewalk",
+      0.053
+     ]
+    ],
+    "v_own-": [
+     [
+      "a purple pickup truck",
+      0.225
+     ],
+     [
+      "a purple sedan",
+      0.214
+     ],
+     [
+      "a silver pickup truck",
+      0.207
+     ],
+     [
+      "a purple jeep",
+      0.205
+     ],
+     [
+      "large white pickup truck",
+      0.201
+     ],
+     [
+      "a blue pickup truck",
+      0.196
+     ]
+    ],
+    "u_own+": [
+     [
+      "a white suv waits.",
+      0.067
+     ],
+     [
+      "a black jeep",
+      0.063
+     ],
+     [
+      "the red suv",
+      0.057
+     ],
+     [
+      "buick suv",
+      0.057
+     ],
+     [
+      "a blue pickup truck",
+      0.054
+     ],
+     [
+      "a big suv.",
+      0.054
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a black car",
+      0.039
+     ],
+     [
+      "a car window",
+      0.028
+     ],
+     [
+      "a black and white cat",
+      0.027
+     ],
+     [
+      "a rocky hillside",
+      0.026
+     ],
+     [
+      "a blue jacket",
+      0.024
+     ],
+     [
+      "a gray cat",
+      0.023
+     ]
+    ],
+    "u_own-": [
+     [
+      "a stoplight",
+      0.085
+     ],
+     [
+      "a green bus",
+      0.085
+     ],
+     [
+      "the traffic light",
+      0.078
+     ],
+     [
+      "stops",
+      0.065
+     ],
+     [
+      "a three-way intersection",
+      0.064
+     ],
+     [
+      "was",
+      0.064
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green street sign",
+      0.102
+     ],
+     [
+      "a green and white bus",
+      0.094
+     ],
+     [
+      "a green traffic light",
+      0.091
+     ],
+     [
+      "a green bus",
+      0.087
+     ],
+     [
+      "the airport",
+      0.086
+     ],
+     [
+      "a stoplight",
+      0.085
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.623,
+    "cos_uv": 0.08,
+    "specificity": 0.008,
+    "own_mean": 0.001,
+    "own_sd": 0.057,
+    "coco_mean": -0.007,
+    "v_own+": [
+     [
+      "keep straight",
+      0.123
+     ],
+     [
+      "go straight",
+      0.122
+     ],
+     [
+      "continuing straight",
+      0.112
+     ],
+     [
+      "drives straight",
+      0.107
+     ],
+     [
+      "running straight",
+      0.102
+     ],
+     [
+      "moving straight",
+      0.101
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a narrow street",
+      0.077
+     ],
+     [
+      "a crosswalk",
+      0.07
+     ],
+     [
+      "a runway",
+      0.062
+     ],
+     [
+      "a trail",
+      0.062
+     ],
+     [
+      "a path",
+      0.058
+     ],
+     [
+      "an intersection",
+      0.053
+     ]
+    ],
+    "v_own-": [
+     [
+      "a blue pickup truck",
+      0.264
+     ],
+     [
+      "a blue pickup",
+      0.258
+     ],
+     [
+      "a blue van",
+      0.239
+     ],
+     [
+      "a blue truck",
+      0.237
+     ],
+     [
+      "a red pickup truck",
+      0.236
+     ],
+     [
+      "a red pickup",
+      0.231
+     ]
+    ],
+    "u_own+": [
+     [
+      "a vehicle",
+      0.036
+     ],
+     [
+      "going down",
+      0.029
+     ],
+     [
+      "a black jeep",
+      0.029
+     ],
+     [
+      "cross",
+      0.029
+     ],
+     [
+      "a white wagon",
+      0.028
+     ],
+     [
+      "turns to",
+      0.028
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a tent",
+      0.057
+     ],
+     [
+      "an outdoor market",
+      0.055
+     ],
+     [
+      "a fruit stand",
+      0.054
+     ],
+     [
+      "a store",
+      0.054
+     ],
+     [
+      "a stack",
+      0.052
+     ],
+     [
+      "a shower curtain",
+      0.05
+     ]
+    ],
+    "u_own-": [
+     [
+      "the highway",
+      0.085
+     ],
+     [
+      "the road",
+      0.076
+     ],
+     [
+      "a highway",
+      0.074
+     ],
+     [
+      "a 1 lane road",
+      0.073
+     ],
+     [
+      "the roadway",
+      0.071
+     ],
+     [
+      "road",
+      0.07
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a freeway",
+      0.085
+     ],
+     [
+      "the road",
+      0.076
+     ],
+     [
+      "a highway",
+      0.074
+     ],
+     [
+      "a wet road",
+      0.071
+     ],
+     [
+      "a roadway",
+      0.068
+     ],
+     [
+      "passengers",
+      0.065
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.582,
+    "cos_uv": 0.04,
+    "specificity": 0.03,
+    "own_mean": 0.031,
+    "own_sd": 0.072,
+    "coco_mean": 0.001,
+    "v_own+": [
+     [
+      "a maroon pickup truck",
+      0.262
+     ],
+     [
+      "a red pickup truck",
+      0.248
+     ],
+     [
+      "a red pickup",
+      0.244
+     ],
+     [
+      "a red truck",
+      0.232
+     ],
+     [
+      "a dark red sedan",
+      0.228
+     ],
+     [
+      "a maroon sedan",
+      0.226
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a white truck",
+      0.176
+     ],
+     [
+      "a red car",
+      0.175
+     ],
+     [
+      "a red fire",
+      0.165
+     ],
+     [
+      "a red and white boat",
+      0.16
+     ],
+     [
+      "a green and white bus",
+      0.157
+     ],
+     [
+      "a red couch",
+      0.157
+     ]
+    ],
+    "v_own-": [
+     [
+      "a crosswalk",
+      0.076
+     ],
+     [
+      "the stop sign",
+      0.045
+     ],
+     [
+      "a stop sign",
+      0.045
+     ],
+     [
+      "stopping",
+      0.043
+     ],
+     [
+      "a stop",
+      0.043
+     ],
+     [
+      "crossing",
+      0.038
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red and yellow cement truck",
+      0.06
+     ],
+     [
+      "a purple sedan",
+      0.05
+     ],
+     [
+      "a maroon car",
+      0.05
+     ],
+     [
+      "a red sedan",
+      0.046
+     ],
+     [
+      "a yellow sedan",
+      0.042
+     ],
+     [
+      "a brown sedan car",
+      0.035
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      0.085
+     ],
+     [
+      "three windows",
+      0.054
+     ],
+     [
+      "two slices",
+      0.048
+     ],
+     [
+      "three vases",
+      0.045
+     ],
+     [
+      "two apples",
+      0.043
+     ],
+     [
+      "a red couch",
+      0.036
+     ]
+    ],
+    "u_own-": [
+     [
+      "a medium load traffic",
+      0.109
+     ],
+     [
+      "a white wagon",
+      0.105
+     ],
+     [
+      "busy traffic",
+      0.104
+     ],
+     [
+      "a white suv merges",
+      0.102
+     ],
+     [
+      "a busy traffic",
+      0.099
+     ],
+     [
+      "traffic",
+      0.099
+     ]
+    ],
+    "u_coco-": [
+     [
+      "traffic",
+      0.099
+     ],
+     [
+      "lots",
+      0.098
+     ],
+     [
+      "a herd",
+      0.088
+     ],
+     [
+      "white shorts",
+      0.087
+     ],
+     [
+      "a long train",
+      0.084
+     ],
+     [
+      "a large white sheep",
+      0.081
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.559,
+    "cos_uv": 0.07,
+    "specificity": 0.021,
+    "own_mean": 0.054,
+    "own_sd": 0.094,
+    "coco_mean": 0.033,
+    "v_own+": [
+     [
+      "an intersection",
+      0.267
+     ],
+     [
+      "a intersection",
+      0.264
+     ],
+     [
+      "the intersection",
+      0.25
+     ],
+     [
+      "a three-way intersection",
+      0.245
+     ],
+     [
+      "intersection",
+      0.233
+     ],
+     [
+      "a major intersection",
+      0.229
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an intersection",
+      0.267
+     ],
+     [
+      "a street corner",
+      0.166
+     ],
+     [
+      "a crosswalk",
+      0.161
+     ],
+     [
+      "a green street sign",
+      0.13
+     ],
+     [
+      "a curb",
+      0.127
+     ],
+     [
+      "the corner",
+      0.123
+     ]
+    ],
+    "v_own-": [
+     [
+      "a black sedan car",
+      0.166
+     ],
+     [
+      "a midsize black sedan",
+      0.162
+     ],
+     [
+      "a small black sedan",
+      0.158
+     ],
+     [
+      "a black sedan",
+      0.151
+     ],
+     [
+      "black car",
+      0.151
+     ],
+     [
+      "a black car",
+      0.142
+     ]
+    ],
+    "u_own+": [
+     [
+      "a silver pickup truck",
+      -0.018
+     ],
+     [
+      "a large gray pickup truck",
+      -0.018
+     ],
+     [
+      "a grey pickup truck",
+      -0.019
+     ],
+     [
+      "a red and yellow cement truck",
+      -0.019
+     ],
+     [
+      "a maroon pickup truck",
+      -0.02
+     ],
+     [
+      "a gray pickup truck",
+      -0.024
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a microphone",
+      -0.014
+     ],
+     [
+      "two horses",
+      -0.022
+     ],
+     [
+      "a large brown bear",
+      -0.022
+     ],
+     [
+      "a large gray elephant",
+      -0.025
+     ],
+     [
+      "a red light",
+      -0.028
+     ],
+     [
+      "two young boys",
+      -0.029
+     ]
+    ],
+    "u_own-": [
+     [
+      "the s-shaped street",
+      0.159
+     ],
+     [
+      "a green bus",
+      0.154
+     ],
+     [
+      "many cars",
+      0.151
+     ],
+     [
+      "stops at",
+      0.151
+     ],
+     [
+      "many parked vehicles",
+      0.148
+     ],
+     [
+      "the parking",
+      0.145
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a bus stop",
+      0.18
+     ],
+     [
+      "a green and white bus",
+      0.17
+     ],
+     [
+      "two buses",
+      0.167
+     ],
+     [
+      "a green bus",
+      0.162
+     ],
+     [
+      "a public transit bus",
+      0.156
+     ],
+     [
+      "a bus",
+      0.153
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.532,
+    "cos_uv": 0.05,
+    "specificity": 0.022,
+    "own_mean": 0.027,
+    "own_sd": 0.085,
+    "coco_mean": 0.004,
+    "v_own+": [
+     [
+      "a gray sedan.",
+      0.228
+     ],
+     [
+      "a grey sedan",
+      0.215
+     ],
+     [
+      "a dark gray sedan",
+      0.214
+     ],
+     [
+      "a small gray sedan",
+      0.195
+     ],
+     [
+      "a gold sedan",
+      0.188
+     ],
+     [
+      "white sedan",
+      0.183
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a street scene",
+      0.122
+     ],
+     [
+      "a large tower",
+      0.102
+     ],
+     [
+      "a gray cat",
+      0.094
+     ],
+     [
+      "a city",
+      0.093
+     ],
+     [
+      "the street",
+      0.093
+     ],
+     [
+      "a sidewalk",
+      0.091
+     ]
+    ],
+    "v_own-": [
+     [
+      "a red van",
+      0.206
+     ],
+     [
+      "a red cargo truck",
+      0.177
+     ],
+     [
+      "a bright red truck",
+      0.17
+     ],
+     [
+      "a red and yellow cement truck",
+      0.169
+     ],
+     [
+      "a red truck",
+      0.162
+     ],
+     [
+      "a dark red van",
+      0.126
+     ]
+    ],
+    "u_own+": [
+     [
+      "a white cargo truck",
+      0.076
+     ],
+     [
+      "a cargo truck",
+      0.072
+     ],
+     [
+      "truk",
+      0.055
+     ],
+     [
+      "a silver truck",
+      0.052
+     ],
+     [
+      "a red cargo truck",
+      0.046
+     ],
+     [
+      "a black pick-up truck",
+      0.043
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a semi truck",
+      0.053
+     ],
+     [
+      "a white truck",
+      0.042
+     ],
+     [
+      "trucks",
+      0.035
+     ],
+     [
+      "a white refrigerator freezer",
+      0.034
+     ],
+     [
+      "a metallic refrigerator freezer",
+      0.033
+     ],
+     [
+      "a green and white bus",
+      0.032
+     ]
+    ],
+    "u_own-": [
+     [
+      "a blue car pauses",
+      0.09
+     ],
+     [
+      "going straight",
+      0.084
+     ],
+     [
+      "a curve",
+      0.08
+     ],
+     [
+      "a blue mpv",
+      0.076
+     ],
+     [
+      "going straight after",
+      0.073
+     ],
+     [
+      "go straight",
+      0.073
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a blue jacket",
+      0.1
+     ],
+     [
+      "a blue coat",
+      0.093
+     ],
+     [
+      "a blue sign",
+      0.091
+     ],
+     [
+      "a rail",
+      0.087
+     ],
+     [
+      "an obstacle",
+      0.085
+     ],
+     [
+      "a red couch",
+      0.084
+     ]
+    ]
+   }
+  ]
+ },
+ "set/Wi": {
+  "frob": 2.901,
+  "energy_top8": 0.446,
+  "energy_top16": 0.641,
+  "top_s": [
+   0.941,
+   0.831,
+   0.687,
+   0.641,
+   0.599,
+   0.582,
+   0.572,
+   0.522,
+   0.518,
+   0.485,
+   0.475,
+   0.448,
+   0.445,
+   0.423,
+   0.41,
+   0.4
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 0.941,
+    "cos_uv": -0.78,
+    "specificity": 0.454,
+    "own_mean": 0.657,
+    "own_sd": 0.031,
+    "coco_mean": 0.203,
+    "v_own+": [
+     [
+      "several stopped vehicles",
+      0.183
+     ],
+     [
+      "a white suv merges",
+      0.165
+     ],
+     [
+      "a busy intersection",
+      0.163
+     ],
+     [
+      "parked cars",
+      0.16
+     ],
+     [
+      "intersection",
+      0.159
+     ],
+     [
+      "many cars",
+      0.159
+     ]
+    ],
+    "v_coco+": [
+     [
+      "traffic",
+      0.155
+     ],
+     [
+      "an intersection",
+      0.148
+     ],
+     [
+      "two cars",
+      0.144
+     ],
+     [
+      "cars",
+      0.136
+     ],
+     [
+      "several cars",
+      0.134
+     ],
+     [
+      "some cars",
+      0.134
+     ]
+    ],
+    "v_own-": [
+     [
+      "a black small suv",
+      0.005
+     ],
+     [
+      "switches",
+      0.002
+     ],
+     [
+      "making",
+      0.0
+     ],
+     [
+      "stands",
+      -0.003
+     ],
+     [
+      "another black suv",
+      -0.008
+     ],
+     [
+      "the light",
+      -0.009
+     ]
+    ],
+    "u_own+": [
+     [
+      "a black small suv",
+      -0.018
+     ],
+     [
+      "stands",
+      -0.027
+     ],
+     [
+      "pulls up",
+      -0.03
+     ],
+     [
+      "a red and yellow cement truck",
+      -0.032
+     ],
+     [
+      "making",
+      -0.033
+     ],
+     [
+      "switches",
+      -0.034
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a female tennis player",
+      0.014
+     ],
+     [
+      "a wooden shelf",
+      0.011
+     ],
+     [
+      "his shirt",
+      0.008
+     ],
+     [
+      "a blue and green tennis court",
+      0.007
+     ],
+     [
+      "a large glass vase",
+      0.007
+     ],
+     [
+      "a hotel bathroom",
+      0.004
+     ]
+    ],
+    "u_own-": [
+     [
+      "several stopped vehicles",
+      0.183
+     ],
+     [
+      "large gray sedan turning left.",
+      0.171
+     ],
+     [
+      "turning right",
+      0.167
+     ],
+     [
+      "turning left",
+      0.165
+     ],
+     [
+      "intersection",
+      0.162
+     ],
+     [
+      "after turning right.",
+      0.161
+     ]
+    ],
+    "u_coco-": [
+     [
+      "traffic",
+      0.159
+     ],
+     [
+      "an intersection",
+      0.154
+     ],
+     [
+      "street",
+      0.146
+     ],
+     [
+      "a parking spot",
+      0.145
+     ],
+     [
+      "a roadway",
+      0.14
+     ],
+     [
+      "a crosswalk",
+      0.137
+     ]
+    ],
+    "v_images+": [
+     "A black sedan keeps straight following an empty cargo truck.",
+     "A black hatchback slowly crosses an intersection.",
+     "A large hatchback drives straight through an intersection between a silver vehicle and a r",
+     "A dark red pickup truck turns left on a wide crossroad followed by another red pickup truc"
+    ],
+    "v_images-": [
+     "A black SUV runs down the street.",
+     "A white car continues down the street.",
+     "A blue SUV is keeping straight."
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.831,
+    "cos_uv": 0.22,
+    "specificity": 0.092,
+    "own_mean": 0.096,
+    "own_sd": 0.054,
+    "coco_mean": 0.004,
+    "v_own+": [
+     [
+      "a busy intersection",
+      0.078
+     ],
+     [
+      "a busy street",
+      0.072
+     ],
+     [
+      "a white cargo van",
+      0.066
+     ],
+     [
+      "a green pickup truck",
+      0.062
+     ],
+     [
+      "an intersection",
+      0.056
+     ],
+     [
+      "intersection",
+      0.055
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a busy city street",
+      0.074
+     ],
+     [
+      "a busy street",
+      0.072
+     ],
+     [
+      "a green traffic light",
+      0.065
+     ],
+     [
+      "a green street sign",
+      0.062
+     ],
+     [
+      "street lights",
+      0.061
+     ],
+     [
+      "traffic lights",
+      0.058
+     ]
+    ],
+    "v_own-": [
+     [
+      "the hill",
+      0.049
+     ],
+     [
+      "a hill",
+      0.041
+     ],
+     [
+      "a bendy road",
+      0.033
+     ],
+     [
+      "trees",
+      0.033
+     ],
+     [
+      "traveling down",
+      0.032
+     ],
+     [
+      "the track",
+      0.03
+     ]
+    ],
+    "u_own+": [
+     [
+      "turns left",
+      0.17
+     ],
+     [
+      "turn left",
+      0.148
+     ],
+     [
+      "turn right",
+      0.146
+     ],
+     [
+      "turning left",
+      0.139
+     ],
+     [
+      "turning right",
+      0.128
+     ],
+     [
+      "a left turn",
+      0.128
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a stop sign",
+      0.128
+     ],
+     [
+      "an intersection",
+      0.118
+     ],
+     [
+      "a red stop sign",
+      0.11
+     ],
+     [
+      "a green traffic light",
+      0.105
+     ],
+     [
+      "the stop sign",
+      0.102
+     ],
+     [
+      "a stop",
+      0.098
+     ]
+    ],
+    "u_own-": [
+     [
+      "a red and yellow cement truck",
+      0.156
+     ],
+     [
+      "a blue truck",
+      0.152
+     ],
+     [
+      "a blue pickup truck",
+      0.145
+     ],
+     [
+      "a blue pickup",
+      0.143
+     ],
+     [
+      "a black truck",
+      0.138
+     ],
+     [
+      "a bright red truck",
+      0.131
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a narrow street",
+      0.122
+     ],
+     [
+      "the road",
+      0.106
+     ],
+     [
+      "the street",
+      0.105
+     ],
+     [
+      "a truck",
+      0.1
+     ],
+     [
+      "a street",
+      0.096
+     ],
+     [
+      "the sidewalk",
+      0.095
+     ]
+    ],
+    "v_images+": [
+     "A white sedan waits at an intersection to turn left.",
+     "A black SUV stops behind a line of vehicles at a stop sign and then turns right.",
+     "A white pickup track stopped on intersection.",
+     "Large Gray Sedan turning left."
+    ],
+    "v_images-": [
+     "A gray SUV runs down the street.",
+     "A black van keeps straights following a red vehicle.",
+     "A black SUV goes straight."
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.687,
+    "cos_uv": -0.01,
+    "specificity": 0.033,
+    "own_mean": 0.086,
+    "own_sd": 0.088,
+    "coco_mean": 0.054,
+    "v_own+": [
+     [
+      "a residential street",
+      0.159
+     ],
+     [
+      "the main street",
+      0.145
+     ],
+     [
+      "the street",
+      0.14
+     ],
+     [
+      "a street",
+      0.132
+     ],
+     [
+      "another street",
+      0.128
+     ],
+     [
+      "the empty street",
+      0.127
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a narrow street",
+      0.16
+     ],
+     [
+      "the street",
+      0.14
+     ],
+     [
+      "a street scene",
+      0.138
+     ],
+     [
+      "a city street",
+      0.133
+     ],
+     [
+      "a street",
+      0.132
+     ],
+     [
+      "a city sidewalk",
+      0.129
+     ]
+    ],
+    "v_own-": [
+     [
+      "three other vehicles",
+      0.035
+     ],
+     [
+      "a white suv merges",
+      0.024
+     ],
+     [
+      "several vehicles",
+      0.023
+     ],
+     [
+      "many cars",
+      0.022
+     ],
+     [
+      "several stopped vehicles",
+      0.02
+     ],
+     [
+      "all cars",
+      0.02
+     ]
+    ],
+    "u_own+": [
+     [
+      "parked cars",
+      0.15
+     ],
+     [
+      "some parked cars",
+      0.14
+     ],
+     [
+      "parked",
+      0.105
+     ],
+     [
+      "2 cars",
+      0.104
+     ],
+     [
+      "a parking lot",
+      0.104
+     ],
+     [
+      "many parked vehicles",
+      0.103
+     ]
+    ],
+    "u_coco+": [
+     [
+      "parked motorcycles",
+      0.135
+     ],
+     [
+      "two cars",
+      0.113
+     ],
+     [
+      "a parking lot",
+      0.104
+     ],
+     [
+      "a parking spot",
+      0.102
+     ],
+     [
+      "the parking lot",
+      0.087
+     ],
+     [
+      "a parking meter",
+      0.075
+     ]
+    ],
+    "u_own-": [
+     [
+      "a  black wagon",
+      0.156
+     ],
+     [
+      "a black truck",
+      0.152
+     ],
+     [
+      "a black small suv",
+      0.148
+     ],
+     [
+      "a black van",
+      0.145
+     ],
+     [
+      "a green wagon",
+      0.138
+     ],
+     [
+      "a black suv crossing",
+      0.129
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green street sign",
+      0.142
+     ],
+     [
+      "a black and white cat",
+      0.138
+     ],
+     [
+      "a black and white cow",
+      0.131
+     ],
+     [
+      "a black dress",
+      0.128
+     ],
+     [
+      "black shorts",
+      0.127
+     ],
+     [
+      "black shirt",
+      0.127
+     ]
+    ],
+    "v_images+": [
+     "A hatchback drives down the street passing a parking lot.",
+     "Large white pickup truck runs down street trailing several other cars.",
+     "A black pick-up truck turns right then parks behind another car.",
+     "Gray SUV keeps straight down a winding road followed by two other vehicles."
+    ],
+    "v_images-": [
+     "A black SUV crosses an intersection behind another white SUV.",
+     "A white pickup truck runs down the street followed by another white vehicle.",
+     "A black pickup truck goes pass a mega millions sign."
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.641,
+    "cos_uv": 0.21,
+    "specificity": 0.003,
+    "own_mean": -0.004,
+    "own_sd": 0.05,
+    "coco_mean": -0.007,
+    "v_own+": [
+     [
+      "a green bus",
+      0.11
+     ],
+     [
+      "a bus",
+      0.046
+     ],
+     [
+      "a three-way intersection",
+      0.045
+     ],
+     [
+      "the highway",
+      0.043
+     ],
+     [
+      "high speed",
+      0.042
+     ],
+     [
+      "stops",
+      0.041
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a green and white bus",
+      0.119
+     ],
+     [
+      "a green bus",
+      0.098
+     ],
+     [
+      "a green street sign",
+      0.098
+     ],
+     [
+      "a green traffic light",
+      0.075
+     ],
+     [
+      "a blue and green tennis court",
+      0.069
+     ],
+     [
+      "two buses",
+      0.062
+     ]
+    ],
+    "v_own-": [
+     [
+      "a white suv waits.",
+      0.122
+     ],
+     [
+      "a blue pickup truck",
+      0.107
+     ],
+     [
+      "large white pickup truck",
+      0.097
+     ],
+     [
+      "a white pick up truck",
+      0.095
+     ],
+     [
+      "a white pickup truck",
+      0.095
+     ],
+     [
+      "a white suv merges",
+      0.094
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red sedan",
+      0.375
+     ],
+     [
+      "a maroon sedan",
+      0.367
+     ],
+     [
+      "a red pickup truck",
+      0.363
+     ],
+     [
+      "a maroon pickup truck",
+      0.357
+     ],
+     [
+      "a dark red sedan",
+      0.349
+     ],
+     [
+      "a white sedan",
+      0.337
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red car",
+      0.316
+     ],
+     [
+      "a white truck",
+      0.253
+     ],
+     [
+      "a green and white bus",
+      0.246
+     ],
+     [
+      "a red and white boat",
+      0.237
+     ],
+     [
+      "a red motorcycle",
+      0.233
+     ],
+     [
+      "a red train",
+      0.228
+     ]
+    ],
+    "u_own-": [
+     [
+      "a curved street",
+      0.077
+     ],
+     [
+      "continuing straight",
+      0.073
+     ],
+     [
+      "turns right onto",
+      0.07
+     ],
+     [
+      "turns right",
+      0.066
+     ],
+     [
+      "a lane",
+      0.062
+     ],
+     [
+      "going straight",
+      0.061
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a side walk",
+      0.047
+     ],
+     [
+      "a path",
+      0.037
+     ],
+     [
+      "a narrow street",
+      0.033
+     ],
+     [
+      "their way",
+      0.029
+     ],
+     [
+      "sidewalk",
+      0.027
+     ],
+     [
+      "the pavement",
+      0.021
+     ]
+    ],
+    "v_images+": [
+     "A black van keeps straights following a red vehicle.",
+     "A truck goes in a Cordova Highway.",
+     "A midsize white vehicle slow down while passing  a bus.",
+     "A gray pickup keeps straight on the street on the intersection."
+    ],
+    "v_images-": [
+     "A black suv drives down a curvy road.",
+     "A white SUV is going straight.",
+     "A white Jeep drives down the street followed by a dark SUV."
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.599,
+    "cos_uv": 0.05,
+    "specificity": 0.008,
+    "own_mean": 0.039,
+    "own_sd": 0.091,
+    "coco_mean": 0.031,
+    "v_own+": [
+     [
+      "a purple jeep",
+      0.069
+     ],
+     [
+      "a 1 lane road",
+      0.069
+     ],
+     [
+      "a purple crossover",
+      0.06
+     ],
+     [
+      "the road",
+      0.06
+     ],
+     [
+      "lane",
+      0.06
+     ],
+     [
+      "straight the road",
+      0.059
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a freeway",
+      0.07
+     ],
+     [
+      "a wet road",
+      0.066
+     ],
+     [
+      "the road",
+      0.06
+     ],
+     [
+      "the middle",
+      0.053
+     ],
+     [
+      "a roadway",
+      0.053
+     ],
+     [
+      "a highway",
+      0.052
+     ]
+    ],
+    "v_own-": [
+     [
+      "a white cargo van",
+      0.043
+     ],
+     [
+      "large white van",
+      0.043
+     ],
+     [
+      "a white van",
+      0.042
+     ],
+     [
+      "a white wagon",
+      0.037
+     ],
+     [
+      "camera",
+      0.036
+     ],
+     [
+      "a stoplight",
+      0.035
+     ]
+    ],
+    "u_own+": [
+     [
+      "a dark red van",
+      0.236
+     ],
+     [
+      "a blue van",
+      0.222
+     ],
+     [
+      "a red van",
+      0.217
+     ],
+     [
+      "a maroon van",
+      0.207
+     ],
+     [
+      "a black van",
+      0.206
+     ],
+     [
+      "a red minivan",
+      0.205
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red car",
+      0.173
+     ],
+     [
+      "a blue bus",
+      0.156
+     ],
+     [
+      "a red motorcycle",
+      0.154
+     ],
+     [
+      "a red couch",
+      0.15
+     ],
+     [
+      "a black car",
+      0.138
+     ],
+     [
+      "a red chair",
+      0.138
+     ]
+    ],
+    "u_own-": [
+     [
+      "the intersection",
+      0.054
+     ],
+     [
+      "an intersecion",
+      0.049
+     ],
+     [
+      "an intersection",
+      0.048
+     ],
+     [
+      "a intersection",
+      0.046
+     ],
+     [
+      "a major intersection",
+      0.04
+     ],
+     [
+      "crosses",
+      0.04
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an intersection",
+      0.048
+     ],
+     [
+      "two televisions",
+      0.043
+     ],
+     [
+      "two windows",
+      0.037
+     ],
+     [
+      "two pizzas",
+      0.036
+     ],
+     [
+      "two computer monitors",
+      0.032
+     ],
+     [
+      "two monitors",
+      0.03
+     ]
+    ],
+    "v_images+": [
+     "A silver sedan keeps straight and stops behind traffic.",
+     "A gray SUV runs down the street followed by a black vehicle.",
+     "A black SUV turns right followed another red vehicle.",
+     "A black SUV runs down the street."
+    ],
+    "v_images-": [
+     "A blue pickup truck runs down the street with all cars parked.",
+     "A red sedan runs down the street.",
+     "White SUV keeps straight down the winding road."
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.582,
+    "cos_uv": 0.17,
+    "specificity": 0.037,
+    "own_mean": 0.027,
+    "own_sd": 0.05,
+    "coco_mean": -0.01,
+    "v_own+": [
+     [
+      "minivan",
+      0.022
+     ],
+     [
+      "a white wagon",
+      0.021
+     ],
+     [
+      "the straight",
+      0.017
+     ],
+     [
+      "a medium load traffic",
+      0.017
+     ],
+     [
+      "many parked vehicles",
+      0.015
+     ],
+     [
+      "a white truck",
+      0.014
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a green and white bus",
+      0.037
+     ],
+     [
+      "a snow covered slope",
+      0.036
+     ],
+     [
+      "white sprinkles",
+      0.035
+     ],
+     [
+      "a yard",
+      0.033
+     ],
+     [
+      "a snowy slope",
+      0.032
+     ],
+     [
+      "snow covered ground",
+      0.032
+     ]
+    ],
+    "v_own-": [
+     [
+      "the red suv",
+      0.121
+     ],
+     [
+      "a red sedan",
+      0.101
+     ],
+     [
+      "a red hatchback",
+      0.1
+     ],
+     [
+      "another red car",
+      0.098
+     ],
+     [
+      "a red vehicle",
+      0.098
+     ],
+     [
+      "red car",
+      0.097
+     ]
+    ],
+    "u_own+": [
+     [
+      "another gray sedan",
+      0.127
+     ],
+     [
+      "a small gray sedan",
+      0.126
+     ],
+     [
+      "a silver sedan",
+      0.126
+     ],
+     [
+      "a dark gray sedan",
+      0.123
+     ],
+     [
+      "a grey sedan",
+      0.123
+     ],
+     [
+      "a small black sedan",
+      0.122
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a black car",
+      0.103
+     ],
+     [
+      "some cars",
+      0.066
+     ],
+     [
+      "two cars",
+      0.062
+     ],
+     [
+      "the car",
+      0.053
+     ],
+     [
+      "cars",
+      0.048
+     ],
+     [
+      "a vehicle",
+      0.04
+     ]
+    ],
+    "u_own-": [
+     [
+      "a red pickup",
+      0.238
+     ],
+     [
+      "a red truck",
+      0.231
+     ],
+     [
+      "a bright red truck",
+      0.224
+     ],
+     [
+      "a red pickup truck",
+      0.222
+     ],
+     [
+      "a maroon pickup truck",
+      0.205
+     ],
+     [
+      "a red cargo truck",
+      0.205
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red couch",
+      0.163
+     ],
+     [
+      "a red chair",
+      0.151
+     ],
+     [
+      "a red umbrella",
+      0.142
+     ],
+     [
+      "a red shirt",
+      0.141
+     ],
+     [
+      "a blue sign",
+      0.141
+     ],
+     [
+      "a red motorcycle",
+      0.14
+     ]
+    ],
+    "v_images+": [
+     "A silver sedan is stopped at a stop sign.",
+     "A white van drives behind more vehicles.",
+     "White sedan with no car following.",
+     "Gray SUV followed by a black SUV turned right."
+    ],
+    "v_images-": [
+     "A dark red van turns right after running down the street.",
+     "SUV turn right followed by a white car.",
+     "A gray SUV stops at the intersection in busy traffic."
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.572,
+    "cos_uv": 0.04,
+    "specificity": 0.02,
+    "own_mean": 0.019,
+    "own_sd": 0.072,
+    "coco_mean": -0.001,
+    "v_own+": [
+     [
+      "street corner",
+      0.065
+     ],
+     [
+      "a maroon car",
+      0.059
+     ],
+     [
+      "the corner",
+      0.058
+     ],
+     [
+      "a red and yellow cement truck",
+      0.056
+     ],
+     [
+      "a purple sedan",
+      0.054
+     ],
+     [
+      "a purple pickup truck",
+      0.054
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a blue and green tennis court",
+      0.105
+     ],
+     [
+      "an orange frisbee",
+      0.073
+     ],
+     [
+      "a city sidewalk",
+      0.073
+     ],
+     [
+      "three vases",
+      0.071
+     ],
+     [
+      "a blue table",
+      0.071
+     ],
+     [
+      "a pink umbrella",
+      0.067
+     ]
+    ],
+    "v_own-": [
+     [
+      "a white suv merges",
+      0.075
+     ],
+     [
+      "a medium load traffic",
+      0.062
+     ],
+     [
+      "a white cargo van",
+      0.054
+     ],
+     [
+      "a white mini van",
+      0.049
+     ],
+     [
+      "a white suv waits.",
+      0.049
+     ],
+     [
+      "busy traffic",
+      0.048
+     ]
+    ],
+    "u_own+": [
+     [
+      "a dark red sedan",
+      0.186
+     ],
+     [
+      "a black sedan car",
+      0.171
+     ],
+     [
+      "a red hatchback",
+      0.171
+     ],
+     [
+      "a maroon pickup truck",
+      0.167
+     ],
+     [
+      "a maroon sedan",
+      0.166
+     ],
+     [
+      "a black pickup truck",
+      0.165
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red car",
+      0.145
+     ],
+     [
+      "a black car",
+      0.14
+     ],
+     [
+      "a red couch",
+      0.127
+     ],
+     [
+      "a fleet",
+      0.124
+     ],
+     [
+      "a red and white boat",
+      0.111
+     ],
+     [
+      "several rows",
+      0.109
+     ]
+    ],
+    "u_own-": [
+     [
+      "a intersection",
+      0.1
+     ],
+     [
+      "the intersection",
+      0.098
+     ],
+     [
+      "an intersection",
+      0.097
+     ],
+     [
+      "a crosswalk",
+      0.083
+     ],
+     [
+      "intersection",
+      0.08
+     ],
+     [
+      "crossed",
+      0.076
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an intersection",
+      0.097
+     ],
+     [
+      "a crosswalk",
+      0.083
+     ],
+     [
+      "a town square",
+      0.061
+     ],
+     [
+      "a street corner",
+      0.056
+     ],
+     [
+      "a gray sky",
+      0.055
+     ],
+     [
+      "a shop window",
+      0.051
+     ]
+    ],
+    "v_images+": [
+     "A green cargo truck keeps straight down the road.",
+     "A dark hatchback drives straight through a busy intersection in the left lane.",
+     "A black SUV makes a right turn and then continues to go straight.",
+     "A white sedan turns left."
+    ],
+    "v_images-": [
+     "A big blue SUV moving on down the street and stopping behind a car.",
+     "Honda SUV goes straight with white dodge van following behind.",
+     "A black sedan runs on the street."
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.522,
+    "cos_uv": 0.15,
+    "specificity": 0.015,
+    "own_mean": 0.042,
+    "own_sd": 0.041,
+    "coco_mean": 0.027,
+    "v_own+": [
+     [
+      "a white wagon",
+      0.071
+     ],
+     [
+      "a hill",
+      0.07
+     ],
+     [
+      "a white pickup track",
+      0.069
+     ],
+     [
+      "a highway",
+      0.068
+     ],
+     [
+      "a white pick",
+      0.066
+     ],
+     [
+      "bend",
+      0.065
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a rail",
+      0.089
+     ],
+     [
+      "a snowy hill",
+      0.086
+     ],
+     [
+      "a snowy slope",
+      0.082
+     ],
+     [
+      "a snow covered hill",
+      0.079
+     ],
+     [
+      "a freeway",
+      0.076
+     ],
+     [
+      "tall grass",
+      0.075
+     ]
+    ],
+    "v_own-": [
+     [
+      "a red and yellow cement truck",
+      0.055
+     ],
+     [
+      "a black truck",
+      0.047
+     ],
+     [
+      "a black pick-up truck",
+      0.046
+     ],
+     [
+      "a cargo truck",
+      0.046
+     ],
+     [
+      "a dark truck",
+      0.043
+     ],
+     [
+      "a black van",
+      0.039
+     ]
+    ],
+    "u_own+": [
+     [
+      "a white wagon",
+      0.214
+     ],
+     [
+      "a white suv waits.",
+      0.195
+     ],
+     [
+      "a white van",
+      0.191
+     ],
+     [
+      "large white van",
+      0.189
+     ],
+     [
+      "a white truck",
+      0.186
+     ],
+     [
+      "another white vehicle",
+      0.184
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a white bus",
+      0.201
+     ],
+     [
+      "a white truck",
+      0.186
+     ],
+     [
+      "a green and white bus",
+      0.142
+     ],
+     [
+      "a white boat",
+      0.132
+     ],
+     [
+      "a white surfboard",
+      0.131
+     ],
+     [
+      "white",
+      0.125
+     ]
+    ],
+    "u_own-": [
+     [
+      "a black sedan",
+      0.212
+     ],
+     [
+      "a dark gray sedan",
+      0.209
+     ],
+     [
+      "a small black sedan",
+      0.203
+     ],
+     [
+      "a midsize black sedan",
+      0.202
+     ],
+     [
+      "a dark sedan",
+      0.183
+     ],
+     [
+      "a black sedan car",
+      0.179
+     ]
+    ],
+    "u_coco-": [
+     [
+      "black shirt",
+      0.112
+     ],
+     [
+      "an intersection",
+      0.1
+     ],
+     [
+      "a large tower",
+      0.098
+     ],
+     [
+      "a tower",
+      0.097
+     ],
+     [
+      "the tower",
+      0.096
+     ],
+     [
+      "a baseball player",
+      0.096
+     ]
+    ],
+    "v_images+": [
+     "A red pickup truck going straight down the street with cars to the right.",
+     "Small blue car drives on an interstate.",
+     "A white pick up truck moving straight alongside a red hatchback.",
+     "A black sedan makes a right turn at the intersection."
+    ],
+    "v_images-": [
+     "Large white van makes right at intersection.",
+     "A black SUV first stops at the intersection.",
+     "A red pickup truck turns right followed by another blue vehicle."
+    ]
+   }
+  ]
+ },
+ "setw/Wt": {
+  "frob": 2.182,
+  "energy_top8": 0.549,
+  "energy_top16": 0.732,
+  "top_s": [
+   0.784,
+   0.673,
+   0.658,
+   0.517,
+   0.504,
+   0.472,
+   0.457,
+   0.401,
+   0.386,
+   0.381,
+   0.35,
+   0.334,
+   0.321,
+   0.296,
+   0.279,
+   0.27
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 0.784,
+    "cos_uv": 0.27,
+    "specificity": 0.022,
+    "own_mean": 0.071,
+    "own_sd": 0.101,
+    "coco_mean": 0.049,
+    "v_own+": [
+     [
+      "a blue pickup truck",
+      0.156
+     ],
+     [
+      "a blue pickup",
+      0.149
+     ],
+     [
+      "a blue truck",
+      0.148
+     ],
+     [
+      "straight the road",
+      0.138
+     ],
+     [
+      "a red and yellow cement truck",
+      0.137
+     ],
+     [
+      "a purple pickup truck",
+      0.132
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a narrow street",
+      0.138
+     ],
+     [
+      "the road",
+      0.123
+     ],
+     [
+      "the street",
+      0.121
+     ],
+     [
+      "a dirt road",
+      0.114
+     ],
+     [
+      "the sidewalk",
+      0.112
+     ],
+     [
+      "a street",
+      0.107
+     ]
+    ],
+    "v_own-": [
+     [
+      "turns left",
+      0.19
+     ],
+     [
+      "turn left",
+      0.168
+     ],
+     [
+      "turn right",
+      0.162
+     ],
+     [
+      "turning left",
+      0.16
+     ],
+     [
+      "a left turn",
+      0.147
+     ],
+     [
+      "turning right",
+      0.142
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red and yellow cement truck",
+      -0.025
+     ],
+     [
+      "the hill",
+      -0.044
+     ],
+     [
+      "a blue truck",
+      -0.051
+     ],
+     [
+      "the highway",
+      -0.052
+     ],
+     [
+      "trees",
+      -0.054
+     ],
+     [
+      "the track",
+      -0.056
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the river",
+      -0.026
+     ],
+     [
+      "tall trees",
+      -0.027
+     ],
+     [
+      "bleachers",
+      -0.037
+     ],
+     [
+      "the trees",
+      -0.038
+     ],
+     [
+      "a dugout",
+      -0.04
+     ],
+     [
+      "a rocky hillside",
+      -0.043
+     ]
+    ],
+    "u_own-": [
+     [
+      "a busy intersection",
+      0.214
+     ],
+     [
+      "an intersection",
+      0.195
+     ],
+     [
+      "a intersection",
+      0.19
+     ],
+     [
+      "intersection",
+      0.189
+     ],
+     [
+      "turning right",
+      0.181
+     ],
+     [
+      "a stoplight",
+      0.175
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an intersection",
+      0.195
+     ],
+     [
+      "a green traffic light",
+      0.193
+     ],
+     [
+      "traffic lights",
+      0.183
+     ],
+     [
+      "a green street sign",
+      0.176
+     ],
+     [
+      "a green and white bus",
+      0.175
+     ],
+     [
+      "a stoplight",
+      0.175
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.673,
+    "cos_uv": -0.43,
+    "specificity": 0.194,
+    "own_mean": 0.447,
+    "own_sd": 0.104,
+    "coco_mean": 0.253,
+    "v_own+": [
+     [
+      "a black truck",
+      0.452
+     ],
+     [
+      "a small black sedan",
+      0.448
+     ],
+     [
+      "a black sedan car",
+      0.446
+     ],
+     [
+      "a black sedan",
+      0.445
+     ],
+     [
+      "a black pickup truck",
+      0.445
+     ],
+     [
+      "a red truck",
+      0.431
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red car",
+      0.424
+     ],
+     [
+      "a green and white bus",
+      0.414
+     ],
+     [
+      "a white truck",
+      0.409
+     ],
+     [
+      "a black car",
+      0.406
+     ],
+     [
+      "a yellow bus",
+      0.372
+     ],
+     [
+      "a red stop sign",
+      0.36
+     ]
+    ],
+    "v_own-": [
+     [
+      "the curve",
+      -0.101
+     ],
+     [
+      "pauses",
+      -0.103
+     ],
+     [
+      "stands",
+      -0.103
+     ],
+     [
+      "bend",
+      -0.106
+     ],
+     [
+      "swithches",
+      -0.108
+     ],
+     [
+      "making",
+      -0.11
+     ]
+    ],
+    "u_own+": [
+     [
+      "crossed",
+      -0.418
+     ],
+     [
+      "the middle",
+      -0.423
+     ],
+     [
+      "a red and yellow cement truck",
+      -0.429
+     ],
+     [
+      "front",
+      -0.444
+     ],
+     [
+      "kps straight",
+      -0.447
+     ],
+     [
+      "the curve",
+      -0.448
+     ]
+    ],
+    "u_coco+": [
+     [
+      "mustard",
+      -0.374
+     ],
+     [
+      "a blue and green tennis court",
+      -0.382
+     ],
+     [
+      "a green grass covered field",
+      -0.39
+     ],
+     [
+      "three vases",
+      -0.402
+     ],
+     [
+      "white sprinkles",
+      -0.406
+     ],
+     [
+      "four men",
+      -0.406
+     ]
+    ],
+    "u_own-": [
+     [
+      "a residential street",
+      0.64
+     ],
+     [
+      "a small gray sedan",
+      0.621
+     ],
+     [
+      "a street",
+      0.621
+     ],
+     [
+      "a gray car",
+      0.618
+     ],
+     [
+      "a somewhat old grey mid-size sedan",
+      0.618
+     ],
+     [
+      "the street",
+      0.611
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a narrow street",
+      0.63
+     ],
+     [
+      "a city street",
+      0.625
+     ],
+     [
+      "a street scene",
+      0.623
+     ],
+     [
+      "a street",
+      0.621
+     ],
+     [
+      "a busy city street",
+      0.615
+     ],
+     [
+      "the street",
+      0.611
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.658,
+    "cos_uv": 0.0,
+    "specificity": 0.128,
+    "own_mean": 0.271,
+    "own_sd": 0.077,
+    "coco_mean": 0.143,
+    "v_own+": [
+     [
+      "parked cars",
+      0.331
+     ],
+     [
+      "some parked cars",
+      0.329
+     ],
+     [
+      "many parked vehicles",
+      0.315
+     ],
+     [
+      "a curved street",
+      0.307
+     ],
+     [
+      "many other parked vehicles",
+      0.299
+     ],
+     [
+      "a white suv waits.",
+      0.293
+     ]
+    ],
+    "v_coco+": [
+     [
+      "two cars",
+      0.276
+     ],
+     [
+      "parked motorcycles",
+      0.263
+     ],
+     [
+      "a parking lot",
+      0.257
+     ],
+     [
+      "a parking spot",
+      0.251
+     ],
+     [
+      "a dirt road",
+      0.243
+     ],
+     [
+      "some cars",
+      0.24
+     ]
+    ],
+    "v_own-": [
+     [
+      "a black small suv",
+      -0.013
+     ],
+     [
+      "a black suv",
+      -0.03
+     ],
+     [
+      "a black pick",
+      -0.036
+     ],
+     [
+      "a black sub",
+      -0.038
+     ],
+     [
+      "a black wagon",
+      -0.039
+     ],
+     [
+      "crossed",
+      -0.044
+     ]
+    ],
+    "u_own+": [
+     [
+      "a row",
+      -0.178
+     ],
+     [
+      "a residential street",
+      -0.191
+     ],
+     [
+      "pulls up",
+      -0.193
+     ],
+     [
+      "another street",
+      -0.199
+     ],
+     [
+      "some houses",
+      -0.205
+     ],
+     [
+      "swithches",
+      -0.206
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a narrow street",
+      -0.165
+     ],
+     [
+      "a row",
+      -0.178
+     ],
+     [
+      "a city sidewalk",
+      -0.184
+     ],
+     [
+      "a wooden floor",
+      -0.19
+     ],
+     [
+      "the shade",
+      -0.191
+     ],
+     [
+      "a side walk",
+      -0.191
+     ]
+    ],
+    "u_own-": [
+     [
+      "a white suv merges",
+      0.39
+     ],
+     [
+      "a white truck drives",
+      0.376
+     ],
+     [
+      "a three-way intersection",
+      0.37
+     ],
+     [
+      "a white truck",
+      0.369
+     ],
+     [
+      "a white cargo truck",
+      0.366
+     ],
+     [
+      "a highway",
+      0.366
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a semi truck",
+      0.371
+     ],
+     [
+      "a freeway",
+      0.37
+     ],
+     [
+      "a white truck",
+      0.369
+     ],
+     [
+      "a highway",
+      0.366
+     ],
+     [
+      "a traffic sign",
+      0.358
+     ],
+     [
+      "an airport",
+      0.356
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.517,
+    "cos_uv": 0.09,
+    "specificity": 0.035,
+    "own_mean": 0.024,
+    "own_sd": 0.082,
+    "coco_mean": -0.011,
+    "v_own+": [
+     [
+      "a black suv turns",
+      0.179
+     ],
+     [
+      "a black van",
+      0.169
+     ],
+     [
+      "a black small suv",
+      0.165
+     ],
+     [
+      "a black suv",
+      0.158
+     ],
+     [
+      "a curved street",
+      0.154
+     ],
+     [
+      "a bend",
+      0.153
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a black dog",
+      0.121
+     ],
+     [
+      "black shirt",
+      0.117
+     ],
+     [
+      "a black dress",
+      0.113
+     ],
+     [
+      "black shorts",
+      0.11
+     ],
+     [
+      "a black cat",
+      0.105
+     ],
+     [
+      "a black and white picture",
+      0.099
+     ]
+    ],
+    "v_own-": [
+     [
+      "parked cars",
+      0.147
+     ],
+     [
+      "large white pickup truck",
+      0.126
+     ],
+     [
+      "some parked cars",
+      0.123
+     ],
+     [
+      "a silver pickup truck",
+      0.122
+     ],
+     [
+      "a purple pickup truck",
+      0.122
+     ],
+     [
+      "a white pickup truck",
+      0.117
+     ]
+    ],
+    "u_own+": [
+     [
+      "a blue mpv",
+      0.021
+     ],
+     [
+      "the red suv",
+      0.019
+     ],
+     [
+      "a big suv.",
+      0.017
+     ],
+     [
+      "a white suv waits.",
+      0.016
+     ],
+     [
+      "a dark gray sedan",
+      0.016
+     ],
+     [
+      "a black jeep",
+      0.015
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a black car",
+      -0.0
+     ],
+     [
+      "a canoe",
+      -0.02
+     ],
+     [
+      "a black cat",
+      -0.02
+     ],
+     [
+      "a black and white cat",
+      -0.021
+     ],
+     [
+      "surfboards",
+      -0.021
+     ],
+     [
+      "a bikini",
+      -0.022
+     ]
+    ],
+    "u_own-": [
+     [
+      "a stoplight",
+      0.129
+     ],
+     [
+      "the traffic light",
+      0.116
+     ],
+     [
+      "a green bus",
+      0.114
+     ],
+     [
+      "stops",
+      0.11
+     ],
+     [
+      "was",
+      0.109
+     ],
+     [
+      "stops at",
+      0.107
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red brick building",
+      0.148
+     ],
+     [
+      "a brick building",
+      0.141
+     ],
+     [
+      "a green street sign",
+      0.132
+     ],
+     [
+      "the station",
+      0.13
+     ],
+     [
+      "a stoplight",
+      0.129
+     ],
+     [
+      "a green traffic light",
+      0.129
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.504,
+    "cos_uv": 0.01,
+    "specificity": 0.034,
+    "own_mean": 0.039,
+    "own_sd": 0.07,
+    "coco_mean": 0.005,
+    "v_own+": [
+     [
+      "go straight",
+      0.164
+     ],
+     [
+      "continuing straight",
+      0.163
+     ],
+     [
+      "keep straight",
+      0.157
+     ],
+     [
+      "drives straight",
+      0.153
+     ],
+     [
+      "straight the road",
+      0.137
+     ],
+     [
+      "moving straight",
+      0.137
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a row",
+      0.1
+     ],
+     [
+      "a narrow street",
+      0.095
+     ],
+     [
+      "a runway",
+      0.094
+     ],
+     [
+      "it's sides",
+      0.091
+     ],
+     [
+      "several rows",
+      0.09
+     ],
+     [
+      "the runway",
+      0.085
+     ]
+    ],
+    "v_own-": [
+     [
+      "a blue pickup truck",
+      0.235
+     ],
+     [
+      "a blue pickup",
+      0.223
+     ],
+     [
+      "a blue truck",
+      0.205
+     ],
+     [
+      "a blue van",
+      0.205
+     ],
+     [
+      "a red pickup truck",
+      0.197
+     ],
+     [
+      "a red pickup",
+      0.187
+     ]
+    ],
+    "u_own+": [
+     [
+      "a vehicle",
+      0.002
+     ],
+     [
+      "turns to",
+      -0.002
+     ],
+     [
+      "a black jeep",
+      -0.003
+     ],
+     [
+      "a parking lot",
+      -0.004
+     ],
+     [
+      "stands",
+      -0.004
+     ],
+     [
+      "a black vehicle",
+      -0.005
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a tent",
+      0.036
+     ],
+     [
+      "a black umbrella",
+      0.036
+     ],
+     [
+      "a wooden deck",
+      0.035
+     ],
+     [
+      "a yard",
+      0.03
+     ],
+     [
+      "a tv stand",
+      0.025
+     ],
+     [
+      "a shower curtain",
+      0.025
+     ]
+    ],
+    "u_own-": [
+     [
+      "a busy road",
+      0.13
+     ],
+     [
+      "the highway",
+      0.129
+     ],
+     [
+      "a highway",
+      0.129
+     ],
+     [
+      "busy traffic",
+      0.126
+     ],
+     [
+      "oncoming traffic",
+      0.125
+     ],
+     [
+      "traffic",
+      0.123
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a freeway",
+      0.134
+     ],
+     [
+      "a highway",
+      0.129
+     ],
+     [
+      "traffic",
+      0.123
+     ],
+     [
+      "the road",
+      0.119
+     ],
+     [
+      "a roadway",
+      0.116
+     ],
+     [
+      "a road",
+      0.109
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.472,
+    "cos_uv": 0.09,
+    "specificity": 0.006,
+    "own_mean": 0.04,
+    "own_sd": 0.097,
+    "coco_mean": 0.034,
+    "v_own+": [
+     [
+      "a crosswalk",
+      0.17
+     ],
+     [
+      "a intersection",
+      0.147
+     ],
+     [
+      "an intersection",
+      0.146
+     ],
+     [
+      "the intersection",
+      0.135
+     ],
+     [
+      "intersection",
+      0.132
+     ],
+     [
+      "a busy intersection",
+      0.129
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a crosswalk",
+      0.17
+     ],
+     [
+      "an intersection",
+      0.146
+     ],
+     [
+      "a city sidewalk",
+      0.112
+     ],
+     [
+      "the street",
+      0.109
+     ],
+     [
+      "a street",
+      0.103
+     ],
+     [
+      "a bus stop",
+      0.1
+     ]
+    ],
+    "v_own-": [
+     [
+      "a dark red sedan",
+      0.269
+     ],
+     [
+      "a maroon pickup truck",
+      0.266
+     ],
+     [
+      "a red pickup truck",
+      0.262
+     ],
+     [
+      "a maroon sedan",
+      0.255
+     ],
+     [
+      "a red sedan",
+      0.247
+     ],
+     [
+      "a red pickup",
+      0.238
+     ]
+    ],
+    "u_own+": [
+     [
+      "a white suv waits.",
+      0.019
+     ],
+     [
+      "a white wagon",
+      0.018
+     ],
+     [
+      "a white suv merges",
+      0.015
+     ],
+     [
+      "a white mini van",
+      0.008
+     ],
+     [
+      "a white cargo van",
+      0.003
+     ],
+     [
+      "a white pickup truck",
+      0.001
+     ]
+    ],
+    "u_coco+": [
+     [
+      "white dress",
+      0.001
+     ],
+     [
+      "a white truck",
+      -0.007
+     ],
+     [
+      "white shorts",
+      -0.009
+     ],
+     [
+      "white",
+      -0.015
+     ],
+     [
+      "a large white bowl",
+      -0.018
+     ],
+     [
+      "lots",
+      -0.018
+     ]
+    ],
+    "u_own-": [
+     [
+      "a red sedan",
+      0.15
+     ],
+     [
+      "a purple sedan",
+      0.146
+     ],
+     [
+      "a red and yellow cement truck",
+      0.146
+     ],
+     [
+      "another red car",
+      0.145
+     ],
+     [
+      "a green bus",
+      0.145
+     ],
+     [
+      "red car",
+      0.137
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a blue and green tennis court",
+      0.188
+     ],
+     [
+      "three vases",
+      0.139
+     ],
+     [
+      "a red car",
+      0.137
+     ],
+     [
+      "a blue bus",
+      0.132
+     ],
+     [
+      "a green bus",
+      0.128
+     ],
+     [
+      "a red couch",
+      0.128
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.457,
+    "cos_uv": 0.18,
+    "specificity": 0.041,
+    "own_mean": 0.08,
+    "own_sd": 0.091,
+    "coco_mean": 0.039,
+    "v_own+": [
+     [
+      "an intersection",
+      0.247
+     ],
+     [
+      "a intersection",
+      0.242
+     ],
+     [
+      "a three-way intersection",
+      0.239
+     ],
+     [
+      "the intersection",
+      0.238
+     ],
+     [
+      "a curved street",
+      0.231
+     ],
+     [
+      "intersection",
+      0.222
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an intersection",
+      0.247
+     ],
+     [
+      "a street corner",
+      0.161
+     ],
+     [
+      "the corner",
+      0.152
+     ],
+     [
+      "corner",
+      0.148
+     ],
+     [
+      "a crosswalk",
+      0.14
+     ],
+     [
+      "a highway",
+      0.134
+     ]
+    ],
+    "v_own-": [
+     [
+      "a silver sedan",
+      0.122
+     ],
+     [
+      "a grey sedan",
+      0.111
+     ],
+     [
+      "another gray sedan",
+      0.106
+     ],
+     [
+      "a small gray sedan",
+      0.105
+     ],
+     [
+      "a dark gray sedan",
+      0.104
+     ],
+     [
+      "a gray sedan.",
+      0.096
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red and yellow cement truck",
+      -0.023
+     ],
+     [
+      "a maroon pickup truck",
+      -0.025
+     ],
+     [
+      "a purple pickup truck",
+      -0.031
+     ],
+     [
+      "a red pickup truck",
+      -0.039
+     ],
+     [
+      "a red pickup",
+      -0.041
+     ],
+     [
+      "a black pick up truck",
+      -0.045
+     ]
+    ],
+    "u_coco+": [
+     [
+      "two slices",
+      -0.03
+     ],
+     [
+      "two horses",
+      -0.031
+     ],
+     [
+      "a microphone",
+      -0.031
+     ],
+     [
+      "two apples",
+      -0.033
+     ],
+     [
+      "a large brown bear",
+      -0.034
+     ],
+     [
+      "a red motorcycle",
+      -0.037
+     ]
+    ],
+    "u_own-": [
+     [
+      "many cars",
+      0.203
+     ],
+     [
+      "many parked vehicles",
+      0.192
+     ],
+     [
+      "parked cars",
+      0.191
+     ],
+     [
+      "several stopped vehicles",
+      0.186
+     ],
+     [
+      "busy traffic",
+      0.186
+     ],
+     [
+      "some parked cars",
+      0.184
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green and white bus",
+      0.197
+     ],
+     [
+      "a bus stop",
+      0.196
+     ],
+     [
+      "two buses",
+      0.192
+     ],
+     [
+      "a white bus",
+      0.184
+     ],
+     [
+      "a bus",
+      0.182
+     ],
+     [
+      "a public transit bus",
+      0.18
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.401,
+    "cos_uv": 0.19,
+    "specificity": 0.03,
+    "own_mean": 0.024,
+    "own_sd": 0.092,
+    "coco_mean": -0.006,
+    "v_own+": [
+     [
+      "a white sedan",
+      0.303
+     ],
+     [
+      "a small white sedan",
+      0.273
+     ],
+     [
+      "a white sedan car",
+      0.273
+     ],
+     [
+      "a white coupe",
+      0.228
+     ],
+     [
+      "a white hatchback",
+      0.224
+     ],
+     [
+      "a gray sedan.",
+      0.224
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a white building",
+      0.208
+     ],
+     [
+      "a white truck",
+      0.184
+     ],
+     [
+      "a white horse",
+      0.172
+     ],
+     [
+      "a white boat",
+      0.169
+     ],
+     [
+      "white",
+      0.169
+     ],
+     [
+      "a white bed",
+      0.163
+     ]
+    ],
+    "v_own-": [
+     [
+      "a red van",
+      0.157
+     ],
+     [
+      "a red and yellow cement truck",
+      0.147
+     ],
+     [
+      "another red vehicle",
+      0.127
+     ],
+     [
+      "a dark red van",
+      0.125
+     ],
+     [
+      "a red cargo truck",
+      0.117
+     ],
+     [
+      "a bright red truck",
+      0.111
+     ]
+    ],
+    "u_own+": [
+     [
+      "a small white sedan",
+      0.104
+     ],
+     [
+      "a white sedan",
+      0.103
+     ],
+     [
+      "a white sedan car",
+      0.097
+     ],
+     [
+      "a white cargo truck",
+      0.087
+     ],
+     [
+      "a white cargo van",
+      0.076
+     ],
+     [
+      "a silver sedan",
+      0.076
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a white bus",
+      0.068
+     ],
+     [
+      "a white truck",
+      0.065
+     ],
+     [
+      "a white horse",
+      0.061
+     ],
+     [
+      "a white boat",
+      0.057
+     ],
+     [
+      "a white building",
+      0.056
+     ],
+     [
+      "a large white bowl",
+      0.053
+     ]
+    ],
+    "u_own-": [
+     [
+      "a purple jeep",
+      0.126
+     ],
+     [
+      "a black jeep",
+      0.125
+     ],
+     [
+      "several stopped vehicles",
+      0.077
+     ],
+     [
+      "many parked vehicles",
+      0.076
+     ],
+     [
+      "a blue car pauses",
+      0.073
+     ],
+     [
+      "going straight",
+      0.073
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a blue jacket",
+      0.094
+     ],
+     [
+      "a blue coat",
+      0.091
+     ],
+     [
+      "parked motorcycles",
+      0.083
+     ],
+     [
+      "fries",
+      0.071
+     ],
+     [
+      "a ramp",
+      0.07
+     ],
+     [
+      "a row",
+      0.068
+     ]
+    ]
+   }
+  ]
+ },
+ "setw/Wi": {
+  "frob": 2.223,
+  "energy_top8": 0.557,
+  "energy_top16": 0.735,
+  "top_s": [
+   0.797,
+   0.765,
+   0.619,
+   0.525,
+   0.496,
+   0.481,
+   0.473,
+   0.414,
+   0.39,
+   0.383,
+   0.345,
+   0.332,
+   0.317,
+   0.299,
+   0.29,
+   0.279
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 0.797,
+    "cos_uv": 0.13,
+    "specificity": 0.122,
+    "own_mean": 0.219,
+    "own_sd": 0.057,
+    "coco_mean": 0.097,
+    "v_own+": [
+     [
+      "a blue car pauses",
+      0.079
+     ],
+     [
+      "a bendy road",
+      0.076
+     ],
+     [
+      "a purple jeep",
+      0.075
+     ],
+     [
+      "driving towards",
+      0.074
+     ],
+     [
+      "the highway",
+      0.073
+     ],
+     [
+      "a curvy road",
+      0.072
+     ]
+    ],
+    "v_coco+": [
+     [
+      "tall trees",
+      0.082
+     ],
+     [
+      "the hill",
+      0.072
+     ],
+     [
+      "a red car",
+      0.07
+     ],
+     [
+      "the river",
+      0.07
+     ],
+     [
+      "some trees",
+      0.069
+     ],
+     [
+      "a rocky hillside",
+      0.069
+     ]
+    ],
+    "v_own-": [
+     [
+      "switches",
+      0.056
+     ],
+     [
+      "swithches",
+      0.026
+     ],
+     [
+      "a green bus",
+      0.019
+     ],
+     [
+      "switches to",
+      0.019
+     ],
+     [
+      "another black suv",
+      0.018
+     ],
+     [
+      "a small white suv",
+      0.016
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red and yellow cement truck",
+      0.104
+     ],
+     [
+      "a blue truck",
+      0.091
+     ],
+     [
+      "a blue pickup truck",
+      0.086
+     ],
+     [
+      "a blue pickup",
+      0.085
+     ],
+     [
+      "a black truck",
+      0.075
+     ],
+     [
+      "straight the road",
+      0.071
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a narrow street",
+      0.069
+     ],
+     [
+      "the road",
+      0.061
+     ],
+     [
+      "the wall",
+      0.056
+     ],
+     [
+      "a dirt road",
+      0.055
+     ],
+     [
+      "the river",
+      0.055
+     ],
+     [
+      "the walls",
+      0.052
+     ]
+    ],
+    "u_own-": [
+     [
+      "turns left",
+      0.23
+     ],
+     [
+      "turning left",
+      0.221
+     ],
+     [
+      "turn left",
+      0.22
+     ],
+     [
+      "turn right",
+      0.215
+     ],
+     [
+      "turning right",
+      0.211
+     ],
+     [
+      "a left turn",
+      0.206
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an intersection",
+      0.183
+     ],
+     [
+      "a stop sign",
+      0.165
+     ],
+     [
+      "a red stop sign",
+      0.158
+     ],
+     [
+      "the stop sign",
+      0.147
+     ],
+     [
+      "traffic lights",
+      0.143
+     ],
+     [
+      "a stop",
+      0.141
+     ]
+    ],
+    "v_images+": [
+     "A black van keeps straights following a red vehicle.",
+     "A gray SUV runs down the street.",
+     "A black SUV goes straight.",
+     "A silver sedan slows down at an intersection but the light changes and it continues moving"
+    ],
+    "v_images-": [
+     "A white van runs down the street followed by a red vehicle.",
+     "A white sedan turns right at the intersection followed by another white vehicle.",
+     "A white SUV moving on the leftmost lane."
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.765,
+    "cos_uv": -0.69,
+    "specificity": 0.447,
+    "own_mean": 0.636,
+    "own_sd": 0.034,
+    "coco_mean": 0.189,
+    "v_own+": [
+     [
+      "a busy intersection",
+      0.188
+     ],
+     [
+      "several stopped vehicles",
+      0.182
+     ],
+     [
+      "intersection",
+      0.172
+     ],
+     [
+      "traffic",
+      0.167
+     ],
+     [
+      "a white suv merges",
+      0.163
+     ],
+     [
+      "an intersection",
+      0.163
+     ]
+    ],
+    "v_coco+": [
+     [
+      "traffic",
+      0.167
+     ],
+     [
+      "an intersection",
+      0.163
+     ],
+     [
+      "a busy city street",
+      0.143
+     ],
+     [
+      "a busy street",
+      0.14
+     ],
+     [
+      "traffic lights",
+      0.138
+     ],
+     [
+      "a crosswalk",
+      0.136
+     ]
+    ],
+    "v_own-": [
+     [
+      "a black small suv",
+      0.001
+     ],
+     [
+      "stands",
+      -0.001
+     ],
+     [
+      "reaching",
+      -0.002
+     ],
+     [
+      "making",
+      -0.002
+     ],
+     [
+      "pulls up",
+      -0.003
+     ],
+     [
+      "the other side",
+      -0.01
+     ]
+    ],
+    "u_own+": [
+     [
+      "switches",
+      0.008
+     ],
+     [
+      "crossed",
+      0.004
+     ],
+     [
+      "stands",
+      -0.01
+     ],
+     [
+      "the light",
+      -0.014
+     ],
+     [
+      "making",
+      -0.018
+     ],
+     [
+      "pulls up",
+      -0.018
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a wooden shelf",
+      0.028
+     ],
+     [
+      "a large glass vase",
+      0.019
+     ],
+     [
+      "a wet suit",
+      0.016
+     ],
+     [
+      "unripe bananas",
+      0.015
+     ],
+     [
+      "a wetsuit",
+      0.014
+     ],
+     [
+      "white sprinkles",
+      0.014
+     ]
+    ],
+    "u_own-": [
+     [
+      "a residential street",
+      0.181
+     ],
+     [
+      "driving down",
+      0.177
+     ],
+     [
+      "street",
+      0.17
+     ],
+     [
+      "2 cars",
+      0.169
+     ],
+     [
+      "many other parked vehicles",
+      0.169
+     ],
+     [
+      "several stopped vehicles",
+      0.169
+     ]
+    ],
+    "u_coco-": [
+     [
+      "street",
+      0.17
+     ],
+     [
+      "a street",
+      0.167
+     ],
+     [
+      "the street",
+      0.165
+     ],
+     [
+      "a roadway",
+      0.165
+     ],
+     [
+      "a city street",
+      0.163
+     ],
+     [
+      "two cars",
+      0.16
+     ]
+    ],
+    "v_images+": [
+     "A silver sedan keeps straight following a white SUV.",
+     "A silver suv keeps straight.",
+     "A red SUV keeps straight followed by a blue SUV.",
+     "Blue SUV stopping and then going straight at the intersection."
+    ],
+    "v_images-": [
+     "A black SUV runs down the street.",
+     "A white car continues down the street.",
+     "A red hatchback goes straight through an intersection next to a red and yellow cement truc"
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.619,
+    "cos_uv": 0.13,
+    "specificity": 0.061,
+    "own_mean": 0.131,
+    "own_sd": 0.099,
+    "coco_mean": 0.069,
+    "v_own+": [
+     [
+      "a residential street",
+      0.177
+     ],
+     [
+      "the street",
+      0.146
+     ],
+     [
+      "a street",
+      0.143
+     ],
+     [
+      "the main street",
+      0.142
+     ],
+     [
+      "another street",
+      0.139
+     ],
+     [
+      "street",
+      0.137
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a narrow street",
+      0.177
+     ],
+     [
+      "a city sidewalk",
+      0.155
+     ],
+     [
+      "a city street",
+      0.148
+     ],
+     [
+      "the street",
+      0.146
+     ],
+     [
+      "a street scene",
+      0.146
+     ],
+     [
+      "a street",
+      0.143
+     ]
+    ],
+    "v_own-": [
+     [
+      "turns right",
+      0.023
+     ],
+     [
+      "turns right at",
+      0.023
+     ],
+     [
+      "turns right on",
+      0.017
+     ],
+     [
+      "three other vehicles",
+      0.016
+     ],
+     [
+      "turns right onto",
+      0.014
+     ],
+     [
+      "turns right from",
+      0.014
+     ]
+    ],
+    "u_own+": [
+     [
+      "a curved street",
+      0.105
+     ],
+     [
+      "parked cars",
+      0.103
+     ],
+     [
+      "some parked cars",
+      0.096
+     ],
+     [
+      "curving",
+      0.089
+     ],
+     [
+      "a curved road",
+      0.089
+     ],
+     [
+      "a curvy road",
+      0.087
+     ]
+    ],
+    "u_coco+": [
+     [
+      "parked motorcycles",
+      0.1
+     ],
+     [
+      "a parking spot",
+      0.064
+     ],
+     [
+      "a parking lot",
+      0.06
+     ],
+     [
+      "a dirt road",
+      0.059
+     ],
+     [
+      "a narrow street",
+      0.048
+     ],
+     [
+      "a path",
+      0.046
+     ]
+    ],
+    "u_own-": [
+     [
+      "a black truck",
+      0.185
+     ],
+     [
+      "a black van",
+      0.164
+     ],
+     [
+      "a  black wagon",
+      0.157
+     ],
+     [
+      "a green wagon",
+      0.152
+     ],
+     [
+      "a black suv crossing",
+      0.145
+     ],
+     [
+      "a black sedan",
+      0.142
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green and white bus",
+      0.165
+     ],
+     [
+      "a green street sign",
+      0.156
+     ],
+     [
+      "a black and white cat",
+      0.142
+     ],
+     [
+      "a black and white cow",
+      0.138
+     ],
+     [
+      "a yellow bus",
+      0.135
+     ],
+     [
+      "a black and white picture",
+      0.126
+     ]
+    ],
+    "v_images+": [
+     "A gray wagon turns right.",
+     "A blue-black sedan goes down the street with a red sedan going the opposite direction.",
+     "Large white pickup truck runs down street trailing several other cars.",
+     "A black SUV runs down the street followed by another white vehicle."
+    ],
+    "v_images-": [
+     "A black pickup truck goes pass a mega millions sign.",
+     "A red pickup runs down the street carrying a trailer.",
+     "A black SUV runs down the street followed by another white vehicle d go straight."
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.525,
+    "cos_uv": 0.08,
+    "specificity": 0.023,
+    "own_mean": 0.028,
+    "own_sd": 0.059,
+    "coco_mean": 0.004,
+    "v_own+": [
+     [
+      "a green bus",
+      0.094
+     ],
+     [
+      "stops",
+      0.063
+     ],
+     [
+      "the straight",
+      0.057
+     ],
+     [
+      "high speed",
+      0.055
+     ],
+     [
+      "kps straight",
+      0.054
+     ],
+     [
+      "a stoplight",
+      0.054
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a green and white bus",
+      0.109
+     ],
+     [
+      "a green street sign",
+      0.1
+     ],
+     [
+      "a green bus",
+      0.097
+     ],
+     [
+      "a bus stop",
+      0.073
+     ],
+     [
+      "two buses",
+      0.072
+     ],
+     [
+      "a green traffic light",
+      0.071
+     ]
+    ],
+    "v_own-": [
+     [
+      "a white suv waits.",
+      0.121
+     ],
+     [
+      "a blue pickup truck",
+      0.105
+     ],
+     [
+      "a big suv.",
+      0.096
+     ],
+     [
+      "a black pickup truck",
+      0.096
+     ],
+     [
+      "hyundai suv",
+      0.094
+     ],
+     [
+      "a gray pickup truck",
+      0.093
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red sedan",
+      0.337
+     ],
+     [
+      "a red pickup truck",
+      0.319
+     ],
+     [
+      "a maroon pickup truck",
+      0.299
+     ],
+     [
+      "a white sedan car",
+      0.296
+     ],
+     [
+      "red car",
+      0.294
+     ],
+     [
+      "a silver pickup truck",
+      0.29
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red car",
+      0.27
+     ],
+     [
+      "two cars",
+      0.27
+     ],
+     [
+      "a red and white boat",
+      0.224
+     ],
+     [
+      "a white truck",
+      0.213
+     ],
+     [
+      "a red motorcycle",
+      0.21
+     ],
+     [
+      "the car",
+      0.2
+     ]
+    ],
+    "u_own-": [
+     [
+      "a black suv turns",
+      0.129
+     ],
+     [
+      "a lane",
+      0.098
+     ],
+     [
+      "a black suv crossing",
+      0.097
+     ],
+     [
+      "a bend",
+      0.094
+     ],
+     [
+      "a dark suv turns",
+      0.092
+     ],
+     [
+      "a black suv",
+      0.091
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a side walk",
+      0.065
+     ],
+     [
+      "a shadow",
+      0.048
+     ],
+     [
+      "their way",
+      0.048
+     ],
+     [
+      "a black dress",
+      0.048
+     ],
+     [
+      "its way",
+      0.046
+     ],
+     [
+      "the pavement",
+      0.044
+     ]
+    ],
+    "v_images+": [
+     "A black van keeps straights following a red vehicle.",
+     "A truck goes in a Cordova Highway.",
+     "A gray pickup keeps straight on the street on the intersection.",
+     "A red pickup truck going straight down the street with cars to the right."
+    ],
+    "v_images-": [
+     "A white SUV is going straight.",
+     "A red SUV does a left turn then runs down the street.",
+     "A black SUV runs down the street and follows a blue Toyota."
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.496,
+    "cos_uv": 0.05,
+    "specificity": 0.005,
+    "own_mean": 0.04,
+    "own_sd": 0.094,
+    "coco_mean": 0.036,
+    "v_own+": [
+     [
+      "oncoming traffic",
+      0.079
+     ],
+     [
+      "a 1 lane road",
+      0.078
+     ],
+     [
+      "a busy road",
+      0.077
+     ],
+     [
+      "busy traffic",
+      0.075
+     ],
+     [
+      "continuing straight",
+      0.075
+     ],
+     [
+      "the road",
+      0.075
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a freeway",
+      0.086
+     ],
+     [
+      "the road",
+      0.075
+     ],
+     [
+      "a highway",
+      0.071
+     ],
+     [
+      "a wet road",
+      0.067
+     ],
+     [
+      "passengers",
+      0.067
+     ],
+     [
+      "traffic",
+      0.065
+     ]
+    ],
+    "v_own-": [
+     [
+      "the corner",
+      0.029
+     ],
+     [
+      "items",
+      0.028
+     ],
+     [
+      "a parking lot",
+      0.027
+     ],
+     [
+      "a white wagon",
+      0.026
+     ],
+     [
+      "camera",
+      0.026
+     ],
+     [
+      "a vehicle",
+      0.025
+     ]
+    ],
+    "u_own+": [
+     [
+      "a blue van",
+      0.283
+     ],
+     [
+      "a red van",
+      0.261
+     ],
+     [
+      "a dark red van",
+      0.254
+     ],
+     [
+      "a red minivan",
+      0.253
+     ],
+     [
+      "a blue mpv",
+      0.245
+     ],
+     [
+      "a bright red truck",
+      0.244
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue bus",
+      0.209
+     ],
+     [
+      "a red car",
+      0.203
+     ],
+     [
+      "a red motorcycle",
+      0.197
+     ],
+     [
+      "a red couch",
+      0.193
+     ],
+     [
+      "a red and white boat",
+      0.18
+     ],
+     [
+      "a red chair",
+      0.18
+     ]
+    ],
+    "u_own-": [
+     [
+      "keep straight",
+      0.047
+     ],
+     [
+      "keeps straight for",
+      0.039
+     ],
+     [
+      "continues straight",
+      0.039
+     ],
+     [
+      "stops with",
+      0.037
+     ],
+     [
+      "go straight",
+      0.037
+     ],
+     [
+      "kps straight",
+      0.037
+     ]
+    ],
+    "u_coco-": [
+     [
+      "ski poles",
+      0.021
+     ],
+     [
+      "it's sides",
+      0.015
+     ],
+     [
+      "lots",
+      0.014
+     ],
+     [
+      "railroad tracks",
+      0.012
+     ],
+     [
+      "some skis",
+      0.012
+     ],
+     [
+      "skis",
+      0.012
+     ]
+    ],
+    "v_images+": [
+     "A black SUV runs down the street.",
+     "A silver sedan keeps straight and stops behind traffic.",
+     "A gray SUV runs down the street followed by a black vehicle.",
+     "A black SUV turns right followed another red vehicle."
+    ],
+    "v_images-": [
+     "A black pick-up truck turns right then parks behind another car.",
+     "A black sedan drives straight down a road.",
+     "A gray SUV runs down the street."
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.481,
+    "cos_uv": 0.18,
+    "specificity": 0.043,
+    "own_mean": 0.043,
+    "own_sd": 0.054,
+    "coco_mean": -0.0,
+    "v_own+": [
+     [
+      "a dark gray sedan",
+      0.043
+     ],
+     [
+      "three other vehicles",
+      0.04
+     ],
+     [
+      "a green bus",
+      0.039
+     ],
+     [
+      "some parked cars",
+      0.037
+     ],
+     [
+      "many cars",
+      0.037
+     ],
+     [
+      "parked cars",
+      0.035
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a blue and green tennis court",
+      0.09
+     ],
+     [
+      "three vases",
+      0.06
+     ],
+     [
+      "a green and white bus",
+      0.048
+     ],
+     [
+      "a blue bus",
+      0.045
+     ],
+     [
+      "a grass yard area",
+      0.044
+     ],
+     [
+      "a skate park",
+      0.042
+     ]
+    ],
+    "v_own-": [
+     [
+      "a white suv merges",
+      0.075
+     ],
+     [
+      "a white suv waits.",
+      0.073
+     ],
+     [
+      "a stoplight",
+      0.07
+     ],
+     [
+      "a white pickup truck",
+      0.069
+     ],
+     [
+      "a white pickup",
+      0.068
+     ],
+     [
+      "a white pick up truck",
+      0.067
+     ]
+    ],
+    "u_own+": [
+     [
+      "a black sedan car",
+      0.347
+     ],
+     [
+      "a small black sedan",
+      0.347
+     ],
+     [
+      "a black sedan",
+      0.344
+     ],
+     [
+      "a midsize black sedan",
+      0.339
+     ],
+     [
+      "a midsize black sedan truns",
+      0.302
+     ],
+     [
+      "a black car",
+      0.293
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a black car",
+      0.293
+     ],
+     [
+      "black shirt",
+      0.193
+     ],
+     [
+      "a red car",
+      0.16
+     ],
+     [
+      "a black dog",
+      0.16
+     ],
+     [
+      "black shorts",
+      0.157
+     ],
+     [
+      "a black dress",
+      0.149
+     ]
+    ],
+    "u_own-": [
+     [
+      "the intersection",
+      0.112
+     ],
+     [
+      "a intersection",
+      0.108
+     ],
+     [
+      "an intersection",
+      0.107
+     ],
+     [
+      "intersection",
+      0.091
+     ],
+     [
+      "a major intersection",
+      0.078
+     ],
+     [
+      "crossed",
+      0.074
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an intersection",
+      0.107
+     ],
+     [
+      "a crosswalk",
+      0.059
+     ],
+     [
+      "the middle",
+      0.033
+     ],
+     [
+      "a town square",
+      0.032
+     ],
+     [
+      "a street corner",
+      0.032
+     ],
+     [
+      "a skate park",
+      0.029
+     ]
+    ],
+    "v_images+": [
+     "A black sedan runs down the street alongside a large pickup truck.",
+     "A green cargo truck keeps straight down the road.",
+     "A white sedan turns left.",
+     "Black wagon turning right followed by some traffic."
+    ],
+    "v_images-": [
+     "A gray Sedan going straight down the street with cars parking on the side.",
+     "A white SUV runs down the street.",
+     "A red SUV keeps straight down the road."
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.473,
+    "cos_uv": 0.21,
+    "specificity": 0.009,
+    "own_mean": 0.008,
+    "own_sd": 0.059,
+    "coco_mean": -0.001,
+    "v_own+": [
+     [
+      "a white wagon",
+      0.084
+     ],
+     [
+      "a white van",
+      0.068
+     ],
+     [
+      "large white van",
+      0.067
+     ],
+     [
+      "a white mini van",
+      0.066
+     ],
+     [
+      "a small white sedan",
+      0.066
+     ],
+     [
+      "a white sedan",
+      0.065
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a white bus",
+      0.052
+     ],
+     [
+      "a white truck",
+      0.05
+     ],
+     [
+      "white shorts",
+      0.049
+     ],
+     [
+      "white sprinkles",
+      0.04
+     ],
+     [
+      "a large white bowl",
+      0.039
+     ],
+     [
+      "a white table",
+      0.036
+     ]
+    ],
+    "v_own-": [
+     [
+      "a red and yellow cement truck",
+      0.123
+     ],
+     [
+      "a red pickup",
+      0.095
+     ],
+     [
+      "a red pickup truck",
+      0.092
+     ],
+     [
+      "a red vehicle",
+      0.091
+     ],
+     [
+      "another red vehicle",
+      0.091
+     ],
+     [
+      "another red car",
+      0.088
+     ]
+    ],
+    "u_own+": [
+     [
+      "a light gray vehicle",
+      0.12
+     ],
+     [
+      "a silver wagon",
+      0.119
+     ],
+     [
+      "a silver vehicle",
+      0.113
+     ],
+     [
+      "a silver car",
+      0.108
+     ],
+     [
+      "a gray wagon",
+      0.104
+     ],
+     [
+      "a silver sedan",
+      0.104
+     ]
+    ],
+    "u_coco+": [
+     [
+      "white",
+      0.075
+     ],
+     [
+      "a white bus",
+      0.069
+     ],
+     [
+      "a large gray elephant",
+      0.056
+     ],
+     [
+      "a white building",
+      0.054
+     ],
+     [
+      "a grey cat",
+      0.052
+     ],
+     [
+      "a white horse",
+      0.048
+     ]
+    ],
+    "u_own-": [
+     [
+      "a red pickup truck",
+      0.295
+     ],
+     [
+      "a maroon pickup truck",
+      0.294
+     ],
+     [
+      "a red pickup",
+      0.29
+     ],
+     [
+      "a red truck",
+      0.276
+     ],
+     [
+      "a bright red truck",
+      0.264
+     ],
+     [
+      "a red cargo truck",
+      0.26
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red couch",
+      0.209
+     ],
+     [
+      "a red motorcycle",
+      0.191
+     ],
+     [
+      "red shirt",
+      0.176
+     ],
+     [
+      "a red chair",
+      0.175
+     ],
+     [
+      "a red shirt",
+      0.173
+     ],
+     [
+      "a red train",
+      0.171
+     ]
+    ],
+    "v_images+": [
+     "A white van drives behind more vehicles.",
+     "Black sedan runs down the street amidst other vehicles.",
+     "Gray SUV followed by a black SUV turned right.",
+     "A white car stops with other cars at an intersection."
+    ],
+    "v_images-": [
+     "A red pickup truck going straight down the street.",
+     "A gray SUV runs down the street.",
+     "A maroon car keeps straight down a curvy road."
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.414,
+    "cos_uv": 0.23,
+    "specificity": 0.037,
+    "own_mean": -0.002,
+    "own_sd": 0.055,
+    "coco_mean": -0.04,
+    "v_own+": [
+     [
+      "a black jeep",
+      0.092
+     ],
+     [
+      "a purple jeep",
+      0.067
+     ],
+     [
+      "many parked vehicles",
+      0.061
+     ],
+     [
+      "a row",
+      0.041
+     ],
+     [
+      "many other parked vehicles",
+      0.04
+     ],
+     [
+      "parking on",
+      0.039
+     ]
+    ],
+    "v_coco+": [
+     [
+      "parked motorcycles",
+      0.068
+     ],
+     [
+      "a herd",
+      0.056
+     ],
+     [
+      "a red brick building",
+      0.049
+     ],
+     [
+      "sinks",
+      0.049
+     ],
+     [
+      "bikes",
+      0.049
+     ],
+     [
+      "bicycles",
+      0.044
+     ]
+    ],
+    "v_own-": [
+     [
+      "a small white sedan",
+      0.131
+     ],
+     [
+      "a white sedan",
+      0.13
+     ],
+     [
+      "a white sedan car",
+      0.12
+     ],
+     [
+      "a white cargo truck",
+      0.116
+     ],
+     [
+      "another white car",
+      0.114
+     ],
+     [
+      "a white coupe",
+      0.113
+     ]
+    ],
+    "u_own+": [
+     [
+      "another red suv",
+      0.172
+     ],
+     [
+      "another red vehicle",
+      0.17
+     ],
+     [
+      "another red car",
+      0.165
+     ],
+     [
+      "a dark red suv",
+      0.162
+     ],
+     [
+      "a dark red van",
+      0.159
+     ],
+     [
+      "a red car",
+      0.149
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red stop sign",
+      0.174
+     ],
+     [
+      "a red train",
+      0.169
+     ],
+     [
+      "red shirt",
+      0.168
+     ],
+     [
+      "a red shirt",
+      0.168
+     ],
+     [
+      "a red car",
+      0.149
+     ],
+     [
+      "a red umbrella",
+      0.14
+     ]
+    ],
+    "u_own-": [
+     [
+      "a white pickup truck",
+      0.252
+     ],
+     [
+      "a white sedan",
+      0.25
+     ],
+     [
+      "large white pickup truck",
+      0.248
+     ],
+     [
+      "a white truck",
+      0.245
+     ],
+     [
+      "a white pickup",
+      0.239
+     ],
+     [
+      "a white pick up truck",
+      0.236
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a white truck",
+      0.245
+     ],
+     [
+      "a white building",
+      0.216
+     ],
+     [
+      "a white bus",
+      0.214
+     ],
+     [
+      "a white boat",
+      0.185
+     ],
+     [
+      "a white horse",
+      0.182
+     ],
+     [
+      "a white surfboard",
+      0.172
+     ]
+    ],
+    "v_images+": [
+     "A small black crossover goes straight.",
+     "A dark gray SUV tailgates a red SUV down the street.",
+     "Black wagon keeping straight 'till the traffic light.",
+     "A gray SUV keeps going straight and follows another black car."
+    ],
+    "v_images-": [
+     "A silver sedan runs down the street followed by a white SUV.",
+     "A black SUV crosses an intersection behind another white SUV.",
+     "A gray sedan goes down straight behind a light gray vehicle."
+    ]
+   }
+  ]
+ }
+}

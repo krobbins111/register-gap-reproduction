@@ -1,0 +1,414 @@
+{
+"person": [
+"person",
+"man",
+"woman",
+"boy",
+"girl",
+"child",
+"kid",
+"baby",
+"people",
+"men",
+"women",
+"guy",
+"lady",
+"gentleman",
+"player",
+"skier",
+"surfer",
+"skateboarder",
+"snowboarder",
+"rider",
+"biker",
+"officer",
+"worker",
+"chef",
+"cook",
+"soldier",
+"toddler",
+"adult",
+"teenager",
+"couple",
+"crowd",
+"pedestrian",
+"batter",
+"pitcher",
+"catcher",
+"umpire"
+],
+"bicycle": [
+"bicycle",
+"bike",
+"bikes",
+"bicycles"
+],
+"car": [
+"car",
+"cars",
+"taxi",
+"suv",
+"sedan",
+"vehicle"
+],
+"motorcycle": [
+"motorcycle",
+"motorbike",
+"motorcycles"
+],
+"airplane": [
+"airplane",
+"plane",
+"jet",
+"aircraft",
+"airliner",
+"planes"
+],
+"bus": [
+"bus",
+"buses"
+],
+"train": [
+"train",
+"locomotive",
+"trains"
+],
+"truck": [
+"truck",
+"trucks",
+"pickup"
+],
+"boat": [
+"boat",
+"boats",
+"ship",
+"canoe",
+"kayak",
+"sailboat"
+],
+"traffic light": [
+"traffic light",
+"traffic lights",
+"stoplight"
+],
+"fire hydrant": [
+"hydrant",
+"fire hydrant"
+],
+"stop sign": [
+"stop sign"
+],
+"bench": [
+"bench",
+"benches"
+],
+"bird": [
+"bird",
+"birds",
+"duck",
+"ducks",
+"goose",
+"seagull",
+"pigeon",
+"parrot",
+"swan"
+],
+"cat": [
+"cat",
+"cats",
+"kitten",
+"kitty"
+],
+"dog": [
+"dog",
+"dogs",
+"puppy"
+],
+"horse": [
+"horse",
+"horses",
+"pony"
+],
+"sheep": [
+"sheep",
+"lamb",
+"lambs"
+],
+"cow": [
+"cow",
+"cows",
+"cattle",
+"calf",
+"bull"
+],
+"elephant": [
+"elephant",
+"elephants"
+],
+"bear": [
+"bear",
+"bears"
+],
+"zebra": [
+"zebra",
+"zebras"
+],
+"giraffe": [
+"giraffe",
+"giraffes"
+],
+"backpack": [
+"backpack"
+],
+"umbrella": [
+"umbrella",
+"umbrellas"
+],
+"handbag": [
+"handbag",
+"purse",
+"bag"
+],
+"tie": [
+"tie",
+"necktie"
+],
+"suitcase": [
+"suitcase",
+"luggage",
+"suitcases"
+],
+"frisbee": [
+"frisbee"
+],
+"skis": [
+"skis",
+"ski"
+],
+"snowboard": [
+"snowboard"
+],
+"sports ball": [
+"ball",
+"soccer ball",
+"tennis ball",
+"basketball",
+"baseball",
+"football"
+],
+"kite": [
+"kite",
+"kites"
+],
+"baseball bat": [
+"bat",
+"baseball bat"
+],
+"baseball glove": [
+"glove",
+"mitt",
+"baseball glove"
+],
+"skateboard": [
+"skateboard",
+"skateboards"
+],
+"surfboard": [
+"surfboard",
+"surfboards",
+"board"
+],
+"tennis racket": [
+"racket",
+"racquet",
+"tennis racket"
+],
+"bottle": [
+"bottle",
+"bottles"
+],
+"wine glass": [
+"wine glass",
+"wine glasses",
+"wineglass"
+],
+"cup": [
+"cup",
+"cups",
+"mug",
+"coffee cup"
+],
+"fork": [
+"fork",
+"forks"
+],
+"knife": [
+"knife",
+"knives"
+],
+"spoon": [
+"spoon",
+"spoons"
+],
+"bowl": [
+"bowl",
+"bowls"
+],
+"banana": [
+"banana",
+"bananas"
+],
+"apple": [
+"apple",
+"apples"
+],
+"sandwich": [
+"sandwich",
+"sandwiches",
+"burger",
+"hamburger"
+],
+"orange": [
+"orange",
+"oranges"
+],
+"broccoli": [
+"broccoli"
+],
+"carrot": [
+"carrot",
+"carrots"
+],
+"hot dog": [
+"hot dog",
+"hot dogs",
+"hotdog"
+],
+"pizza": [
+"pizza",
+"pizzas",
+"slice"
+],
+"donut": [
+"donut",
+"donuts",
+"doughnut",
+"doughnuts"
+],
+"cake": [
+"cake",
+"cakes",
+"cupcake"
+],
+"chair": [
+"chair",
+"chairs",
+"stool"
+],
+"couch": [
+"couch",
+"sofa",
+"couches"
+],
+"potted plant": [
+"plant",
+"plants",
+"potted plant",
+"houseplant"
+],
+"bed": [
+"bed",
+"beds"
+],
+"dining table": [
+"table",
+"dining table",
+"desk",
+"tables"
+],
+"toilet": [
+"toilet",
+"toilets"
+],
+"tv": [
+"tv",
+"television",
+"monitor",
+"screen",
+"televisions"
+],
+"laptop": [
+"laptop",
+"laptops",
+"computer"
+],
+"mouse": [
+"mouse",
+"computer mouse"
+],
+"remote": [
+"remote",
+"remote control",
+"controller",
+"remotes"
+],
+"keyboard": [
+"keyboard",
+"keyboards"
+],
+"cell phone": [
+"phone",
+"cell phone",
+"cellphone",
+"smartphone",
+"phones"
+],
+"microwave": [
+"microwave"
+],
+"oven": [
+"oven",
+"stove"
+],
+"toaster": [
+"toaster"
+],
+"sink": [
+"sink",
+"sinks"
+],
+"refrigerator": [
+"refrigerator",
+"fridge"
+],
+"book": [
+"book",
+"books"
+],
+"clock": [
+"clock",
+"clocks"
+],
+"vase": [
+"vase",
+"vases"
+],
+"scissors": [
+"scissors"
+],
+"teddy bear": [
+"teddy bear",
+"teddy bears",
+"stuffed animal",
+"teddy"
+],
+"hair drier": [
+"hair dryer",
+"hairdryer",
+"blow dryer"
+],
+"toothbrush": [
+"toothbrush",
+"toothbrushes"
+]
+}

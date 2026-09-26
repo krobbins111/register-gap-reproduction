@@ -1,0 +1,32 @@
+{
+ "imported_from": "story/api/gemini_sweep_summary.json",
+ "ties": "geq",
+ "collection": "coco",
+ "encoder": "gemini-embedding-2",
+ "n_test": 1000,
+ "gemini": {
+  "frozen": {
+   "R@1": 0.713,
+   "R@10": 0.962,
+   "R@50": 0.993
+  },
+  "N50": 0.0033333333333333335,
+  "maps": {
+   "R@1": 0.727,
+   "R@10": 0.966,
+   "R@50": 0.994
+  }
+ },
+ "siglip2": {
+  "frozen": {
+   "R@1": 0.643,
+   "R@10": 0.937,
+   "R@50": 0.985
+  },
+  "maps": {
+   "R@1": 0.635,
+   "R@10": 0.934,
+   "R@50": 0.986
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "imported_from": "story/sets/protocol_skincap_tips.json",
+ "ties": "geq",
+ "collection": "skincap",
+ "encoder": "tipsv2-b14",
+ "name": "skincap",
+ "protocol": {
+  "gallery": 4000,
+  "queries": 600,
+  "note": "Derm1M paper (ICCV 2025) Table 4 protocol: whole SkinCAP as gallery; our queries are the 600 held-out test captions"
+ },
+ "frozen": {
+  "R@1": 0.01,
+  "R@5": 0.028333333333333332,
+  "R@10": 0.043333333333333335,
+  "R@50": 0.16166666666666665,
+  "median_rank": 420.5
+ },
+ "pooled": {
+  "R@1": 0.04833333333333333,
+  "R@5": 0.14833333333333334,
+  "R@10": 0.20666666666666667,
+  "R@50": 0.45166666666666666,
+  "median_rank": 66.0
+ },
+ "set": {
+  "R@1": 0.04,
+  "R@5": 0.16,
+  "R@10": 0.24666666666666667,
+  "R@50": 0.5,
+  "median_rank": 50.5
+ },
+ "setw": {
+  "R@1": 0.04833333333333333,
+  "R@5": 0.165,
+  "R@10": 0.24333333333333335,
+  "R@50": 0.5066666666666667,
+  "median_rank": 49.0
+ }
+}

@@ -1,0 +1,137 @@
+{
+  "dataset": "nwpu",
+  "collection": "nwpu",
+  "encoder": "remoteclip-vitl14",
+  "mtag": "remoteclip-vitl14",
+  "arch": "linear",
+  "hardware": {
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "torch": "2.11.0+cu130",
+    "python": "3.13.3",
+    "os": "Windows-11-10.0.26200-SP0",
+    "wall_seconds_total": 25.8,
+    "note": "train_seconds_per_seed = one full training run of the arm (30 epochs, per-epoch val R@50 selection, val eval included; data already in GPU memory; test evaluation and SVD stats excluded)"
+  },
+  "epochs": 30,
+  "lr": 0.0001,
+  "batch": 256,
+  "temp": 0.05,
+  "sym_loss": false,
+  "seeds": [
+    0,
+    1
+  ],
+  "n_train": 25199,
+  "n_val": 3150,
+  "n_test": 3150,
+  "train_geometry": {
+    "txt_near_dup@0.9": 0.9685,
+    "img_near_dup@0.9": 0.9111,
+    "txt_mean_pair_cos": 0.6326,
+    "img_mean_pair_cos": 0.692,
+    "matched_pair_cos": 0.2476
+  },
+  "raw": {
+    "R@1": 0.05619047619047619,
+    "R@5": 0.17777777777777778,
+    "R@10": 0.2812698412698413,
+    "R@50": 0.6980952380952381,
+    "MRR": 0.13310599654291805,
+    "dprime": 2.8671
+  },
+  "arms": {
+    "both": {
+      "R@1": 0.1313,
+      "R@1_std": 0.0017,
+      "R@5": 0.4078,
+      "R@5_std": 0.0014,
+      "R@10": 0.587,
+      "R@10_std": 0.0006,
+      "R@50": 0.9435,
+      "R@50_std": 0.0016,
+      "MRR": 0.2687,
+      "MRR_std": 0.0009,
+      "dprime": 4.2545,
+      "dprime_std": 0.0134,
+      "gal_near_dup@0.9_post": 0.0087,
+      "gal_near_dup@0.9_post_std": 0.0008,
+      "gain@50": 0.2454,
+      "gain@10": 0.3057,
+      "delta_dprime": 1.3874,
+      "map_svd_text": {
+        "sv_max": 2.71,
+        "sv_min": 0.082,
+        "sv_median": 0.995,
+        "frob_W": 10.598,
+        "n_sv_gt_1.05": 206,
+        "n_sv_lt_0.95": 254,
+        "mean_cos_x_Ax": 0.4511,
+        "mean_rot_deg": 63.18
+      },
+      "map_svd_image": {
+        "sv_max": 2.607,
+        "sv_min": 0.039,
+        "sv_median": 0.986,
+        "frob_W": 12.112,
+        "n_sv_gt_1.05": 197,
+        "n_sv_lt_0.95": 310,
+        "mean_cos_x_Ax": 0.4029,
+        "mean_rot_deg": 66.24
+      },
+      "train_seconds_per_seed": [
+        6.17,
+        5.88
+      ],
+      "train_seconds_mean": 6.03,
+      "peak_gpu_gb": 0.221
+    },
+    "shared": {
+      "R@1": 0.1159,
+      "R@1_std": 0.0003,
+      "R@5": 0.3805,
+      "R@5_std": 0.0014,
+      "R@10": 0.5503,
+      "R@10_std": 0.0014,
+      "R@50": 0.933,
+      "R@50_std": 0.0013,
+      "MRR": 0.2504,
+      "MRR_std": 0.0008,
+      "dprime": 3.9829,
+      "dprime_std": 0.0116,
+      "gal_near_dup@0.9_post": 0.0222,
+      "gal_near_dup@0.9_post_std": 0.0016,
+      "gain@50": 0.2349,
+      "gain@10": 0.269,
+      "delta_dprime": 1.1158,
+      "map_svd_text": {
+        "sv_max": 2.951,
+        "sv_min": 0.0,
+        "sv_median": 0.987,
+        "frob_W": 12.666,
+        "n_sv_gt_1.05": 225,
+        "n_sv_lt_0.95": 313,
+        "mean_cos_x_Ax": 0.4724,
+        "mean_rot_deg": 61.81
+      },
+      "map_svd_image": {
+        "tied": true,
+        "sv_max": 2.951,
+        "sv_min": 0.0,
+        "sv_median": 0.987,
+        "frob_W": 12.666,
+        "n_sv_gt_1.05": 225,
+        "n_sv_lt_0.95": 313,
+        "mean_cos_x_Ax": 0.4258,
+        "mean_rot_deg": 64.8
+      },
+      "train_seconds_per_seed": [
+        5.27,
+        6.09
+      ],
+      "train_seconds_mean": 5.68,
+      "peak_gpu_gb": 0.213
+    }
+  },
+  "deploy_note": "text arm: per-query transform, index untouched. image/both/shared arms: gallery must be re-transformed and re-indexed whenever the map changes."
+}

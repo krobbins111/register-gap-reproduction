@@ -1,0 +1,523 @@
+{
+ "imported_from": "story/sets/colab_results_2026-09-19.json",
+ "ties": "geq",
+ "collection": "fashion200k",
+ "encoder": "siglip2-base-16-256",
+ "n": {
+  "train": 50000,
+  "val": 4999,
+  "test": 4999
+ },
+ "phrases_per_caption": 8.533051101703391,
+ "frozen": {
+  "R@1": 0.3892778555711142,
+  "R@5": 0.6881376275255051,
+  "R@10": 0.7953590718143628,
+  "R@50": 0.9551910382076415,
+  "median_rank": 2.0,
+  "R@10_ci": [
+   0.78375675135027,
+   0.8067663532706542
+  ]
+ },
+ "pooled": {
+  "R@1": 0.5185037007401481,
+  "R@5": 0.8219643928785757,
+  "R@10": 0.9035807161432287,
+  "R@50": 0.9913982796559312,
+  "median_rank": 1.0,
+  "R@10_ci": [
+   0.8947739547909581,
+   0.9121824364872975
+  ],
+  "val_R@10": 0.998,
+  "lam": 1.0,
+  "tau": 0.05000000074505806
+ },
+ "set": {
+  "R@1": 0.5275055011002201,
+  "R@5": 0.8317663532706542,
+  "R@10": 0.9157831566313263,
+  "R@50": 0.9905981196239247,
+  "median_rank": 1.0,
+  "R@10_ci": [
+   0.9081816363272655,
+   0.9235847169433887
+  ],
+  "val_R@10": 1.0,
+  "lam": 6.18797492980957,
+  "tau": 0.023155102506279945
+ },
+ "phrases_only": {
+  "R@1": 0.48949789957991596,
+  "R@5": 0.8037607521504301,
+  "R@10": 0.8889777955591118,
+  "R@50": 0.9851970394078816,
+  "median_rank": 2.0,
+  "R@10_ci": [
+   0.8805711142228445,
+   0.8983796759351871
+  ],
+  "val_R@10": 1.0,
+  "lam": 15.130986213684082,
+  "tau": 0.06938271224498749
+ },
+ "patches_only": {
+  "R@1": 0.44568913782756553,
+  "R@5": 0.7657531506301261,
+  "R@10": 0.8701740348069614,
+  "R@50": 0.9843968793758752,
+  "median_rank": 2.0,
+  "R@10_ci": [
+   0.8607721544308862,
+   0.8797759551910382
+  ],
+  "val_R@10": 0.994,
+  "lam": 5.072071552276611,
+  "tau": 0.08266281336545944
+ },
+ "setw": {
+  "R@1": 0.5299059811962392,
+  "R@5": 0.8287657531506302,
+  "R@10": 0.9097819563912782,
+  "R@50": 0.98999799959992,
+  "median_rank": 1.0,
+  "R@10_ci": [
+   0.9019803960792159,
+   0.9177885577115423
+  ],
+  "val_R@10": 1.0,
+  "lam": 5.638884544372559,
+  "tau": 0.024054719135165215,
+  "gate": {
+   "effective_phrases": 7.019407749176025,
+   "mean_phrases": 8.483296394348145,
+   "lowest": [
+    [
+     "the right leg",
+     -1.14,
+     6
+    ],
+    [
+     "the ankles",
+     -1.14,
+     29
+    ],
+    [
+     "the leg",
+     -1.08,
+     6
+    ],
+    [
+     "the left leg",
+     -1.08,
+     25
+    ],
+    [
+     "the pants",
+     -1.07,
+     434
+    ],
+    [
+     "the ankle",
+     -1.06,
+     39
+    ],
+    [
+     "the outfit",
+     -1.06,
+     19
+    ],
+    [
+     "the side",
+     -1.05,
+     256
+    ],
+    [
+     "the legs",
+     -1.03,
+     7
+    ],
+    [
+     "the front",
+     -1.01,
+     654
+    ],
+    [
+     "shoes",
+     -1.0,
+     8
+    ],
+    [
+     "the dress",
+     -1.0,
+     1284
+    ],
+    [
+     "the wearer",
+     -0.99,
+     17
+    ],
+    [
+     "pair",
+     -0.99,
+     729
+    ],
+    [
+     "the right side",
+     -0.97,
+     18
+    ],
+    [
+     "the skirt",
+     -0.96,
+     804
+    ],
+    [
+     "clothing",
+     -0.95,
+     67
+    ],
+    [
+     "the occasion",
+     -0.95,
+     7
+    ],
+    [
+     "bottoms",
+     -0.94,
+     7
+    ],
+    [
+     "the waist",
+     -0.93,
+     247
+    ]
+   ],
+   "highest": [
+    [
+     "green bomber jacket",
+     1.1,
+     5
+    ],
+    [
+     "red leather jacket",
+     1.0,
+     7
+    ],
+    [
+     "blue floral print dress",
+     0.98,
+     7
+    ],
+    [
+     "beige leather jacket",
+     0.97,
+     6
+    ],
+    [
+     "brown leather jacket",
+     0.89,
+     19
+    ],
+    [
+     "red lace dress",
+     0.89,
+     8
+    ],
+    [
+     "beige blazer",
+     0.87,
+     5
+    ],
+    [
+     "blue denim jacket",
+     0.78,
+     5
+    ],
+    [
+     "brown leather skirt",
+     0.77,
+     5
+    ],
+    [
+     "blue floral dress",
+     0.75,
+     7
+    ],
+    [
+     "black bomber jacket",
+     0.73,
+     6
+    ],
+    [
+     "pink tank top",
+     0.73,
+     8
+    ],
+    [
+     "red t-shirt",
+     0.69,
+     7
+    ],
+    [
+     "black and gold dress",
+     0.69,
+     6
+    ],
+    [
+     "black denim jacket",
+     0.68,
+     7
+    ],
+    [
+     "pink t-shirt",
+     0.66,
+     9
+    ],
+    [
+     "blue and white striped dress",
+     0.64,
+     5
+    ],
+    [
+     "black leather jacket",
+     0.6,
+     117
+    ],
+    [
+     "black and white floral print dress",
+     0.6,
+     5
+    ],
+    [
+     "blue and white striped shirt",
+     0.59,
+     6
+    ]
+   ]
+  }
+ },
+ "phrases_only_w": {
+  "R@1": 0.4840968193638728,
+  "R@5": 0.786757351470294,
+  "R@10": 0.8801760352070415,
+  "R@50": 0.9825965193038608,
+  "median_rank": 2.0,
+  "R@10_ci": [
+   0.871374274854971,
+   0.8883826765353071
+  ],
+  "val_R@10": 1.0,
+  "lam": 8.955822944641113,
+  "tau": 0.048613615334033966,
+  "gate": {
+   "effective_phrases": 6.241426944732666,
+   "mean_phrases": 8.483296394348145,
+   "lowest": [
+    [
+     "shoes",
+     -1.56,
+     8
+    ],
+    [
+     "the ankles",
+     -1.56,
+     29
+    ],
+    [
+     "the outfit",
+     -1.46,
+     19
+    ],
+    [
+     "the side",
+     -1.35,
+     256
+    ],
+    [
+     "the ankle",
+     -1.33,
+     39
+    ],
+    [
+     "the right leg",
+     -1.32,
+     6
+    ],
+    [
+     "a fashionable choice",
+     -1.32,
+     7
+    ],
+    [
+     "the legs",
+     -1.29,
+     7
+    ],
+    [
+     "clothing",
+     -1.28,
+     67
+    ],
+    [
+     "everyday wear",
+     -1.28,
+     46
+    ],
+    [
+     "the leg",
+     -1.25,
+     6
+    ],
+    [
+     "the occasion",
+     -1.23,
+     7
+    ],
+    [
+     "the pants",
+     -1.22,
+     434
+    ],
+    [
+     "the left leg",
+     -1.21,
+     25
+    ],
+    [
+     "outfits",
+     -1.21,
+     5
+    ],
+    [
+     "bottoms",
+     -1.21,
+     7
+    ],
+    [
+     "casual wear",
+     -1.2,
+     50
+    ],
+    [
+     "the dress",
+     -1.19,
+     1284
+    ],
+    [
+     "both casual and dressy occasions",
+     -1.18,
+     5
+    ],
+    [
+     "the right side",
+     -1.17,
+     18
+    ]
+   ],
+   "highest": [
+    [
+     "green bomber jacket",
+     1.54,
+     5
+    ],
+    [
+     "red lace dress",
+     1.33,
+     8
+    ],
+    [
+     "blue floral print dress",
+     1.25,
+     7
+    ],
+    [
+     "blue denim jacket",
+     1.17,
+     5
+    ],
+    [
+     "black bomber jacket",
+     1.16,
+     6
+    ],
+    [
+     "red leather jacket",
+     1.12,
+     7
+    ],
+    [
+     "black and gold dress",
+     1.12,
+     6
+    ],
+    [
+     "blue and white striped dress",
+     1.1,
+     5
+    ],
+    [
+     "beige blazer",
+     1.08,
+     5
+    ],
+    [
+     "beige leather jacket",
+     1.07,
+     6
+    ],
+    [
+     "white lace blouse",
+     1.05,
+     5
+    ],
+    [
+     "red t-shirt",
+     1.05,
+     7
+    ],
+    [
+     "black denim jacket",
+     1.04,
+     7
+    ],
+    [
+     "blue floral dress",
+     1.02,
+     7
+    ],
+    [
+     "blue and white striped shirt",
+     1.02,
+     6
+    ],
+    [
+     "yellow dress",
+     1.01,
+     5
+    ],
+    [
+     "white lace dress",
+     0.98,
+     13
+    ],
+    [
+     "black and white floral print dress",
+     0.98,
+     5
+    ],
+    [
+     "brown leather jacket",
+     0.97,
+     19
+    ],
+    [
+     "blue denim shirt",
+     0.94,
+     5
+    ]
+   ]
+  }
+ }
+}

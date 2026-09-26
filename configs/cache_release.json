@@ -1,0 +1,7 @@
+{
+ "repo_id": "RegisterGap/LearnTheRegisterGapCache",
+ "repo_type": "dataset",
+ "revision": "main",
+ "base_url": "https://huggingface.co/datasets/RegisterGap/LearnTheRegisterGapCache/resolve/main",
+ "note": "the released embedding cache (58 cells, 12.78 GB); ltg.cache fetches a missing cell from here on demand unless LTG_OFFLINE=1 or local.json {\"offline\": true}; scripts/fetch_cache.py pulls everything and checks sha256 against configs/cache_manifest.json"
+}

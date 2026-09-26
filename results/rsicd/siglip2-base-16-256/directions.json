@@ -1,0 +1,9588 @@
+{
+ "imported_from": "story/directions/directions.json",
+ "ties": "geq",
+ "collection": "rsicd",
+ "encoder": "siglip2-base-16-256",
+ "pooled/Wt": {
+  "frob": 5.16,
+  "energy_top8": 0.421,
+  "energy_top16": 0.623,
+  "top_s": [
+   1.393,
+   1.347,
+   1.236,
+   1.186,
+   1.133,
+   1.078,
+   1.031,
+   1.002,
+   0.921,
+   0.915,
+   0.856,
+   0.842,
+   0.809,
+   0.764,
+   0.74,
+   0.694
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.393,
+    "cos_uv": 0.42,
+    "specificity": 0.019,
+    "own_mean": 0.108,
+    "own_sd": 0.053,
+    "coco_mean": 0.089,
+    "v_own+": [
+     [
+      "yellow bareland",
+      0.191
+     ],
+     [
+      "gray yellow bareland",
+      0.185
+     ],
+     [
+      "yellow bare land",
+      0.179
+     ],
+     [
+      "an almost rectangular green pond",
+      0.175
+     ],
+     [
+      "a square bare ground",
+      0.175
+     ],
+     [
+      "the reddish brown bareland",
+      0.167
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a curb",
+      0.157
+     ],
+     [
+      "a dirt field",
+      0.149
+     ],
+     [
+      "a fenced area",
+      0.148
+     ],
+     [
+      "a grassy area",
+      0.143
+     ],
+     [
+      "a blue and green tennis court",
+      0.141
+     ],
+     [
+      "an airport tarmac",
+      0.141
+     ]
+    ],
+    "v_own-": [
+     [
+      "commerce",
+      0.043
+     ],
+     [
+      "church",
+      0.037
+     ],
+     [
+      "the school",
+      0.037
+     ],
+     [
+      "school buildings",
+      0.031
+     ],
+     [
+      "a school",
+      0.029
+     ],
+     [
+      "the church",
+      0.026
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red badminton court",
+      -0.054
+     ],
+     [
+      "this soccer pitch",
+      -0.056
+     ],
+     [
+      "this soccer field",
+      -0.059
+     ],
+     [
+      "this bare field",
+      -0.063
+     ],
+     [
+      "the new soccer field",
+      -0.068
+     ],
+     [
+      "the tarmac",
+      -0.069
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a snowy field",
+      -0.057
+     ],
+     [
+      "a dirt field",
+      -0.062
+     ],
+     [
+      "a dry grass field",
+      -0.066
+     ],
+     [
+      "a grass covered field",
+      -0.071
+     ],
+     [
+      "a dugout",
+      -0.072
+     ],
+     [
+      "an airport runway",
+      -0.072
+     ]
+    ],
+    "u_own-": [
+     [
+      "a densely populated area",
+      0.336
+     ],
+     [
+      "dense residential area",
+      0.331
+     ],
+     [
+      "dense buildings",
+      0.327
+     ],
+     [
+      "many densely populated areas",
+      0.326
+     ],
+     [
+      "a dense residential area",
+      0.324
+     ],
+     [
+      "dense residential areas",
+      0.32
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a busy city street",
+      0.299
+     ],
+     [
+      "city",
+      0.273
+     ],
+     [
+      "the city",
+      0.272
+     ],
+     [
+      "the cityscape",
+      0.262
+     ],
+     [
+      "a busy street",
+      0.262
+     ],
+     [
+      "some buildings",
+      0.26
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.347,
+    "cos_uv": -0.31,
+    "specificity": 0.162,
+    "own_mean": 0.389,
+    "own_sd": 0.082,
+    "coco_mean": 0.227,
+    "v_own+": [
+     [
+      "a dense residential area",
+      0.334
+     ],
+     [
+      "this dense residential area",
+      0.328
+     ],
+     [
+      "a densely populated area",
+      0.326
+     ],
+     [
+      "several green buildings",
+      0.322
+     ],
+     [
+      "the dense residential area",
+      0.317
+     ],
+     [
+      "a curved green river",
+      0.314
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a busy city street",
+      0.305
+     ],
+     [
+      "a city street",
+      0.288
+     ],
+     [
+      "a town",
+      0.283
+     ],
+     [
+      "an empty train station",
+      0.28
+     ],
+     [
+      "a town square",
+      0.277
+     ],
+     [
+      "a busy street",
+      0.276
+     ]
+    ],
+    "v_own-": [
+     [
+      "white spray",
+      -0.044
+     ],
+     [
+      "traverses",
+      -0.048
+     ],
+     [
+      "many sands",
+      -0.051
+     ],
+     [
+      "part",
+      -0.053
+     ],
+     [
+      "the roller",
+      -0.055
+     ],
+     [
+      "black",
+      -0.055
+     ]
+    ],
+    "u_own+": [
+     [
+      "four white globular objects",
+      -0.608
+     ],
+     [
+      "the residents",
+      -0.631
+     ],
+     [
+      "front",
+      -0.632
+     ],
+     [
+      "three large white storage tanks",
+      -0.635
+     ],
+     [
+      "the top yellow spray",
+      -0.636
+     ],
+     [
+      "the fish ladder",
+      -0.644
+     ]
+    ],
+    "u_coco+": [
+     [
+      "front",
+      -0.632
+     ],
+     [
+      "mustard",
+      -0.653
+     ],
+     [
+      "pictures",
+      -0.654
+     ],
+     [
+      "four men",
+      -0.654
+     ],
+     [
+      "side",
+      -0.655
+     ],
+     [
+      "his lap",
+      -0.658
+     ]
+    ],
+    "u_own-": [
+     [
+      "a field",
+      0.823
+     ],
+     [
+      "some low-distributed green trees",
+      0.823
+     ],
+     [
+      "a large park",
+      0.822
+     ],
+     [
+      "a green farmland",
+      0.822
+     ],
+     [
+      "the green agricultural land",
+      0.822
+     ],
+     [
+      "some green and scattered trees",
+      0.822
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a grassy area",
+      0.826
+     ],
+     [
+      "a grass yard area",
+      0.825
+     ],
+     [
+      "an open field",
+      0.824
+     ],
+     [
+      "a green field",
+      0.819
+     ],
+     [
+      "a grassy field",
+      0.818
+     ],
+     [
+      "a lush green field",
+      0.818
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 1.236,
+    "cos_uv": 0.52,
+    "specificity": 0.038,
+    "own_mean": 0.075,
+    "own_sd": 0.046,
+    "coco_mean": 0.037,
+    "v_own+": [
+     [
+      "two houses",
+      0.114
+     ],
+     [
+      "this dense residential area",
+      0.113
+     ],
+     [
+      "a dense residential area",
+      0.108
+     ],
+     [
+      "two boats",
+      0.108
+     ],
+     [
+      "dense houses",
+      0.108
+     ],
+     [
+      "dense residential areas",
+      0.107
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a blue and green tennis court",
+      0.103
+     ],
+     [
+      "two pizzas",
+      0.102
+     ],
+     [
+      "a green grass covered field",
+      0.089
+     ],
+     [
+      "two slices",
+      0.086
+     ],
+     [
+      "a lush green forest",
+      0.083
+     ],
+     [
+      "a grass covered field",
+      0.081
+     ]
+    ],
+    "v_own-": [
+     [
+      "an oval white stadium",
+      0.086
+     ],
+     [
+      "the public squareos ground",
+      0.084
+     ],
+     [
+      "a white oval stadium",
+      0.084
+     ],
+     [
+      "the central square",
+      0.081
+     ],
+     [
+      "the round square",
+      0.08
+     ],
+     [
+      "a circle stadium",
+      0.079
+     ]
+    ],
+    "u_own+": [
+     [
+      "two red roof houses",
+      -0.052
+     ],
+     [
+      "two cottages",
+      -0.053
+     ],
+     [
+      "three cars",
+      -0.059
+     ],
+     [
+      "two boats",
+      -0.06
+     ],
+     [
+      "two houses",
+      -0.062
+     ],
+     [
+      "two cars",
+      -0.062
+     ]
+    ],
+    "u_coco+": [
+     [
+      "two cars",
+      -0.062
+     ],
+     [
+      "a vehicle",
+      -0.063
+     ],
+     [
+      "two pizzas",
+      -0.064
+     ],
+     [
+      "a picture",
+      -0.076
+     ],
+     [
+      "two apples",
+      -0.08
+     ],
+     [
+      "parked motorcycles",
+      -0.082
+     ]
+    ],
+    "u_own-": [
+     [
+      "a circular stadium",
+      0.301
+     ],
+     [
+      "a large stadium",
+      0.297
+     ],
+     [
+      "an oval stadium",
+      0.289
+     ],
+     [
+      "the public squareos ground",
+      0.287
+     ],
+     [
+      "a circle stadium",
+      0.287
+     ],
+     [
+      "a huge stadium",
+      0.286
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a soccer field",
+      0.223
+     ],
+     [
+      "a large building",
+      0.213
+     ],
+     [
+      "a big clock",
+      0.208
+     ],
+     [
+      "an empty train station",
+      0.207
+     ],
+     [
+      "a town square",
+      0.205
+     ],
+     [
+      "a train station",
+      0.205
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 1.186,
+    "cos_uv": 0.52,
+    "specificity": 0.033,
+    "own_mean": 0.027,
+    "own_sd": 0.049,
+    "coco_mean": -0.006,
+    "v_own+": [
+     [
+      "the teaching building",
+      0.13
+     ],
+     [
+      "a teaching building",
+      0.128
+     ],
+     [
+      "a white church",
+      0.128
+     ],
+     [
+      "several teaching buildings",
+      0.121
+     ],
+     [
+      "a red church",
+      0.121
+     ],
+     [
+      "a square church",
+      0.118
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a church",
+      0.112
+     ],
+     [
+      "a white building",
+      0.103
+     ],
+     [
+      "a tall church tower",
+      0.084
+     ],
+     [
+      "the building",
+      0.083
+     ],
+     [
+      "the house",
+      0.082
+     ],
+     [
+      "a house",
+      0.08
+     ]
+    ],
+    "v_own-": [
+     [
+      "a rather wrinkled mountain range",
+      0.114
+     ],
+     [
+      "a bareland",
+      0.085
+     ],
+     [
+      "some bareland",
+      0.084
+     ],
+     [
+      "this bald playground",
+      0.082
+     ],
+     [
+      "khaki mountains",
+      0.082
+     ],
+     [
+      "barelands",
+      0.079
+     ]
+    ],
+    "u_own+": [
+     [
+      "the teaching building",
+      0.054
+     ],
+     [
+      "a teaching building",
+      0.047
+     ],
+     [
+      "several teaching buildings",
+      0.046
+     ],
+     [
+      "the main building",
+      0.034
+     ],
+     [
+      "a large white building",
+      0.034
+     ],
+     [
+      "red roof residential buildings",
+      0.033
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a green grass covered field",
+      0.035
+     ],
+     [
+      "a white building",
+      0.014
+     ],
+     [
+      "the house",
+      0.012
+     ],
+     [
+      "a large building",
+      0.011
+     ],
+     [
+      "a grass covered field",
+      0.008
+     ],
+     [
+      "the building",
+      0.007
+     ]
+    ],
+    "u_own-": [
+     [
+      "a sinuous yellow river",
+      0.184
+     ],
+     [
+      "the curved yellow river",
+      0.177
+     ],
+     [
+      "wasteland",
+      0.172
+     ],
+     [
+      "the yellow river",
+      0.17
+     ],
+     [
+      "a curved yellow river",
+      0.16
+     ],
+     [
+      "this curved yellow river",
+      0.16
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a long train",
+      0.134
+     ],
+     [
+      "a freeway",
+      0.131
+     ],
+     [
+      "sand",
+      0.131
+     ],
+     [
+      "dirt",
+      0.131
+     ],
+     [
+      "train tracks",
+      0.128
+     ],
+     [
+      "a dirt ground",
+      0.128
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 1.133,
+    "cos_uv": 0.52,
+    "specificity": 0.061,
+    "own_mean": -0.016,
+    "own_sd": 0.048,
+    "coco_mean": -0.077,
+    "v_own+": [
+     [
+      "the park",
+      0.067
+     ],
+     [
+      "bare land",
+      0.059
+     ],
+     [
+      "bald land",
+      0.058
+     ],
+     [
+      "the square lawn",
+      0.056
+     ],
+     [
+      "bare lands",
+      0.054
+     ],
+     [
+      "the lawns",
+      0.053
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the park",
+      0.067
+     ],
+     [
+      "bushes",
+      0.026
+     ],
+     [
+      "lots",
+      0.025
+     ],
+     [
+      "the airport",
+      0.023
+     ],
+     [
+      "the land",
+      0.022
+     ],
+     [
+      "a park",
+      0.021
+     ]
+    ],
+    "v_own-": [
+     [
+      "a red badminton court",
+      0.167
+     ],
+     [
+      "a red church",
+      0.166
+     ],
+     [
+      "a cyan church",
+      0.162
+     ],
+     [
+      "a white church",
+      0.148
+     ],
+     [
+      "a gymnasium",
+      0.139
+     ],
+     [
+      "a white stadium",
+      0.138
+     ]
+    ],
+    "u_own+": [
+     [
+      "the park",
+      0.068
+     ],
+     [
+      "this park",
+      0.063
+     ],
+     [
+      "a large park",
+      0.058
+     ],
+     [
+      "park",
+      0.053
+     ],
+     [
+      "many green and scattered trees",
+      0.052
+     ],
+     [
+      "an almost circle large pond",
+      0.05
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the park",
+      0.068
+     ],
+     [
+      "a park",
+      0.044
+     ],
+     [
+      "the zoo",
+      0.034
+     ],
+     [
+      "the airport",
+      0.022
+     ],
+     [
+      "a zoo",
+      0.021
+     ],
+     [
+      "airplanes",
+      0.021
+     ]
+    ],
+    "u_own-": [
+     [
+      "a grey roof",
+      0.141
+     ],
+     [
+      "a gray roof",
+      0.133
+     ],
+     [
+      "grey roof",
+      0.133
+     ],
+     [
+      "the grey roof",
+      0.13
+     ],
+     [
+      "a blue ceiling",
+      0.128
+     ],
+     [
+      "orange roof",
+      0.126
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a shop window",
+      0.113
+     ],
+     [
+      "door",
+      0.108
+     ],
+     [
+      "a door",
+      0.108
+     ],
+     [
+      "bleachers",
+      0.105
+     ],
+     [
+      "a small wave",
+      0.104
+     ],
+     [
+      "a soccer ball",
+      0.104
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 1.078,
+    "cos_uv": 0.56,
+    "specificity": 0.021,
+    "own_mean": -0.041,
+    "own_sd": 0.045,
+    "coco_mean": -0.063,
+    "v_own+": [
+     [
+      "green farmlands",
+      0.084
+     ],
+     [
+      "many factories",
+      0.065
+     ],
+     [
+      "the industrial houses",
+      0.064
+     ],
+     [
+      "many farmlands",
+      0.062
+     ],
+     [
+      "green agricultural land",
+      0.061
+     ],
+     [
+      "factories",
+      0.06
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a train yard",
+      0.058
+     ],
+     [
+      "a farm",
+      0.049
+     ],
+     [
+      "a factory",
+      0.041
+     ],
+     [
+      "railroad tracks",
+      0.026
+     ],
+     [
+      "trains",
+      0.025
+     ],
+     [
+      "train tracks",
+      0.022
+     ]
+    ],
+    "v_own-": [
+     [
+      "two square buildings",
+      0.144
+     ],
+     [
+      "a central white oval building",
+      0.144
+     ],
+     [
+      "several baksetball courts",
+      0.141
+     ],
+     [
+      "a baksetball court",
+      0.136
+     ],
+     [
+      "three cars",
+      0.134
+     ],
+     [
+      "two round buildings",
+      0.133
+     ]
+    ],
+    "u_own+": [
+     [
+      "a green farmland",
+      0.181
+     ],
+     [
+      "a dense industrial area",
+      0.18
+     ],
+     [
+      "green agricultural land",
+      0.179
+     ],
+     [
+      "many factories",
+      0.178
+     ],
+     [
+      "green farmlands",
+      0.177
+     ],
+     [
+      "green fields",
+      0.171
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a train yard",
+      0.167
+     ],
+     [
+      "a factory",
+      0.146
+     ],
+     [
+      "a green field",
+      0.145
+     ],
+     [
+      "a farm",
+      0.143
+     ],
+     [
+      "a lush green field",
+      0.142
+     ],
+     [
+      "rice",
+      0.141
+     ]
+    ],
+    "u_own-": [
+     [
+      "two round buildings",
+      0.025
+     ],
+     [
+      "a central white oval building",
+      0.023
+     ],
+     [
+      "a round white building",
+      0.018
+     ],
+     [
+      "a white circular building",
+      0.016
+     ],
+     [
+      "a white oval building",
+      0.01
+     ],
+     [
+      "grey white desert",
+      0.01
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a court",
+      0.007
+     ],
+     [
+      "a city sidewalk",
+      0.004
+     ],
+     [
+      "the court",
+      -0.004
+     ],
+     [
+      "a fountain",
+      -0.004
+     ],
+     [
+      "the big ben clock tower",
+      -0.005
+     ],
+     [
+      "a crosswalk",
+      -0.012
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 1.031,
+    "cos_uv": 0.45,
+    "specificity": 0.01,
+    "own_mean": 0.002,
+    "own_sd": 0.057,
+    "coco_mean": -0.008,
+    "v_own+": [
+     [
+      "the round white building",
+      0.157
+     ],
+     [
+      "the railway station",
+      0.139
+     ],
+     [
+      "the train station",
+      0.138
+     ],
+     [
+      "the curved bridge",
+      0.132
+     ],
+     [
+      "a circle-shaped viaduct",
+      0.132
+     ],
+     [
+      "a white circle",
+      0.131
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the dock",
+      0.12
+     ],
+     [
+      "the station",
+      0.115
+     ],
+     [
+      "the train tracks",
+      0.114
+     ],
+     [
+      "another train",
+      0.111
+     ],
+     [
+      "the ball",
+      0.099
+     ],
+     [
+      "the stop sign",
+      0.097
+     ]
+    ],
+    "v_own-": [
+     [
+      "irregular khaki bareland",
+      0.112
+     ],
+     [
+      "bareland",
+      0.103
+     ],
+     [
+      "many bareland",
+      0.101
+     ],
+     [
+      "khaki irregular bareland",
+      0.1
+     ],
+     [
+      "yellow barelands",
+      0.1
+     ],
+     [
+      "khaki farmlands",
+      0.097
+     ]
+    ],
+    "u_own+": [
+     [
+      "a circular stadium",
+      0.092
+     ],
+     [
+      "the dock",
+      0.091
+     ],
+     [
+      "three large white storage tanks",
+      0.085
+     ],
+     [
+      "a circle-shaped viaduct",
+      0.083
+     ],
+     [
+      "the pier",
+      0.081
+     ],
+     [
+      "a dock",
+      0.079
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the dock",
+      0.091
+     ],
+     [
+      "a dock",
+      0.079
+     ],
+     [
+      "trains",
+      0.076
+     ],
+     [
+      "a bridge",
+      0.068
+     ],
+     [
+      "train",
+      0.065
+     ],
+     [
+      "baseball",
+      0.062
+     ]
+    ],
+    "u_own-": [
+     [
+      "rectangular residential blocks",
+      0.137
+     ],
+     [
+      "bald farmland",
+      0.136
+     ],
+     [
+      "khaki farmlands",
+      0.133
+     ],
+     [
+      "rectangular agricultural land",
+      0.131
+     ],
+     [
+      "brown agricultural land",
+      0.131
+     ],
+     [
+      "irregular khaki bareland",
+      0.131
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a narrow street",
+      0.1
+     ],
+     [
+      "a dry grass field",
+      0.099
+     ],
+     [
+      "a dirt ground",
+      0.096
+     ],
+     [
+      "a dirt road",
+      0.096
+     ],
+     [
+      "dry grass",
+      0.092
+     ],
+     [
+      "a dirt field",
+      0.086
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 1.002,
+    "cos_uv": 0.47,
+    "specificity": 0.023,
+    "own_mean": 0.017,
+    "own_sd": 0.046,
+    "coco_mean": -0.006,
+    "v_own+": [
+     [
+      "a factory",
+      0.114
+     ],
+     [
+      "a large airport",
+      0.103
+     ],
+     [
+      "a green farmland",
+      0.103
+     ],
+     [
+      "the blue factory",
+      0.1
+     ],
+     [
+      "a terminal building",
+      0.1
+     ],
+     [
+      "the rectangular station",
+      0.099
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a factory",
+      0.114
+     ],
+     [
+      "an empty train station",
+      0.108
+     ],
+     [
+      "a blue and green tennis court",
+      0.093
+     ],
+     [
+      "a farm",
+      0.091
+     ],
+     [
+      "a train yard",
+      0.091
+     ],
+     [
+      "a green motorcycle",
+      0.09
+     ]
+    ],
+    "v_own-": [
+     [
+      "red roof residential buildings",
+      0.101
+     ],
+     [
+      "many red covered houses",
+      0.099
+     ],
+     [
+      "a circle-shaped viaduct",
+      0.093
+     ],
+     [
+      "the highway viaduct",
+      0.088
+     ],
+     [
+      "the crowded houses",
+      0.086
+     ],
+     [
+      "dense houses",
+      0.085
+     ]
+    ],
+    "u_own+": [
+     [
+      "a ploygon terminal building",
+      0.112
+     ],
+     [
+      "a factory",
+      0.108
+     ],
+     [
+      "some factory buildings",
+      0.107
+     ],
+     [
+      "a factory area",
+      0.096
+     ],
+     [
+      "a terminal building",
+      0.095
+     ],
+     [
+      "a large airport",
+      0.095
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a factory",
+      0.108
+     ],
+     [
+      "the airport",
+      0.084
+     ],
+     [
+      "an airport tarmac",
+      0.083
+     ],
+     [
+      "an airport",
+      0.081
+     ],
+     [
+      "an empty train station",
+      0.074
+     ],
+     [
+      "a barn",
+      0.071
+     ]
+    ],
+    "u_own-": [
+     [
+      "a residential neighborhood",
+      0.133
+     ],
+     [
+      "a ring shaped road",
+      0.132
+     ],
+     [
+      "a circle road",
+      0.132
+     ],
+     [
+      "two ring shaped road",
+      0.125
+     ],
+     [
+      "the neighborhood",
+      0.123
+     ],
+     [
+      "a circular road",
+      0.121
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an intersection",
+      0.109
+     ],
+     [
+      "a freeway",
+      0.104
+     ],
+     [
+      "a green street sign",
+      0.096
+     ],
+     [
+      "the hood",
+      0.095
+     ],
+     [
+      "a roadway",
+      0.092
+     ],
+     [
+      "the middle",
+      0.091
+     ]
+    ]
+   }
+  ]
+ },
+ "pooled/Wi": {
+  "frob": 5.434,
+  "energy_top8": 0.385,
+  "energy_top16": 0.586,
+  "top_s": [
+   1.443,
+   1.366,
+   1.239,
+   1.161,
+   1.132,
+   1.097,
+   1.057,
+   0.968,
+   0.962,
+   0.941,
+   0.904,
+   0.872,
+   0.843,
+   0.792,
+   0.782,
+   0.763
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.443,
+    "cos_uv": 0.66,
+    "specificity": 0.034,
+    "own_mean": 0.044,
+    "own_sd": 0.061,
+    "coco_mean": 0.01,
+    "v_own+": [
+     [
+      "a deep green lush forest",
+      0.174
+     ],
+     [
+      "the dense green forest",
+      0.168
+     ],
+     [
+      "dense trees",
+      0.166
+     ],
+     [
+      "lush forest",
+      0.161
+     ],
+     [
+      "dense woods",
+      0.159
+     ],
+     [
+      "the dense forest",
+      0.159
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a lush green forest",
+      0.167
+     ],
+     [
+      "the forest",
+      0.139
+     ],
+     [
+      "a forest",
+      0.13
+     ],
+     [
+      "woods",
+      0.102
+     ],
+     [
+      "the woods",
+      0.1
+     ],
+     [
+      "tall trees",
+      0.096
+     ]
+    ],
+    "v_own-": [
+     [
+      "grey white desert",
+      0.102
+     ],
+     [
+      "greenland",
+      0.081
+     ],
+     [
+      "a large airport",
+      0.07
+     ],
+     [
+      "brown grassland",
+      0.063
+     ],
+     [
+      "several white planes",
+      0.061
+     ],
+     [
+      "brown agricultural land",
+      0.058
+     ]
+    ],
+    "u_own+": [
+     [
+      "many crowded green trees",
+      0.234
+     ],
+     [
+      "a deep green lush forest",
+      0.219
+     ],
+     [
+      "dense trees",
+      0.215
+     ],
+     [
+      "the dense green forest",
+      0.209
+     ],
+     [
+      "many dense trees",
+      0.204
+     ],
+     [
+      "many scattered green trees",
+      0.192
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a lush green forest",
+      0.203
+     ],
+     [
+      "the forest",
+      0.145
+     ],
+     [
+      "a forest",
+      0.134
+     ],
+     [
+      "tall trees",
+      0.132
+     ],
+     [
+      "the trees",
+      0.114
+     ],
+     [
+      "trees",
+      0.114
+     ]
+    ],
+    "u_own-": [
+     [
+      "a square bare ground",
+      0.168
+     ],
+     [
+      "this bare field",
+      0.161
+     ],
+     [
+      "brown grassland",
+      0.154
+     ],
+     [
+      "a ground track field",
+      0.145
+     ],
+     [
+      "a bare ground",
+      0.144
+     ],
+     [
+      "yellow bare land",
+      0.143
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an airport tarmac",
+      0.149
+     ],
+     [
+      "a dry grass field",
+      0.147
+     ],
+     [
+      "a snowy field",
+      0.145
+     ],
+     [
+      "an airport runway",
+      0.139
+     ],
+     [
+      "an open field",
+      0.126
+     ],
+     [
+      "a field flying kites",
+      0.122
+     ]
+    ],
+    "v_images+": [
+     "a road is located through a forest near several buildings.",
+     "a road is located in a forest with many green trees.",
+     "The park includes rows of buildings and an artificial lake, integrated with exuberant plan",
+     "many green trees and some buildings are located in a complex with a pond."
+    ],
+    "v_images-": [
+     "It's a piece of brazen yellow land.",
+     "two silver-gray planes are at their position exactly with some vehicles aside .",
+     "the two planes were parked on the apron, with trucks and some goods nearby ."
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.366,
+    "cos_uv": 0.5,
+    "specificity": 0.102,
+    "own_mean": 0.104,
+    "own_sd": 0.076,
+    "coco_mean": 0.002,
+    "v_own+": [
+     [
+      "a densely populated area",
+      0.164
+     ],
+     [
+      "many densely populated areas",
+      0.149
+     ],
+     [
+      "dense residential area",
+      0.143
+     ],
+     [
+      "a dense residential area",
+      0.138
+     ],
+     [
+      "dense houses",
+      0.137
+     ],
+     [
+      "the dense residential area",
+      0.129
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a town",
+      0.095
+     ],
+     [
+      "city",
+      0.095
+     ],
+     [
+      "the city",
+      0.087
+     ],
+     [
+      "a busy city street",
+      0.086
+     ],
+     [
+      "the cityscape",
+      0.082
+     ],
+     [
+      "a map",
+      0.076
+     ]
+    ],
+    "v_own-": [
+     [
+      "an empty parking lot",
+      0.074
+     ],
+     [
+      "a square parking lot",
+      0.062
+     ],
+     [
+      "a circular parking lot",
+      0.059
+     ],
+     [
+      "a trapezoid parking lot",
+      0.058
+     ],
+     [
+      "a triangular parking lot",
+      0.058
+     ],
+     [
+      "the large parking lot",
+      0.056
+     ]
+    ],
+    "u_own+": [
+     [
+      "a densely populated area",
+      0.083
+     ],
+     [
+      "many crowded buildings",
+      0.078
+     ],
+     [
+      "crowded buildings",
+      0.078
+     ],
+     [
+      "dense residential area",
+      0.077
+     ],
+     [
+      "a dense residential area",
+      0.076
+     ],
+     [
+      "many residential houses",
+      0.075
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a town",
+      0.048
+     ],
+     [
+      "the cityscape",
+      0.035
+     ],
+     [
+      "the city",
+      0.034
+     ],
+     [
+      "city",
+      0.032
+     ],
+     [
+      "a city",
+      0.022
+     ],
+     [
+      "some buildings",
+      0.016
+     ]
+    ],
+    "u_own-": [
+     [
+      "several scattered green trees",
+      0.23
+     ],
+     [
+      "many green and scattered trees",
+      0.211
+     ],
+     [
+      "some green and scattered trees",
+      0.21
+     ],
+     [
+      "many scattered green trees",
+      0.203
+     ],
+     [
+      "several green trees",
+      0.201
+     ],
+     [
+      "some sparse green trees",
+      0.201
+     ]
+    ],
+    "u_coco-": [
+     [
+      "tall trees",
+      0.16
+     ],
+     [
+      "a grassy area",
+      0.157
+     ],
+     [
+      "two cars",
+      0.155
+     ],
+     [
+      "some trees",
+      0.154
+     ],
+     [
+      "the trees",
+      0.153
+     ],
+     [
+      "a tree",
+      0.152
+     ]
+    ],
+    "v_images+": [
+     "a large playground is surrounded by many trees and houses .",
+     "a large playground with many basketball fields and tennis courts are semi-surrounded by ma",
+     "many different color buildings are around a playground with three basketball fields in it ",
+     "in this high-density urban area, a standard football field is situated in the city center "
+    ],
+    "v_images-": [
+     "a square is close to a building and some green trees.",
+     "four storage tanks are close to some green plants and one road.",
+     "a lecotropic square with radial trees around it contains a flower bed in the form of a que"
+    ]
+   },
+   {
+    "k": 3,
+    "s": 1.239,
+    "cos_uv": 0.09,
+    "specificity": 0.162,
+    "own_mean": 0.255,
+    "own_sd": 0.071,
+    "coco_mean": 0.093,
+    "v_own+": [
+     [
+      "grey roof houses",
+      0.129
+     ],
+     [
+      "gray roof houses",
+      0.119
+     ],
+     [
+      "many residential houses",
+      0.114
+     ],
+     [
+      "the sparse residential area",
+      0.114
+     ],
+     [
+      "covered blue houses",
+      0.113
+     ],
+     [
+      "covered grey houses",
+      0.113
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a grass covered field",
+      0.095
+     ],
+     [
+      "a green grass covered field",
+      0.095
+     ],
+     [
+      "a large building",
+      0.085
+     ],
+     [
+      "grassy area",
+      0.074
+     ],
+     [
+      "a field flying kites",
+      0.07
+     ],
+     [
+      "a grassy area",
+      0.07
+     ]
+    ],
+    "v_own-": [
+     [
+      "a railway bridge",
+      0.037
+     ],
+     [
+      "a long bridge",
+      0.032
+     ],
+     [
+      "a bridge",
+      0.031
+     ],
+     [
+      "a moored boat",
+      0.028
+     ],
+     [
+      "a dock",
+      0.027
+     ],
+     [
+      "a small bridge",
+      0.026
+     ]
+    ],
+    "u_own+": [
+     [
+      "red roof residential buildings",
+      0.146
+     ],
+     [
+      "grey roof houses",
+      0.112
+     ],
+     [
+      "red roof houses",
+      0.108
+     ],
+     [
+      "covered grey houses",
+      0.103
+     ],
+     [
+      "gray roof houses",
+      0.102
+     ],
+     [
+      "red covered houses",
+      0.102
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a brick building",
+      0.076
+     ],
+     [
+      "an office building",
+      0.074
+     ],
+     [
+      "a red brick building",
+      0.072
+     ],
+     [
+      "a green street sign",
+      0.069
+     ],
+     [
+      "old buildings",
+      0.066
+     ],
+     [
+      "a busy city street",
+      0.065
+     ]
+    ],
+    "u_own-": [
+     [
+      "a few basketball courts",
+      0.15
+     ],
+     [
+      "the basketball courts",
+      0.145
+     ],
+     [
+      "several baksetball courts",
+      0.141
+     ],
+     [
+      "the basketball court",
+      0.139
+     ],
+     [
+      "two basketball courts",
+      0.136
+     ],
+     [
+      "three basketball courts",
+      0.135
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the dock",
+      0.102
+     ],
+     [
+      "a small bridge",
+      0.092
+     ],
+     [
+      "the court",
+      0.088
+     ],
+     [
+      "a dock",
+      0.088
+     ],
+     [
+      "the track",
+      0.087
+     ],
+     [
+      "a baseball field",
+      0.087
+     ]
+    ],
+    "v_images+": [
+     "Some red buildings and many green trees are located in an average residential area.",
+     "Some red buildings and green trees are located in an average residential area.",
+     "several large buildings with parking lots are close to a road in a commercial area.",
+     "a large number of trees were planted around the residential area ."
+    ],
+    "v_images-": [
+     "a red ship prepare to stop at shoreside with two people inside .",
+     "a large boat with two small boats next to it are moored on the shore .",
+     "a big ship with white paint on its both side stop at shoreside ."
+    ]
+   },
+   {
+    "k": 4,
+    "s": 1.161,
+    "cos_uv": -0.1,
+    "specificity": 0.261,
+    "own_mean": 0.334,
+    "own_sd": 0.061,
+    "coco_mean": 0.073,
+    "v_own+": [
+     [
+      "two runways",
+      0.138
+     ],
+     [
+      "an airport runway",
+      0.133
+     ],
+     [
+      "airport runways",
+      0.128
+     ],
+     [
+      "several runways",
+      0.128
+     ],
+     [
+      "this soccer field",
+      0.125
+     ],
+     [
+      "a trapezoid parking lot",
+      0.124
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an airport runway",
+      0.133
+     ],
+     [
+      "an airport tarmac",
+      0.117
+     ],
+     [
+      "a skate park",
+      0.104
+     ],
+     [
+      "a roadway",
+      0.1
+     ],
+     [
+      "a parking lot",
+      0.099
+     ],
+     [
+      "a freeway",
+      0.099
+     ]
+    ],
+    "v_own-": [
+     [
+      "part",
+      0.02
+     ],
+     [
+      "mountain khaki",
+      0.019
+     ],
+     [
+      "the back",
+      0.018
+     ],
+     [
+      "fish scales",
+      0.015
+     ],
+     [
+      "a fan",
+      0.015
+     ],
+     [
+      "the baulk",
+      0.011
+     ]
+    ],
+    "u_own+": [
+     [
+      "two basketball courts",
+      0.046
+     ],
+     [
+      "the basketball court",
+      0.04
+     ],
+     [
+      "three basketball courts",
+      0.028
+     ],
+     [
+      "the basketball courts",
+      0.024
+     ],
+     [
+      "a small bridge",
+      0.022
+     ],
+     [
+      "a basketball court",
+      0.021
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a dining room table",
+      0.024
+     ],
+     [
+      "a small bridge",
+      0.022
+     ],
+     [
+      "two hot dogs",
+      0.021
+     ],
+     [
+      "two pizzas",
+      0.019
+     ],
+     [
+      "two slices",
+      0.019
+     ],
+     [
+      "two cats",
+      0.007
+     ]
+    ],
+    "u_own-": [
+     [
+      "many white factories",
+      0.174
+     ],
+     [
+      "many factories",
+      0.168
+     ],
+     [
+      "many teaching buildings",
+      0.165
+     ],
+     [
+      "dense residential areas",
+      0.164
+     ],
+     [
+      "many industrial buildings",
+      0.161
+     ],
+     [
+      "a dense industrial area",
+      0.16
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a field",
+      0.137
+     ],
+     [
+      "a brick building",
+      0.126
+     ],
+     [
+      "a red brick building",
+      0.126
+     ],
+     [
+      "land",
+      0.126
+     ],
+     [
+      "a town",
+      0.125
+     ],
+     [
+      "a train yard",
+      0.121
+     ]
+    ],
+    "v_images+": [
+     "eight basketball courts make up this rectangular area while there is a parking lot beside ",
+     "a small bridge is located on a river with several buildings on one side.",
+     "it is obvious that there is a flow of turns where there is a bridge connecting the river o",
+     "this area encircled by lush trees is quite close to the road and includes a baseball field"
+    ],
+    "v_images-": [
+     "a piece of sand in the desert is like the fish ladder.",
+     "there is nothing in the desert and it is very dry .",
+     "numerous parallel undulations are found in a piece of yellow desert."
+    ]
+   },
+   {
+    "k": 5,
+    "s": 1.132,
+    "cos_uv": 0.49,
+    "specificity": 0.042,
+    "own_mean": 0.059,
+    "own_sd": 0.068,
+    "coco_mean": 0.017,
+    "v_own+": [
+     [
+      "a rectangular lake",
+      0.085
+     ],
+     [
+      "wasteland",
+      0.085
+     ],
+     [
+      "the yellow river",
+      0.084
+     ],
+     [
+      "rectangular agricultural land",
+      0.08
+     ],
+     [
+      "a sinuous yellow river",
+      0.078
+     ],
+     [
+      "gray yellow bareland",
+      0.073
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a dirt field",
+      0.066
+     ],
+     [
+      "a dirt ground",
+      0.051
+     ],
+     [
+      "a lush green forest",
+      0.051
+     ],
+     [
+      "a dry grass field",
+      0.05
+     ],
+     [
+      "a dirt road",
+      0.05
+     ],
+     [
+      "the forest",
+      0.049
+     ]
+    ],
+    "v_own-": [
+     [
+      "orange roof",
+      0.101
+     ],
+     [
+      "the roof",
+      0.093
+     ],
+     [
+      "the grey roof",
+      0.092
+     ],
+     [
+      "grey roof",
+      0.091
+     ],
+     [
+      "a grey roof",
+      0.09
+     ],
+     [
+      "its roof",
+      0.089
+     ]
+    ],
+    "u_own+": [
+     [
+      "bareland",
+      0.141
+     ],
+     [
+      "irregular khaki bareland",
+      0.124
+     ],
+     [
+      "rectangular agricultural land",
+      0.124
+     ],
+     [
+      "many green agricultural lands",
+      0.123
+     ],
+     [
+      "many agricultural lands",
+      0.12
+     ],
+     [
+      "agricultural lands",
+      0.115
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a park",
+      0.089
+     ],
+     [
+      "a pond",
+      0.087
+     ],
+     [
+      "the park",
+      0.083
+     ],
+     [
+      "the land",
+      0.08
+     ],
+     [
+      "a lush green forest",
+      0.07
+     ],
+     [
+      "bushes",
+      0.069
+     ]
+    ],
+    "u_own-": [
+     [
+      "a round white building",
+      0.212
+     ],
+     [
+      "a white circular building",
+      0.205
+     ],
+     [
+      "an oval white building",
+      0.196
+     ],
+     [
+      "a white oval building",
+      0.195
+     ],
+     [
+      "a white church",
+      0.182
+     ],
+     [
+      "three buildings",
+      0.175
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a white building",
+      0.171
+     ],
+     [
+      "a church",
+      0.152
+     ],
+     [
+      "the building",
+      0.138
+     ],
+     [
+      "a building",
+      0.129
+     ],
+     [
+      "a tall building",
+      0.127
+     ],
+     [
+      "a brown building",
+      0.124
+     ]
+    ],
+    "v_images+": [
+     "a building with blue roof sits at the coner of this park with lush trees and a pond .",
+     "a park with many green trees and a pond in it is surrounded by river .",
+     "several blue roof buildings are near a park with many green plants and several ponds .",
+     "the trees are green, the lake is green and the buildings are colorful ."
+    ],
+    "v_images-": [
+     "a church with green round roof and a parking lot with some cars are semi closed by three r",
+     "some buildings and several green trees are around a central building.",
+     "a green tree is located near a large triangular center building."
+    ]
+   },
+   {
+    "k": 6,
+    "s": 1.097,
+    "cos_uv": 0.49,
+    "specificity": 0.036,
+    "own_mean": 0.119,
+    "own_sd": 0.061,
+    "coco_mean": 0.083,
+    "v_own+": [
+     [
+      "dark green",
+      0.077
+     ],
+     [
+      "dark green ones",
+      0.076
+     ],
+     [
+      "the green mountains",
+      0.07
+     ],
+     [
+      "greenland",
+      0.066
+     ],
+     [
+      "patterns",
+      0.065
+     ],
+     [
+      "many undulations",
+      0.064
+     ]
+    ],
+    "v_coco+": [
+     [
+      "bottles",
+      0.061
+     ],
+     [
+      "background",
+      0.06
+     ],
+     [
+      "line",
+      0.057
+     ],
+     [
+      "hats",
+      0.057
+     ],
+     [
+      "a green shirt",
+      0.057
+     ],
+     [
+      "bunches",
+      0.051
+     ]
+    ],
+    "v_own-": [
+     [
+      "dense residential area",
+      0.107
+     ],
+     [
+      "the dense residential area",
+      0.105
+     ],
+     [
+      "a dense residential area",
+      0.095
+     ],
+     [
+      "the residential buildings",
+      0.091
+     ],
+     [
+      "dense houses",
+      0.09
+     ],
+     [
+      "the sparse residential area",
+      0.089
+     ]
+    ],
+    "u_own+": [
+     [
+      "the green mountains",
+      -0.004
+     ],
+     [
+      "some green mountains",
+      -0.011
+     ],
+     [
+      "this mountain",
+      -0.013
+     ],
+     [
+      "the meadow is green",
+      -0.016
+     ],
+     [
+      "this mountain range",
+      -0.018
+     ],
+     [
+      "green wheat fields",
+      -0.018
+     ]
+    ],
+    "u_coco+": [
+     [
+      "baseball players",
+      -0.021
+     ],
+     [
+      "two baseball players",
+      -0.026
+     ],
+     [
+      "an orange and white cat",
+      -0.028
+     ],
+     [
+      "the shower",
+      -0.035
+     ],
+     [
+      "white sprinkles",
+      -0.039
+     ],
+     [
+      "a baseball player",
+      -0.04
+     ]
+    ],
+    "u_own-": [
+     [
+      "a commercial area",
+      0.266
+     ],
+     [
+      "numerous buildings",
+      0.266
+     ],
+     [
+      "a dense residential area",
+      0.265
+     ],
+     [
+      "a residential area",
+      0.264
+     ],
+     [
+      "scattered buildings",
+      0.263
+     ],
+     [
+      "many commercial buildings",
+      0.262
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a city street",
+      0.275
+     ],
+     [
+      "a busy city street",
+      0.255
+     ],
+     [
+      "an office building",
+      0.243
+     ],
+     [
+      "a city sidewalk",
+      0.241
+     ],
+     [
+      "buildings",
+      0.24
+     ],
+     [
+      "a town",
+      0.236
+     ]
+    ],
+    "v_images+": [
+     "there is a broad road along the coast of the harbour .",
+     "many boats are in a port near a road .",
+     "a green pond is in the hills,surrounded by rocks .",
+     "the pier is very magnificent and covers a large area ."
+    ],
+    "v_images-": [
+     "many green buildings and trees are located in a park with several ponds and close to a pla",
+     "many buildings and green trees are in a school with a playground and two ponds .",
+     "buildings and bare ground with a playground are in two sides of one road and on side of th"
+    ]
+   },
+   {
+    "k": 7,
+    "s": 1.057,
+    "cos_uv": 0.63,
+    "specificity": 0.007,
+    "own_mean": 0.029,
+    "own_sd": 0.059,
+    "coco_mean": 0.022,
+    "v_own+": [
+     [
+      "dark green lawn",
+      0.131
+     ],
+     [
+      "a green field",
+      0.127
+     ],
+     [
+      "a green farmland",
+      0.125
+     ],
+     [
+      "the green fields",
+      0.124
+     ],
+     [
+      "the meadow is green",
+      0.124
+     ],
+     [
+      "a green meadow",
+      0.123
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a green field",
+      0.127
+     ],
+     [
+      "a lush green field",
+      0.117
+     ],
+     [
+      "a green grass covered field",
+      0.117
+     ],
+     [
+      "the airport",
+      0.106
+     ],
+     [
+      "a grassy field",
+      0.105
+     ],
+     [
+      "a blue and green tennis court",
+      0.099
+     ]
+    ],
+    "v_own-": [
+     [
+      "yellow desert",
+      0.095
+     ],
+     [
+      "desert",
+      0.095
+     ],
+     [
+      "a desert",
+      0.092
+     ],
+     [
+      "a yellow desert",
+      0.09
+     ],
+     [
+      "khaki desert",
+      0.083
+     ],
+     [
+      "the desert",
+      0.079
+     ]
+    ],
+    "u_own+": [
+     [
+      "a green meadow",
+      0.234
+     ],
+     [
+      "green meadow",
+      0.232
+     ],
+     [
+      "green wheat fields",
+      0.23
+     ],
+     [
+      "a green field",
+      0.229
+     ],
+     [
+      "grassy fields",
+      0.223
+     ],
+     [
+      "a green farmland",
+      0.221
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a green grass covered field",
+      0.231
+     ],
+     [
+      "a green field",
+      0.229
+     ],
+     [
+      "a lush green field",
+      0.223
+     ],
+     [
+      "a grassy field",
+      0.22
+     ],
+     [
+      "green grass",
+      0.213
+     ],
+     [
+      "a grass field",
+      0.212
+     ]
+    ],
+    "u_own-": [
+     [
+      "yellow barelands",
+      0.074
+     ],
+     [
+      "a yellow desert",
+      0.062
+     ],
+     [
+      "yellow desert",
+      0.056
+     ],
+     [
+      "the yellow desert",
+      0.055
+     ],
+     [
+      "yellow bareland",
+      0.053
+     ],
+     [
+      "a circle road",
+      0.049
+     ]
+    ],
+    "u_coco-": [
+     [
+      "sand",
+      0.045
+     ],
+     [
+      "the sand",
+      0.04
+     ],
+     [
+      "an orange and white cat",
+      0.022
+     ],
+     [
+      "a yellow bus",
+      0.017
+     ],
+     [
+      "a red car",
+      0.008
+     ],
+     [
+      "an orange cat",
+      0.008
+     ]
+    ],
+    "v_images+": [
+     "many trees are planted on both sides of the river .",
+     "northwest of the school to a large forest, the south has several wetlands and teaching bui",
+     "some buildings and a river are located on two sides of a railway station.",
+     "many green trees and some buildings are in a school with three tennis courts ."
+    ],
+    "v_images-": [
+     "it is a large piece of desert .",
+     "many green buildings and trees are located on two sides of different curved rivers in a de",
+     "there is a fish scale shaped pattern as well as a wavy pattern on the desert ."
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.968,
+    "cos_uv": 0.38,
+    "specificity": 0.013,
+    "own_mean": -0.034,
+    "own_sd": 0.07,
+    "coco_mean": -0.047,
+    "v_own+": [
+     [
+      "a residential neighborhood",
+      0.104
+     ],
+     [
+      "several green buildings",
+      0.101
+     ],
+     [
+      "four ring shaped ramps",
+      0.099
+     ],
+     [
+      "many orderly green trees",
+      0.097
+     ],
+     [
+      "different green buildings",
+      0.097
+     ],
+     [
+      "different green trees",
+      0.093
+     ]
+    ],
+    "v_coco+": [
+     [
+      "trees",
+      0.075
+     ],
+     [
+      "the trees",
+      0.068
+     ],
+     [
+      "some trees",
+      0.068
+     ],
+     [
+      "parked motorcycles",
+      0.066
+     ],
+     [
+      "a leaf filled tree",
+      0.063
+     ],
+     [
+      "a town square",
+      0.061
+     ]
+    ],
+    "v_own-": [
+     [
+      "the yellow beach",
+      0.081
+     ],
+     [
+      "brown sandy beach",
+      0.075
+     ],
+     [
+      "the new soccer field",
+      0.073
+     ],
+     [
+      "the flat yellow beach",
+      0.067
+     ],
+     [
+      "a vast beach",
+      0.066
+     ],
+     [
+      "a red track",
+      0.066
+     ]
+    ],
+    "u_own+": [
+     [
+      "a circular building",
+      0.152
+     ],
+     [
+      "some rectangular buildings",
+      0.139
+     ],
+     [
+      "square meadows",
+      0.137
+     ],
+     [
+      "many rectangular buildings",
+      0.136
+     ],
+     [
+      "the circular square",
+      0.135
+     ],
+     [
+      "neatly-arranged buildings",
+      0.133
+     ]
+    ],
+    "u_coco+": [
+     [
+      "grassy area",
+      0.108
+     ],
+     [
+      "the grass",
+      0.103
+     ],
+     [
+      "a green grass covered field",
+      0.102
+     ],
+     [
+      "pizza box",
+      0.101
+     ],
+     [
+      "a grass covered field",
+      0.101
+     ],
+     [
+      "tall buildings",
+      0.101
+     ]
+    ],
+    "u_own-": [
+     [
+      "a yellow beach",
+      0.115
+     ],
+     [
+      "brown sandy beach",
+      0.108
+     ],
+     [
+      "the yellow beach",
+      0.089
+     ],
+     [
+      "a railway station",
+      0.085
+     ],
+     [
+      "a golden beach",
+      0.083
+     ],
+     [
+      "a beach",
+      0.082
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an empty train station",
+      0.095
+     ],
+     [
+      "a sandy beach",
+      0.092
+     ],
+     [
+      "a red train",
+      0.089
+     ],
+     [
+      "a yellow surfboard",
+      0.084
+     ],
+     [
+      "a beach",
+      0.082
+     ],
+     [
+      "a train station",
+      0.081
+     ]
+    ],
+    "v_images+": [
+     "Many grey buildings and green trees are located in an average residential area.",
+     "Many green trees and some buildings are located in an average residential area.",
+     "Some green buildings and meadows are located in an average residential area.",
+     "many residential houses are on the lawn, like the right line, like the ring."
+    ],
+    "v_images-": [
+     "a playground with a football field in it is surrounded by several buildings and green tree",
+     "a playground is surrounded by many green trees .",
+     "a playground is close to a few green trees and a road with many cars."
+    ]
+   }
+  ]
+ },
+ "set/Wt": {
+  "frob": 3.442,
+  "energy_top8": 0.405,
+  "energy_top16": 0.599,
+  "top_s": [
+   0.983,
+   0.874,
+   0.8,
+   0.753,
+   0.718,
+   0.683,
+   0.669,
+   0.659,
+   0.616,
+   0.586,
+   0.558,
+   0.542,
+   0.516,
+   0.505,
+   0.484,
+   0.469
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 0.983,
+    "cos_uv": -0.38,
+    "specificity": 0.128,
+    "own_mean": 0.373,
+    "own_sd": 0.1,
+    "coco_mean": 0.246,
+    "v_own+": [
+     [
+      "several scattered green trees",
+      0.369
+     ],
+     [
+      "many green and scattered trees",
+      0.359
+     ],
+     [
+      "many scattered green trees",
+      0.354
+     ],
+     [
+      "several green buildings",
+      0.347
+     ],
+     [
+      "some green and scattered trees",
+      0.344
+     ],
+     [
+      "several white buildings",
+      0.34
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an empty train station",
+      0.32
+     ],
+     [
+      "a blue and green tennis court",
+      0.31
+     ],
+     [
+      "a busy city street",
+      0.305
+     ],
+     [
+      "a train yard",
+      0.297
+     ],
+     [
+      "a city sidewalk",
+      0.293
+     ],
+     [
+      "a parking lot",
+      0.29
+     ]
+    ],
+    "v_own-": [
+     [
+      "front",
+      -0.032
+     ],
+     [
+      "many sands",
+      -0.042
+     ],
+     [
+      "traverses",
+      -0.045
+     ],
+     [
+      "order",
+      -0.045
+     ],
+     [
+      "patterns",
+      -0.047
+     ],
+     [
+      "others",
+      -0.048
+     ]
+    ],
+    "u_own+": [
+     [
+      "many sands",
+      -0.403
+     ],
+     [
+      "grey white desert",
+      -0.405
+     ],
+     [
+      "four white globular objects",
+      -0.407
+     ],
+     [
+      "a red badminton court",
+      -0.414
+     ],
+     [
+      "the top yellow spray",
+      -0.424
+     ],
+     [
+      "irregular khaki bareland",
+      -0.431
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an umpire",
+      -0.416
+     ],
+     [
+      "four men",
+      -0.42
+     ],
+     [
+      "mustard",
+      -0.43
+     ],
+     [
+      "the tray",
+      -0.435
+     ],
+     [
+      "an orange frisbee",
+      -0.437
+     ],
+     [
+      "front",
+      -0.44
+     ]
+    ],
+    "u_own-": [
+     [
+      "a dense residential area",
+      0.705
+     ],
+     [
+      "the dense residential area",
+      0.69
+     ],
+     [
+      "a densely populated area",
+      0.688
+     ],
+     [
+      "this dense residential area",
+      0.686
+     ],
+     [
+      "many buildings",
+      0.686
+     ],
+     [
+      "numerous buildings",
+      0.686
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a busy city street",
+      0.654
+     ],
+     [
+      "some buildings",
+      0.641
+     ],
+     [
+      "a city street",
+      0.637
+     ],
+     [
+      "a town",
+      0.636
+     ],
+     [
+      "city",
+      0.635
+     ],
+     [
+      "the city",
+      0.629
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.874,
+    "cos_uv": 0.22,
+    "specificity": 0.138,
+    "own_mean": 0.204,
+    "own_sd": 0.081,
+    "coco_mean": 0.066,
+    "v_own+": [
+     [
+      "a dense residential area",
+      0.255
+     ],
+     [
+      "dense residential area",
+      0.252
+     ],
+     [
+      "dense residential areas",
+      0.24
+     ],
+     [
+      "this dense residential area",
+      0.234
+     ],
+     [
+      "a dense industrial area",
+      0.234
+     ],
+     [
+      "the dense residential area",
+      0.233
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a town",
+      0.196
+     ],
+     [
+      "the city",
+      0.189
+     ],
+     [
+      "city",
+      0.185
+     ],
+     [
+      "some buildings",
+      0.179
+     ],
+     [
+      "tall buildings",
+      0.169
+     ],
+     [
+      "a factory",
+      0.167
+     ]
+    ],
+    "v_own-": [
+     [
+      "four white globular objects",
+      0.056
+     ],
+     [
+      "two white cars",
+      0.026
+     ],
+     [
+      "yellow bareland",
+      0.023
+     ],
+     [
+      "gray yellow bareland",
+      0.021
+     ],
+     [
+      "bare earth",
+      0.019
+     ],
+     [
+      "three cars",
+      0.012
+     ]
+    ],
+    "u_own+": [
+     [
+      "dense residential area",
+      -0.235
+     ],
+     [
+      "crowded houses",
+      -0.239
+     ],
+     [
+      "dense houses",
+      -0.241
+     ],
+     [
+      "dense residential areas",
+      -0.245
+     ],
+     [
+      "many densely populated areas",
+      -0.253
+     ],
+     [
+      "a densely populated area",
+      -0.253
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the wild",
+      -0.271
+     ],
+     [
+      "the zoo",
+      -0.278
+     ],
+     [
+      "mustard",
+      -0.283
+     ],
+     [
+      "an office cubicle",
+      -0.289
+     ],
+     [
+      "the hood",
+      -0.292
+     ],
+     [
+      "a picture",
+      -0.292
+     ]
+    ],
+    "u_own-": [
+     [
+      "a large lawn",
+      0.453
+     ],
+     [
+      "a soccer field",
+      0.452
+     ],
+     [
+      "a green soccer field",
+      0.449
+     ],
+     [
+      "a large football field",
+      0.445
+     ],
+     [
+      "an airport runway",
+      0.441
+     ],
+     [
+      "an empty parking lot",
+      0.437
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a dirt field",
+      0.469
+     ],
+     [
+      "a grass yard area",
+      0.458
+     ],
+     [
+      "a grassy field",
+      0.457
+     ],
+     [
+      "an open field",
+      0.456
+     ],
+     [
+      "a grassy area",
+      0.456
+     ],
+     [
+      "a grass field",
+      0.453
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.8,
+    "cos_uv": 0.31,
+    "specificity": 0.012,
+    "own_mean": 0.03,
+    "own_sd": 0.062,
+    "coco_mean": 0.018,
+    "v_own+": [
+     [
+      "the basketball court",
+      0.13
+     ],
+     [
+      "a few basketball courts",
+      0.13
+     ],
+     [
+      "two basketball courts",
+      0.124
+     ],
+     [
+      "the basketball courts",
+      0.121
+     ],
+     [
+      "a baksetball court",
+      0.12
+     ],
+     [
+      "several tennis and basketball courts",
+      0.119
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a ramp",
+      0.1
+     ],
+     [
+      "the dock",
+      0.1
+     ],
+     [
+      "a grass covered field",
+      0.096
+     ],
+     [
+      "the curb",
+      0.095
+     ],
+     [
+      "grassy area",
+      0.093
+     ],
+     [
+      "a curb",
+      0.092
+     ]
+    ],
+    "v_own-": [
+     [
+      "a school",
+      0.116
+     ],
+     [
+      "school buildings",
+      0.112
+     ],
+     [
+      "many teaching buildings",
+      0.09
+     ],
+     [
+      "one school",
+      0.09
+     ],
+     [
+      "teaching buildings",
+      0.088
+     ],
+     [
+      "a teaching building",
+      0.087
+     ]
+    ],
+    "u_own+": [
+     [
+      "this exercise yard",
+      -0.011
+     ],
+     [
+      "a red badminton court",
+      -0.013
+     ],
+     [
+      "two playgrounds",
+      -0.02
+     ],
+     [
+      "this bald playground",
+      -0.022
+     ],
+     [
+      "this playground",
+      -0.023
+     ],
+     [
+      "two runways",
+      -0.026
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a vehicle",
+      -0.025
+     ],
+     [
+      "a picture",
+      -0.027
+     ],
+     [
+      "a small bridge",
+      -0.034
+     ],
+     [
+      "the dock",
+      -0.036
+     ],
+     [
+      "the runway",
+      -0.039
+     ],
+     [
+      "a dugout",
+      -0.041
+     ]
+    ],
+    "u_own-": [
+     [
+      "a large central building",
+      0.165
+     ],
+     [
+      "a large white building",
+      0.164
+     ],
+     [
+      "a central square building",
+      0.163
+     ],
+     [
+      "dense buildings",
+      0.163
+     ],
+     [
+      "bustling streets",
+      0.162
+     ],
+     [
+      "a circular building",
+      0.162
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a large building",
+      0.161
+     ],
+     [
+      "a busy city street",
+      0.156
+     ],
+     [
+      "a white refrigerator freezer",
+      0.155
+     ],
+     [
+      "a tall building",
+      0.152
+     ],
+     [
+      "a smart phone sitting",
+      0.152
+     ],
+     [
+      "a metallic refrigerator freezer",
+      0.151
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.753,
+    "cos_uv": 0.45,
+    "specificity": 0.044,
+    "own_mean": 0.022,
+    "own_sd": 0.062,
+    "coco_mean": -0.022,
+    "v_own+": [
+     [
+      "grey roofs",
+      0.138
+     ],
+     [
+      "gray roofs",
+      0.137
+     ],
+     [
+      "covered grey houses",
+      0.135
+     ],
+     [
+      "white roofs",
+      0.134
+     ],
+     [
+      "grey roof houses",
+      0.132
+     ],
+     [
+      "green roofs",
+      0.131
+     ]
+    ],
+    "v_coco+": [
+     [
+      "old buildings",
+      0.093
+     ],
+     [
+      "green grass",
+      0.09
+     ],
+     [
+      "some buildings",
+      0.083
+     ],
+     [
+      "bushes",
+      0.081
+     ],
+     [
+      "greens",
+      0.08
+     ],
+     [
+      "tall trees",
+      0.078
+     ]
+    ],
+    "v_own-": [
+     [
+      "a large playground",
+      0.177
+     ],
+     [
+      "a huge playground",
+      0.171
+     ],
+     [
+      "a playground",
+      0.168
+     ],
+     [
+      "a children's playground",
+      0.163
+     ],
+     [
+      "a rectangular playground",
+      0.162
+     ],
+     [
+      "this playground",
+      0.155
+     ]
+    ],
+    "u_own+": [
+     [
+      "the houses",
+      0.037
+     ],
+     [
+      "two red roof houses",
+      0.035
+     ],
+     [
+      "red roof houses",
+      0.033
+     ],
+     [
+      "the villas",
+      0.029
+     ],
+     [
+      "several houses",
+      0.028
+     ],
+     [
+      "covered blue houses",
+      0.028
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the house",
+      0.018
+     ],
+     [
+      "a green grass covered field",
+      -0.001
+     ],
+     [
+      "directions",
+      -0.003
+     ],
+     [
+      "a house",
+      -0.004
+     ],
+     [
+      "bushes",
+      -0.004
+     ],
+     [
+      "the trees",
+      -0.004
+     ]
+    ],
+    "u_own-": [
+     [
+      "an oval stadium",
+      0.22
+     ],
+     [
+      "a oval stadium",
+      0.219
+     ],
+     [
+      "a smart oval stadium",
+      0.217
+     ],
+     [
+      "an oval football field",
+      0.213
+     ],
+     [
+      "a football playground",
+      0.206
+     ],
+     [
+      "a standard football field",
+      0.204
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a soccer field",
+      0.185
+     ],
+     [
+      "a soccer ball",
+      0.173
+     ],
+     [
+      "a foot",
+      0.163
+     ],
+     [
+      "soccer",
+      0.158
+     ],
+     [
+      "a baseball game",
+      0.153
+     ],
+     [
+      "a baseball field",
+      0.151
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.718,
+    "cos_uv": 0.44,
+    "specificity": 0.008,
+    "own_mean": -0.063,
+    "own_sd": 0.043,
+    "coco_mean": -0.071,
+    "v_own+": [
+     [
+      "bareland",
+      0.103
+     ],
+     [
+      "barelands",
+      0.101
+     ],
+     [
+      "bare lands",
+      0.094
+     ],
+     [
+      "bare earth",
+      0.087
+     ],
+     [
+      "the bareland",
+      0.085
+     ],
+     [
+      "bald land",
+      0.084
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the curb",
+      0.031
+     ],
+     [
+      "a curb",
+      0.029
+     ],
+     [
+      "airplanes",
+      0.026
+     ],
+     [
+      "the land",
+      0.022
+     ],
+     [
+      "land",
+      0.021
+     ],
+     [
+      "lots",
+      0.019
+     ]
+    ],
+    "v_own-": [
+     [
+      "a white church",
+      0.237
+     ],
+     [
+      "the white church",
+      0.215
+     ],
+     [
+      "a cyan church",
+      0.204
+     ],
+     [
+      "the church",
+      0.197
+     ],
+     [
+      "a round white building",
+      0.195
+     ],
+     [
+      "a white circular building",
+      0.189
+     ]
+    ],
+    "u_own+": [
+     [
+      "wasteland",
+      0.168
+     ],
+     [
+      "bare lands",
+      0.161
+     ],
+     [
+      "several bare lands",
+      0.148
+     ],
+     [
+      "bare land",
+      0.145
+     ],
+     [
+      "bald land",
+      0.142
+     ],
+     [
+      "some bare lands",
+      0.142
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a dry grass field",
+      0.132
+     ],
+     [
+      "a dirt field",
+      0.132
+     ],
+     [
+      "the park",
+      0.129
+     ],
+     [
+      "the land",
+      0.127
+     ],
+     [
+      "dry grass",
+      0.124
+     ],
+     [
+      "a park",
+      0.121
+     ]
+    ],
+    "u_own-": [
+     [
+      "two boats",
+      0.039
+     ],
+     [
+      "three large white storage tanks",
+      0.035
+     ],
+     [
+      "a cyan church",
+      0.033
+     ],
+     [
+      "a grey roof",
+      0.031
+     ],
+     [
+      "a blue ceiling",
+      0.03
+     ],
+     [
+      "a gray roof",
+      0.028
+     ]
+    ],
+    "u_coco-": [
+     [
+      "two pizzas",
+      0.024
+     ],
+     [
+      "a white boat",
+      0.018
+     ],
+     [
+      "two hot dogs",
+      0.017
+     ],
+     [
+      "a church",
+      0.015
+     ],
+     [
+      "a dock",
+      0.011
+     ],
+     [
+      "an oven",
+      0.011
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.683,
+    "cos_uv": 0.48,
+    "specificity": 0.004,
+    "own_mean": 0.037,
+    "own_sd": 0.053,
+    "coco_mean": 0.033,
+    "v_own+": [
+     [
+      "a red church",
+      0.117
+     ],
+     [
+      "a square church",
+      0.115
+     ],
+     [
+      "the middle",
+      0.107
+     ],
+     [
+      "a large playground",
+      0.107
+     ],
+     [
+      "a school",
+      0.103
+     ],
+     [
+      "a church",
+      0.103
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the middle",
+      0.107
+     ],
+     [
+      "a church",
+      0.103
+     ],
+     [
+      "a playground",
+      0.096
+     ],
+     [
+      "a restaurant",
+      0.096
+     ],
+     [
+      "a park",
+      0.095
+     ],
+     [
+      "a competition",
+      0.094
+     ]
+    ],
+    "v_own-": [
+     [
+      "dense houses",
+      0.082
+     ],
+     [
+      "a circle-shaped viaduct",
+      0.077
+     ],
+     [
+      "the industrial houses",
+      0.073
+     ],
+     [
+      "dense residential areas",
+      0.071
+     ],
+     [
+      "a dense industrial area",
+      0.07
+     ],
+     [
+      "a bell mouthed viaduct",
+      0.07
+     ]
+    ],
+    "u_own+": [
+     [
+      "the main building",
+      -0.015
+     ],
+     [
+      "the public squareos ground",
+      -0.016
+     ],
+     [
+      "the teaching building",
+      -0.018
+     ],
+     [
+      "a silver-grey oval building center",
+      -0.018
+     ],
+     [
+      "a central white oval building",
+      -0.023
+     ],
+     [
+      "a long blue building",
+      -0.024
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a large building",
+      -0.038
+     ],
+     [
+      "the court",
+      -0.045
+     ],
+     [
+      "the center",
+      -0.045
+     ],
+     [
+      "the building",
+      -0.046
+     ],
+     [
+      "a tall building",
+      -0.052
+     ],
+     [
+      "the top",
+      -0.055
+     ]
+    ],
+    "u_own-": [
+     [
+      "a rather wrinkled mountain range",
+      0.208
+     ],
+     [
+      "a dense industrial area",
+      0.208
+     ],
+     [
+      "a residential neighborhood",
+      0.205
+     ],
+     [
+      "dense residential area",
+      0.2
+     ],
+     [
+      "khaki mountains",
+      0.199
+     ],
+     [
+      "khaki farmlands",
+      0.199
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a freeway",
+      0.193
+     ],
+     [
+      "a semi truck",
+      0.191
+     ],
+     [
+      "a highway",
+      0.19
+     ],
+     [
+      "unripe bananas",
+      0.188
+     ],
+     [
+      "a chain link fence",
+      0.186
+     ],
+     [
+      "a train yard",
+      0.18
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.669,
+    "cos_uv": 0.37,
+    "specificity": 0.002,
+    "own_mean": -0.048,
+    "own_sd": 0.049,
+    "coco_mean": -0.05,
+    "v_own+": [
+     [
+      "the train station",
+      0.104
+     ],
+     [
+      "the railway",
+      0.098
+     ],
+     [
+      "the white roof",
+      0.093
+     ],
+     [
+      "the red roof",
+      0.087
+     ],
+     [
+      "the grey roof",
+      0.084
+     ],
+     [
+      "the railway station",
+      0.082
+     ]
+    ],
+    "v_coco+": [
+     [
+      "another train",
+      0.082
+     ],
+     [
+      "the train tracks",
+      0.08
+     ],
+     [
+      "train",
+      0.079
+     ],
+     [
+      "a red train",
+      0.078
+     ],
+     [
+      "the zoo",
+      0.074
+     ],
+     [
+      "the station",
+      0.073
+     ]
+    ],
+    "v_own-": [
+     [
+      "many commercial buildings",
+      0.166
+     ],
+     [
+      "a commercial area",
+      0.163
+     ],
+     [
+      "this commercial area",
+      0.157
+     ],
+     [
+      "irregular khaki bareland",
+      0.156
+     ],
+     [
+      "khaki irregular bareland",
+      0.155
+     ],
+     [
+      "the commercial area",
+      0.143
+     ]
+    ],
+    "u_own+": [
+     [
+      "a green soccer field",
+      0.205
+     ],
+     [
+      "a green football field",
+      0.202
+     ],
+     [
+      "football field",
+      0.187
+     ],
+     [
+      "football fields",
+      0.185
+     ],
+     [
+      "soccer fields",
+      0.182
+     ],
+     [
+      "red and green football grounds",
+      0.181
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a green grass covered field",
+      0.178
+     ],
+     [
+      "a lush green field",
+      0.178
+     ],
+     [
+      "the track",
+      0.178
+     ],
+     [
+      "a green field",
+      0.176
+     ],
+     [
+      "a soccer field",
+      0.174
+     ],
+     [
+      "soccer",
+      0.165
+     ]
+    ],
+    "u_own-": [
+     [
+      "grey white desert",
+      0.037
+     ],
+     [
+      "a desert",
+      0.022
+     ],
+     [
+      "grey desert",
+      0.02
+     ],
+     [
+      "desert",
+      0.017
+     ],
+     [
+      "khaki desert",
+      0.017
+     ],
+     [
+      "a yellow desert",
+      0.014
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a busy city street",
+      0.018
+     ],
+     [
+      "a city sidewalk",
+      0.012
+     ],
+     [
+      "a street corner",
+      0.009
+     ],
+     [
+      "a city street",
+      0.004
+     ],
+     [
+      "three windows",
+      -0.001
+     ],
+     [
+      "a shop window",
+      -0.002
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.659,
+    "cos_uv": 0.44,
+    "specificity": 0.012,
+    "own_mean": 0.037,
+    "own_sd": 0.066,
+    "coco_mean": 0.025,
+    "v_own+": [
+     [
+      "a circle-shaped viaduct",
+      0.205
+     ],
+     [
+      "the circle",
+      0.186
+     ],
+     [
+      "the dense forest",
+      0.178
+     ],
+     [
+      "the dense jungle",
+      0.174
+     ],
+     [
+      "the dense woods",
+      0.174
+     ],
+     [
+      "the lush forest",
+      0.174
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a lush green forest",
+      0.158
+     ],
+     [
+      "the woods",
+      0.154
+     ],
+     [
+      "the forest",
+      0.151
+     ],
+     [
+      "the front",
+      0.144
+     ],
+     [
+      "the middle",
+      0.144
+     ],
+     [
+      "the ball",
+      0.138
+     ]
+    ],
+    "v_own-": [
+     [
+      "some industrial buildings",
+      0.101
+     ],
+     [
+      "three playgrounds",
+      0.099
+     ],
+     [
+      "brown agricultural land",
+      0.091
+     ],
+     [
+      "three buildings",
+      0.089
+     ],
+     [
+      "some factory buildings",
+      0.086
+     ],
+     [
+      "three basketball courts",
+      0.085
+     ]
+    ],
+    "u_own+": [
+     [
+      "a circle-shaped viaduct",
+      0.116
+     ],
+     [
+      "the dense forest",
+      0.105
+     ],
+     [
+      "a circle road",
+      0.104
+     ],
+     [
+      "the circle",
+      0.103
+     ],
+     [
+      "this forest",
+      0.101
+     ],
+     [
+      "the lush forest",
+      0.101
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the forest",
+      0.096
+     ],
+     [
+      "a lush green forest",
+      0.094
+     ],
+     [
+      "a forest",
+      0.082
+     ],
+     [
+      "woods",
+      0.08
+     ],
+     [
+      "the woods",
+      0.078
+     ],
+     [
+      "donut",
+      0.072
+     ]
+    ],
+    "u_own-": [
+     [
+      "two red roof houses",
+      0.133
+     ],
+     [
+      "some blue roof buildings",
+      0.131
+     ],
+     [
+      "several red buildings",
+      0.124
+     ],
+     [
+      "some factory buildings",
+      0.12
+     ],
+     [
+      "several blue buildings",
+      0.116
+     ],
+     [
+      "several long buildings",
+      0.114
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a factory",
+      0.094
+     ],
+     [
+      "a blue and green tennis court",
+      0.093
+     ],
+     [
+      "a farm",
+      0.079
+     ],
+     [
+      "a field flying kites",
+      0.078
+     ],
+     [
+      "an airport tarmac",
+      0.076
+     ],
+     [
+      "a narrow street",
+      0.071
+     ]
+    ]
+   }
+  ]
+ },
+ "set/Wi": {
+  "frob": 3.41,
+  "energy_top8": 0.393,
+  "energy_top16": 0.588,
+  "top_s": [
+   0.898,
+   0.859,
+   0.812,
+   0.765,
+   0.71,
+   0.675,
+   0.66,
+   0.623,
+   0.598,
+   0.587,
+   0.549,
+   0.534,
+   0.518,
+   0.509,
+   0.483,
+   0.464
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 0.898,
+    "cos_uv": -0.13,
+    "specificity": 0.257,
+    "own_mean": 0.351,
+    "own_sd": 0.079,
+    "coco_mean": 0.094,
+    "v_own+": [
+     [
+      "a densely populated area",
+      0.176
+     ],
+     [
+      "many densely populated areas",
+      0.164
+     ],
+     [
+      "dense residential area",
+      0.163
+     ],
+     [
+      "dense residential areas",
+      0.16
+     ],
+     [
+      "densely populated areas",
+      0.158
+     ],
+     [
+      "a dense residential area",
+      0.156
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a map",
+      0.12
+     ],
+     [
+      "city",
+      0.111
+     ],
+     [
+      "a town",
+      0.109
+     ],
+     [
+      "the city",
+      0.102
+     ],
+     [
+      "a city",
+      0.091
+     ],
+     [
+      "some buildings",
+      0.087
+     ]
+    ],
+    "v_own-": [
+     [
+      "grey white desert",
+      0.022
+     ],
+     [
+      "a yellow desert",
+      0.019
+     ],
+     [
+      "yellow desert",
+      0.017
+     ],
+     [
+      "many sands",
+      0.017
+     ],
+     [
+      "a desert",
+      0.016
+     ],
+     [
+      "this yellow desert",
+      0.01
+     ]
+    ],
+    "u_own+": [
+     [
+      "messy houses",
+      -0.009
+     ],
+     [
+      "playgrounds",
+      -0.011
+     ],
+     [
+      "many factories",
+      -0.013
+     ],
+     [
+      "the resort",
+      -0.015
+     ],
+     [
+      "crowded houses",
+      -0.017
+     ],
+     [
+      "playground",
+      -0.018
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the zoo",
+      0.001
+     ],
+     [
+      "the wild",
+      -0.001
+     ],
+     [
+      "video games",
+      -0.001
+     ],
+     [
+      "fun",
+      -0.001
+     ],
+     [
+      "kids",
+      -0.003
+     ],
+     [
+      "cheese",
+      -0.009
+     ]
+    ],
+    "u_own-": [
+     [
+      "a square bare ground",
+      0.235
+     ],
+     [
+      "four white globular objects",
+      0.204
+     ],
+     [
+      "a rectangular parking lot",
+      0.204
+     ],
+     [
+      "a square parking lot",
+      0.198
+     ],
+     [
+      "an oval white building",
+      0.196
+     ],
+     [
+      "two white cars",
+      0.195
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an intersection",
+      0.185
+     ],
+     [
+      "a white building",
+      0.175
+     ],
+     [
+      "a grassy area",
+      0.174
+     ],
+     [
+      "a dry grass field",
+      0.167
+     ],
+     [
+      "a fenced area",
+      0.165
+     ],
+     [
+      "an airport tarmac",
+      0.165
+     ]
+    ],
+    "v_images+": [
+     "Many crowded buildings and trees are located in an industrial area.",
+     "many buildings and green trees are around a playground in a school .",
+     "a playground with a row of basketball grounds are surrounded by green trees and buildings ",
+     "many buildings and green trees are around a playground in a school ."
+    ],
+    "v_images-": [
+     "it is a piece of yellow desert .",
+     "It's a piece of brazen yellow land.",
+     "the big desert with white color seems very barren ."
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.859,
+    "cos_uv": -0.25,
+    "specificity": 0.183,
+    "own_mean": 0.313,
+    "own_sd": 0.059,
+    "coco_mean": 0.131,
+    "v_own+": [
+     [
+      "several large parking lots",
+      0.115
+     ],
+     [
+      "two parking lots",
+      0.106
+     ],
+     [
+      "three parking lots",
+      0.105
+     ],
+     [
+      "a trapezoid parking lot",
+      0.101
+     ],
+     [
+      "several parking lots",
+      0.1
+     ],
+     [
+      "four basketball courts",
+      0.099
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a grass covered field",
+      0.112
+     ],
+     [
+      "a green grass covered field",
+      0.106
+     ],
+     [
+      "a large building",
+      0.091
+     ],
+     [
+      "a dirt field",
+      0.089
+     ],
+     [
+      "a field flying kites",
+      0.087
+     ],
+     [
+      "a grassy area",
+      0.084
+     ]
+    ],
+    "v_own-": [
+     [
+      "the turning",
+      0.032
+     ],
+     [
+      "fish scales",
+      0.031
+     ],
+     [
+      "a pony",
+      0.029
+     ],
+     [
+      "a fish scale",
+      0.028
+     ],
+     [
+      "the dense green forest",
+      0.028
+     ],
+     [
+      "a star",
+      0.028
+     ]
+    ],
+    "u_own+": [
+     [
+      "two green trees",
+      0.093
+     ],
+     [
+      "three pieces",
+      0.089
+     ],
+     [
+      "green flowers",
+      0.088
+     ],
+     [
+      "light green color",
+      0.082
+     ],
+     [
+      "two white cars",
+      0.08
+     ],
+     [
+      "four white globular objects",
+      0.077
+     ]
+    ],
+    "u_coco+": [
+     [
+      "four men",
+      0.079
+     ],
+     [
+      "unripe bananas",
+      0.078
+     ],
+     [
+      "a restaurant table",
+      0.077
+     ],
+     [
+      "zebra standing",
+      0.075
+     ],
+     [
+      "two horses",
+      0.073
+     ],
+     [
+      "two cats",
+      0.069
+     ]
+    ],
+    "u_own-": [
+     [
+      "many basketball fields",
+      0.14
+     ],
+     [
+      "a dense industrial area",
+      0.13
+     ],
+     [
+      "this dense residential area",
+      0.13
+     ],
+     [
+      "a densely populated area",
+      0.124
+     ],
+     [
+      "a dense residential area",
+      0.123
+     ],
+     [
+      "the dense residential area",
+      0.122
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a baseball field",
+      0.083
+     ],
+     [
+      "the park",
+      0.079
+     ],
+     [
+      "the city",
+      0.079
+     ],
+     [
+      "a train yard",
+      0.074
+     ],
+     [
+      "a harbor",
+      0.074
+     ],
+     [
+      "a skate park",
+      0.07
+     ]
+    ],
+    "v_images+": [
+     "Several buildings are close to a piece of bare land.",
+     "some cars are close to a square and several buildings.",
+     "several large buildings with parking lots are close to a road in a commercial area.",
+     "some green plants are in a square ."
+    ],
+    "v_images-": [
+     "five lines of boats are ordered in a port.",
+     "a big ship with white paint on its both side stop at shoreside .",
+     "a red ship prepare to stop at shoreside with two people inside ."
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.812,
+    "cos_uv": 0.18,
+    "specificity": 0.082,
+    "own_mean": 0.081,
+    "own_sd": 0.063,
+    "coco_mean": -0.0,
+    "v_own+": [
+     [
+      "this football field",
+      0.082
+     ],
+     [
+      "two baseball fields",
+      0.078
+     ],
+     [
+      "this soccer field",
+      0.078
+     ],
+     [
+      "an airport runway",
+      0.075
+     ],
+     [
+      "a railway bridge",
+      0.074
+     ],
+     [
+      "this railway station",
+      0.072
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a vehicle",
+      0.078
+     ],
+     [
+      "an airport runway",
+      0.075
+     ],
+     [
+      "a picture",
+      0.071
+     ],
+     [
+      "an airport tarmac",
+      0.064
+     ],
+     [
+      "a baseball field",
+      0.063
+     ],
+     [
+      "a bridge",
+      0.06
+     ]
+    ],
+    "v_own-": [
+     [
+      "a deep green lush forest",
+      0.059
+     ],
+     [
+      "a lush forest",
+      0.053
+     ],
+     [
+      "lush forest",
+      0.052
+     ],
+     [
+      "green forest",
+      0.051
+     ],
+     [
+      "the dense green forest",
+      0.044
+     ],
+     [
+      "the baulk",
+      0.043
+     ]
+    ],
+    "u_own+": [
+     [
+      "the basketball court",
+      0.149
+     ],
+     [
+      "two basketball courts",
+      0.141
+     ],
+     [
+      "three basketball courts",
+      0.134
+     ],
+     [
+      "the basketball courts",
+      0.132
+     ],
+     [
+      "a few basketball courts",
+      0.132
+     ],
+     [
+      "a baksetball court",
+      0.128
+     ]
+    ],
+    "u_coco+": [
+     [
+      "two slices",
+      0.092
+     ],
+     [
+      "the court",
+      0.087
+     ],
+     [
+      "an obstacle",
+      0.086
+     ],
+     [
+      "a dugout",
+      0.085
+     ],
+     [
+      "a basket",
+      0.081
+     ],
+     [
+      "a ramp",
+      0.079
+     ]
+    ],
+    "u_own-": [
+     [
+      "many crowded green trees",
+      0.248
+     ],
+     [
+      "many dark green trees",
+      0.231
+     ],
+     [
+      "many green trees",
+      0.231
+     ],
+     [
+      "many orderly green trees",
+      0.224
+     ],
+     [
+      "many scattered green trees",
+      0.224
+     ],
+     [
+      "many tropical green trees",
+      0.214
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a lush green forest",
+      0.176
+     ],
+     [
+      "trees",
+      0.149
+     ],
+     [
+      "tall trees",
+      0.148
+     ],
+     [
+      "a forest",
+      0.13
+     ],
+     [
+      "snowy trees",
+      0.129
+     ],
+     [
+      "some trees",
+      0.126
+     ]
+    ],
+    "v_images+": [
+     "the football field is almost no turf, while the light of the tennis courts is completely b",
+     "a playground next to some green plants and basketball fields is surrounded by buildings .",
+     "a playground with two basketball fields semi-surrounded by many green trees is in the corn",
+     "a playground with basketball fields and badminton fields next to it is surrounded by some "
+    ],
+    "v_images-": [
+     "many green trees are around a seaside resort with buildings and a swimming pool.",
+     "some buildings and many green trees are in a school .",
+     "a large number of tall trees were planted around the buildings ."
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.765,
+    "cos_uv": 0.19,
+    "specificity": 0.059,
+    "own_mean": 0.067,
+    "own_sd": 0.052,
+    "coco_mean": 0.007,
+    "v_own+": [
+     [
+      "grey white desert",
+      0.086
+     ],
+     [
+      "a pentagon",
+      0.086
+     ],
+     [
+      "greenland",
+      0.081
+     ],
+     [
+      "the brown field",
+      0.08
+     ],
+     [
+      "wasteland",
+      0.075
+     ],
+     [
+      "brown grassland",
+      0.073
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a brown bird",
+      0.077
+     ],
+     [
+      "his kite",
+      0.075
+     ],
+     [
+      "a snowy field",
+      0.071
+     ],
+     [
+      "two young boys",
+      0.07
+     ],
+     [
+      "a dugout",
+      0.069
+     ],
+     [
+      "unripe bananas",
+      0.063
+     ]
+    ],
+    "v_own-": [
+     [
+      "the dense green forest",
+      0.1
+     ],
+     [
+      "a deep green lush forest",
+      0.099
+     ],
+     [
+      "this dark green lush forest",
+      0.096
+     ],
+     [
+      "lush forest",
+      0.089
+     ],
+     [
+      "the dense forest",
+      0.088
+     ],
+     [
+      "many crowded green trees",
+      0.085
+     ]
+    ],
+    "u_own+": [
+     [
+      "many industrial buildings",
+      0.158
+     ],
+     [
+      "a bustling industrial area",
+      0.141
+     ],
+     [
+      "some industrial buildings",
+      0.14
+     ],
+     [
+      "an industrial area",
+      0.13
+     ],
+     [
+      "a industrial area",
+      0.13
+     ],
+     [
+      "a large railway station",
+      0.127
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a train yard",
+      0.139
+     ],
+     [
+      "an airport tarmac",
+      0.12
+     ],
+     [
+      "an airport runway",
+      0.111
+     ],
+     [
+      "an empty train station",
+      0.107
+     ],
+     [
+      "an airport",
+      0.105
+     ],
+     [
+      "a train station",
+      0.102
+     ]
+    ],
+    "u_own-": [
+     [
+      "dense trees",
+      0.186
+     ],
+     [
+      "many crowded green trees",
+      0.169
+     ],
+     [
+      "many dense trees",
+      0.168
+     ],
+     [
+      "the forest",
+      0.168
+     ],
+     [
+      "the dense green forest",
+      0.167
+     ],
+     [
+      "a deep green lush forest",
+      0.166
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the forest",
+      0.168
+     ],
+     [
+      "the middle",
+      0.166
+     ],
+     [
+      "a lush green forest",
+      0.152
+     ],
+     [
+      "the woods",
+      0.151
+     ],
+     [
+      "the trees",
+      0.151
+     ],
+     [
+      "tall trees",
+      0.149
+     ]
+    ],
+    "v_images+": [
+     "the airport covers a large area and has many planes .",
+     "Many buildings and bare land are located in an industrial area.",
+     "Many buildings and some bare land are located in an industrial area.",
+     "Many buildings and some bare land are located in an industrial area."
+    ],
+    "v_images-": [
+     "many green trees are in a forest .",
+     "Many green trees are in a forest full of people.",
+     "many green trees form a piece of forest ."
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.71,
+    "cos_uv": 0.19,
+    "specificity": 0.065,
+    "own_mean": 0.107,
+    "own_sd": 0.077,
+    "coco_mean": 0.042,
+    "v_own+": [
+     [
+      "runway",
+      0.083
+     ],
+     [
+      "a ploygon terminal building",
+      0.08
+     ],
+     [
+      "two runways",
+      0.075
+     ],
+     [
+      "a t_junction",
+      0.068
+     ],
+     [
+      "the track",
+      0.067
+     ],
+     [
+      "the bridge",
+      0.067
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a runway",
+      0.072
+     ],
+     [
+      "the track",
+      0.067
+     ],
+     [
+      "the runway",
+      0.065
+     ],
+     [
+      "an airport runway",
+      0.059
+     ],
+     [
+      "the plane",
+      0.055
+     ],
+     [
+      "the airport",
+      0.054
+     ]
+    ],
+    "v_own-": [
+     [
+      "dense buildings",
+      0.147
+     ],
+     [
+      "many tall buildings",
+      0.141
+     ],
+     [
+      "many grey houses",
+      0.135
+     ],
+     [
+      "many residential houses",
+      0.135
+     ],
+     [
+      "dense houses",
+      0.135
+     ],
+     [
+      "many gray black buildings",
+      0.134
+     ]
+    ],
+    "u_own+": [
+     [
+      "a deep green lush forest",
+      0.087
+     ],
+     [
+      "many green and scattered trees",
+      0.075
+     ],
+     [
+      "a colorful train",
+      0.069
+     ],
+     [
+      "many scattered green trees",
+      0.069
+     ],
+     [
+      "this dark green lush forest",
+      0.067
+     ],
+     [
+      "the train station",
+      0.066
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red train",
+      0.078
+     ],
+     [
+      "a green motorcycle",
+      0.076
+     ],
+     [
+      "an empty train station",
+      0.068
+     ],
+     [
+      "a train yard",
+      0.065
+     ],
+     [
+      "the train tracks",
+      0.062
+     ],
+     [
+      "the car",
+      0.06
+     ]
+    ],
+    "u_own-": [
+     [
+      "many commercial buildings",
+      0.222
+     ],
+     [
+      "office buildings",
+      0.204
+     ],
+     [
+      "some commercial buildings",
+      0.2
+     ],
+     [
+      "school buildings",
+      0.2
+     ],
+     [
+      "teaching buildings",
+      0.196
+     ],
+     [
+      "many teaching buildings",
+      0.185
+     ]
+    ],
+    "u_coco-": [
+     [
+      "tall buildings",
+      0.16
+     ],
+     [
+      "an office cubicle",
+      0.144
+     ],
+     [
+      "a brick building",
+      0.139
+     ],
+     [
+      "an office building",
+      0.136
+     ],
+     [
+      "stores",
+      0.135
+     ],
+     [
+      "buildings",
+      0.132
+     ]
+    ],
+    "v_images+": [
+     "many green trees are around a playground with a football field in it .",
+     "a large number of large trees were planted around the playground.",
+     "there is a house with a white roof around the playground .",
+     "a house with red roof is located near the playground."
+    ],
+    "v_images-": [
+     "here are several well-organized blocks which is made up of various of buildings and plants",
+     "there is nothing in the desert and it is very dry .",
+     "northwest of the school to a large forest, the south has several wetlands and teaching bui"
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.675,
+    "cos_uv": 0.29,
+    "specificity": 0.002,
+    "own_mean": -0.021,
+    "own_sd": 0.073,
+    "coco_mean": -0.023,
+    "v_own+": [
+     [
+      "the curved yellow river",
+      0.093
+     ],
+     [
+      "a sinuous yellow river",
+      0.087
+     ],
+     [
+      "the yellow river",
+      0.086
+     ],
+     [
+      "wasteland",
+      0.082
+     ],
+     [
+      "an old football field",
+      0.07
+     ],
+     [
+      "grey white desert",
+      0.07
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a dirt field",
+      0.066
+     ],
+     [
+      "a dry grass field",
+      0.065
+     ],
+     [
+      "a dirt ground",
+      0.062
+     ],
+     [
+      "a dirt road",
+      0.061
+     ],
+     [
+      "dry grass",
+      0.05
+     ],
+     [
+      "a soccer field",
+      0.049
+     ]
+    ],
+    "v_own-": [
+     [
+      "two storage tanks",
+      0.085
+     ],
+     [
+      "three storage tanks",
+      0.084
+     ],
+     [
+      "white awnings",
+      0.083
+     ],
+     [
+      "two gray roof houses",
+      0.081
+     ],
+     [
+      "two large storage tanks",
+      0.081
+     ],
+     [
+      "covered blue houses",
+      0.08
+     ]
+    ],
+    "u_own+": [
+     [
+      "an old playground",
+      0.181
+     ],
+     [
+      "bareland",
+      0.177
+     ],
+     [
+      "a playground",
+      0.176
+     ],
+     [
+      "this bald playground",
+      0.174
+     ],
+     [
+      "a rectangular playground",
+      0.168
+     ],
+     [
+      "a large playground",
+      0.163
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a playground",
+      0.176
+     ],
+     [
+      "a park",
+      0.151
+     ],
+     [
+      "a skate park",
+      0.13
+     ],
+     [
+      "a park bench",
+      0.121
+     ],
+     [
+      "a zoo",
+      0.119
+     ],
+     [
+      "the park",
+      0.115
+     ]
+    ],
+    "u_own-": [
+     [
+      "a round white building",
+      0.118
+     ],
+     [
+      "the white church",
+      0.117
+     ],
+     [
+      "a white church",
+      0.116
+     ],
+     [
+      "a white circular building",
+      0.111
+     ],
+     [
+      "the round white building",
+      0.111
+     ],
+     [
+      "two white cars",
+      0.109
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a white building",
+      0.103
+     ],
+     [
+      "a white clock tower",
+      0.073
+     ],
+     [
+      "the building",
+      0.071
+     ],
+     [
+      "the house",
+      0.063
+     ],
+     [
+      "a tall church tower",
+      0.059
+     ],
+     [
+      "a church",
+      0.058
+     ]
+    ],
+    "v_images+": [
+     "the rectanguale park with a pond next to a tract of dense buildings is at the river .",
+     "a building with blue roof sits at the coner of this park with lush trees and a pond .",
+     "this dense residential area surrounds the park with a green pond .",
+     "a large playground is near a park with many green trees and a irregular lake ."
+    ],
+    "v_images-": [
+     "several buildings with a swimming pool is surrounded by several green trees and green mead",
+     "a building with two cars is surrounded by green trees and meadows .",
+     "a residential surrounded by many green plants and a gray road in side ."
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.66,
+    "cos_uv": 0.26,
+    "specificity": 0.001,
+    "own_mean": 0.003,
+    "own_sd": 0.075,
+    "coco_mean": 0.002,
+    "v_own+": [
+     [
+      "irregular khaki bareland",
+      0.058
+     ],
+     [
+      "mounds",
+      0.056
+     ],
+     [
+      "a residential neighborhood",
+      0.055
+     ],
+     [
+      "cars park",
+      0.055
+     ],
+     [
+      "this park",
+      0.055
+     ],
+     [
+      "an irregular yellow pond",
+      0.054
+     ]
+    ],
+    "v_coco+": [
+     [
+      "trees",
+      0.051
+     ],
+     [
+      "a christmas tree",
+      0.048
+     ],
+     [
+      "a leaf filled tree",
+      0.045
+     ],
+     [
+      "the park",
+      0.045
+     ],
+     [
+      "a park",
+      0.044
+     ],
+     [
+      "lots",
+      0.043
+     ]
+    ],
+    "v_own-": [
+     [
+      "the new soccer field",
+      0.099
+     ],
+     [
+      "the huge football field",
+      0.099
+     ],
+     [
+      "a oval stadium",
+      0.097
+     ],
+     [
+      "a football pitch",
+      0.093
+     ],
+     [
+      "a standard football field",
+      0.091
+     ],
+     [
+      "two football fields",
+      0.091
+     ]
+    ],
+    "u_own+": [
+     [
+      "irregular khaki bareland",
+      0.107
+     ],
+     [
+      "the bareland",
+      0.096
+     ],
+     [
+      "khaki irregular bareland",
+      0.092
+     ],
+     [
+      "barelands",
+      0.083
+     ],
+     [
+      "the reddish brown bareland",
+      0.079
+     ],
+     [
+      "the large bareland",
+      0.079
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the curb",
+      0.072
+     ],
+     [
+      "the dirt",
+      0.06
+     ],
+     [
+      "the land",
+      0.057
+     ],
+     [
+      "the dark",
+      0.05
+     ],
+     [
+      "the rain",
+      0.05
+     ],
+     [
+      "grasses",
+      0.047
+     ]
+    ],
+    "u_own-": [
+     [
+      "a large playground",
+      0.201
+     ],
+     [
+      "a red church",
+      0.195
+     ],
+     [
+      "a gymnasium",
+      0.189
+     ],
+     [
+      "a playground",
+      0.188
+     ],
+     [
+      "a children's playground",
+      0.187
+     ],
+     [
+      "a church",
+      0.184
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a playground",
+      0.188
+     ],
+     [
+      "a church",
+      0.184
+     ],
+     [
+      "a red and white boat",
+      0.14
+     ],
+     [
+      "a blue and green tennis court",
+      0.136
+     ],
+     [
+      "a soccer field",
+      0.132
+     ],
+     [
+      "a white building",
+      0.131
+     ]
+    ],
+    "v_images+": [
+     "the ease of the road are surrounded by dark green trees and houses .",
+     "many buildings and green trees are close to a viaduct with a few cars.",
+     "four rows of white storage tanks are close to a few green trees.",
+     "many buildings and a large piece of meadow with several green trees are close to a complic"
+    ],
+    "v_images-": [
+     "Red and green football grounds are in the middle of the stadium.",
+     "a green football field was built in the stadium .",
+     "some buildings are around a stadium with some people ."
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.623,
+    "cos_uv": 0.31,
+    "specificity": 0.077,
+    "own_mean": 0.05,
+    "own_sd": 0.083,
+    "coco_mean": -0.027,
+    "v_own+": [
+     [
+      "four houses",
+      0.129
+     ],
+     [
+      "several teaching buildings",
+      0.125
+     ],
+     [
+      "the sparse residential area",
+      0.122
+     ],
+     [
+      "three buildings",
+      0.121
+     ],
+     [
+      "two red roof houses",
+      0.12
+     ],
+     [
+      "two cottages",
+      0.118
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a house",
+      0.095
+     ],
+     [
+      "the zoo",
+      0.095
+     ],
+     [
+      "a zoo",
+      0.094
+     ],
+     [
+      "the house",
+      0.087
+     ],
+     [
+      "old buildings",
+      0.078
+     ],
+     [
+      "some buildings",
+      0.074
+     ]
+    ],
+    "v_own-": [
+     [
+      "green wheat",
+      0.062
+     ],
+     [
+      "the turf",
+      0.058
+     ],
+     [
+      "dark turf",
+      0.057
+     ],
+     [
+      "greenland",
+      0.057
+     ],
+     [
+      "a green football field",
+      0.053
+     ],
+     [
+      "one stadium",
+      0.052
+     ]
+    ],
+    "u_own+": [
+     [
+      "two square buildings",
+      0.186
+     ],
+     [
+      "several scattered green trees",
+      0.186
+     ],
+     [
+      "several green buildings",
+      0.185
+     ],
+     [
+      "different green buildings",
+      0.176
+     ],
+     [
+      "two buildings",
+      0.175
+     ],
+     [
+      "two green trees",
+      0.174
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an office building",
+      0.149
+     ],
+     [
+      "a city street",
+      0.136
+     ],
+     [
+      "two pizzas",
+      0.134
+     ],
+     [
+      "a city sidewalk",
+      0.131
+     ],
+     [
+      "some buildings",
+      0.126
+     ],
+     [
+      "tall buildings",
+      0.126
+     ]
+    ],
+    "u_own-": [
+     [
+      "the platform",
+      0.095
+     ],
+     [
+      "the bleachers",
+      0.092
+     ],
+     [
+      "the brown field",
+      0.083
+     ],
+     [
+      "the ground track field",
+      0.083
+     ],
+     [
+      "bleachers",
+      0.067
+     ],
+     [
+      "the railway",
+      0.064
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the snow",
+      0.069
+     ],
+     [
+      "bleachers",
+      0.067
+     ],
+     [
+      "the wall",
+      0.063
+     ],
+     [
+      "the tracks",
+      0.062
+     ],
+     [
+      "her shoulder",
+      0.062
+     ],
+     [
+      "tracks",
+      0.061
+     ]
+    ],
+    "v_images+": [
+     "two buildings with swimming pool are surrounded by many green and scattered trees.",
+     "there are two houses with a swimming pool surrounded by woods and a straight road in front",
+     "a house with swimming poor was surrounded by dense woods .",
+     "a building is surrounded by green trees and meadows ."
+    ],
+    "v_images-": [
+     "an oval stadium is located close to several green trees and cars.",
+     "Some green trees are close to an oval stage.",
+     "a large stadium is close to several parking lots."
+    ]
+   }
+  ]
+ },
+ "setw/Wt": {
+  "frob": 3.747,
+  "energy_top8": 0.377,
+  "energy_top16": 0.561,
+  "top_s": [
+   1.035,
+   0.921,
+   0.848,
+   0.81,
+   0.739,
+   0.705,
+   0.697,
+   0.681,
+   0.651,
+   0.624,
+   0.589,
+   0.571,
+   0.536,
+   0.531,
+   0.522,
+   0.511
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.035,
+    "cos_uv": -0.34,
+    "specificity": 0.125,
+    "own_mean": 0.366,
+    "own_sd": 0.099,
+    "coco_mean": 0.241,
+    "v_own+": [
+     [
+      "several scattered green trees",
+      0.368
+     ],
+     [
+      "many green and scattered trees",
+      0.357
+     ],
+     [
+      "many scattered green trees",
+      0.352
+     ],
+     [
+      "several green buildings",
+      0.344
+     ],
+     [
+      "some green and scattered trees",
+      0.343
+     ],
+     [
+      "several white buildings",
+      0.34
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an empty train station",
+      0.319
+     ],
+     [
+      "a busy city street",
+      0.307
+     ],
+     [
+      "a blue and green tennis court",
+      0.3
+     ],
+     [
+      "a city sidewalk",
+      0.294
+     ],
+     [
+      "a train yard",
+      0.291
+     ],
+     [
+      "a city street",
+      0.29
+     ]
+    ],
+    "v_own-": [
+     [
+      "front",
+      -0.025
+     ],
+     [
+      "traverses",
+      -0.042
+     ],
+     [
+      "many sands",
+      -0.043
+     ],
+     [
+      "order",
+      -0.044
+     ],
+     [
+      "patterns",
+      -0.045
+     ],
+     [
+      "others",
+      -0.045
+     ]
+    ],
+    "u_own+": [
+     [
+      "many sands",
+      -0.398
+     ],
+     [
+      "grey white desert",
+      -0.401
+     ],
+     [
+      "four white globular objects",
+      -0.402
+     ],
+     [
+      "a red badminton court",
+      -0.415
+     ],
+     [
+      "the top yellow spray",
+      -0.421
+     ],
+     [
+      "irregular khaki bareland",
+      -0.425
+     ]
+    ],
+    "u_coco+": [
+     [
+      "four men",
+      -0.418
+     ],
+     [
+      "an umpire",
+      -0.419
+     ],
+     [
+      "mustard",
+      -0.433
+     ],
+     [
+      "an orange frisbee",
+      -0.436
+     ],
+     [
+      "the tray",
+      -0.437
+     ],
+     [
+      "a red and white boat",
+      -0.438
+     ]
+    ],
+    "u_own-": [
+     [
+      "a dense residential area",
+      0.707
+     ],
+     [
+      "a densely populated area",
+      0.692
+     ],
+     [
+      "the dense residential area",
+      0.691
+     ],
+     [
+      "dense residential area",
+      0.689
+     ],
+     [
+      "this dense residential area",
+      0.688
+     ],
+     [
+      "many buildings",
+      0.685
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a busy city street",
+      0.652
+     ],
+     [
+      "some buildings",
+      0.639
+     ],
+     [
+      "city",
+      0.634
+     ],
+     [
+      "a town",
+      0.634
+     ],
+     [
+      "a city street",
+      0.633
+     ],
+     [
+      "the city",
+      0.628
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.921,
+    "cos_uv": 0.19,
+    "specificity": 0.139,
+    "own_mean": 0.213,
+    "own_sd": 0.081,
+    "coco_mean": 0.073,
+    "v_own+": [
+     [
+      "a dense residential area",
+      0.258
+     ],
+     [
+      "dense residential area",
+      0.249
+     ],
+     [
+      "this dense residential area",
+      0.242
+     ],
+     [
+      "dense residential areas",
+      0.24
+     ],
+     [
+      "the dense residential area",
+      0.237
+     ],
+     [
+      "a densely populated area",
+      0.237
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the city",
+      0.197
+     ],
+     [
+      "a town",
+      0.195
+     ],
+     [
+      "city",
+      0.186
+     ],
+     [
+      "some buildings",
+      0.182
+     ],
+     [
+      "tall buildings",
+      0.168
+     ],
+     [
+      "the cityscape",
+      0.167
+     ]
+    ],
+    "v_own-": [
+     [
+      "four white globular objects",
+      0.052
+     ],
+     [
+      "two white cars",
+      0.033
+     ],
+     [
+      "four white storage tanks",
+      0.012
+     ],
+     [
+      "three cars",
+      0.01
+     ],
+     [
+      "a white awning",
+      0.007
+     ],
+     [
+      "yellow bareland",
+      0.004
+     ]
+    ],
+    "u_own+": [
+     [
+      "dense residential area",
+      -0.264
+     ],
+     [
+      "crowded houses",
+      -0.264
+     ],
+     [
+      "the residents",
+      -0.273
+     ],
+     [
+      "dense houses",
+      -0.273
+     ],
+     [
+      "dense residential areas",
+      -0.274
+     ],
+     [
+      "a densely populated area",
+      -0.276
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the wild",
+      -0.285
+     ],
+     [
+      "the zoo",
+      -0.29
+     ],
+     [
+      "mustard",
+      -0.297
+     ],
+     [
+      "the hood",
+      -0.308
+     ],
+     [
+      "a picture",
+      -0.308
+     ],
+     [
+      "an office cubicle",
+      -0.311
+     ]
+    ],
+    "u_own-": [
+     [
+      "a large lawn",
+      0.478
+     ],
+     [
+      "a green soccer field",
+      0.465
+     ],
+     [
+      "a soccer field",
+      0.462
+     ],
+     [
+      "a green field",
+      0.462
+     ],
+     [
+      "a large football field",
+      0.456
+     ],
+     [
+      "some sparse green trees",
+      0.454
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a grass yard area",
+      0.483
+     ],
+     [
+      "a grassy area",
+      0.483
+     ],
+     [
+      "a dirt field",
+      0.483
+     ],
+     [
+      "a grassy field",
+      0.48
+     ],
+     [
+      "a grass field",
+      0.476
+     ],
+     [
+      "an open field",
+      0.475
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.848,
+    "cos_uv": 0.31,
+    "specificity": 0.003,
+    "own_mean": -0.023,
+    "own_sd": 0.061,
+    "coco_mean": -0.026,
+    "v_own+": [
+     [
+      "school buildings",
+      0.106
+     ],
+     [
+      "a school",
+      0.104
+     ],
+     [
+      "many orderly green trees",
+      0.099
+     ],
+     [
+      "many crowded green trees",
+      0.098
+     ],
+     [
+      "many green trees",
+      0.092
+     ],
+     [
+      "many dark green trees",
+      0.092
+     ]
+    ],
+    "v_coco+": [
+     [
+      "snowy trees",
+      0.091
+     ],
+     [
+      "a school bus",
+      0.088
+     ],
+     [
+      "a lush green forest",
+      0.071
+     ],
+     [
+      "a red brick building",
+      0.068
+     ],
+     [
+      "a brick building",
+      0.066
+     ],
+     [
+      "a black and white picture",
+      0.062
+     ]
+    ],
+    "v_own-": [
+     [
+      "the basketball court",
+      0.131
+     ],
+     [
+      "a baksetball court",
+      0.127
+     ],
+     [
+      "a few basketball courts",
+      0.125
+     ],
+     [
+      "two basketball courts",
+      0.12
+     ],
+     [
+      "the basketball courts",
+      0.114
+     ],
+     [
+      "several tennis and basketball courts",
+      0.108
+     ]
+    ],
+    "u_own+": [
+     [
+      "bustling streets",
+      0.176
+     ],
+     [
+      "a deep green lush forest",
+      0.175
+     ],
+     [
+      "dense buildings",
+      0.175
+     ],
+     [
+      "dense residential area",
+      0.171
+     ],
+     [
+      "big white waves",
+      0.168
+     ],
+     [
+      "dense houses",
+      0.168
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a lush green forest",
+      0.168
+     ],
+     [
+      "a busy city street",
+      0.166
+     ],
+     [
+      "a modern bathroom",
+      0.161
+     ],
+     [
+      "a white refrigerator freezer",
+      0.157
+     ],
+     [
+      "a busy street",
+      0.157
+     ],
+     [
+      "a metallic refrigerator freezer",
+      0.156
+     ]
+    ],
+    "u_own-": [
+     [
+      "this exercise yard",
+      -0.022
+     ],
+     [
+      "a red badminton court",
+      -0.027
+     ],
+     [
+      "this bald playground",
+      -0.028
+     ],
+     [
+      "two playgrounds",
+      -0.029
+     ],
+     [
+      "this playground",
+      -0.034
+     ],
+     [
+      "three playgrounds",
+      -0.035
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a vehicle",
+      -0.022
+     ],
+     [
+      "a picture",
+      -0.03
+     ],
+     [
+      "a small bridge",
+      -0.043
+     ],
+     [
+      "a ramp",
+      -0.046
+     ],
+     [
+      "the dock",
+      -0.046
+     ],
+     [
+      "a dugout",
+      -0.046
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.81,
+    "cos_uv": 0.51,
+    "specificity": 0.044,
+    "own_mean": 0.026,
+    "own_sd": 0.056,
+    "coco_mean": -0.018,
+    "v_own+": [
+     [
+      "gray roofs",
+      0.14
+     ],
+     [
+      "green roofs",
+      0.139
+     ],
+     [
+      "grey roofs",
+      0.137
+     ],
+     [
+      "grey roof houses",
+      0.129
+     ],
+     [
+      "covered grey houses",
+      0.125
+     ],
+     [
+      "green roof",
+      0.124
+     ]
+    ],
+    "v_coco+": [
+     [
+      "sidewalk",
+      0.095
+     ],
+     [
+      "bushes",
+      0.087
+     ],
+     [
+      "some trees",
+      0.086
+     ],
+     [
+      "greens",
+      0.084
+     ],
+     [
+      "green grass",
+      0.083
+     ],
+     [
+      "trees",
+      0.08
+     ]
+    ],
+    "v_own-": [
+     [
+      "a large playground",
+      0.147
+     ],
+     [
+      "a huge playground",
+      0.143
+     ],
+     [
+      "a rectangular playground",
+      0.143
+     ],
+     [
+      "the playground",
+      0.124
+     ],
+     [
+      "a children's playground",
+      0.123
+     ],
+     [
+      "a playground",
+      0.122
+     ]
+    ],
+    "u_own+": [
+     [
+      "two red roof houses",
+      0.007
+     ],
+     [
+      "the houses",
+      0.007
+     ],
+     [
+      "red roof houses",
+      0.004
+     ],
+     [
+      "several scattered green trees",
+      0.003
+     ],
+     [
+      "the villas",
+      0.002
+     ],
+     [
+      "covered blue houses",
+      0.002
+     ]
+    ],
+    "u_coco+": [
+     [
+      "bushes",
+      -0.01
+     ],
+     [
+      "trees",
+      -0.014
+     ],
+     [
+      "a green grass covered field",
+      -0.017
+     ],
+     [
+      "the trees",
+      -0.019
+     ],
+     [
+      "some trees",
+      -0.02
+     ],
+     [
+      "directions",
+      -0.02
+     ]
+    ],
+    "u_own-": [
+     [
+      "an oval stadium",
+      0.244
+     ],
+     [
+      "a oval stadium",
+      0.243
+     ],
+     [
+      "an oval football field",
+      0.24
+     ],
+     [
+      "a smart oval stadium",
+      0.238
+     ],
+     [
+      "an old football field",
+      0.23
+     ],
+     [
+      "a football playground",
+      0.23
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a soccer field",
+      0.205
+     ],
+     [
+      "a soccer ball",
+      0.198
+     ],
+     [
+      "a baseball field",
+      0.188
+     ],
+     [
+      "a snowy field",
+      0.184
+     ],
+     [
+      "a baseball game",
+      0.183
+     ],
+     [
+      "a baseball",
+      0.18
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.739,
+    "cos_uv": 0.39,
+    "specificity": 0.007,
+    "own_mean": 0.077,
+    "own_sd": 0.04,
+    "coco_mean": 0.07,
+    "v_own+": [
+     [
+      "a white church",
+      0.222
+     ],
+     [
+      "the white church",
+      0.207
+     ],
+     [
+      "a cyan church",
+      0.197
+     ],
+     [
+      "the church",
+      0.195
+     ],
+     [
+      "a cross shaped church",
+      0.19
+     ],
+     [
+      "a white central building",
+      0.185
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a church",
+      0.184
+     ],
+     [
+      "a white building",
+      0.177
+     ],
+     [
+      "a tall church tower",
+      0.173
+     ],
+     [
+      "a white clock tower",
+      0.157
+     ],
+     [
+      "a tall building",
+      0.149
+     ],
+     [
+      "a tall clock tower",
+      0.147
+     ]
+    ],
+    "v_own-": [
+     [
+      "barelands",
+      0.081
+     ],
+     [
+      "bareland",
+      0.075
+     ],
+     [
+      "the bareland",
+      0.062
+     ],
+     [
+      "many bareland",
+      0.061
+     ],
+     [
+      "bare earth",
+      0.061
+     ],
+     [
+      "bald land",
+      0.057
+     ]
+    ],
+    "u_own+": [
+     [
+      "three large white storage tanks",
+      0.014
+     ],
+     [
+      "two gray roof houses",
+      0.002
+     ],
+     [
+      "a cyan church",
+      -0.002
+     ],
+     [
+      "two white storage tanks",
+      -0.005
+     ],
+     [
+      "three storage tanks",
+      -0.006
+     ],
+     [
+      "two boats",
+      -0.008
+     ]
+    ],
+    "u_coco+": [
+     [
+      "two pizzas",
+      -0.007
+     ],
+     [
+      "two hot dogs",
+      -0.022
+     ],
+     [
+      "a church",
+      -0.027
+     ],
+     [
+      "the shower",
+      -0.029
+     ],
+     [
+      "two apples",
+      -0.031
+     ],
+     [
+      "three windows",
+      -0.034
+     ]
+    ],
+    "u_own-": [
+     [
+      "wasteland",
+      0.209
+     ],
+     [
+      "bare lands",
+      0.203
+     ],
+     [
+      "a ground track field",
+      0.193
+     ],
+     [
+      "bare land",
+      0.192
+     ],
+     [
+      "bald land",
+      0.192
+     ],
+     [
+      "soccer fields",
+      0.191
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a dry grass field",
+      0.185
+     ],
+     [
+      "a dirt field",
+      0.185
+     ],
+     [
+      "dry grass",
+      0.174
+     ],
+     [
+      "land",
+      0.169
+     ],
+     [
+      "the land",
+      0.167
+     ],
+     [
+      "a dirt road",
+      0.165
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.705,
+    "cos_uv": 0.35,
+    "specificity": 0.016,
+    "own_mean": -0.012,
+    "own_sd": 0.055,
+    "coco_mean": -0.028,
+    "v_own+": [
+     [
+      "the white roof",
+      0.181
+     ],
+     [
+      "the grey roof",
+      0.16
+     ],
+     [
+      "the round white building",
+      0.144
+     ],
+     [
+      "the red roof",
+      0.144
+     ],
+     [
+      "the lush forest",
+      0.144
+     ],
+     [
+      "the viaduct",
+      0.142
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the hill",
+      0.134
+     ],
+     [
+      "the woods",
+      0.132
+     ],
+     [
+      "the snow",
+      0.132
+     ],
+     [
+      "the car",
+      0.125
+     ],
+     [
+      "the hood",
+      0.125
+     ],
+     [
+      "the forest",
+      0.122
+     ]
+    ],
+    "v_own-": [
+     [
+      "a commercial area",
+      0.15
+     ],
+     [
+      "many commercial buildings",
+      0.128
+     ],
+     [
+      "some commercial buildings",
+      0.127
+     ],
+     [
+      "three basketball courts",
+      0.119
+     ],
+     [
+      "three basketball fields",
+      0.113
+     ],
+     [
+      "office buildings",
+      0.112
+     ]
+    ],
+    "u_own+": [
+     [
+      "a circle-shaped viaduct",
+      0.194
+     ],
+     [
+      "an almost circle large pond",
+      0.19
+     ],
+     [
+      "this lush green forest",
+      0.179
+     ],
+     [
+      "this green forest",
+      0.178
+     ],
+     [
+      "this deep green forest",
+      0.177
+     ],
+     [
+      "the storage tank",
+      0.177
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the forest",
+      0.175
+     ],
+     [
+      "a lush green forest",
+      0.169
+     ],
+     [
+      "the track",
+      0.166
+     ],
+     [
+      "the dock",
+      0.163
+     ],
+     [
+      "the park",
+      0.16
+     ],
+     [
+      "lake",
+      0.156
+     ]
+    ],
+    "u_own-": [
+     [
+      "three buildings",
+      0.049
+     ],
+     [
+      "several red buildings",
+      0.04
+     ],
+     [
+      "a few square buildings",
+      0.037
+     ],
+     [
+      "two square buildings",
+      0.035
+     ],
+     [
+      "many gray black buildings",
+      0.034
+     ],
+     [
+      "two red roof houses",
+      0.033
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a city sidewalk",
+      0.023
+     ],
+     [
+      "a busy city street",
+      0.02
+     ],
+     [
+      "a narrow street",
+      0.016
+     ],
+     [
+      "old buildings",
+      0.008
+     ],
+     [
+      "a city street",
+      0.004
+     ],
+     [
+      "a busy street",
+      -0.003
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.697,
+    "cos_uv": 0.37,
+    "specificity": 0.013,
+    "own_mean": -0.008,
+    "own_sd": 0.062,
+    "coco_mean": -0.021,
+    "v_own+": [
+     [
+      "a circle-shaped viaduct",
+      0.126
+     ],
+     [
+      "a diamand shaped viaduct",
+      0.124
+     ],
+     [
+      "a complicated viaduct",
+      0.109
+     ],
+     [
+      "several barelands",
+      0.107
+     ],
+     [
+      "many khaki buildings",
+      0.106
+     ],
+     [
+      "khaki irregular bareland",
+      0.106
+     ]
+    ],
+    "v_coco+": [
+     [
+      "two planes",
+      0.063
+     ],
+     [
+      "two slices",
+      0.056
+     ],
+     [
+      "a brick building",
+      0.054
+     ],
+     [
+      "some buildings",
+      0.05
+     ],
+     [
+      "street signs",
+      0.048
+     ],
+     [
+      "tall buildings",
+      0.045
+     ]
+    ],
+    "v_own-": [
+     [
+      "a green playground",
+      0.154
+     ],
+     [
+      "a children's playground",
+      0.135
+     ],
+     [
+      "a playground",
+      0.135
+     ],
+     [
+      "a red church",
+      0.133
+     ],
+     [
+      "playground",
+      0.125
+     ],
+     [
+      "an old playground",
+      0.121
+     ]
+    ],
+    "u_own+": [
+     [
+      "a residential neighborhood",
+      0.145
+     ],
+     [
+      "dense residential area",
+      0.119
+     ],
+     [
+      "many residential houses",
+      0.118
+     ],
+     [
+      "a dense residential area",
+      0.116
+     ],
+     [
+      "grey white desert",
+      0.114
+     ],
+     [
+      "yellow desert",
+      0.114
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an intersection",
+      0.083
+     ],
+     [
+      "parked motorcycles",
+      0.077
+     ],
+     [
+      "unripe bananas",
+      0.074
+     ],
+     [
+      "doughnuts",
+      0.073
+     ],
+     [
+      "snowy trees",
+      0.069
+     ],
+     [
+      "an open refrigerator",
+      0.067
+     ]
+    ],
+    "u_own-": [
+     [
+      "the stadium",
+      0.095
+     ],
+     [
+      "a oval stadium",
+      0.092
+     ],
+     [
+      "this stadium",
+      0.089
+     ],
+     [
+      "an oval stadium",
+      0.088
+     ],
+     [
+      "a smart oval stadium",
+      0.088
+     ],
+     [
+      "one stadium",
+      0.084
+     ]
+    ],
+    "u_coco-": [
+     [
+      "line",
+      0.065
+     ],
+     [
+      "the track",
+      0.046
+     ],
+     [
+      "bleachers",
+      0.044
+     ],
+     [
+      "soccer",
+      0.044
+     ],
+     [
+      "a foot",
+      0.043
+     ],
+     [
+      "the side",
+      0.042
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.681,
+    "cos_uv": 0.37,
+    "specificity": 0.008,
+    "own_mean": 0.053,
+    "own_sd": 0.051,
+    "coco_mean": 0.045,
+    "v_own+": [
+     [
+      "the coner",
+      0.159
+     ],
+     [
+      "the large bareland",
+      0.144
+     ],
+     [
+      "the commercial",
+      0.14
+     ],
+     [
+      "the middle",
+      0.139
+     ],
+     [
+      "a circle-shaped viaduct",
+      0.139
+     ],
+     [
+      "the corner",
+      0.137
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the middle",
+      0.139
+     ],
+     [
+      "the corner",
+      0.137
+     ],
+     [
+      "an intersection",
+      0.115
+     ],
+     [
+      "a shop window",
+      0.103
+     ],
+     [
+      "stores",
+      0.101
+     ],
+     [
+      "a busy street",
+      0.101
+     ]
+    ],
+    "v_own-": [
+     [
+      "red roof houses",
+      0.089
+     ],
+     [
+      "white houses",
+      0.084
+     ],
+     [
+      "yellow covered houses",
+      0.082
+     ],
+     [
+      "some houses",
+      0.077
+     ],
+     [
+      "red covered houses",
+      0.077
+     ],
+     [
+      "several houses",
+      0.077
+     ]
+    ],
+    "u_own+": [
+     [
+      "the round square",
+      0.052
+     ],
+     [
+      "a central white oval building",
+      0.042
+     ],
+     [
+      "the round white building",
+      0.042
+     ],
+     [
+      "the circular square",
+      0.041
+     ],
+     [
+      "a round building",
+      0.039
+     ],
+     [
+      "the central square",
+      0.037
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the zoo",
+      0.013
+     ],
+     [
+      "a fountain",
+      0.012
+     ],
+     [
+      "the park",
+      0.007
+     ],
+     [
+      "the wild",
+      0.007
+     ],
+     [
+      "the court",
+      0.006
+     ],
+     [
+      "the forest",
+      0.004
+     ]
+    ],
+    "u_own-": [
+     [
+      "a green soccer field",
+      0.171
+     ],
+     [
+      "red and green football fields",
+      0.169
+     ],
+     [
+      "a green farmland",
+      0.161
+     ],
+     [
+      "a green football field",
+      0.156
+     ],
+     [
+      "two football fields",
+      0.142
+     ],
+     [
+      "a green field",
+      0.142
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green field",
+      0.142
+     ],
+     [
+      "a soccer field",
+      0.14
+     ],
+     [
+      "a factory",
+      0.139
+     ],
+     [
+      "a blue and green tennis court",
+      0.125
+     ],
+     [
+      "soccer",
+      0.124
+     ],
+     [
+      "a lush green field",
+      0.122
+     ]
+    ]
+   }
+  ]
+ },
+ "setw/Wi": {
+  "frob": 3.709,
+  "energy_top8": 0.367,
+  "energy_top16": 0.548,
+  "top_s": [
+   0.926,
+   0.903,
+   0.877,
+   0.799,
+   0.745,
+   0.708,
+   0.685,
+   0.66,
+   0.629,
+   0.619,
+   0.562,
+   0.555,
+   0.544,
+   0.535,
+   0.509,
+   0.507
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 0.926,
+    "cos_uv": 0.12,
+    "specificity": 0.183,
+    "own_mean": 0.227,
+    "own_sd": 0.075,
+    "coco_mean": 0.044,
+    "v_own+": [
+     [
+      "a densely populated area",
+      0.152
+     ],
+     [
+      "many densely populated areas",
+      0.141
+     ],
+     [
+      "densely populated areas",
+      0.131
+     ],
+     [
+      "dense residential area",
+      0.128
+     ],
+     [
+      "dense residential areas",
+      0.125
+     ],
+     [
+      "a dense residential area",
+      0.12
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a map",
+      0.094
+     ],
+     [
+      "city",
+      0.092
+     ],
+     [
+      "a town",
+      0.091
+     ],
+     [
+      "the city",
+      0.083
+     ],
+     [
+      "a picture",
+      0.08
+     ],
+     [
+      "a river",
+      0.079
+     ]
+    ],
+    "v_own-": [
+     [
+      "grey white desert",
+      0.04
+     ],
+     [
+      "a large lawn",
+      0.03
+     ],
+     [
+      "a yellow desert",
+      0.029
+     ],
+     [
+      "a desert",
+      0.029
+     ],
+     [
+      "many sands",
+      0.028
+     ],
+     [
+      "yellow desert",
+      0.027
+     ]
+    ],
+    "u_own+": [
+     [
+      "playgrounds",
+      -0.0
+     ],
+     [
+      "this playground",
+      -0.009
+     ],
+     [
+      "playground",
+      -0.01
+     ],
+     [
+      "a huge playground",
+      -0.012
+     ],
+     [
+      "the city",
+      -0.012
+     ],
+     [
+      "the neighborhood",
+      -0.013
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the zoo",
+      0.006
+     ],
+     [
+      "the wild",
+      -0.002
+     ],
+     [
+      "fun",
+      -0.005
+     ],
+     [
+      "video games",
+      -0.007
+     ],
+     [
+      "the city",
+      -0.012
+     ],
+     [
+      "kids",
+      -0.013
+     ]
+    ],
+    "u_own-": [
+     [
+      "a square bare ground",
+      0.228
+     ],
+     [
+      "two white cars",
+      0.221
+     ],
+     [
+      "four white globular objects",
+      0.212
+     ],
+     [
+      "three cars",
+      0.207
+     ],
+     [
+      "several scattered green trees",
+      0.205
+     ],
+     [
+      "yellow bare land",
+      0.197
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a white building",
+      0.186
+     ],
+     [
+      "two cars",
+      0.178
+     ],
+     [
+      "an intersection",
+      0.178
+     ],
+     [
+      "an airport tarmac",
+      0.175
+     ],
+     [
+      "a grassy area",
+      0.173
+     ],
+     [
+      "a brown building",
+      0.17
+     ]
+    ],
+    "v_images+": [
+     "many crowded buildings and a piece of green trees are around a playground .",
+     "a large playground and a small playground with two basketball fields next to it is surroun",
+     "a playground is surroundededed by many green trees and buildings .",
+     "three soccer fields can be seen on the map but almost every one is worn very seriously ."
+    ],
+    "v_images-": [
+     "it is a piece of yellow desert .",
+     "the big desert with white color seems very barren .",
+     "It's a piece of brazen yellow land."
+    ]
+   },
+   {
+    "k": 2,
+    "s": 0.903,
+    "cos_uv": -0.5,
+    "specificity": 0.262,
+    "own_mean": 0.412,
+    "own_sd": 0.063,
+    "coco_mean": 0.15,
+    "v_own+": [
+     [
+      "the sparse residential area",
+      0.131
+     ],
+     [
+      "several large parking lots",
+      0.129
+     ],
+     [
+      "three football courts",
+      0.125
+     ],
+     [
+      "many residential areas",
+      0.12
+     ],
+     [
+      "several large buildings",
+      0.119
+     ],
+     [
+      "three parking lots",
+      0.119
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a grass covered field",
+      0.11
+     ],
+     [
+      "a green grass covered field",
+      0.109
+     ],
+     [
+      "a field flying kites",
+      0.097
+     ],
+     [
+      "a dirt field",
+      0.094
+     ],
+     [
+      "a soccer field",
+      0.093
+     ],
+     [
+      "a large building",
+      0.093
+     ]
+    ],
+    "v_own-": [
+     [
+      "the turning",
+      0.027
+     ],
+     [
+      "a pony",
+      0.023
+     ],
+     [
+      "a ferris wheel",
+      0.017
+     ],
+     [
+      "wrinkles",
+      0.015
+     ],
+     [
+      "a star",
+      0.014
+     ],
+     [
+      "all sorts",
+      0.013
+     ]
+    ],
+    "u_own+": [
+     [
+      "green flowers",
+      0.054
+     ],
+     [
+      "grey ceilings",
+      0.048
+     ],
+     [
+      "light green color",
+      0.046
+     ],
+     [
+      "three pieces",
+      0.042
+     ],
+     [
+      "mountain khaki",
+      0.036
+     ],
+     [
+      "green wheat",
+      0.033
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a restaurant table",
+      0.056
+     ],
+     [
+      "zebra standing",
+      0.052
+     ],
+     [
+      "a large glass vase",
+      0.049
+     ],
+     [
+      "unripe bananas",
+      0.047
+     ],
+     [
+      "bags",
+      0.043
+     ],
+     [
+      "hats",
+      0.042
+     ]
+    ],
+    "u_own-": [
+     [
+      "this dense residential area",
+      0.142
+     ],
+     [
+      "many basketball fields",
+      0.137
+     ],
+     [
+      "the huge football field",
+      0.132
+     ],
+     [
+      "a dense industrial area",
+      0.132
+     ],
+     [
+      "a densely populated area",
+      0.132
+     ],
+     [
+      "a dense residential area",
+      0.131
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the park",
+      0.099
+     ],
+     [
+      "a baseball field",
+      0.096
+     ],
+     [
+      "a park",
+      0.094
+     ],
+     [
+      "a soccer field",
+      0.091
+     ],
+     [
+      "the city",
+      0.087
+     ],
+     [
+      "a map",
+      0.087
+     ]
+    ],
+    "v_images+": [
+     "several large buildings with parking lots are close to a road in a commercial area.",
+     "a row of tall buildings are located near a road in a commercial area.",
+     "Some buildings are located on both sides of a curved green river in a commercial area.",
+     "Several buildings are close to a piece of bare land."
+    ],
+    "v_images-": [
+     "five lines of boats are ordered in a port.",
+     "this piece of the forest is green and dense .",
+     "a big ship with white paint on its both side stop at shoreside ."
+    ]
+   },
+   {
+    "k": 3,
+    "s": 0.877,
+    "cos_uv": 0.26,
+    "specificity": 0.051,
+    "own_mean": 0.037,
+    "own_sd": 0.059,
+    "coco_mean": -0.014,
+    "v_own+": [
+     [
+      "three rectangular ponds",
+      0.066
+     ],
+     [
+      "two rectangular ponds",
+      0.066
+     ],
+     [
+      "an airport runway",
+      0.064
+     ],
+     [
+      "this railway station",
+      0.062
+     ],
+     [
+      "two baseball fields",
+      0.061
+     ],
+     [
+      "three planes",
+      0.06
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a vehicle",
+      0.07
+     ],
+     [
+      "an airport runway",
+      0.064
+     ],
+     [
+      "a picture",
+      0.063
+     ],
+     [
+      "an airport tarmac",
+      0.06
+     ],
+     [
+      "a snowy field",
+      0.058
+     ],
+     [
+      "a skateboard trick",
+      0.053
+     ]
+    ],
+    "v_own-": [
+     [
+      "a deep green lush forest",
+      0.085
+     ],
+     [
+      "lush forest",
+      0.076
+     ],
+     [
+      "green forest",
+      0.075
+     ],
+     [
+      "a lush forest",
+      0.074
+     ],
+     [
+      "the dense green forest",
+      0.07
+     ],
+     [
+      "dense woods",
+      0.067
+     ]
+    ],
+    "u_own+": [
+     [
+      "the basketball court",
+      0.147
+     ],
+     [
+      "two basketball courts",
+      0.142
+     ],
+     [
+      "three basketball courts",
+      0.14
+     ],
+     [
+      "a baksetball court",
+      0.135
+     ],
+     [
+      "a few basketball courts",
+      0.133
+     ],
+     [
+      "the basketball courts",
+      0.13
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an obstacle",
+      0.095
+     ],
+     [
+      "a ramp",
+      0.094
+     ],
+     [
+      "a dugout",
+      0.093
+     ],
+     [
+      "two slices",
+      0.092
+     ],
+     [
+      "the court",
+      0.087
+     ],
+     [
+      "a tennis court",
+      0.08
+     ]
+    ],
+    "u_own-": [
+     [
+      "many crowded green trees",
+      0.273
+     ],
+     [
+      "many dark green trees",
+      0.252
+     ],
+     [
+      "many green trees",
+      0.251
+     ],
+     [
+      "many scattered green trees",
+      0.243
+     ],
+     [
+      "many orderly green trees",
+      0.241
+     ],
+     [
+      "dark green trees",
+      0.234
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a lush green forest",
+      0.203
+     ],
+     [
+      "trees",
+      0.17
+     ],
+     [
+      "tall trees",
+      0.163
+     ],
+     [
+      "the trees",
+      0.144
+     ],
+     [
+      "a forest",
+      0.143
+     ],
+     [
+      "some trees",
+      0.143
+     ]
+    ],
+    "v_images+": [
+     "the football field is almost no turf, while the light of the tennis courts is completely b",
+     "on the side of the runway there is a pink and gray buildings while two planes are on the r",
+     "three jars locate on the side of a highway and one jar locate on another side .",
+     "what stand beside this straight road is several airplanes with red tail wings ."
+    ],
+    "v_images-": [
+     "a lot of green lawns are planted around the house .",
+     "many green trees and some buildings are around a pond in a seaside resort.",
+     "some buildings and many green trees are in a school ."
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.799,
+    "cos_uv": 0.09,
+    "specificity": 0.044,
+    "own_mean": 0.051,
+    "own_sd": 0.047,
+    "coco_mean": 0.007,
+    "v_own+": [
+     [
+      "a pentagon",
+      0.085
+     ],
+     [
+      "greenland",
+      0.079
+     ],
+     [
+      "the brown field",
+      0.073
+     ],
+     [
+      "brown roofs",
+      0.069
+     ],
+     [
+      "all sorts",
+      0.068
+     ],
+     [
+      "grey white desert",
+      0.068
+     ]
+    ],
+    "v_coco+": [
+     [
+      "his kite",
+      0.074
+     ],
+     [
+      "a brown bird",
+      0.073
+     ],
+     [
+      "unripe bananas",
+      0.069
+     ],
+     [
+      "two young boys",
+      0.068
+     ],
+     [
+      "the frame",
+      0.062
+     ],
+     [
+      "kites",
+      0.06
+     ]
+    ],
+    "v_own-": [
+     [
+      "the dense green forest",
+      0.091
+     ],
+     [
+      "this dark green lush forest",
+      0.09
+     ],
+     [
+      "many tropical green trees",
+      0.085
+     ],
+     [
+      "a deep green lush forest",
+      0.083
+     ],
+     [
+      "the dense forest",
+      0.081
+     ],
+     [
+      "many dense trees",
+      0.079
+     ]
+    ],
+    "u_own+": [
+     [
+      "many industrial buildings",
+      0.148
+     ],
+     [
+      "a bustling industrial area",
+      0.125
+     ],
+     [
+      "many yellow buildings",
+      0.118
+     ],
+     [
+      "some industrial buildings",
+      0.117
+     ],
+     [
+      "several white buildings",
+      0.116
+     ],
+     [
+      "several large buildings",
+      0.114
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a train yard",
+      0.108
+     ],
+     [
+      "a harbor",
+      0.082
+     ],
+     [
+      "a train station",
+      0.079
+     ],
+     [
+      "a town",
+      0.078
+     ],
+     [
+      "an airport",
+      0.078
+     ],
+     [
+      "a factory",
+      0.076
+     ]
+    ],
+    "u_own-": [
+     [
+      "the middle",
+      0.185
+     ],
+     [
+      "dense trees",
+      0.181
+     ],
+     [
+      "the forest",
+      0.18
+     ],
+     [
+      "the lush forest",
+      0.169
+     ],
+     [
+      "lush trees",
+      0.169
+     ],
+     [
+      "many dense trees",
+      0.164
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the middle",
+      0.185
+     ],
+     [
+      "the forest",
+      0.18
+     ],
+     [
+      "the trees",
+      0.17
+     ],
+     [
+      "the woods",
+      0.164
+     ],
+     [
+      "the tree",
+      0.162
+     ],
+     [
+      "tall trees",
+      0.156
+     ]
+    ],
+    "v_images+": [
+     "the airport covers a large area and has many planes .",
+     "a parking lot with several cars and a road are in two sides of a stadium .",
+     "Many buildings and some bare land are located in an industrial area.",
+     "some aircraft are close to several buildings with parking in an airport."
+    ],
+    "v_images-": [
+     "many green trees are in a forest .",
+     "many green trees form a piece of forest .",
+     "Many green trees are in a forest full of people."
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.745,
+    "cos_uv": 0.16,
+    "specificity": 0.08,
+    "own_mean": 0.111,
+    "own_sd": 0.074,
+    "coco_mean": 0.031,
+    "v_own+": [
+     [
+      "a ploygon terminal building",
+      0.094
+     ],
+     [
+      "runway",
+      0.081
+     ],
+     [
+      "two runways",
+      0.078
+     ],
+     [
+      "the bridge",
+      0.071
+     ],
+     [
+      "the runway",
+      0.066
+     ],
+     [
+      "a t_junction",
+      0.066
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a runway",
+      0.073
+     ],
+     [
+      "the runway",
+      0.066
+     ],
+     [
+      "an airport runway",
+      0.065
+     ],
+     [
+      "the track",
+      0.059
+     ],
+     [
+      "the airport",
+      0.058
+     ],
+     [
+      "the plane",
+      0.055
+     ]
+    ],
+    "v_own-": [
+     [
+      "dense buildings",
+      0.131
+     ],
+     [
+      "many grey houses",
+      0.129
+     ],
+     [
+      "many residential houses",
+      0.128
+     ],
+     [
+      "dense houses",
+      0.126
+     ],
+     [
+      "many tall buildings",
+      0.125
+     ],
+     [
+      "crowded buildings",
+      0.117
+     ]
+    ],
+    "u_own+": [
+     [
+      "a deep green lush forest",
+      0.075
+     ],
+     [
+      "many green and scattered trees",
+      0.074
+     ],
+     [
+      "a gray bridge",
+      0.068
+     ],
+     [
+      "several scattered green trees",
+      0.065
+     ],
+     [
+      "many scattered green trees",
+      0.065
+     ],
+     [
+      "a white car",
+      0.063
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a green motorcycle",
+      0.072
+     ],
+     [
+      "an empty train station",
+      0.071
+     ],
+     [
+      "a red train",
+      0.065
+     ],
+     [
+      "a white boat",
+      0.06
+     ],
+     [
+      "a green grass covered field",
+      0.059
+     ],
+     [
+      "a train yard",
+      0.058
+     ]
+    ],
+    "u_own-": [
+     [
+      "many commercial buildings",
+      0.209
+     ],
+     [
+      "school buildings",
+      0.198
+     ],
+     [
+      "teaching buildings",
+      0.197
+     ],
+     [
+      "office buildings",
+      0.196
+     ],
+     [
+      "many teaching buildings",
+      0.186
+     ],
+     [
+      "some commercial buildings",
+      0.185
+     ]
+    ],
+    "u_coco-": [
+     [
+      "tall buildings",
+      0.156
+     ],
+     [
+      "a brick building",
+      0.143
+     ],
+     [
+      "an office cubicle",
+      0.136
+     ],
+     [
+      "a cluster",
+      0.132
+     ],
+     [
+      "buildings",
+      0.13
+     ],
+     [
+      "old buildings",
+      0.13
+     ]
+    ],
+    "v_images+": [
+     "the park has a beautiful environment, with lush trees and a large playground not far away ",
+     "large playground next to a road is near a river with two bridges .",
+     "the baseball field field is surrounded by dark green trees .",
+     "a bridge is on a river near many green plants ."
+    ],
+    "v_images-": [
+     "there is nothing in the desert and it is very dry .",
+     "northwest of the school to a large forest, the south has several wetlands and teaching bui",
+     "Many buildings are located in a commercial area."
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.708,
+    "cos_uv": 0.23,
+    "specificity": 0.004,
+    "own_mean": -0.029,
+    "own_sd": 0.07,
+    "coco_mean": -0.033,
+    "v_own+": [
+     [
+      "the curved yellow river",
+      0.107
+     ],
+     [
+      "a sinuous yellow river",
+      0.099
+     ],
+     [
+      "the yellow river",
+      0.095
+     ],
+     [
+      "wasteland",
+      0.093
+     ],
+     [
+      "a curved dirt road",
+      0.083
+     ],
+     [
+      "grey desert",
+      0.082
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a dirt road",
+      0.08
+     ],
+     [
+      "a dry grass field",
+      0.074
+     ],
+     [
+      "a dirt field",
+      0.072
+     ],
+     [
+      "a dirt ground",
+      0.069
+     ],
+     [
+      "a busy city street",
+      0.066
+     ],
+     [
+      "a horse drawn carriage",
+      0.059
+     ]
+    ],
+    "v_own-": [
+     [
+      "storagetanks",
+      0.071
+     ],
+     [
+      "three storage tanks",
+      0.07
+     ],
+     [
+      "two storage tanks",
+      0.069
+     ],
+     [
+      "two large storage tanks",
+      0.066
+     ],
+     [
+      "four storage tanks",
+      0.066
+     ],
+     [
+      "eight storage tanks",
+      0.066
+     ]
+    ],
+    "u_own+": [
+     [
+      "a playground",
+      0.202
+     ],
+     [
+      "an old playground",
+      0.198
+     ],
+     [
+      "a rectangular playground",
+      0.196
+     ],
+     [
+      "a large playground",
+      0.191
+     ],
+     [
+      "a children's playground",
+      0.181
+     ],
+     [
+      "this bald playground",
+      0.174
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a playground",
+      0.202
+     ],
+     [
+      "a park",
+      0.155
+     ],
+     [
+      "a skate park",
+      0.147
+     ],
+     [
+      "a park bench",
+      0.138
+     ],
+     [
+      "a curb",
+      0.137
+     ],
+     [
+      "a toddler",
+      0.129
+     ]
+    ],
+    "u_own-": [
+     [
+      "the white roof",
+      0.104
+     ],
+     [
+      "the white church",
+      0.101
+     ],
+     [
+      "the round white building",
+      0.092
+     ],
+     [
+      "white roofs",
+      0.084
+     ],
+     [
+      "a round white building",
+      0.081
+     ],
+     [
+      "white roof",
+      0.08
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a white building",
+      0.056
+     ],
+     [
+      "the house",
+      0.054
+     ],
+     [
+      "a white clock tower",
+      0.052
+     ],
+     [
+      "the building",
+      0.043
+     ],
+     [
+      "a tall church tower",
+      0.034
+     ],
+     [
+      "the car",
+      0.032
+     ]
+    ],
+    "v_images+": [
+     "a large playground is surrounded by many trees and houses .",
+     "the rectanguale park with a pond next to a tract of dense buildings is at the river .",
+     "a building with blue roof sits at the coner of this park with lush trees and a pond .",
+     "this dense residential area surrounds the park with a green pond ."
+    ],
+    "v_images-": [
+     "a building with two cars is surrounded by green trees and meadows .",
+     "There's a speedboat sailing out of the port of ploygon waving white sea spray behind.",
+     "a large number of tall trees were planted around the church ."
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.685,
+    "cos_uv": 0.24,
+    "specificity": 0.013,
+    "own_mean": 0.008,
+    "own_sd": 0.07,
+    "coco_mean": -0.004,
+    "v_own+": [
+     [
+      "the teaching building",
+      0.09
+     ],
+     [
+      "a long blue building",
+      0.084
+     ],
+     [
+      "the roof",
+      0.08
+     ],
+     [
+      "green roof",
+      0.079
+     ],
+     [
+      "a teaching building",
+      0.079
+     ],
+     [
+      "the grey roof",
+      0.078
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a blue and green tennis court",
+      0.089
+     ],
+     [
+      "a narrow street",
+      0.082
+     ],
+     [
+      "three windows",
+      0.075
+     ],
+     [
+      "two windows",
+      0.073
+     ],
+     [
+      "a shop window",
+      0.071
+     ],
+     [
+      "two slices",
+      0.07
+     ]
+    ],
+    "v_own-": [
+     [
+      "irregular khaki bareland",
+      0.054
+     ],
+     [
+      "this park",
+      0.05
+     ],
+     [
+      "wasteland",
+      0.049
+     ],
+     [
+      "yellow bareland",
+      0.048
+     ],
+     [
+      "a residential neighborhood",
+      0.048
+     ],
+     [
+      "mounds",
+      0.047
+     ]
+    ],
+    "u_own+": [
+     [
+      "a red church",
+      0.178
+     ],
+     [
+      "a church",
+      0.176
+     ],
+     [
+      "two large buildings",
+      0.17
+     ],
+     [
+      "a cross shaped church",
+      0.162
+     ],
+     [
+      "a large playground",
+      0.161
+     ],
+     [
+      "a gymnasium",
+      0.159
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a church",
+      0.176
+     ],
+     [
+      "a playground",
+      0.145
+     ],
+     [
+      "an office building",
+      0.123
+     ],
+     [
+      "a tall building",
+      0.121
+     ],
+     [
+      "a blue and green tennis court",
+      0.121
+     ],
+     [
+      "a large building",
+      0.12
+     ]
+    ],
+    "u_own-": [
+     [
+      "irregular khaki bareland",
+      0.123
+     ],
+     [
+      "the bareland",
+      0.122
+     ],
+     [
+      "khaki irregular bareland",
+      0.109
+     ],
+     [
+      "barelands",
+      0.109
+     ],
+     [
+      "the reddish brown bareland",
+      0.108
+     ],
+     [
+      "the yellow bare earth",
+      0.102
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the curb",
+      0.088
+     ],
+     [
+      "the dirt",
+      0.084
+     ],
+     [
+      "the land",
+      0.078
+     ],
+     [
+      "the dark",
+      0.068
+     ],
+     [
+      "the rain",
+      0.066
+     ],
+     [
+      "tail",
+      0.065
+     ]
+    ],
+    "v_images+": [
+     "a church is near a river .",
+     "Some cars are close to a stadium.",
+     "a church is close to several green trees and a road with a few cars.",
+     "many buildings are in a school near a road ."
+    ],
+    "v_images-": [
+     "many white storage tanks are together .",
+     "four rows of white storage tanks are close to a few green trees.",
+     "Cylinder storage tanks are built on two square concrete grounds near some trees and a park"
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.66,
+    "cos_uv": 0.18,
+    "specificity": 0.088,
+    "own_mean": 0.074,
+    "own_sd": 0.078,
+    "coco_mean": -0.014,
+    "v_own+": [
+     [
+      "several teaching buildings",
+      0.139
+     ],
+     [
+      "four houses",
+      0.133
+     ],
+     [
+      "three buildings",
+      0.129
+     ],
+     [
+      "several small buildings",
+      0.126
+     ],
+     [
+      "a few small buildings",
+      0.117
+     ],
+     [
+      "some apartment buildings",
+      0.117
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the zoo",
+      0.107
+     ],
+     [
+      "a zoo",
+      0.106
+     ],
+     [
+      "a house",
+      0.092
+     ],
+     [
+      "old buildings",
+      0.09
+     ],
+     [
+      "a curb",
+      0.084
+     ],
+     [
+      "some buildings",
+      0.084
+     ]
+    ],
+    "v_own-": [
+     [
+      "one stadium",
+      0.054
+     ],
+     [
+      "a green soccer field",
+      0.053
+     ],
+     [
+      "the turf",
+      0.053
+     ],
+     [
+      "the huge football field",
+      0.052
+     ],
+     [
+      "a large football field",
+      0.052
+     ],
+     [
+      "a vast ocean",
+      0.049
+     ]
+    ],
+    "u_own+": [
+     [
+      "a commercial area",
+      0.142
+     ],
+     [
+      "two square buildings",
+      0.142
+     ],
+     [
+      "many commercial buildings",
+      0.137
+     ],
+     [
+      "some commercial buildings",
+      0.137
+     ],
+     [
+      "a small curved wild road",
+      0.135
+     ],
+     [
+      "different green buildings",
+      0.131
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an office building",
+      0.121
+     ],
+     [
+      "two pizzas",
+      0.109
+     ],
+     [
+      "a green grass covered field",
+      0.099
+     ],
+     [
+      "tall buildings",
+      0.099
+     ],
+     [
+      "a grass covered field",
+      0.094
+     ],
+     [
+      "some bushes",
+      0.092
+     ]
+    ],
+    "u_own-": [
+     [
+      "the platform",
+      0.09
+     ],
+     [
+      "the bleachers",
+      0.082
+     ],
+     [
+      "bleachers",
+      0.078
+     ],
+     [
+      "the red roof",
+      0.078
+     ],
+     [
+      "a red track",
+      0.073
+     ],
+     [
+      "the brown roof",
+      0.072
+     ]
+    ],
+    "u_coco-": [
+     [
+      "bleachers",
+      0.078
+     ],
+     [
+      "the snow",
+      0.071
+     ],
+     [
+      "her shoulder",
+      0.063
+     ],
+     [
+      "a red train",
+      0.062
+     ],
+     [
+      "a dugout",
+      0.06
+     ],
+     [
+      "tracks",
+      0.058
+     ]
+    ],
+    "v_images+": [
+     "many green trees and buildings are in a school .",
+     "a building is surrounded by green trees and meadows .",
+     "a building is surrounded by many green trees .",
+     "two buildings with swimming pool are surrounded by many green and scattered trees."
+    ],
+    "v_images-": [
+     "a football field is located in a white stage in the shape of a track.",
+     "Some green trees are close to an oval stage.",
+     "a football field is located in the middle of a white oval stadium."
+    ]
+   }
+  ]
+ }
+}

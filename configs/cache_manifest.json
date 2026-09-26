@@ -1,0 +1,413 @@
+{
+ "cells": [
+  {
+   "collection": "coco",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "coco/clip-vitl14-laion2b.npz",
+   "bytes": 173012838,
+   "sha256": "efb7a4ad42443a09339ff2db3cfb2d3b02f3999436a7dc4d78f3b7fb79b282eb"
+  },
+  {
+   "collection": "coco",
+   "encoder": "metaclip2-ww-huge",
+   "path": "coco/metaclip2-ww-huge.npz",
+   "bytes": 230356830,
+   "sha256": "40b635abfb8718a6499b5f9329b8072aa5c027fd5858d26ff7461e53f66bba0e"
+  },
+  {
+   "collection": "coco",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "coco/siglip2-so400m-16-384.npz",
+   "bytes": 259019296,
+   "sha256": "8a79d05ba29d4fc62703556ea6732310832e1442db9ee0ca0f70b76618e8df54"
+  },
+  {
+   "collection": "coco",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "coco/siglipv1-so400m-14-384.npz",
+   "bytes": 259028834,
+   "sha256": "7be5b20d056d3d59215e9cb6b15895fff00d9bab38d917d723b99239a8eb835f"
+  },
+  {
+   "collection": "facad",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "facad/clip-vitl14-laion2b.npz",
+   "bytes": 77253633,
+   "sha256": "dcec5345e4f869fcf4b812ee6dda7d1f672ee9935cf8342eca74b35df1affbca"
+  },
+  {
+   "collection": "facad",
+   "encoder": "fashionclip",
+   "path": "facad/fashionclip.npz",
+   "bytes": 51649337,
+   "sha256": "06e680abcbe985c8b3eecacc7cc0a02c1e0721a181bce873841e4f0fb1e546a1"
+  },
+  {
+   "collection": "facad",
+   "encoder": "marqo-fashionsiglip",
+   "path": "facad/marqo-fashionsiglip.npz",
+   "bytes": 77253585,
+   "sha256": "98c1a0522bb6b9d3f6eccd9d84ea9047df10d5470ce9c9dade903af2db3881d2"
+  },
+  {
+   "collection": "facad",
+   "encoder": "metaclip2-ww-huge",
+   "path": "facad/metaclip2-ww-huge.npz",
+   "bytes": 102857721,
+   "sha256": "8bb1b0fc6fc4a948b4bb18d6362ec2be9aad74b7b16a405ac6e65ed141943729"
+  },
+  {
+   "collection": "facad",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "facad/siglip2-so400m-16-384.npz",
+   "bytes": 115659485,
+   "sha256": "e196e0726bee7cbd4fdeb573e55d69ed175d3fdb9d7c5c20d3f0a9a3ff36862c"
+  },
+  {
+   "collection": "facad",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "facad/siglipv1-so400m-14-384.npz",
+   "bytes": 115659773,
+   "sha256": "ebc4dc461c8beff2cd253287054aef329a10f253e758656718fe76c742135a19"
+  },
+  {
+   "collection": "fashion200k",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "fashion200k/clip-vitl14-laion2b.npz",
+   "bytes": 370459431,
+   "sha256": "92a9caa737cea5490849d2c8fd1224130361d90c8cda99593ea3b62d3ee481ac"
+  },
+  {
+   "collection": "fashion200k",
+   "encoder": "fashionclip",
+   "path": "fashion200k/fashionclip.npz",
+   "bytes": 247583327,
+   "sha256": "d5c39e835ce704da0d5d6056c4896179718967b70a40e7de82c940491bfbd27e"
+  },
+  {
+   "collection": "fashion200k",
+   "encoder": "marqo-fashionsiglip",
+   "path": "fashion200k/marqo-fashionsiglip.npz",
+   "bytes": 370459383,
+   "sha256": "849e9ca7746867f11f5ba98ef2bd2c1ed85d2b35592087096160516deb39b756"
+  },
+  {
+   "collection": "fashion200k",
+   "encoder": "metaclip2-ww-huge",
+   "path": "fashion200k/metaclip2-ww-huge.npz",
+   "bytes": 493335327,
+   "sha256": "528d9f65b809c5067d982b549922ba31368ada997a11fc4fab3ff69056e0a3db"
+  },
+  {
+   "collection": "fashion200k",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "fashion200k/siglip2-so400m-16-384.npz",
+   "bytes": 554772995,
+   "sha256": "f79c6535805d0568272cbb29f804e962ed6f73a942d67483e0c3b0a38c4d76f3"
+  },
+  {
+   "collection": "fashion200k",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "fashion200k/siglipv1-so400m-14-384.npz",
+   "bytes": 554773283,
+   "sha256": "cdef8a74231f0af1c714a11dee3ef1c808f0affe3799480051aaf9c0beca9e5d"
+  },
+  {
+   "collection": "goodnews",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "goodnews/clip-vitl14-laion2b.npz",
+   "bytes": 370839640,
+   "sha256": "f7da9c9463954bd371d70b4a401b94c8d824d7e191ec4dd2388a882e4dc6e2df"
+  },
+  {
+   "collection": "goodnews",
+   "encoder": "metaclip2-ww-huge",
+   "path": "goodnews/metaclip2-ww-huge.npz",
+   "bytes": 493713488,
+   "sha256": "9c4cd4c5083c72ddb1e96426d4b5ee13dadfcb5d285b93df1b197d6aae7f06c5"
+  },
+  {
+   "collection": "goodnews",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "goodnews/siglip2-so400m-16-384.npz",
+   "bytes": 555150132,
+   "sha256": "cce9def3c996501830d073e164a1a2f1ae58481d40a1e551291039e471a4bb9a"
+  },
+  {
+   "collection": "goodnews",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "goodnews/siglipv1-so400m-14-384.npz",
+   "bytes": 555150420,
+   "sha256": "53c135726cd330f433f5097b91cc162ea7391126987fe8fbab574f87a6fcf093"
+  },
+  {
+   "collection": "nwpu",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "nwpu/clip-vitl14-laion2b.npz",
+   "bytes": 194639881,
+   "sha256": "ffb90c057bea94d19861dee96f7048c9474b8c7af01f98af2dde19f1e58f5636"
+  },
+  {
+   "collection": "nwpu",
+   "encoder": "georsclip-vitb32",
+   "path": "nwpu/georsclip-vitb32.npz",
+   "bytes": 130129817,
+   "sha256": "56535a17b3b451408a1f98ce3ac4acd28066626811bc88f102b050df8d0028e2"
+  },
+  {
+   "collection": "nwpu",
+   "encoder": "metaclip2-ww-huge",
+   "path": "nwpu/metaclip2-ww-huge.npz",
+   "bytes": 259149825,
+   "sha256": "60329fdefd9a02c908c9fb76f2c6fe6f159043f7f95508d83f1877866d197b4f"
+  },
+  {
+   "collection": "nwpu",
+   "encoder": "remoteclip-vitl14",
+   "path": "nwpu/remoteclip-vitl14.npz",
+   "bytes": 194639813,
+   "sha256": "13dee486087c3e74a05587b104a6635d23ab414499286396bb25fd32f8f0945b"
+  },
+  {
+   "collection": "nwpu",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "nwpu/siglip2-so400m-16-384.npz",
+   "bytes": 291404517,
+   "sha256": "7f82e4ba0b34c0cccccdf44654cc2bb3c0521c89a45cc927c0a93c1a7d9680ed"
+  },
+  {
+   "collection": "nwpu",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "nwpu/siglipv1-so400m-14-384.npz",
+   "bytes": 291404805,
+   "sha256": "4dc855f70c246514a2158c4b02eebcec2b4898ead4ece4aa1e7eac69785ecf44"
+  },
+  {
+   "collection": "rocov2",
+   "encoder": "biomedclip",
+   "path": "rocov2/biomedclip.npz",
+   "bytes": 329643052,
+   "sha256": "264120f9ffcc0f13bba34caed9994670555a78b365df5f91c28c9fa6db20b11a"
+  },
+  {
+   "collection": "rocov2",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "rocov2/clip-vitl14-laion2b.npz",
+   "bytes": 493057144,
+   "sha256": "b7a5dc8f8c4302b72ca0f75f9dc1f2f0662e10b14f82a71ea2609224ad3c65aa"
+  },
+  {
+   "collection": "rocov2",
+   "encoder": "medsiglip",
+   "path": "rocov2/medsiglip.npz",
+   "bytes": 738177904,
+   "sha256": "bbf39db02cdfedd6eeb798143d1cc2471e24aaf1a3992e200f6cf8918ebca755"
+  },
+  {
+   "collection": "rocov2",
+   "encoder": "metaclip2-ww-huge",
+   "path": "rocov2/metaclip2-ww-huge.npz",
+   "bytes": 656471152,
+   "sha256": "ba37b45cb9384ab85022d5647ea7d78a862ad56ff38ea24212fe4fac4a6c4e62"
+  },
+  {
+   "collection": "rocov2",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "rocov2/siglip2-so400m-16-384.npz",
+   "bytes": 738177876,
+   "sha256": "7f9017a7ab23aee490f7ec91b86ecc4a35fda149d904e00446f7710003bd36e3"
+  },
+  {
+   "collection": "rocov2",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "rocov2/siglipv1-so400m-14-384.npz",
+   "bytes": 738178164,
+   "sha256": "b1418b7f1908fc7060d5ad6d886873b9437c9efd1969269a8eb6826c9347a21c"
+  },
+  {
+   "collection": "rsicd",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "rsicd/clip-vitl14-laion2b.npz",
+   "bytes": 67479277,
+   "sha256": "753b38cb5bde350e3b77e4d6b7020235cfbb50f312fcb9264a760181c515326c"
+  },
+  {
+   "collection": "rsicd",
+   "encoder": "georsclip-vitb32",
+   "path": "rsicd/georsclip-vitb32.npz",
+   "bytes": 45112957,
+   "sha256": "f997d91ba5a5c5cd2e290d3d37f39f09d578ef9556cd60952be38da6b9214bf8"
+  },
+  {
+   "collection": "rsicd",
+   "encoder": "metaclip2-ww-huge",
+   "path": "rsicd/metaclip2-ww-huge.npz",
+   "bytes": 89845477,
+   "sha256": "757607dddd49c3bdaef8693b2990b06e0e0c7b0eca5c47165e2bc2a77ac681c3"
+  },
+  {
+   "collection": "rsicd",
+   "encoder": "remoteclip-vitl14",
+   "path": "rsicd/remoteclip-vitl14.npz",
+   "bytes": 67479209,
+   "sha256": "a9bca9cff4857d6ce2554e23fb433f610806552dff549de8783891d3a8d5bca2"
+  },
+  {
+   "collection": "rsicd",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "rsicd/siglip2-so400m-16-384.npz",
+   "bytes": 101028297,
+   "sha256": "c79768cbd19298b93030c20d2278e0951020bbc87971097c3fc041170bd3125c"
+  },
+  {
+   "collection": "rsicd",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "rsicd/siglipv1-so400m-14-384.npz",
+   "bytes": 101028585,
+   "sha256": "8c62c74eb5c8371672a11a4254ea14306b72745d130842e2df3c92bc70eaba80"
+  },
+  {
+   "collection": "scimmir",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "scimmir/clip-vitl14-laion2b.npz",
+   "bytes": 142727762,
+   "sha256": "baecf543f4df0d9307ba20804b1f866255d5b2203284d7e286741f46bfe2dfb5"
+  },
+  {
+   "collection": "scimmir",
+   "encoder": "metaclip2-ww-huge",
+   "path": "scimmir/metaclip2-ww-huge.npz",
+   "bytes": 190073418,
+   "sha256": "d83e30aa93aa5223d2735564f70beddac88e8e7fb780d9b5e65abe6123a6a092"
+  },
+  {
+   "collection": "scimmir",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "scimmir/siglip2-so400m-16-384.npz",
+   "bytes": 213745966,
+   "sha256": "282261a32d775e949d2a45ea16dbb000e9ee9beede4640a1b92af1f3e15754e1"
+  },
+  {
+   "collection": "scimmir",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "scimmir/siglipv1-so400m-14-384.npz",
+   "bytes": 213746254,
+   "sha256": "280738beaff864afedb6abdb2820dffe61dd8e849f9e389604509d910d4550d2"
+  },
+  {
+   "collection": "semart",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "semart/clip-vitl14-laion2b.npz",
+   "bytes": 132127200,
+   "sha256": "12f1d1cd8403bea4e9a29d99cab0912574fa7d2a6f9259f3410cb7e8f5a0cf75"
+  },
+  {
+   "collection": "semart",
+   "encoder": "metaclip2-ww-huge",
+   "path": "semart/metaclip2-ww-huge.npz",
+   "bytes": 175917528,
+   "sha256": "956f87b47acad5a2f7f30b93ed43fe5274b94a771943e931c6d518d638d8642c"
+  },
+  {
+   "collection": "semart",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "semart/siglip2-so400m-16-384.npz",
+   "bytes": 197812412,
+   "sha256": "876ef5bd7f84579b2409973a224c531e81fc1761b9ec4dba242810401cd70427"
+  },
+  {
+   "collection": "semart",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "semart/siglipv1-so400m-14-384.npz",
+   "bytes": 197812700,
+   "sha256": "ec14c17476d129d10e5bbe58717616ddeddd1e83d78a844e59f30ffaebd8b733"
+  },
+  {
+   "collection": "skincap",
+   "encoder": "biomedclip",
+   "path": "skincap/biomedclip.npz",
+   "bytes": 16503256,
+   "sha256": "cae984313715723f5632011fe965316e4cbd5126442df328237e55eb740bec66"
+  },
+  {
+   "collection": "skincap",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "skincap/clip-vitl14-laion2b.npz",
+   "bytes": 24687140,
+   "sha256": "765d59e8d16582f9a39e9f52658226dbb5f9cc0dab3ad021f58821d2f350f44f"
+  },
+  {
+   "collection": "skincap",
+   "encoder": "medsiglip",
+   "path": "skincap/medsiglip.npz",
+   "bytes": 36962588,
+   "sha256": "6ee9ecd2621c59397bb0f42654768e06e92aa0543409fcb4b6219a89bd8efd11"
+  },
+  {
+   "collection": "skincap",
+   "encoder": "metaclip2-ww-huge",
+   "path": "skincap/metaclip2-ww-huge.npz",
+   "bytes": 32870940,
+   "sha256": "cd3cbbcd88e0ed4376f8ed60c2563037880164bd1982282f1c6664327bddd41e"
+  },
+  {
+   "collection": "skincap",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "skincap/siglip2-so400m-16-384.npz",
+   "bytes": 36962560,
+   "sha256": "9a1e13a1779ed58a8a87bc8570a66a666fd822e98b9fbd9a9ab963afb44ff733"
+  },
+  {
+   "collection": "skincap",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "skincap/siglipv1-so400m-14-384.npz",
+   "bytes": 36962848,
+   "sha256": "b8081eab975032e7c47acf41bd1758b97c42e40c7562cb13ba6506d30ca6bba7"
+  },
+  {
+   "collection": "treeoflife",
+   "encoder": "bioclip",
+   "path": "treeoflife/bioclip.npz",
+   "bytes": 49830604,
+   "sha256": "2bffa272edcd01ba178cbbd4acac6297e27d85897f386af9009d804db81e7f06"
+  },
+  {
+   "collection": "treeoflife",
+   "encoder": "bioclip2",
+   "path": "treeoflife/bioclip2.npz",
+   "bytes": 74377960,
+   "sha256": "c02b760838850d53ace7fd6a18e3c8065c055e4fad03c3c32eb622be69d9e03e"
+  },
+  {
+   "collection": "treeoflife",
+   "encoder": "clip-vitl14-laion2b",
+   "path": "treeoflife/clip-vitl14-laion2b.npz",
+   "bytes": 74378248,
+   "sha256": "022b1f39e6abe6a28dfbdfaa4e062dfbf6c370f9f5d45397a7f39d7812a67af2"
+  },
+  {
+   "collection": "treeoflife",
+   "encoder": "metaclip2-ww-huge",
+   "path": "treeoflife/metaclip2-ww-huge.npz",
+   "bytes": 98925568,
+   "sha256": "e1a9bc80d1aafd45db62cb181cf0970960f36197ec30b54aba2047ad53868c14"
+  },
+  {
+   "collection": "treeoflife",
+   "encoder": "siglip2-so400m-16-384",
+   "path": "treeoflife/siglip2-so400m-16-384.npz",
+   "bytes": 111198948,
+   "sha256": "e668f10363ff966b5fb6b2aeef663733d3af0c885dbc12ceb877c25e50a93535"
+  },
+  {
+   "collection": "treeoflife",
+   "encoder": "siglipv1-so400m-14-384",
+   "path": "treeoflife/siglipv1-so400m-14-384.npz",
+   "bytes": 111199236,
+   "sha256": "f27f5c7fa67f2287602b3256a54f2816f62d76aa7c8cc16732bed8b249d7aef8"
+  }
+ ],
+ "total_bytes": 13723859646,
+ "n_files": 58,
+ "note": "one npz per (collection, encoder) cell, keys txt/img/split/caption/id/meta; see ltg/cache.py"
+}

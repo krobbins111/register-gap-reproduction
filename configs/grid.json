@@ -1,0 +1,178 @@
+{
+ "_doc": "The cells of every table, by experiment. 'encoders' lists store keys; 'train' is the train-split rule per cell ('full' or an integer --limit-train). Runners in jobs/ are generated from this file.",
+ "grid_encoders": [
+  "siglip2-so400m-16-384",
+  "siglipv1-so400m-14-384",
+  "clip-vitl14-laion2b",
+  "metaclip2-ww-huge",
+  "siglip2-base-16-256",
+  "tipsv2-b14"
+ ],
+ "native_encoders": {
+  "rocov2": [
+   "medsiglip",
+   "biomedclip"
+  ],
+  "skincap": [
+   "medsiglip",
+   "biomedclip"
+  ],
+  "nwpu": [
+   "georsclip-vitb32",
+   "remoteclip-vitl14"
+  ],
+  "rsicd": [
+   "georsclip-vitb32",
+   "remoteclip-vitl14"
+  ],
+  "facad": [
+   "fashionclip",
+   "marqo-fashionsiglip"
+  ],
+  "fashion200k": [
+   "fashionclip",
+   "marqo-fashionsiglip"
+  ],
+  "treeoflife": [
+   "bioclip",
+   "bioclip2"
+  ]
+ },
+ "grid_collections": [
+  "rocov2",
+  "skincap",
+  "nwpu",
+  "rsicd",
+  "fashion200k",
+  "facad",
+  "semart",
+  "scimmir",
+  "goodnews",
+  "treeoflife",
+  "coco",
+  "duluth",
+  "popocatepetl"
+ ],
+ "train": {
+  "_default": "full",
+  "rocov2": "full  (decision 23 Sep: the SigLIP2 cell was 20,000/3,000 in the draft; every ROCOv2 cell now trains on the full 59,962; rerun linear arms + baselines for rocov2 x siglip2-so400m-16-384 and regenerate the tables)"
+ },
+ "linear_arms": {
+  "arms": [
+   "both",
+   "shared"
+  ],
+  "seeds": [
+   0,
+   1
+  ],
+  "baselines": true,
+  "note": "text/image arms on the 14 verified cells only (appendix)"
+ },
+ "mlp_arms": {
+  "collections": "grid_collections",
+  "encoders": [
+   "siglip2-so400m-16-384"
+  ],
+  "arms": [
+   "both",
+   "shared"
+  ],
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "hidden": [
+   1024,
+   256
+  ]
+ },
+ "adapters": {
+  "cells": "the 14 cells of run_adapters.bat",
+  "seeds": [
+   0,
+   1
+  ]
+ },
+ "lora": {
+  "owner": "registergap",
+  "encoders": [
+   "siglip2-base-16-256"
+  ],
+  "collections": "grid_collections",
+  "pairs": [
+   "full",
+   1000
+  ],
+  "extras": [
+   "maps_on_lora",
+   "coco_forgetting",
+   "rank_sweep 4/16/64 on skincap",
+   "set_objective on skincap"
+  ],
+  "grid_rows": {
+   "encoder": "clip-vitl14-laion2b",
+   "collections": [
+    "nwpu",
+    "rocov2",
+    "goodnews",
+    "treeoflife",
+    "skincap"
+   ]
+  }
+ },
+ "sets": {
+  "owner": "registergap",
+  "encoders": [
+   "siglip2-base-16-256",
+   "tipsv2-b14"
+  ],
+  "collections": [
+   "skincap",
+   "semart",
+   "rsicd",
+   "scimmir",
+   "rocov2",
+   "fashion200k",
+   "coco",
+   "facad",
+   "cityflow",
+   "cityflow_crop",
+   "cityflow_cam",
+   "flickr",
+   "duluth",
+   "popocatepetl"
+  ],
+  "recompute_for_new_split": [
+   "coco",
+   "rocov2"
+  ],
+  "robustness_row_optional": "one collection on siglip2-so400m-16-384"
+ },
+ "grounding": {
+  "owner": "registergap",
+  "sets": [
+   "cityflow",
+   "cityflow_cam",
+   "flickr",
+   "coco"
+  ],
+  "encoders": [
+   "siglip2-base-16-256",
+   "tipsv2-b14"
+  ]
+ },
+ "ladder": {
+  "owner": "registergap",
+  "collection": "coco",
+  "encoder": "siglip2-base-16-256"
+ },
+ "api_embedders": {
+  "owner": "registergap",
+  "encoders": [
+   "gemini-embedding-2"
+  ],
+  "collections": "the nine public memo collections + nwpu, treeoflife, goodnews"
+ }
+}

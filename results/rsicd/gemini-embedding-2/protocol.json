@@ -1,0 +1,25 @@
+{
+ "imported_from": "story/api/protocol_rsicd_gemini.json",
+ "ties": "geq",
+ "collection": "rsicd",
+ "encoder": "gemini-embedding-2",
+ "protocol": "standard RSITR: 5,465 test captions vs 1,093 test images",
+ "frozen": {
+  "T2I R@1": 14.7,
+  "T2I R@5": 35.5,
+  "T2I R@10": 49.1,
+  "I2T R@1": 16.2,
+  "I2T R@5": 35.7,
+  "I2T R@10": 47.9,
+  "mR": 33.2
+ },
+ "two_maps": {
+  "T2I R@1": 17.8,
+  "T2I R@5": 44.2,
+  "T2I R@10": 60.0,
+  "I2T R@1": 21.4,
+  "I2T R@5": 42.7,
+  "I2T R@10": 55.4,
+  "mR": 40.3
+ }
+}

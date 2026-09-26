@@ -1,0 +1,54 @@
+{
+ "imported_from": "story/sets/ground_cityflow_tips.json",
+ "ties": "geq",
+ "collection": "cityflow",
+ "encoder": "tipsv2-b14",
+ "frozen": {
+  "subject": {
+   "hit": 0.3069620253164557,
+   "n": 316
+  },
+  "other": {
+   "hit": 0.06157635467980296,
+   "n": 406
+  },
+  "verb": {
+   "hit": 0.04245283018867924,
+   "n": 424
+  },
+  "chance_box_area": 0.02605372299382716
+ },
+ "set": {
+  "subject": {
+   "hit": 0.6075949367088608,
+   "n": 316
+  },
+  "other": {
+   "hit": 0.19458128078817735,
+   "n": 406
+  },
+  "verb": {
+   "hit": 0.20518867924528303,
+   "n": 424
+  },
+  "chance_box_area": 0.02605372299382716
+ },
+ "setw": {
+  "subject": {
+   "hit": 0.6360759493670886,
+   "n": 316,
+   "gate_mean_weight": 0.4492005773265905
+  },
+  "other": {
+   "hit": 0.2044334975369458,
+   "n": 406,
+   "gate_mean_weight": 0.23735560819947074
+  },
+  "verb": {
+   "hit": 0.2830188679245283,
+   "n": 424,
+   "gate_mean_weight": 0.2020901924807508
+  },
+  "chance_box_area": 0.02605372299382716
+ }
+}

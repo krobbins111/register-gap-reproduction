@@ -1,0 +1,3200 @@
+{
+ "imported_from": "story/directions/directions.json",
+ "ties": "geq",
+ "collection": "duluth",
+ "encoder": "siglip2-base-16-256",
+ "pooled/Wt": {
+  "frob": 7.133,
+  "energy_top8": 0.348,
+  "energy_top16": 0.492,
+  "top_s": [
+   1.978,
+   1.729,
+   1.625,
+   1.546,
+   1.371,
+   1.209,
+   1.121,
+   1.078,
+   1.061,
+   1.008,
+   0.997,
+   0.974,
+   0.936,
+   0.903,
+   0.897,
+   0.859
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.978,
+    "cos_uv": -0.22,
+    "specificity": 0.202,
+    "own_mean": 0.353,
+    "own_sd": 0.047,
+    "coco_mean": 0.151,
+    "v_own+": [
+     [
+      "lee a tregurtha departed duluth",
+      0.352
+     ],
+     [
+      "the erie trader/ clyde s. vanenkevort",
+      0.294
+     ],
+     [
+      "erie trader/ clyde s. vanenkevort",
+      0.285
+     ],
+     [
+      "the csl assiniboine",
+      0.282
+     ],
+     [
+      "the two harbors boat launch",
+      0.281
+     ],
+     [
+      "the duluth-superior harbor",
+      0.279
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a very nice bathroom",
+      0.24
+     ],
+     [
+      "the nintendo wii",
+      0.221
+     ],
+     [
+      "couple",
+      0.216
+     ],
+     [
+      "a contraption",
+      0.216
+     ],
+     [
+      "wii",
+      0.214
+     ],
+     [
+      "buses",
+      0.213
+     ]
+    ],
+    "v_own-": [
+     [
+      "bentonite clay",
+      -0.04
+     ],
+     [
+      "honor",
+      -0.04
+     ],
+     [
+      "barker horn",
+      -0.04
+     ],
+     [
+      "beet pulp",
+      -0.045
+     ],
+     [
+      "the help",
+      -0.05
+     ],
+     [
+      "kaolin clay",
+      -0.05
+     ]
+    ],
+    "u_own+": [
+     [
+      "the help",
+      -0.636
+     ],
+     [
+      "barker horn",
+      -0.694
+     ],
+     [
+      "beet pulp pellets",
+      -0.696
+     ],
+     [
+      "frontenac",
+      -0.705
+     ],
+     [
+      "iron ore pellet",
+      -0.706
+     ],
+     [
+      "the fog",
+      -0.709
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      -0.583
+     ],
+     [
+      "a green and white bus",
+      -0.663
+     ],
+     [
+      "a green street sign",
+      -0.67
+     ],
+     [
+      "a green motorcycle",
+      -0.684
+     ],
+     [
+      "a red and white boat",
+      -0.685
+     ],
+     [
+      "four men",
+      -0.709
+     ]
+    ],
+    "u_own-": [
+     [
+      "the mesabi miner",
+      0.931
+     ],
+     [
+      "* timing",
+      0.931
+     ],
+     [
+      "joyce l.vanenkevort/great lakes trader",
+      0.929
+     ],
+     [
+      "the silver bay marina",
+      0.928
+     ],
+     [
+      "17:00 american integrity",
+      0.927
+     ],
+     [
+      "fagelgracht",
+      0.927
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a kitten",
+      0.924
+     ],
+     [
+      "a grill",
+      0.924
+     ],
+     [
+      "a very nice bathroom",
+      0.924
+     ],
+     [
+      "a contraption",
+      0.923
+     ],
+     [
+      "another person",
+      0.923
+     ],
+     [
+      "the keyboard",
+      0.922
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.729,
+    "cos_uv": 0.47,
+    "specificity": 0.006,
+    "own_mean": 0.026,
+    "own_sd": 0.027,
+    "coco_mean": 0.02,
+    "v_own+": [
+     [
+      "a testament",
+      0.071
+     ],
+     [
+      "a warm and sunny afternoon",
+      0.068
+     ],
+     [
+      "plenty",
+      0.067
+     ],
+     [
+      "algoma strongfield",
+      0.067
+     ],
+     [
+      "a part",
+      0.066
+     ],
+     [
+      "1000 ft james r barker",
+      0.064
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a green grass covered field",
+      0.074
+     ],
+     [
+      "his lap",
+      0.073
+     ],
+     [
+      "a piece",
+      0.073
+     ],
+     [
+      "a large window",
+      0.069
+     ],
+     [
+      "a grass covered field",
+      0.069
+     ],
+     [
+      "a  field",
+      0.061
+     ]
+    ],
+    "v_own-": [
+     [
+      "the two harbors cam",
+      0.101
+     ],
+     [
+      "the two harbors ore docks",
+      0.101
+     ],
+     [
+      "two harbors",
+      0.087
+     ],
+     [
+      "ebroborg",
+      0.054
+     ],
+     [
+      "the two harbors lighthouse",
+      0.054
+     ],
+     [
+      "the wonders",
+      0.054
+     ]
+    ],
+    "u_own+": [
+     [
+      "petroleum coke",
+      0.009
+     ],
+     [
+      "general cargo",
+      0.009
+     ],
+     [
+      "bulk cargo",
+      0.006
+     ],
+     [
+      "sugar beet pulp",
+      0.001
+     ],
+     [
+      "the ocean freighter kom",
+      -0.001
+     ],
+     [
+      "cement",
+      -0.009
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a large carrot",
+      -0.01
+     ],
+     [
+      "a large building",
+      -0.021
+     ],
+     [
+      "a carrot",
+      -0.022
+     ],
+     [
+      "pineapple",
+      -0.024
+     ],
+     [
+      "mustard",
+      -0.028
+     ],
+     [
+      "a brown horse",
+      -0.029
+     ]
+    ],
+    "u_own-": [
+     [
+      "the two harbors cam",
+      0.21
+     ],
+     [
+      "the shores",
+      0.17
+     ],
+     [
+      "two harbors",
+      0.158
+     ],
+     [
+      "the images",
+      0.157
+     ],
+     [
+      "the two harbors lighthouse",
+      0.157
+     ],
+     [
+      "the cams",
+      0.156
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the woods",
+      0.161
+     ],
+     [
+      "the park",
+      0.157
+     ],
+     [
+      "the parking lot",
+      0.145
+     ],
+     [
+      "the shore",
+      0.14
+     ],
+     [
+      "a park bench",
+      0.139
+     ],
+     [
+      "the stop sign",
+      0.137
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 1.625,
+    "cos_uv": 0.49,
+    "specificity": 0.039,
+    "own_mean": 0.041,
+    "own_sd": 0.029,
+    "coco_mean": 0.001,
+    "v_own+": [
+     [
+      "heavy snow",
+      0.087
+     ],
+     [
+      "beatrix",
+      0.087
+     ],
+     [
+      "bagged quartz",
+      0.085
+     ],
+     [
+      "a cargo",
+      0.083
+     ],
+     [
+      "heavy fog",
+      0.082
+     ],
+     [
+      "a sunrise",
+      0.08
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a bed",
+      0.076
+     ],
+     [
+      "a snow",
+      0.075
+     ],
+     [
+      "bed",
+      0.074
+     ],
+     [
+      "a light",
+      0.071
+     ],
+     [
+      "a red light",
+      0.068
+     ],
+     [
+      "a snowy field",
+      0.063
+     ]
+    ],
+    "v_own-": [
+     [
+      "the afternoon",
+      0.079
+     ],
+     [
+      "a warm summer afternoon",
+      0.069
+     ],
+     [
+      "afternoon",
+      0.051
+     ],
+     [
+      "a warm and sunny afternoon",
+      0.049
+     ],
+     [
+      "the wall",
+      0.048
+     ],
+     [
+      "spectators",
+      0.042
+     ]
+    ],
+    "u_own+": [
+     [
+      "night",
+      0.106
+     ],
+     [
+      "wednesday night",
+      0.071
+     ],
+     [
+      "the night",
+      0.055
+     ],
+     [
+      "the wednesday night races",
+      0.053
+     ],
+     [
+      "a moonlit night",
+      0.053
+     ],
+     [
+      "wednesday night sailboat races",
+      0.052
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a night scene",
+      0.115
+     ],
+     [
+      "night",
+      0.106
+     ],
+     [
+      "street lights",
+      0.038
+     ],
+     [
+      "a street light",
+      0.01
+     ],
+     [
+      "light",
+      0.001
+     ],
+     [
+      "lamp",
+      -0.006
+     ]
+    ],
+    "u_own-": [
+     [
+      "a warm summer afternoon",
+      0.158
+     ],
+     [
+      "a warm and sunny afternoon",
+      0.149
+     ],
+     [
+      "the afternoon",
+      0.143
+     ],
+     [
+      "my beautiful plumage",
+      0.135
+     ],
+     [
+      "the open water",
+      0.135
+     ],
+     [
+      "this point",
+      0.135
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a sunny day",
+      0.156
+     ],
+     [
+      "flying kites",
+      0.13
+     ],
+     [
+      "a clear day",
+      0.127
+     ],
+     [
+      "their heads",
+      0.127
+     ],
+     [
+      "the tray",
+      0.127
+     ],
+     [
+      "his kite",
+      0.126
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 1.546,
+    "cos_uv": 0.44,
+    "specificity": 0.029,
+    "own_mean": 0.004,
+    "own_sd": 0.031,
+    "coco_mean": -0.025,
+    "v_own+": [
+     [
+      "90 minutes",
+      0.089
+     ],
+     [
+      "17:30 today",
+      0.082
+     ],
+     [
+      "kaolin clay",
+      0.082
+     ],
+     [
+      "another load",
+      0.076
+     ],
+     [
+      "bentonite clay",
+      0.075
+     ],
+     [
+      "the 1000ft paul r tregurtha",
+      0.072
+     ]
+    ],
+    "v_coco+": [
+     [
+      "beer",
+      0.047
+     ],
+     [
+      "a very tall clock tower",
+      0.045
+     ],
+     [
+      "pasta",
+      0.043
+     ],
+     [
+      "tusks",
+      0.042
+     ],
+     [
+      "some hay",
+      0.04
+     ],
+     [
+      "cheese",
+      0.04
+     ]
+    ],
+    "v_own-": [
+     [
+      "the two harbors cam",
+      0.098
+     ],
+     [
+      "the two harbors ore docks",
+      0.07
+     ],
+     [
+      "two harbors",
+      0.061
+     ],
+     [
+      "paul's photos",
+      0.06
+     ],
+     [
+      "way",
+      0.058
+     ],
+     [
+      "the two harbors lighthouse",
+      0.051
+     ]
+    ],
+    "u_own+": [
+     [
+      "the help",
+      0.1
+     ],
+     [
+      "the 1000ft paul r tregurtha",
+      0.092
+     ],
+     [
+      "the 1000ft james r barker",
+      0.086
+     ],
+     [
+      "the 1000 ft paul r tregurtha",
+      0.086
+     ],
+     [
+      "the 1000ft american integrity",
+      0.082
+     ],
+     [
+      "eemsgracht",
+      0.074
+     ]
+    ],
+    "u_coco+": [
+     [
+      "it's sides",
+      0.068
+     ],
+     [
+      "a ribbon",
+      0.063
+     ],
+     [
+      "the frame",
+      0.06
+     ],
+     [
+      "half",
+      0.06
+     ],
+     [
+      "a bridge",
+      0.059
+     ],
+     [
+      "the middle",
+      0.059
+     ]
+    ],
+    "u_own-": [
+     [
+      "the two harbors ore docks",
+      0.051
+     ],
+     [
+      "the sea smoke",
+      0.049
+     ],
+     [
+      "sea smoke",
+      0.046
+     ],
+     [
+      "pack ice",
+      0.045
+     ],
+     [
+      "heavy sea smoke",
+      0.04
+     ],
+     [
+      "this mornings sunrise",
+      0.039
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a parking lot",
+      0.058
+     ],
+     [
+      "a brown building",
+      0.057
+     ],
+     [
+      "a snow covered mountain",
+      0.052
+     ],
+     [
+      "a dirt field",
+      0.051
+     ],
+     [
+      "a night scene",
+      0.05
+     ],
+     [
+      "a dugout",
+      0.043
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 1.371,
+    "cos_uv": 0.29,
+    "specificity": 0.032,
+    "own_mean": -0.038,
+    "own_sd": 0.038,
+    "coco_mean": -0.07,
+    "v_own+": [
+     [
+      "https://www.christiandalbecphotography.com/",
+      0.024
+     ],
+     [
+      "paul r tregurtha",
+      0.02
+     ],
+     [
+      "his harborcam gallery",
+      0.019
+     ],
+     [
+      "the new hillside cam",
+      0.017
+     ],
+     [
+      "the paul r tregurtha",
+      0.016
+     ],
+     [
+      "the harborcam",
+      0.015
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an old black and white photo",
+      0.017
+     ],
+     [
+      "a black and white photo",
+      0.017
+     ],
+     [
+      "a green frisbee",
+      -0.0
+     ],
+     [
+      "a metal bench",
+      -0.003
+     ],
+     [
+      "a disk toy",
+      -0.004
+     ],
+     [
+      "a red tie",
+      -0.005
+     ]
+    ],
+    "v_own-": [
+     [
+      "the two harbors ore docks",
+      0.146
+     ],
+     [
+      "the ore docks",
+      0.128
+     ],
+     [
+      "the races",
+      0.127
+     ],
+     [
+      "the fishing fleet",
+      0.122
+     ],
+     [
+      "the twin ports",
+      0.115
+     ],
+     [
+      "iron ore",
+      0.113
+     ]
+    ],
+    "u_own+": [
+     [
+      "load coal",
+      0.154
+     ],
+     [
+      "(load coal",
+      0.144
+     ],
+     [
+      "iron ore pellets",
+      0.133
+     ],
+     [
+      "fuel and load pellets",
+      0.133
+     ],
+     [
+      "iron ore pellet",
+      0.13
+     ],
+     [
+      "the dutch freighter",
+      0.127
+     ]
+    ],
+    "u_coco+": [
+     [
+      "night",
+      0.097
+     ],
+     [
+      "a night scene",
+      0.093
+     ],
+     [
+      "ships",
+      0.089
+     ],
+     [
+      "the oven",
+      0.085
+     ],
+     [
+      "a brown building",
+      0.08
+     ],
+     [
+      "a steel track",
+      0.077
+     ]
+    ],
+    "u_own-": [
+     [
+      "the middle",
+      0.05
+     ],
+     [
+      "a small town",
+      0.033
+     ],
+     [
+      "small fishing villages",
+      0.031
+     ],
+     [
+      "summer",
+      0.026
+     ],
+     [
+      "the summer",
+      0.016
+     ],
+     [
+      "a cheering crowd",
+      0.014
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the middle",
+      0.05
+     ],
+     [
+      "a blue and green tennis court",
+      0.04
+     ],
+     [
+      "a soccer field",
+      0.03
+     ],
+     [
+      "a female tennis player",
+      0.03
+     ],
+     [
+      "a field flying kites",
+      0.029
+     ],
+     [
+      "a baseball game",
+      0.029
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 1.209,
+    "cos_uv": 0.37,
+    "specificity": 0.013,
+    "own_mean": -0.05,
+    "own_sd": 0.037,
+    "coco_mean": -0.064,
+    "v_own+": [
+     [
+      "the 1000ft james r barker",
+      0.034
+     ],
+     [
+      "heavy snow",
+      0.028
+     ],
+     [
+      "the 1000ft american integrity",
+      0.024
+     ],
+     [
+      "the 1000 ft james r barker",
+      0.023
+     ],
+     [
+      "cold air",
+      0.022
+     ],
+     [
+      "ice fishing",
+      0.022
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a rainy day",
+      0.014
+     ],
+     [
+      "a doorway",
+      0.013
+     ],
+     [
+      "a small wave",
+      0.008
+     ],
+     [
+      "a red fire",
+      0.007
+     ],
+     [
+      "a large wave",
+      0.006
+     ],
+     [
+      "a zebra standing",
+      0.005
+     ]
+    ],
+    "v_own-": [
+     [
+      "iron ore pellets",
+      0.135
+     ],
+     [
+      "munson",
+      0.128
+     ],
+     [
+      "the two harbors ore docks",
+      0.127
+     ],
+     [
+      "iron ore pellet",
+      0.124
+     ],
+     [
+      "iron ore",
+      0.124
+     ],
+     [
+      "the ore docks",
+      0.122
+     ]
+    ],
+    "u_own+": [
+     [
+      "(load coal",
+      0.195
+     ],
+     [
+      "load coal",
+      0.194
+     ],
+     [
+      "coal",
+      0.174
+     ],
+     [
+      "iron ore",
+      0.171
+     ],
+     [
+      "heavy snow",
+      0.169
+     ],
+     [
+      "enough coal",
+      0.164
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an umpire",
+      0.157
+     ],
+     [
+      "smoke",
+      0.146
+     ],
+     [
+      "a snow",
+      0.138
+     ],
+     [
+      "some snow",
+      0.132
+     ],
+     [
+      "a snowy field",
+      0.13
+     ],
+     [
+      "a black car",
+      0.129
+     ]
+    ],
+    "u_own-": [
+     [
+      "fraserborg",
+      0.002
+     ],
+     [
+      "the view",
+      -0.003
+     ],
+     [
+      "the sails",
+      -0.006
+     ],
+     [
+      "the best view",
+      -0.006
+     ],
+     [
+      "the sailboats",
+      -0.007
+     ],
+     [
+      "small fishing villages",
+      -0.008
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a red and white boat",
+      0.037
+     ],
+     [
+      "a swing",
+      -0.003
+     ],
+     [
+      "a row",
+      -0.005
+     ],
+     [
+      "the bottom",
+      -0.011
+     ],
+     [
+      "a picture",
+      -0.012
+     ],
+     [
+      "a sail boat",
+      -0.013
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 1.121,
+    "cos_uv": 0.38,
+    "specificity": 0.013,
+    "own_mean": -0.029,
+    "own_sd": 0.035,
+    "coco_mean": -0.042,
+    "v_own+": [
+     [
+      "eemsgracht",
+      0.049
+     ],
+     [
+      "merwedegracht",
+      0.043
+     ],
+     [
+      "strong winds",
+      0.041
+     ],
+     [
+      "floretgracht",
+      0.041
+     ],
+     [
+      "harbor ice",
+      0.041
+     ],
+     [
+      "humbergracht",
+      0.039
+     ]
+    ],
+    "v_coco+": [
+     [
+      "some hay",
+      0.038
+     ],
+     [
+      "carrots",
+      0.025
+     ],
+     [
+      "tall grass",
+      0.025
+     ],
+     [
+      "onions",
+      0.024
+     ],
+     [
+      "dry grass",
+      0.024
+     ],
+     [
+      "some snow",
+      0.021
+     ]
+    ],
+    "v_own-": [
+     [
+      "the 1000 ft paul r tregurtha",
+      0.147
+     ],
+     [
+      "the 1000ft paul r tregurtha",
+      0.136
+     ],
+     [
+      "the 1000 ft burns harbor",
+      0.135
+     ],
+     [
+      "the 1000ft mesabi miner",
+      0.131
+     ],
+     [
+      "james l. oberstar",
+      0.13
+     ],
+     [
+      "the 1000ft american century",
+      0.129
+     ]
+    ],
+    "u_own+": [
+     [
+      "pack ice",
+      0.124
+     ],
+     [
+      "beet pulp",
+      0.123
+     ],
+     [
+      "wednesday night sailboat races",
+      0.115
+     ],
+     [
+      "the passenger ship",
+      0.114
+     ],
+     [
+      "ice breaking operations",
+      0.113
+     ],
+     [
+      "the fishing fleet",
+      0.112
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a zebra grazing",
+      0.118
+     ],
+     [
+      "a black and white cat",
+      0.109
+     ],
+     [
+      "a sail boat",
+      0.108
+     ],
+     [
+      "a fleet",
+      0.102
+     ],
+     [
+      "a black and white cow",
+      0.099
+     ],
+     [
+      "a double decker bus",
+      0.098
+     ]
+    ],
+    "u_own-": [
+     [
+      "this morning",
+      0.062
+     ],
+     [
+      "an incredible sunrise",
+      0.058
+     ],
+     [
+      "a beautiful sunrise",
+      0.056
+     ],
+     [
+      "a bright sunrise",
+      0.054
+     ],
+     [
+      "a sunrise",
+      0.052
+     ],
+     [
+      "a warm summer morning",
+      0.039
+     ]
+    ],
+    "u_coco-": [
+     [
+      "background",
+      0.025
+     ],
+     [
+      "a brown building",
+      0.015
+     ],
+     [
+      "the wall",
+      0.007
+     ],
+     [
+      "the frame",
+      0.005
+     ],
+     [
+      "a wedding cake",
+      0.004
+     ],
+     [
+      "a wall",
+      0.004
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 1.078,
+    "cos_uv": 0.24,
+    "specificity": 0.002,
+    "own_mean": -0.07,
+    "own_sd": 0.048,
+    "coco_mean": -0.071,
+    "v_own+": [
+     [
+      "roerborg",
+      0.017
+     ],
+     [
+      "volgaborg",
+      0.013
+     ],
+     [
+      "amurborg",
+      0.011
+     ],
+     [
+      "reestborg",
+      0.009
+     ],
+     [
+      "wind turbine parts",
+      0.008
+     ],
+     [
+      "barker horn",
+      0.007
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a white refrigerator freezer",
+      -0.003
+     ],
+     [
+      "a green frisbee",
+      -0.005
+     ],
+     [
+      "a white frisbee",
+      -0.008
+     ],
+     [
+      "a pink umbrella",
+      -0.014
+     ],
+     [
+      "a blue surfboard",
+      -0.014
+     ],
+     [
+      "a white surfboard",
+      -0.014
+     ]
+    ],
+    "v_own-": [
+     [
+      "load coal",
+      0.172
+     ],
+     [
+      "the crowd",
+      0.166
+     ],
+     [
+      "(load coal",
+      0.162
+     ],
+     [
+      "the wednesday night races",
+      0.155
+     ],
+     [
+      "a cheering crowd",
+      0.148
+     ],
+     [
+      "timelapse video",
+      0.145
+     ]
+    ],
+    "u_own+": [
+     [
+      "the two harbors ore docks",
+      0.152
+     ],
+     [
+      "the ocean freighter kom",
+      0.136
+     ],
+     [
+      "the dutch freighter",
+      0.133
+     ],
+     [
+      "the freighter industrial song",
+      0.132
+     ],
+     [
+      "iron ore pellets",
+      0.128
+     ],
+     [
+      "(load coal",
+      0.119
+     ]
+    ],
+    "u_coco+": [
+     [
+      "tomato sauce",
+      0.111
+     ],
+     [
+      "a dirt bike",
+      0.11
+     ],
+     [
+      "a semi truck",
+      0.104
+     ],
+     [
+      "some trees",
+      0.099
+     ],
+     [
+      "two boats",
+      0.098
+     ],
+     [
+      "a garden",
+      0.098
+     ]
+    ],
+    "u_own-": [
+     [
+      "the crowd",
+      0.025
+     ],
+     [
+      "the tall ships festival",
+      0.018
+     ],
+     [
+      "night",
+      0.013
+     ],
+     [
+      "midnight",
+      0.012
+     ],
+     [
+      "a cheering crowd",
+      0.01
+     ],
+     [
+      "a warm summer evening",
+      0.01
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a crowd",
+      0.032
+     ],
+     [
+      "pair",
+      0.016
+     ],
+     [
+      "night",
+      0.013
+     ],
+     [
+      "a night scene",
+      0.013
+     ],
+     [
+      "a group photo",
+      0.009
+     ],
+     [
+      "display",
+      0.006
+     ]
+    ]
+   }
+  ]
+ },
+ "pooled/Wi": {
+  "frob": 7.058,
+  "energy_top8": 0.276,
+  "energy_top16": 0.435,
+  "top_s": [
+   1.55,
+   1.437,
+   1.375,
+   1.3,
+   1.274,
+   1.219,
+   1.157,
+   1.119,
+   1.094,
+   1.077,
+   1.03,
+   1.009,
+   0.973,
+   0.957,
+   0.919,
+   0.893
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.55,
+    "cos_uv": 0.28,
+    "specificity": 0.026,
+    "own_mean": -0.049,
+    "own_sd": 0.037,
+    "coco_mean": -0.075,
+    "v_own+": [
+     [
+      "duluth 07/21/2018",
+      0.036
+     ],
+     [
+      "the 858ft roger blough",
+      0.035
+     ],
+     [
+      "these big boats",
+      0.026
+     ],
+     [
+      "a drone flight",
+      0.026
+     ],
+     [
+      "10:50 indiana harbor",
+      0.021
+     ],
+     [
+      "a path",
+      0.021
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an empty train station",
+      0.057
+     ],
+     [
+      "a dry grass field",
+      0.055
+     ],
+     [
+      "dry grass",
+      0.046
+     ],
+     [
+      "a large gray elephant",
+      0.044
+     ],
+     [
+      "a large passenger jet",
+      0.042
+     ],
+     [
+      "a white bus",
+      0.041
+     ]
+    ],
+    "v_own-": [
+     [
+      "a great job",
+      0.077
+     ],
+     [
+      "ice breaking operations",
+      0.076
+     ],
+     [
+      "the colors",
+      0.067
+     ],
+     [
+      "the flag",
+      0.064
+     ],
+     [
+      "the weekend",
+      0.062
+     ],
+     [
+      "bagged quarts",
+      0.061
+     ]
+    ],
+    "u_own+": [
+     [
+      "iron ore pellets",
+      0.178
+     ],
+     [
+      "iron ore pellet",
+      0.17
+     ],
+     [
+      "this mornings sunrise",
+      0.16
+     ],
+     [
+      "iron ore",
+      0.158
+     ],
+     [
+      "iron pellets",
+      0.152
+     ],
+     [
+      "this morning's sunrise",
+      0.145
+     ]
+    ],
+    "u_coco+": [
+     [
+      "night",
+      0.094
+     ],
+     [
+      "a gray sky",
+      0.09
+     ],
+     [
+      "a night scene",
+      0.089
+     ],
+     [
+      "the pavement",
+      0.074
+     ],
+     [
+      "an empty train station",
+      0.072
+     ],
+     [
+      "a steel track",
+      0.072
+     ]
+    ],
+    "u_own-": [
+     [
+      "13:50 american mariner",
+      0.06
+     ],
+     [
+      "09:30 today",
+      0.056
+     ],
+     [
+      "10:50 indiana harbor",
+      0.056
+     ],
+     [
+      "21:15 tuesday",
+      0.055
+     ],
+     [
+      "19:30 algoma navigator",
+      0.054
+     ],
+     [
+      "20:30 thursday",
+      0.053
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a blender",
+      0.042
+     ],
+     [
+      "a number",
+      0.037
+     ],
+     [
+      "a display",
+      0.036
+     ],
+     [
+      "pictures",
+      0.035
+     ],
+     [
+      "the middle",
+      0.035
+     ],
+     [
+      "display",
+      0.034
+     ]
+    ],
+    "v_images+": [
+     "Philip R Clarke departed Duluth early this morning.",
+     "James R Barker departed Duluth this morning loaded with iron ore pellets.",
+     "The RT.HON.PAUL J.MARTIN arrived in Two Harbors at the tail end of a large storm on Lake S",
+     "Wilfred Sykes departed Duluth this morning with iron ore pellets and two Master Salutes."
+    ],
+    "v_images-": [
+     "John G. Munson arrived at 00:41 H. Lee White arrived at 05:00 Rt. Hon. Paul J. Martin depa",
+     "Paul R. Tregurtha arrived at 03:17 Resko (Bah) arrived Duluth at 06:55 James R. Barker arr",
+     "Redhead arrived Duluth at 18:00 today Redhead"
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.437,
+    "cos_uv": 0.38,
+    "specificity": 0.11,
+    "own_mean": 0.11,
+    "own_sd": 0.041,
+    "coco_mean": 0.001,
+    "v_own+": [
+     [
+      "timelapse video",
+      0.07
+     ],
+     [
+      "the help",
+      0.066
+     ],
+     [
+      "the bridge",
+      0.058
+     ],
+     [
+      "timelapse",
+      0.057
+     ],
+     [
+      "the 2018 shipping season",
+      0.052
+     ],
+     [
+      "the dutch freighter",
+      0.049
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a parking meter",
+      0.061
+     ],
+     [
+      "a black and white cow",
+      0.058
+     ],
+     [
+      "a smaller cow",
+      0.058
+     ],
+     [
+      "zebra standing",
+      0.056
+     ],
+     [
+      "a skateboard trick",
+      0.05
+     ],
+     [
+      "a semi truck",
+      0.047
+     ]
+    ],
+    "v_own-": [
+     [
+      "cason j. callaway",
+      0.055
+     ],
+     [
+      "cason j callaway",
+      0.054
+     ],
+     [
+      "cason j callway",
+      0.051
+     ],
+     [
+      "the edward l ryerson",
+      0.051
+     ],
+     [
+      "beat pulp",
+      0.049
+     ],
+     [
+      "csl assiniboine",
+      0.048
+     ]
+    ],
+    "u_own+": [
+     [
+      "another load",
+      0.147
+     ],
+     [
+      "its arrival",
+      0.11
+     ],
+     [
+      "previous arrival",
+      0.109
+     ],
+     [
+      "fuel and load pellets",
+      0.109
+     ],
+     [
+      "load coal",
+      0.108
+     ],
+     [
+      "(load coal",
+      0.102
+     ]
+    ],
+    "u_coco+": [
+     [
+      "some hay",
+      0.059
+     ],
+     [
+      "a smaller cow",
+      0.052
+     ],
+     [
+      "zebra standing",
+      0.051
+     ],
+     [
+      "another train",
+      0.049
+     ],
+     [
+      "luggage",
+      0.048
+     ],
+     [
+      "the meal",
+      0.048
+     ]
+    ],
+    "u_own-": [
+     [
+      "lee a tregurtha departed duluth",
+      0.08
+     ],
+     [
+      "02:33 lee a. tregurtha",
+      0.059
+     ],
+     [
+      "james l oberstar",
+      0.059
+     ],
+     [
+      "joyce l.vanenkevort/great lakes trader",
+      0.059
+     ],
+     [
+      "jeff doty - https://www.facebook.com/jeffrey.doty.71 david schauer - https://www.facebook.com/david.schauer.37",
+      0.058
+     ],
+     [
+      "james l. oberstar",
+      0.058
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green grass covered field",
+      0.076
+     ],
+     [
+      "a grass covered field",
+      0.069
+     ],
+     [
+      "a blue surfboard",
+      0.069
+     ],
+     [
+      "a red and white boat",
+      0.066
+     ],
+     [
+      "a white frisbee",
+      0.065
+     ],
+     [
+      "a blue sky",
+      0.064
+     ]
+    ],
+    "v_images+": [
+     "CSL Assiniboine arrived Duluth this morning to fuel and load pellets.",
+     "Paul R Tregurtha arrived Duluth Thursday evening to load coal.",
+     "Mesabi Miner arrived Duluth this afternoon to load iron pellets.",
+     "Mesabi Miner arrived Duluth at 05:00 this morning"
+    ],
+    "v_images-": [
+     "Update-04/22/19-12:00 -- Hopefully the bug is gone and the cam stream improves now. 4/22/2",
+     "This morning I picked up a new bunch of chickens that came in overnight and were waiting a",
+     "This Tuesday, 04/30/2024, there will be a memorial service at 11:00 along the canal.On Sun"
+    ]
+   },
+   {
+    "k": 3,
+    "s": 1.375,
+    "cos_uv": -0.17,
+    "specificity": 0.27,
+    "own_mean": 0.381,
+    "own_sd": 0.072,
+    "coco_mean": 0.111,
+    "v_own+": [
+     [
+      "the two harbors ore docks",
+      0.157
+     ],
+     [
+      "the shipping canal",
+      0.137
+     ],
+     [
+      "the ore docks",
+      0.137
+     ],
+     [
+      "the barge",
+      0.133
+     ],
+     [
+      "the harborcam",
+      0.13
+     ],
+     [
+      "safe harbor",
+      0.124
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a harbor",
+      0.123
+     ],
+     [
+      "ships",
+      0.123
+     ],
+     [
+      "a dock",
+      0.117
+     ],
+     [
+      "the dock",
+      0.111
+     ],
+     [
+      "a boat",
+      0.091
+     ],
+     [
+      "a river",
+      0.09
+     ]
+    ],
+    "v_own-": [
+     [
+      "bags",
+      0.02
+     ],
+     [
+      "assistance",
+      0.018
+     ],
+     [
+      "fun",
+      0.015
+     ],
+     [
+      "the help",
+      0.015
+     ],
+     [
+      "beat pulp",
+      0.014
+     ],
+     [
+      "the windows",
+      0.011
+     ]
+    ],
+    "u_own+": [
+     [
+      "16-year-old twins",
+      0.015
+     ],
+     [
+      "departed duluth",
+      0.013
+     ],
+     [
+      "the 1000 ft james r barker",
+      0.004
+     ],
+     [
+      "the 1000 ft edgar b speer",
+      0.003
+     ],
+     [
+      "the middle",
+      0.003
+     ],
+     [
+      "the weekend",
+      0.002
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      0.025
+     ],
+     [
+      "a female tennis player",
+      0.02
+     ],
+     [
+      "an umpire",
+      0.017
+     ],
+     [
+      "unripe bananas",
+      0.017
+     ],
+     [
+      "a field flying kites",
+      0.014
+     ],
+     [
+      "baseball players",
+      0.014
+     ]
+    ],
+    "u_own-": [
+     [
+      "the freighter industrial song",
+      0.15
+     ],
+     [
+      "tug",
+      0.134
+     ],
+     [
+      "the tug",
+      0.133
+     ],
+     [
+      "the freighter",
+      0.133
+     ],
+     [
+      "a new shipping season",
+      0.13
+     ],
+     [
+      "the paul r tregurtha",
+      0.129
+     ]
+    ],
+    "u_coco-": [
+     [
+      "ships",
+      0.114
+     ],
+     [
+      "a row",
+      0.107
+     ],
+     [
+      "a boat",
+      0.105
+     ],
+     [
+      "a harbor",
+      0.104
+     ],
+     [
+      "the dock",
+      0.101
+     ],
+     [
+      "a small boat",
+      0.099
+     ]
+    ],
+    "v_images+": [
+     "James R. Barker (US) arrived Duluth at 06:48 5/16/2014",
+     "Roger Blough departed and Presque Isle arrived Two Harbors Friday evening",
+     "Roger Blough arrived at 10:15 today",
+     "Joseph L Block arrived Duluth at 15:00 today"
+    ],
+    "v_images-": [
+     "This morning I picked up a new bunch of chickens that came in overnight and were waiting a",
+     "Congratulations to the Lake Superior Marine Museum for turning 50 today.Rangers Jeanette, ",
+     "I picked up my delivery of baby chicks today at the post office. The girls are making them"
+    ]
+   },
+   {
+    "k": 4,
+    "s": 1.3,
+    "cos_uv": 0.05,
+    "specificity": 0.158,
+    "own_mean": 0.228,
+    "own_sd": 0.05,
+    "coco_mean": 0.07,
+    "v_own+": [
+     [
+      "his harborcam gallery",
+      0.116
+     ],
+     [
+      "the harborcam",
+      0.1
+     ],
+     [
+      "the harborcams",
+      0.093
+     ],
+     [
+      "lighthouses",
+      0.077
+     ],
+     [
+      "port",
+      0.076
+     ],
+     [
+      "the front harbor",
+      0.071
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a harbor",
+      0.071
+     ],
+     [
+      "a white boat",
+      0.064
+     ],
+     [
+      "a tall clock",
+      0.062
+     ],
+     [
+      "a tall clock tower",
+      0.061
+     ],
+     [
+      "ships",
+      0.06
+     ],
+     [
+      "passengers",
+      0.055
+     ]
+    ],
+    "v_own-": [
+     [
+      "your breath",
+      0.039
+     ],
+     [
+      "the bentleyville tree",
+      0.036
+     ],
+     [
+      "the help",
+      0.034
+     ],
+     [
+      "the muck",
+      0.034
+     ],
+     [
+      "clear skies",
+      0.033
+     ],
+     [
+      "taconite pellets",
+      0.031
+     ]
+    ],
+    "u_own+": [
+     [
+      "petroleum coke",
+      0.139
+     ],
+     [
+      "sugar beet pulp",
+      0.134
+     ],
+     [
+      "beet pulp",
+      0.128
+     ],
+     [
+      "quartz sand",
+      0.125
+     ],
+     [
+      "dolomite",
+      0.125
+     ],
+     [
+      "iron ore",
+      0.119
+     ]
+    ],
+    "u_coco+": [
+     [
+      "some hay",
+      0.084
+     ],
+     [
+      "hay",
+      0.084
+     ],
+     [
+      "sand",
+      0.071
+     ],
+     [
+      "rice",
+      0.071
+     ],
+     [
+      "some rocks",
+      0.07
+     ],
+     [
+      "a dry grass field",
+      0.069
+     ]
+    ],
+    "u_own-": [
+     [
+      "the two harbors cam",
+      0.169
+     ],
+     [
+      "the erie trader/ clyde s. vanenkevort",
+      0.138
+     ],
+     [
+      "the two harbors boat launch",
+      0.135
+     ],
+     [
+      "the two harbors lighthouse",
+      0.133
+     ],
+     [
+      "cason j callway",
+      0.133
+     ],
+     [
+      "erie trader/ clyde s. vanenkevort",
+      0.13
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a very nice bathroom",
+      0.091
+     ],
+     [
+      "picture",
+      0.085
+     ],
+     [
+      "the nintendo wii",
+      0.082
+     ],
+     [
+      "the wii",
+      0.079
+     ],
+     [
+      "spectators",
+      0.078
+     ],
+     [
+      "a lot",
+      0.075
+     ]
+    ],
+    "v_images+": [
+     "Wilfred Sykes arrived in Duluth this morning loaded with limestone.",
+     "American Century arrived in Duluth early this morning to load coal.",
+     "Philip R Clarke, Michipicoten, & Mesabi Miner arrived in Duluth on a warm September aftern",
+     "Arthur M Anderson arrived in Duluth this afternoon loaded with limestone."
+    ],
+    "v_images-": [
+     "A great big THANK YOU to all of you who donated to the camera streaming fundraiser. Your g",
+     "I have added Mary Beth Carlson's music - marybethcarlson.com",
+     "Edgar B Speer departed Superior early this morning"
+    ]
+   },
+   {
+    "k": 5,
+    "s": 1.274,
+    "cos_uv": 0.19,
+    "specificity": 0.111,
+    "own_mean": 0.153,
+    "own_sd": 0.053,
+    "coco_mean": 0.041,
+    "v_own+": [
+     [
+      "the fog",
+      0.062
+     ],
+     [
+      "heavy fog",
+      0.045
+     ],
+     [
+      "the sea smoke",
+      0.044
+     ],
+     [
+      "sea smoke",
+      0.043
+     ],
+     [
+      "the ore docks",
+      0.042
+     ],
+     [
+      "thick fog",
+      0.042
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red train",
+      0.065
+     ],
+     [
+      "red shirt",
+      0.049
+     ],
+     [
+      "a red shirt",
+      0.045
+     ],
+     [
+      "a red car",
+      0.037
+     ],
+     [
+      "a long train",
+      0.036
+     ],
+     [
+      "a red couch",
+      0.033
+     ]
+    ],
+    "v_own-": [
+     [
+      "beet pulp",
+      0.091
+     ],
+     [
+      "sugar beet pulp",
+      0.083
+     ],
+     [
+      "beet pulp pellets",
+      0.076
+     ],
+     [
+      "pack ice",
+      0.061
+     ],
+     [
+      "the barker's horn",
+      0.06
+     ],
+     [
+      "kaye",
+      0.054
+     ]
+    ],
+    "u_own+": [
+     [
+      "the paul r tregurtha",
+      0.126
+     ],
+     [
+      "lee a tregurtha",
+      0.113
+     ],
+     [
+      "paul r tregurtha",
+      0.111
+     ],
+     [
+      "the tregurtha",
+      0.108
+     ],
+     [
+      "the 1000ft paul r tregurtha",
+      0.108
+     ],
+     [
+      "lee a. tregurtha",
+      0.106
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a red fire hydrant",
+      0.012
+     ],
+     [
+      "books",
+      0.011
+     ],
+     [
+      "a book",
+      0.011
+     ],
+     [
+      "a picture",
+      0.011
+     ],
+     [
+      "potatoes",
+      0.01
+     ],
+     [
+      "a red shirt",
+      0.01
+     ]
+    ],
+    "u_own-": [
+     [
+      "departed duluth",
+      0.125
+     ],
+     [
+      "departure",
+      0.11
+     ],
+     [
+      "it's dock",
+      0.103
+     ],
+     [
+      "the wednesday night races",
+      0.092
+     ],
+     [
+      "more wind turbine blades",
+      0.092
+     ],
+     [
+      "the shipping canal",
+      0.091
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the parking lot",
+      0.098
+     ],
+     [
+      "many kites",
+      0.096
+     ],
+     [
+      "the airport",
+      0.092
+     ],
+     [
+      "many boats",
+      0.092
+     ],
+     [
+      "a white dog",
+      0.092
+     ],
+     [
+      "the tower",
+      0.092
+     ]
+    ],
+    "v_images+": [
+     "Night Departure - Hon James L Oberstar slipped out of Duluth in the dark of night after un",
+     "Paul R Tregurtha departed Duluth this morning.",
+     "Philip R Clarke arrived Duluth overnight with a load of limestone.",
+     "Hon James L Oberstar arrived Duluth Thursday night."
+    ],
+    "v_images-": [
+     "American Integrity departed Duluth early this morning to catch the sunrise. Inset photo by",
+     "Viking Polaris departed Duluth this evening after a good time in Duluth.",
+     "Under a bright Easter sunrise, Algoma Sault departed Duluth early this morning after unloa"
+    ]
+   },
+   {
+    "k": 6,
+    "s": 1.219,
+    "cos_uv": 0.32,
+    "specificity": 0.069,
+    "own_mean": 0.09,
+    "own_sd": 0.041,
+    "coco_mean": 0.022,
+    "v_own+": [
+     [
+      "these boats",
+      0.084
+     ],
+     [
+      "the fishing fleet",
+      0.082
+     ],
+     [
+      "tall ships",
+      0.078
+     ],
+     [
+      "these big boats",
+      0.076
+     ],
+     [
+      "sailboats",
+      0.074
+     ],
+     [
+      "the sailboats",
+      0.074
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red and white boat",
+      0.095
+     ],
+     [
+      "two boats",
+      0.083
+     ],
+     [
+      "many boats",
+      0.082
+     ],
+     [
+      "ships",
+      0.069
+     ],
+     [
+      "a fleet",
+      0.066
+     ],
+     [
+      "a sail boat",
+      0.065
+     ]
+    ],
+    "v_own-": [
+     [
+      "any luck",
+      0.036
+     ],
+     [
+      "a testament",
+      0.035
+     ],
+     [
+      "an icelandic itinerant preacher",
+      0.034
+     ],
+     [
+      "wiring",
+      0.033
+     ],
+     [
+      "a part",
+      0.032
+     ],
+     [
+      "a traffic gate",
+      0.032
+     ]
+    ],
+    "u_own+": [
+     [
+      "munson",
+      0.143
+     ],
+     [
+      "frontenac departure",
+      0.112
+     ],
+     [
+      "eemsborg",
+      0.109
+     ],
+     [
+      "frontenac",
+      0.101
+     ],
+     [
+      "the cason j callaway",
+      0.095
+     ],
+     [
+      "arthur halverson",
+      0.092
+     ]
+    ],
+    "u_coco+": [
+     [
+      "some hay",
+      0.113
+     ],
+     [
+      "an orange and white cat",
+      0.099
+     ],
+     [
+      "unripe bananas",
+      0.084
+     ],
+     [
+      "hay",
+      0.082
+     ],
+     [
+      "onions",
+      0.079
+     ],
+     [
+      "toppings",
+      0.078
+     ]
+    ],
+    "u_own-": [
+     [
+      "the 1000ft paul r tregurtha",
+      0.153
+     ],
+     [
+      "load coal",
+      0.143
+     ],
+     [
+      "(load coal",
+      0.131
+     ],
+     [
+      "enough coal",
+      0.125
+     ],
+     [
+      "coal",
+      0.124
+     ],
+     [
+      "the 1000 ft paul r tregurtha",
+      0.117
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an umpire",
+      0.08
+     ],
+     [
+      "a fireplace",
+      0.049
+     ],
+     [
+      "a cloud",
+      0.045
+     ],
+     [
+      "a cigarette",
+      0.044
+     ],
+     [
+      "smoke",
+      0.044
+     ],
+     [
+      "a black car",
+      0.043
+     ]
+    ],
+    "v_images+": [
+     "Virginiaborg departed Duluth this evening loaded with grain.",
+     "John G Munson departed Two Harbors this morning loaded with iron pellets.",
+     "Orsula arrived Duluth Sunday evening to load grain.",
+     "John G Munson departed Duluth this morning."
+    ],
+    "v_images-": [
+     "Paul R Tregurtha arrived for coal, Philip R Clarke departed Duluth on a warm winter mornin",
+     "American Century, Paul R Tregurtha & American Spirit in Duluth all entered the Duluth Cana",
+     "Paul R Tregurtha departed Duluth this morning loaded with enough coal to power a small tow"
+    ]
+   },
+   {
+    "k": 7,
+    "s": 1.157,
+    "cos_uv": 0.16,
+    "specificity": 0.017,
+    "own_mean": 0.013,
+    "own_sd": 0.05,
+    "coco_mean": -0.004,
+    "v_own+": [
+     [
+      "the lighthouse",
+      0.093
+     ],
+     [
+      "a small town",
+      0.082
+     ],
+     [
+      "(load coal",
+      0.08
+     ],
+     [
+      "wednesday night sailboat races",
+      0.079
+     ],
+     [
+      "lighthouses",
+      0.076
+     ],
+     [
+      "petroleum coke",
+      0.074
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a baseball player",
+      0.092
+     ],
+     [
+      "a baseball game",
+      0.089
+     ],
+     [
+      "a small train",
+      0.085
+     ],
+     [
+      "rice",
+      0.083
+     ],
+     [
+      "a small white dog",
+      0.082
+     ],
+     [
+      "a zebra grazing",
+      0.08
+     ]
+    ],
+    "v_own-": [
+     [
+      "barker horn",
+      0.088
+     ],
+     [
+      "gusts",
+      0.047
+     ],
+     [
+      "joy",
+      0.045
+     ],
+     [
+      "noon",
+      0.04
+     ],
+     [
+      "gale force winds",
+      0.037
+     ],
+     [
+      "the joy",
+      0.036
+     ]
+    ],
+    "u_own+": [
+     [
+      "the 1000ft paul r tregurtha",
+      0.147
+     ],
+     [
+      "the paul r tregurtha",
+      0.146
+     ],
+     [
+      "the tregurtha",
+      0.129
+     ],
+     [
+      "lee a tregurtha departed duluth",
+      0.115
+     ],
+     [
+      "lee a. tregurtha",
+      0.106
+     ],
+     [
+      "the 1000 ft paul r tregurtha",
+      0.102
+     ]
+    ],
+    "u_coco+": [
+     [
+      "ships",
+      0.014
+     ],
+     [
+      "boats",
+      -0.0
+     ],
+     [
+      "many boats",
+      -0.002
+     ],
+     [
+      "a large passenger jet",
+      -0.004
+     ],
+     [
+      "two boats",
+      -0.009
+     ],
+     [
+      "giraffes",
+      -0.01
+     ]
+    ],
+    "u_own-": [
+     [
+      "the famous arthur m anderson",
+      0.146
+     ],
+     [
+      "the best view",
+      0.139
+     ],
+     [
+      "cason j callway",
+      0.134
+     ],
+     [
+      "way",
+      0.132
+     ],
+     [
+      "the wall",
+      0.131
+     ],
+     [
+      "great photo",
+      0.127
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a rocky hillside",
+      0.148
+     ],
+     [
+      "a rock formation",
+      0.145
+     ],
+     [
+      "a stone wall",
+      0.142
+     ],
+     [
+      "a street",
+      0.141
+     ],
+     [
+      "the street",
+      0.135
+     ],
+     [
+      "a hill",
+      0.134
+     ]
+    ],
+    "v_images+": [
+     "Paul R Tregurtha arrived at 20:00",
+     "Indiana Harbor departed at 07:16 Paul R. Tregurtha departed at 17:00 Federal Yukina depart",
+     "James R Barker Departure 1/1/2013 Paul R. Tregurtha arrived at 03:24 Mesabi Miner arrived ",
+     "Kaye E. Barker arrived at 05:37 Algoma Montrealais arrived at 06:16 Isadora (Cyp) arrived "
+    ],
+    "v_images-": [
+     "Emerging from the ice fog, the American Mariner arrived in Duluth this morning like a snot",
+     "Edwin H Gott arrived in Duluth Port Terminal today for an unknown visit.",
+     "\\James R Barker arrived in Duluth this afternoon to load coal."
+    ]
+   },
+   {
+    "k": 8,
+    "s": 1.119,
+    "cos_uv": 0.03,
+    "specificity": 0.049,
+    "own_mean": 0.094,
+    "own_sd": 0.07,
+    "coco_mean": 0.045,
+    "v_own+": [
+     [
+      "taconite pellets",
+      0.065
+     ],
+     [
+      "taconite",
+      0.063
+     ],
+     [
+      "the 1000ft paul r tregurtha",
+      0.055
+     ],
+     [
+      "the paul r tregurtha",
+      0.053
+     ],
+     [
+      "calumet",
+      0.053
+     ],
+     [
+      "the temps",
+      0.05
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a red umbrella",
+      0.061
+     ],
+     [
+      "a red train",
+      0.06
+     ],
+     [
+      "a red shirt",
+      0.057
+     ],
+     [
+      "red shirt",
+      0.055
+     ],
+     [
+      "a red couch",
+      0.048
+     ],
+     [
+      "a red tie",
+      0.046
+     ]
+    ],
+    "v_own-": [
+     [
+      "wednesday night sailboat races",
+      0.075
+     ],
+     [
+      "the wednesday night races",
+      0.063
+     ],
+     [
+      "an incredible sunrise",
+      0.056
+     ],
+     [
+      "august sunrises",
+      0.051
+     ],
+     [
+      "this mornings sunrise",
+      0.05
+     ],
+     [
+      "lake superior sunrises",
+      0.05
+     ]
+    ],
+    "u_own+": [
+     [
+      "wednesday night sailboat races",
+      0.196
+     ],
+     [
+      "the wednesday night races",
+      0.191
+     ],
+     [
+      "the night",
+      0.156
+     ],
+     [
+      "wednesday night",
+      0.154
+     ],
+     [
+      "night",
+      0.147
+     ],
+     [
+      "the evening",
+      0.138
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a night scene",
+      0.149
+     ],
+     [
+      "night",
+      0.147
+     ],
+     [
+      "street lights",
+      0.095
+     ],
+     [
+      "a red light",
+      0.084
+     ],
+     [
+      "the couch",
+      0.083
+     ],
+     [
+      "the dark",
+      0.081
+     ]
+    ],
+    "u_own-": [
+     [
+      "limestone",
+      0.082
+     ],
+     [
+      "quartz sand",
+      0.069
+     ],
+     [
+      "bagged quartz",
+      0.068
+     ],
+     [
+      "this morning",
+      0.061
+     ],
+     [
+      "dolomite",
+      0.06
+     ],
+     [
+      "quartz",
+      0.059
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a stone",
+      0.055
+     ],
+     [
+      "a red and white boat",
+      0.048
+     ],
+     [
+      "ships",
+      0.034
+     ],
+     [
+      "a crate",
+      0.033
+     ],
+     [
+      "a office",
+      0.031
+     ],
+     [
+      "a rock",
+      0.031
+     ]
+    ],
+    "v_images+": [
+     "Paul R Tregurtha departed Duluth this evening loaded with enough coal energy to power the ",
+     "Paul R Tregurtha departed Duluth sailing into a Lake Superior Rainbow",
+     "Paul R Tregurtha arrived Duluth Friday evening to load coal.",
+     "Paul R Tregutha departed Duluth this evening."
+    ],
+    "v_images-": [
+     "Walter J. McCarthy Jr. departed at 06:45 American Century arrived at 15:30 Arthur M. Ander",
+     "Arthur M Anderson arrived in Duluth this morning loaded with limestone.",
+     "Algoma Enterprise arrived Two Harbors Friday evening to load iron."
+    ]
+   }
+  ]
+ }
+}

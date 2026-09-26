@@ -1,0 +1,106 @@
+{
+ "imported_from": "story/sets/colab_results_sets_so400m_nomaps_2026-09-22.json",
+ "ties": "geq",
+ "collection": "rsicd",
+ "encoder": "siglip2-so400m-16-384",
+ "config": {
+  "model": "google/siglip2-so400m-patch16-384",
+  "src_grid": 24,
+  "grid": 12,
+  "dim": 1152,
+  "pmax": 32,
+  "epochs": 30,
+  "batch": 128,
+  "tau_floor": 0.01,
+  "seeds": 2,
+  "lr": 0.0001,
+  "wd": 0.0001,
+  "loss_temp": 0.05
+ },
+ "n": {
+  "train": 8734,
+  "val": 1094,
+  "test": 1093
+ },
+ "protocol": {
+  "frozen": {
+   "T2I R@1": 0.1010064043915828,
+   "T2I R@5": 0.29167429094236047,
+   "T2I R@10": 0.41537053979871913,
+   "I2T R@1": 0.12076852698993595,
+   "I2T R@5": 0.2918572735590119,
+   "I2T R@10": 0.4071363220494053,
+   "mR": 0.2713022262885026,
+   "gallery": 1093,
+   "queries": 5465,
+   "note": "standard RSITR protocol: all 5 captions per test image; I2T hit if any of the image's captions is in the top k"
+  },
+  "nomaps_set": {
+   "T2I R@1": 0.11454711802378774,
+   "T2I R@5": 0.3182067703568161,
+   "T2I R@10": 0.4477584629460201,
+   "I2T R@1": 0.07593778591033852,
+   "I2T R@5": 0.20677035681610248,
+   "I2T R@10": 0.33485818847209514,
+   "mR": 0.24967978042086003,
+   "gallery": 1093,
+   "queries": 5465,
+   "note": "standard RSITR protocol: all 5 captions per test image; I2T hit if any of the image's captions is in the top k"
+  }
+ },
+ "frozen": {
+  "R@1": 0.11436413540713632,
+  "R@5": 0.3183897529734675,
+  "R@10": 0.4373284537968893,
+  "R@50": 0.8096980786825252,
+  "median_rank": 14.0,
+  "R@10_ci": [
+   0.408028362305581,
+   0.46752058554437326
+  ]
+ },
+ "nomaps_set": {
+  "R@1": 0.12259835315645014,
+  "R@5": 0.34858188472095153,
+  "R@10": 0.47209515096065874,
+  "R@50": 0.827996340347667,
+  "median_rank": 12.0,
+  "R@10_ci": [
+   0.44281793229643185,
+   0.5023101555352241
+  ],
+  "lam": 4.0,
+  "tau": 0.01,
+  "val_R@10": 0.564,
+  "val_grid": {
+   "lam0.25_tau0.01": 0.542,
+   "lam0.25_tau0.02": 0.548,
+   "lam0.25_tau0.05": 0.542,
+   "lam0.25_tau0.1": 0.542,
+   "lam0.5_tau0.01": 0.548,
+   "lam0.5_tau0.02": 0.544,
+   "lam0.5_tau0.05": 0.542,
+   "lam0.5_tau0.1": 0.54,
+   "lam1.0_tau0.01": 0.562,
+   "lam1.0_tau0.02": 0.556,
+   "lam1.0_tau0.05": 0.55,
+   "lam1.0_tau0.1": 0.548,
+   "lam2.0_tau0.01": 0.552,
+   "lam2.0_tau0.02": 0.554,
+   "lam2.0_tau0.05": 0.544,
+   "lam2.0_tau0.1": 0.53,
+   "lam4.0_tau0.01": 0.564,
+   "lam4.0_tau0.02": 0.554,
+   "lam4.0_tau0.05": 0.528,
+   "lam4.0_tau0.1": 0.508,
+   "lam8.0_tau0.01": 0.548,
+   "lam8.0_tau0.02": 0.532,
+   "lam8.0_tau0.05": 0.492,
+   "lam8.0_tau0.1": 0.462,
+   "lam16.0_tau0.01": 0.53,
+   "lam16.0_tau0.02": 0.516,
+   "lam16.0_tau0.05": 0.444,
+   "lam16.0_tau0.1": 0.412
+  }
+ }
+}

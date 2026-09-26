@@ -1,0 +1,3200 @@
+{
+ "imported_from": "story/directions/directions.json",
+ "ties": "geq",
+ "collection": "semart",
+ "encoder": "siglip2-base-16-256",
+ "pooled/Wt": {
+  "frob": 6.647,
+  "energy_top8": 0.331,
+  "energy_top16": 0.47,
+  "top_s": [
+   2.047,
+   1.505,
+   1.313,
+   1.285,
+   1.193,
+   1.092,
+   1.054,
+   1.029,
+   1.001,
+   0.967,
+   0.932,
+   0.858,
+   0.846,
+   0.826,
+   0.797,
+   0.769
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 2.047,
+    "cos_uv": -0.26,
+    "specificity": 0.234,
+    "own_mean": 0.372,
+    "own_sd": 0.037,
+    "coco_mean": 0.137,
+    "v_own+": [
+     [
+      "this, probably giotto's earliest surviving work",
+      0.308
+     ],
+     [
+      "17th-century dutch still-life painters",
+      0.306
+     ],
+     [
+      "el greco's earlier painting",
+      0.302
+     ],
+     [
+      "the imposing fourteenth-century sienese painting",
+      0.301
+     ],
+     [
+      "an unidentified sixteenth-century painter",
+      0.3
+     ],
+     [
+      "the seventeenth-century dutch genre painters",
+      0.294
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a very nice bathroom",
+      0.203
+     ],
+     [
+      "a painting",
+      0.2
+     ],
+     [
+      "a flat screen tv",
+      0.192
+     ],
+     [
+      "a photograph",
+      0.191
+     ],
+     [
+      "the television",
+      0.189
+     ],
+     [
+      "a male tennis player",
+      0.187
+     ]
+    ],
+    "v_own-": [
+     [
+      "free rein",
+      0.006
+     ],
+     [
+      "merits",
+      0.004
+     ],
+     [
+      "medlars",
+      -0.005
+     ],
+     [
+      "the horrors",
+      -0.009
+     ],
+     [
+      "the wing",
+      -0.011
+     ],
+     [
+      "haddock",
+      -0.014
+     ]
+    ],
+    "u_own+": [
+     [
+      "elsheimer's small copper",
+      -0.508
+     ],
+     [
+      "two kneeling nuns",
+      -0.508
+     ],
+     [
+      "the espalier",
+      -0.581
+     ],
+     [
+      "the offspring",
+      -0.587
+     ],
+     [
+      "the wing",
+      -0.587
+     ],
+     [
+      "the horrors",
+      -0.595
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      -0.602
+     ],
+     [
+      "a green and white bus",
+      -0.672
+     ],
+     [
+      "a green street sign",
+      -0.673
+     ],
+     [
+      "a green motorcycle",
+      -0.7
+     ],
+     [
+      "a red and white boat",
+      -0.701
+     ],
+     [
+      "a vehicle",
+      -0.719
+     ]
+    ],
+    "u_own-": [
+     [
+      "london),the entombment (staatliche museen, berlin),the resurrection (national gallery",
+      0.934
+     ],
+     [
+      "this extensive depiction",
+      0.932
+     ],
+     [
+      "ianua certa poli duc mentem dirige vitam",
+      0.932
+     ],
+     [
+      "harriet beecher-stove's uncle tom's cabin and charles dickens's a christmas carol",
+      0.931
+     ],
+     [
+      "petrvs pervsinvs pinxit",
+      0.931
+     ],
+     [
+      "art historian and restorer jan van dijk",
+      0.93
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a very nice bathroom",
+      0.922
+     ],
+     [
+      "a contraption",
+      0.922
+     ],
+     [
+      "another person",
+      0.922
+     ],
+     [
+      "a kitten",
+      0.922
+     ],
+     [
+      "a grill",
+      0.921
+     ],
+     [
+      "the keyboard",
+      0.92
+     ]
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.505,
+    "cos_uv": 0.63,
+    "specificity": 0.001,
+    "own_mean": -0.048,
+    "own_sd": 0.026,
+    "coco_mean": -0.049,
+    "v_own+": [
+     [
+      "montalcino",
+      0.086
+     ],
+     [
+      "the macchiaioli",
+      0.086
+     ],
+     [
+      "the piccolomini",
+      0.083
+     ],
+     [
+      "ridolfo ghirlandaio",
+      0.079
+     ],
+     [
+      "ridolfo del ghirlandaio",
+      0.078
+     ],
+     [
+      "the piccolomini library",
+      0.075
+     ]
+    ],
+    "v_coco+": [
+     [
+      "front",
+      0.031
+     ],
+     [
+      "the bench",
+      0.03
+     ],
+     [
+      "the neck",
+      0.029
+     ],
+     [
+      "shorts",
+      0.026
+     ],
+     [
+      "a vehicle",
+      0.024
+     ],
+     [
+      "the arm",
+      0.023
+     ]
+    ],
+    "v_own-": [
+     [
+      "the 1886 impressionist exhibition",
+      0.127
+     ],
+     [
+      "1886 impressionist exhibitions",
+      0.118
+     ],
+     [
+      "free rein",
+      0.117
+     ],
+     [
+      "1881-83 van gogh",
+      0.115
+     ],
+     [
+      "the 1780s",
+      0.114
+     ],
+     [
+      "many mid-18th century parisian h\u00f4tels",
+      0.111
+     ]
+    ],
+    "u_own+": [
+     [
+      "ghirlandaio's fresco",
+      0.255
+     ],
+     [
+      "domenico ghirlandaio",
+      0.25
+     ],
+     [
+      "davide ghirlandaio",
+      0.247
+     ],
+     [
+      "domenico ghirlandaio's follower",
+      0.247
+     ],
+     [
+      "april 1476 domenico ghirlandaio",
+      0.243
+     ],
+     [
+      "an unidentified altarpiece",
+      0.243
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a church",
+      0.133
+     ],
+     [
+      "a tall church tower",
+      0.123
+     ],
+     [
+      "a pizza box",
+      0.116
+     ],
+     [
+      "black shorts",
+      0.115
+     ],
+     [
+      "the neck",
+      0.115
+     ],
+     [
+      "a green grass covered field",
+      0.114
+     ]
+    ],
+    "u_own-": [
+     [
+      "free rein",
+      0.053
+     ],
+     [
+      "gaslights",
+      0.018
+     ],
+     [
+      "the 1886 impressionist exhibition",
+      0.015
+     ],
+     [
+      "the fog",
+      0.014
+     ],
+     [
+      "a tavern interior",
+      0.011
+     ],
+     [
+      "the canal houses",
+      0.009
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the wild",
+      -0.001
+     ],
+     [
+      "an empty train station",
+      -0.011
+     ],
+     [
+      "an umpire",
+      -0.015
+     ],
+     [
+      "a restaurant table",
+      -0.019
+     ],
+     [
+      "three vases",
+      -0.02
+     ],
+     [
+      "a rainy day",
+      -0.023
+     ]
+    ]
+   },
+   {
+    "k": 3,
+    "s": 1.313,
+    "cos_uv": 0.61,
+    "specificity": 0.033,
+    "own_mean": -0.003,
+    "own_sd": 0.026,
+    "coco_mean": -0.036,
+    "v_own+": [
+     [
+      "mythological backdrop",
+      0.079
+     ],
+     [
+      "classical mythology",
+      0.075
+     ],
+     [
+      "jasmine",
+      0.073
+     ],
+     [
+      "piero di cosimo's two mythological paintings",
+      0.072
+     ],
+     [
+      "the classical goddess",
+      0.072
+     ],
+     [
+      "mythological themes",
+      0.071
+     ]
+    ],
+    "v_coco+": [
+     [
+      "toilet paper",
+      0.057
+     ],
+     [
+      "background",
+      0.044
+     ],
+     [
+      "a bath room",
+      0.04
+     ],
+     [
+      "action",
+      0.039
+     ],
+     [
+      "fun",
+      0.038
+     ],
+     [
+      "a bathroom",
+      0.038
+     ]
+    ],
+    "v_own-": [
+     [
+      "the seated man",
+      0.088
+     ],
+     [
+      "1640-41 envoy",
+      0.087
+     ],
+     [
+      "vanitas still-lifes",
+      0.086
+     ],
+     [
+      "terborch's sitters",
+      0.086
+     ],
+     [
+      "half-figure bust portraits",
+      0.085
+     ],
+     [
+      "a man's head",
+      0.085
+     ]
+    ],
+    "u_own+": [
+     [
+      "the allegorical triumph",
+      0.158
+     ],
+     [
+      "the nereids",
+      0.157
+     ],
+     [
+      "allegorical frescoes",
+      0.15
+     ],
+     [
+      "this mythological scene",
+      0.148
+     ],
+     [
+      "the mythological scene",
+      0.148
+     ],
+     [
+      "correggio's cupola painting",
+      0.147
+     ]
+    ],
+    "u_coco+": [
+     [
+      "action",
+      0.072
+     ],
+     [
+      "the sky",
+      0.071
+     ],
+     [
+      "the scene",
+      0.068
+     ],
+     [
+      "formation",
+      0.061
+     ],
+     [
+      "shower",
+      0.059
+     ],
+     [
+      "a cloudy sky",
+      0.058
+     ]
+    ],
+    "u_own-": [
+     [
+      "a black doublet",
+      0.123
+     ],
+     [
+      "other 15th-century flemish portraits",
+      0.101
+     ],
+     [
+      "a three quarter length portrait",
+      0.098
+     ],
+     [
+      "a half-length portrait",
+      0.097
+     ],
+     [
+      "an abbot",
+      0.096
+     ],
+     [
+      "half-figure bust portraits",
+      0.094
+     ]
+    ],
+    "u_coco-": [
+     [
+      "an elderly man",
+      0.08
+     ],
+     [
+      "a self portrait",
+      0.079
+     ],
+     [
+      "a black hat",
+      0.076
+     ],
+     [
+      "two slices",
+      0.064
+     ],
+     [
+      "a snowboarder",
+      0.058
+     ],
+     [
+      "an older man",
+      0.056
+     ]
+    ]
+   },
+   {
+    "k": 4,
+    "s": 1.285,
+    "cos_uv": 0.6,
+    "specificity": 0.011,
+    "own_mean": 0.025,
+    "own_sd": 0.025,
+    "coco_mean": 0.014,
+    "v_own+": [
+     [
+      "the fresco cycle life",
+      0.12
+     ],
+     [
+      "the preoccupations",
+      0.113
+     ],
+     [
+      "the east end section",
+      0.109
+     ],
+     [
+      "the second bay",
+      0.108
+     ],
+     [
+      "the 1997 earthquake",
+      0.108
+     ],
+     [
+      "a fresco cycle",
+      0.106
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the dirt",
+      0.103
+     ],
+     [
+      "a messy room",
+      0.077
+     ],
+     [
+      "a curb",
+      0.076
+     ],
+     [
+      "the wall",
+      0.073
+     ],
+     [
+      "a street sign",
+      0.073
+     ],
+     [
+      "a sidewalk",
+      0.072
+     ]
+    ],
+    "v_own-": [
+     [
+      "pendant (or pair) portraits",
+      0.072
+     ],
+     [
+      "balthasar van der ast",
+      0.068
+     ],
+     [
+      "michiel van miereveld",
+      0.066
+     ],
+     [
+      "pendants",
+      0.065
+     ],
+     [
+      "carel van mander",
+      0.065
+     ],
+     [
+      "gerrit van honthorst",
+      0.058
+     ]
+    ],
+    "u_own+": [
+     [
+      "the 1900 world exhibition",
+      0.077
+     ],
+     [
+      "the 1890s",
+      0.056
+     ],
+     [
+      "1892 lautrec",
+      0.051
+     ],
+     [
+      "1893.in",
+      0.048
+     ],
+     [
+      "the east end section",
+      0.047
+     ],
+     [
+      "the 1930s",
+      0.045
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a sidewalk",
+      0.028
+     ],
+     [
+      "the sidewalk",
+      0.028
+     ],
+     [
+      "the dirt",
+      0.026
+     ],
+     [
+      "a curb",
+      0.021
+     ],
+     [
+      "the wall",
+      0.018
+     ],
+     [
+      "a brick building",
+      0.016
+     ]
+    ],
+    "u_own-": [
+     [
+      "balthasar van der ast",
+      0.23
+     ],
+     [
+      "elegant late 17th century dress",
+      0.177
+     ],
+     [
+      "flemish portraiture",
+      0.175
+     ],
+     [
+      "the 1670s",
+      0.17
+     ],
+     [
+      "michiel van miereveld",
+      0.168
+     ],
+     [
+      "gerrit van honthorst",
+      0.162
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a disk toy",
+      0.09
+     ],
+     [
+      "a tall clock",
+      0.084
+     ],
+     [
+      "a brown bird",
+      0.082
+     ],
+     [
+      "a self portrait",
+      0.081
+     ],
+     [
+      "video games",
+      0.081
+     ],
+     [
+      "a toilette",
+      0.081
+     ]
+    ]
+   },
+   {
+    "k": 5,
+    "s": 1.193,
+    "cos_uv": 0.46,
+    "specificity": 0.012,
+    "own_mean": -0.004,
+    "own_sd": 0.024,
+    "coco_mean": -0.015,
+    "v_own+": [
+     [
+      "another predella panel",
+      0.101
+     ],
+     [
+      "these two relatively small panels",
+      0.092
+     ],
+     [
+      "two predella panels",
+      0.091
+     ],
+     [
+      "this predella panel",
+      0.09
+     ],
+     [
+      "the three original predella panels",
+      0.087
+     ],
+     [
+      "six more monochrome panels",
+      0.085
+     ]
+    ],
+    "v_coco+": [
+     [
+      "his board",
+      0.057
+     ],
+     [
+      "a patch",
+      0.05
+     ],
+     [
+      "a sign",
+      0.049
+     ],
+     [
+      "a road sign",
+      0.044
+     ],
+     [
+      "animals",
+      0.043
+     ],
+     [
+      "junk",
+      0.041
+     ]
+    ],
+    "v_own-": [
+     [
+      "the bust portrait",
+      0.099
+     ],
+     [
+      "the gattamelata's portrait",
+      0.099
+     ],
+     [
+      "this exceptional portrait",
+      0.098
+     ],
+     [
+      "pastel portrait",
+      0.094
+     ],
+     [
+      "the well-known portrait",
+      0.091
+     ],
+     [
+      "the 17-year-old suzanne valadon",
+      0.091
+     ]
+    ],
+    "u_own+": [
+     [
+      "a procuress",
+      0.153
+     ],
+     [
+      "a blind beggar",
+      0.151
+     ],
+     [
+      "the procuress",
+      0.144
+     ],
+     [
+      "a beggar",
+      0.142
+     ],
+     [
+      "gypsies",
+      0.14
+     ],
+     [
+      "a peasant wedding",
+      0.135
+     ]
+    ],
+    "u_coco+": [
+     [
+      "an outdoor party",
+      0.099
+     ],
+     [
+      "a picnic",
+      0.079
+     ],
+     [
+      "a red light",
+      0.076
+     ],
+     [
+      "an umpire",
+      0.076
+     ],
+     [
+      "an outdoor market",
+      0.074
+     ],
+     [
+      "the midst",
+      0.074
+     ]
+    ],
+    "u_own-": [
+     [
+      "graceful marble and crystal columns",
+      0.117
+     ],
+     [
+      "the new carved ceiling",
+      0.117
+     ],
+     [
+      "the great galleried hall",
+      0.116
+     ],
+     [
+      "an ornate projecting cornice",
+      0.116
+     ],
+     [
+      "the four ceiling medallions",
+      0.115
+     ],
+     [
+      "the amazing ceiling",
+      0.112
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a large mirror",
+      0.075
+     ],
+     [
+      "a large living room",
+      0.067
+     ],
+     [
+      "a large window",
+      0.061
+     ],
+     [
+      "a living room chair",
+      0.055
+     ],
+     [
+      "a large building",
+      0.055
+     ],
+     [
+      "a dining room table",
+      0.054
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "s": 1.092,
+    "cos_uv": 0.59,
+    "specificity": 0.001,
+    "own_mean": -0.011,
+    "own_sd": 0.026,
+    "coco_mean": -0.012,
+    "v_own+": [
+     [
+      "market and kitchen scenes",
+      0.091
+     ],
+     [
+      "lively scenes",
+      0.09
+     ],
+     [
+      "everyday scenes",
+      0.086
+     ],
+     [
+      "the parisian racing scenes",
+      0.086
+     ],
+     [
+      "seven scenes",
+      0.086
+     ],
+     [
+      "equestrian scenes",
+      0.084
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a train yard",
+      0.067
+     ],
+     [
+      "the scene",
+      0.061
+     ],
+     [
+      "a busy street",
+      0.06
+     ],
+     [
+      "the kitchen",
+      0.056
+     ],
+     [
+      "a horse drawn carriage",
+      0.056
+     ],
+     [
+      "a busy city street",
+      0.056
+     ]
+    ],
+    "v_own-": [
+     [
+      "the twisting pose",
+      0.112
+     ],
+     [
+      "a small crucifix",
+      0.109
+     ],
+     [
+      "a wooden coffered ceiling",
+      0.105
+     ],
+     [
+      "virgin martyr",
+      0.102
+     ],
+     [
+      "the wooden ceiling",
+      0.097
+     ],
+     [
+      "the scapular",
+      0.097
+     ]
+    ],
+    "u_own+": [
+     [
+      "a hunting party",
+      0.145
+     ],
+     [
+      "the wedding banquet",
+      0.142
+     ],
+     [
+      "market and kitchen scenes",
+      0.14
+     ],
+     [
+      "a market scene",
+      0.139
+     ],
+     [
+      "the banquet scene",
+      0.138
+     ],
+     [
+      "the hunting scenes",
+      0.137
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a busy city street",
+      0.156
+     ],
+     [
+      "a busy street",
+      0.147
+     ],
+     [
+      "an outdoor market",
+      0.118
+     ],
+     [
+      "a town",
+      0.118
+     ],
+     [
+      "an outdoor party",
+      0.115
+     ],
+     [
+      "a large kitchen",
+      0.11
+     ]
+    ],
+    "u_own-": [
+     [
+      "torso",
+      0.128
+     ],
+     [
+      "a satyr",
+      0.125
+     ],
+     [
+      "a lightly veiled female nude carrying scales",
+      0.124
+     ],
+     [
+      "a bacchante",
+      0.117
+     ],
+     [
+      "the satyr",
+      0.114
+     ],
+     [
+      "a putto",
+      0.111
+     ]
+    ],
+    "u_coco-": [
+     [
+      "two apples",
+      0.101
+     ],
+     [
+      "her arms",
+      0.093
+     ],
+     [
+      "her shoulder",
+      0.086
+     ],
+     [
+      "a self portrait",
+      0.08
+     ],
+     [
+      "a shirtless man",
+      0.076
+     ],
+     [
+      "an older woman",
+      0.071
+     ]
+    ]
+   },
+   {
+    "k": 7,
+    "s": 1.054,
+    "cos_uv": 0.48,
+    "specificity": 0.016,
+    "own_mean": 0.001,
+    "own_sd": 0.025,
+    "coco_mean": -0.016,
+    "v_own+": [
+     [
+      "tintoretto's two paintings",
+      0.084
+     ],
+     [
+      "the score",
+      0.076
+     ],
+     [
+      "testament",
+      0.074
+     ],
+     [
+      "an unidentified 56-year-old man",
+      0.073
+     ],
+     [
+      "bredius 639.this painting",
+      0.073
+     ],
+     [
+      "the tambourine",
+      0.07
+     ]
+    ],
+    "v_coco+": [
+     [
+      "four men",
+      0.055
+     ],
+     [
+      "the side",
+      0.05
+     ],
+     [
+      "toilet paper",
+      0.046
+     ],
+     [
+      "side",
+      0.042
+     ],
+     [
+      "his bicycle",
+      0.039
+     ],
+     [
+      "the edge",
+      0.034
+     ]
+    ],
+    "v_own-": [
+     [
+      "a wooded river landscape",
+      0.108
+     ],
+     [
+      "an extensive river landscape",
+      0.103
+     ],
+     [
+      "a nordic mountain landscape",
+      0.099
+     ],
+     [
+      "a river landscape",
+      0.098
+     ],
+     [
+      "this river landscape",
+      0.097
+     ],
+     [
+      "her lands",
+      0.094
+     ]
+    ],
+    "u_own+": [
+     [
+      "nebuchadnezzar",
+      0.149
+     ],
+     [
+      "ancient philosophers",
+      0.148
+     ],
+     [
+      "apostle",
+      0.146
+     ],
+     [
+      "the flagellation",
+      0.14
+     ],
+     [
+      "an augustinian friar",
+      0.131
+     ],
+     [
+      "odysseus",
+      0.13
+     ]
+    ],
+    "u_coco+": [
+     [
+      "four men",
+      0.087
+     ],
+     [
+      "an elderly man",
+      0.066
+     ],
+     [
+      "a messy room",
+      0.059
+     ],
+     [
+      "an umpire",
+      0.056
+     ],
+     [
+      "the room",
+      0.056
+     ],
+     [
+      "the court",
+      0.054
+     ]
+    ],
+    "u_own-": [
+     [
+      "a young mother",
+      0.114
+     ],
+     [
+      "a young devoted mother",
+      0.111
+     ],
+     [
+      "her lap",
+      0.106
+     ],
+     [
+      "the mother's lap",
+      0.106
+     ],
+     [
+      "maternal love",
+      0.105
+     ],
+     [
+      "her small children",
+      0.102
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a green grass covered field",
+      0.092
+     ],
+     [
+      "a meadow",
+      0.09
+     ],
+     [
+      "a grass covered field",
+      0.086
+     ],
+     [
+      "a leaf filled tree",
+      0.086
+     ],
+     [
+      "a lush green field",
+      0.086
+     ],
+     [
+      "a green field",
+      0.083
+     ]
+    ]
+   },
+   {
+    "k": 8,
+    "s": 1.029,
+    "cos_uv": 0.49,
+    "specificity": 0.011,
+    "own_mean": -0.015,
+    "own_sd": 0.023,
+    "coco_mean": -0.026,
+    "v_own+": [
+     [
+      "the left-hand wing",
+      0.074
+     ],
+     [
+      "the large elliptical opening frames",
+      0.067
+     ],
+     [
+      "the roundels",
+      0.067
+     ],
+     [
+      "these roundels",
+      0.066
+     ],
+     [
+      "its exquisitely carved capitals",
+      0.066
+     ],
+     [
+      "ursula's arms",
+      0.063
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the birds",
+      0.05
+     ],
+     [
+      "two birds",
+      0.047
+     ],
+     [
+      "three birds",
+      0.047
+     ],
+     [
+      "white flowers",
+      0.043
+     ],
+     [
+      "a bathroom window",
+      0.041
+     ],
+     [
+      "apples",
+      0.039
+     ]
+    ],
+    "v_own-": [
+     [
+      "th\u00e9&#226;tre italien",
+      0.1
+     ],
+     [
+      "thirteen portraits",
+      0.098
+     ],
+     [
+      "seventeen small-format grisaille studies",
+      0.096
+     ],
+     [
+      "a successful portraitist",
+      0.093
+     ],
+     [
+      "a tempietto",
+      0.092
+     ],
+     [
+      "a team",
+      0.091
+     ]
+    ],
+    "u_own+": [
+     [
+      "the great altarpiece",
+      0.129
+     ],
+     [
+      "the dismembered altarpiece",
+      0.127
+     ],
+     [
+      "the large altarpiece",
+      0.127
+     ],
+     [
+      "the main altarpiece",
+      0.124
+     ],
+     [
+      "the winged altarpiece",
+      0.123
+     ],
+     [
+      "the immense altarpiece",
+      0.12
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a bathroom window",
+      0.088
+     ],
+     [
+      "the table",
+      0.085
+     ],
+     [
+      "an open refrigerator",
+      0.083
+     ],
+     [
+      "the kitchen counter",
+      0.082
+     ],
+     [
+      "a messy room",
+      0.082
+     ],
+     [
+      "the room",
+      0.082
+     ]
+    ],
+    "u_own-": [
+     [
+      "an unidentified gentleman",
+      0.097
+     ],
+     [
+      "an unknown gentleman",
+      0.094
+     ],
+     [
+      "a blind man",
+      0.089
+     ],
+     [
+      "a carthaginian general",
+      0.087
+     ],
+     [
+      "1818 people",
+      0.084
+     ],
+     [
+      "a venetian nobleman",
+      0.083
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a baseball uniform",
+      0.056
+     ],
+     [
+      "a helmet",
+      0.055
+     ],
+     [
+      "an umpire",
+      0.055
+     ],
+     [
+      "an elderly man",
+      0.05
+     ],
+     [
+      "a man",
+      0.049
+     ],
+     [
+      "a blue jacket",
+      0.045
+     ]
+    ]
+   }
+  ]
+ },
+ "pooled/Wi": {
+  "frob": 6.17,
+  "energy_top8": 0.215,
+  "energy_top16": 0.34,
+  "top_s": [
+   1.344,
+   1.067,
+   1.015,
+   0.995,
+   0.964,
+   0.897,
+   0.893,
+   0.832,
+   0.822,
+   0.814,
+   0.795,
+   0.786,
+   0.758,
+   0.743,
+   0.726,
+   0.715
+  ],
+  "directions": [
+   {
+    "k": 1,
+    "s": 1.344,
+    "cos_uv": -0.5,
+    "specificity": 0.357,
+    "own_mean": 0.511,
+    "own_sd": 0.044,
+    "coco_mean": 0.154,
+    "v_own+": [
+     [
+      "early netherlandish painting",
+      0.207
+     ],
+     [
+      "earlier netherlandish paintings",
+      0.205
+     ],
+     [
+      "brueghel's paintings",
+      0.195
+     ],
+     [
+      "17th-century dutch genre painting",
+      0.192
+     ],
+     [
+      "the surviving two predella paintings",
+      0.189
+     ],
+     [
+      "the early 17th century roman painters",
+      0.189
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a painting",
+      0.132
+     ],
+     [
+      "a toilette",
+      0.124
+     ],
+     [
+      "a self portrait",
+      0.115
+     ],
+     [
+      "the young boy",
+      0.094
+     ],
+     [
+      "two young boys",
+      0.089
+     ],
+     [
+      "a young man",
+      0.086
+     ]
+    ],
+    "v_own-": [
+     [
+      "merits",
+      0.052
+     ],
+     [
+      "the help",
+      0.05
+     ],
+     [
+      "the contours",
+      0.048
+     ],
+     [
+      "the isle",
+      0.045
+     ],
+     [
+      "the overtones",
+      0.043
+     ],
+     [
+      "free rein",
+      0.041
+     ]
+    ],
+    "u_own+": [
+     [
+      "the temptations",
+      0.063
+     ],
+     [
+      "free rein",
+      0.059
+     ],
+     [
+      "merits",
+      0.05
+     ],
+     [
+      "the overtones",
+      0.047
+     ],
+     [
+      "the wing",
+      0.042
+     ],
+     [
+      "the help",
+      0.042
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a blue and green tennis court",
+      0.079
+     ],
+     [
+      "parked motorcycles",
+      0.063
+     ],
+     [
+      "an empty train station",
+      0.038
+     ],
+     [
+      "a green street sign",
+      0.034
+     ],
+     [
+      "zebra standing",
+      0.034
+     ],
+     [
+      "snowy trees",
+      0.033
+     ]
+    ],
+    "u_own-": [
+     [
+      "the early 17th century roman painters",
+      0.164
+     ],
+     [
+      "spanish 17th-century painting",
+      0.162
+     ],
+     [
+      "caravaggio's painting",
+      0.161
+     ],
+     [
+      "the 17th century florentine painter",
+      0.16
+     ],
+     [
+      "17th-century painting",
+      0.159
+     ],
+     [
+      "caravaggio's paintings",
+      0.158
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a painting",
+      0.119
+     ],
+     [
+      "a picture",
+      0.101
+     ],
+     [
+      "picture",
+      0.101
+     ],
+     [
+      "image",
+      0.1
+     ],
+     [
+      "a very nice bathroom",
+      0.095
+     ],
+     [
+      "an image",
+      0.093
+     ]
+    ],
+    "v_images+": [
+     "It was already in 1530 described simply as \"the little landscape on canvas with a tempest,",
+     "Two of the frescoes, (The Naming of the Baptist and Salome Receiving the Baptist's Head) t",
+     "This painting is a preparatory oil sketch for a large canvas (now lost) commissioned by th",
+     "It was already in 1530 described simply as \"the little landscape on canvas with a tempest,"
+    ],
+    "v_images-": [
+     "This large bronze of a muscular greyhound licking his paw is well sculpted and is finished",
+     "In 1861, Morris established \"The Firm,\" a company that designed furniture, wallpaper, and ",
+     "The Dutch garden, which reached the heights of creativity from about 1670, drew extensivel"
+    ]
+   },
+   {
+    "k": 2,
+    "s": 1.067,
+    "cos_uv": 0.28,
+    "specificity": 0.096,
+    "own_mean": 0.056,
+    "own_sd": 0.051,
+    "coco_mean": -0.041,
+    "v_own+": [
+     [
+      "the altarpiece's open state",
+      0.127
+     ],
+     [
+      "rogier van der weyden's columba altarpiece",
+      0.125
+     ],
+     [
+      "an unidentified altarpiece",
+      0.122
+     ],
+     [
+      "the fesch altarpiece",
+      0.121
+     ],
+     [
+      "a portable altarpiece",
+      0.12
+     ],
+     [
+      "the major altarpiece paintings",
+      0.119
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an open door",
+      0.064
+     ],
+     [
+      "the midst",
+      0.049
+     ],
+     [
+      "the neck",
+      0.049
+     ],
+     [
+      "half",
+      0.047
+     ],
+     [
+      "side",
+      0.044
+     ],
+     [
+      "its way",
+      0.043
+     ]
+    ],
+    "v_own-": [
+     [
+      "the six ceiling paintings",
+      0.082
+     ],
+     [
+      "boldly patterned marble",
+      0.077
+     ],
+     [
+      "dutch ceiling painting",
+      0.075
+     ],
+     [
+      "the colourful fresco decoration",
+      0.072
+     ],
+     [
+      "stucco work",
+      0.069
+     ],
+     [
+      "its painted decoration",
+      0.069
+     ]
+    ],
+    "u_own+": [
+     [
+      "the polyptych's central panel",
+      0.254
+     ],
+     [
+      "a portable franciscan diptych",
+      0.243
+     ],
+     [
+      "the panel painting",
+      0.241
+     ],
+     [
+      "a small portable diptych",
+      0.24
+     ],
+     [
+      "some panel paintings",
+      0.24
+     ],
+     [
+      "the signed and dated altarpiece wings",
+      0.238
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a painting",
+      0.164
+     ],
+     [
+      "a board",
+      0.152
+     ],
+     [
+      "a traffic sign",
+      0.145
+     ],
+     [
+      "a blue sign",
+      0.138
+     ],
+     [
+      "street signs",
+      0.132
+     ],
+     [
+      "computer monitors",
+      0.132
+     ]
+    ],
+    "u_own-": [
+     [
+      "the airy large staircase",
+      0.028
+     ],
+     [
+      "the customs house",
+      0.026
+     ],
+     [
+      "the great galleried hall",
+      0.023
+     ],
+     [
+      "the ground floor halls",
+      0.021
+     ],
+     [
+      "cross-rib vaulting",
+      0.019
+     ],
+     [
+      "gian domenico's fresco cycle",
+      0.018
+     ]
+    ],
+    "u_coco-": [
+     [
+      "the walls",
+      0.001
+     ],
+     [
+      "the wall",
+      -0.0
+     ],
+     [
+      "the house",
+      -0.006
+     ],
+     [
+      "a dining room table",
+      -0.008
+     ],
+     [
+      "the wild",
+      -0.012
+     ],
+     [
+      "a stone wall",
+      -0.012
+     ]
+    ],
+    "v_images+": [
+     "Two paintings in the Metropolitan Museum of Art, Christ before Pilate and The Resurrection",
+     "The painting, called also 'The Pastoral Sermon', shows in the background the church of St ",
+     "The central panel of the lower tier portrays the saints symbolizing the eight Beatitudes g",
+     "This panel is the right wing of an altarpiece. With three other pictures it forms a tripty"
+    ],
+    "v_images-": [
+     "Catalogue numbers: F 803, JH 2124",
+     "Catalogue numbers: F 683, JH 1982",
+     "Catalogue numbers: F 618, JH 1773"
+    ]
+   },
+   {
+    "k": 3,
+    "s": 1.015,
+    "cos_uv": 0.27,
+    "specificity": 0.027,
+    "own_mean": 0.026,
+    "own_sd": 0.041,
+    "coco_mean": -0.001,
+    "v_own+": [
+     [
+      "ghirlandaio's fresco",
+      0.135
+     ],
+     [
+      "ridolfo del ghirlandaio",
+      0.092
+     ],
+     [
+      "ridolfo ghirlandaio",
+      0.085
+     ],
+     [
+      "tintoretto's painting",
+      0.082
+     ],
+     [
+      "tintoretto's son",
+      0.075
+     ],
+     [
+      "domenico ghirlandaio's follower",
+      0.074
+     ]
+    ],
+    "v_coco+": [
+     [
+      "the middle",
+      0.063
+     ],
+     [
+      "a white truck",
+      0.046
+     ],
+     [
+      "a large white bowl",
+      0.046
+     ],
+     [
+      "white shorts",
+      0.046
+     ],
+     [
+      "the wall",
+      0.045
+     ],
+     [
+      "white dress",
+      0.044
+     ]
+    ],
+    "v_own-": [
+     [
+      "the annunciation",
+      0.087
+     ],
+     [
+      "an ugly old woman",
+      0.084
+     ],
+     [
+      "an old woman",
+      0.08
+     ],
+     [
+      "the gothic vaults",
+      0.076
+     ],
+     [
+      "the two small paintings",
+      0.076
+     ],
+     [
+      "an elderly woman",
+      0.074
+     ]
+    ],
+    "u_own+": [
+     [
+      "the artist's brother",
+      0.081
+     ],
+     [
+      "the artist's imagination",
+      0.072
+     ],
+     [
+      "the artist's sister",
+      0.068
+     ],
+     [
+      "the sculptor",
+      0.068
+     ],
+     [
+      "the young sculptor",
+      0.068
+     ],
+     [
+      "a legendary thracian poet",
+      0.067
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a self portrait",
+      0.032
+     ],
+     [
+      "his bicycle",
+      0.03
+     ],
+     [
+      "the parking lot",
+      0.024
+     ],
+     [
+      "a picnic",
+      0.024
+     ],
+     [
+      "his meal",
+      0.016
+     ],
+     [
+      "a little boy",
+      0.013
+     ]
+    ],
+    "u_own-": [
+     [
+      "six copper panels",
+      0.168
+     ],
+     [
+      "two predella panels",
+      0.167
+     ],
+     [
+      "bredius 440.around 1640 rembrandt",
+      0.165
+     ],
+     [
+      "twenty-three enamel plaques",
+      0.161
+     ],
+     [
+      "forty-seven small panels",
+      0.158
+     ],
+     [
+      "the six upper tier panels",
+      0.155
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a number",
+      0.126
+     ],
+     [
+      "half",
+      0.117
+     ],
+     [
+      "two plates",
+      0.105
+     ],
+     [
+      "bunches",
+      0.105
+     ],
+     [
+      "gold",
+      0.097
+     ],
+     [
+      "two pizzas",
+      0.096
+     ]
+    ],
+    "v_images+": [
+     "The fresco can be seen as a portrayal of the Church Militant below, and the Church Triumph",
+     "The third composition for the Stanza della Segnatura represents Parnassus, the dwelling pl",
+     "The cycle of the Cross legend, which according to the Golden Legend begins shortly before ",
+     "Federico Gonzaga engaged Giulio Romano to decorate the pleasure palace on the outskirts of"
+    ],
+    "v_images-": [
+     "Catalogue numbers: F 344, JH 1353.Van Gogh often used himself as a model for practicing fi",
+     "Catalogue numbers: F 419, JH 1465.At the end of May 1888 van Gogh took a trip to Saintes-M",
+     "Catalogue numbers: F 627, JH 1772.The artist himself provided the most accessible of all m"
+    ]
+   },
+   {
+    "k": 4,
+    "s": 0.995,
+    "cos_uv": 0.12,
+    "specificity": 0.056,
+    "own_mean": 0.089,
+    "own_sd": 0.048,
+    "coco_mean": 0.033,
+    "v_own+": [
+     [
+      "the reins triptych",
+      0.107
+     ],
+     [
+      "all three panels",
+      0.105
+     ],
+     [
+      "this large triptych",
+      0.1
+     ],
+     [
+      "this polyptych",
+      0.1
+     ],
+     [
+      "the three panels",
+      0.099
+     ],
+     [
+      "this imposing triptych",
+      0.097
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an office cubicle",
+      0.065
+     ],
+     [
+      "a trio",
+      0.059
+     ],
+     [
+      "a doorway",
+      0.052
+     ],
+     [
+      "three vases",
+      0.048
+     ],
+     [
+      "a family",
+      0.046
+     ],
+     [
+      "a black and white photograph",
+      0.042
+     ]
+    ],
+    "v_own-": [
+     [
+      "ghirlandaio's fresco",
+      0.129
+     ],
+     [
+      "late medieval painting",
+      0.097
+     ],
+     [
+      "the giudecca",
+      0.093
+     ],
+     [
+      "a frozen canal",
+      0.091
+     ],
+     [
+      "domenico ghirlandaio's follower",
+      0.09
+     ],
+     [
+      "ridolfo ghirlandaio",
+      0.088
+     ]
+    ],
+    "u_own+": [
+     [
+      "the 1886 impressionist exhibition",
+      0.073
+     ],
+     [
+      "100 ducats",
+      0.072
+     ],
+     [
+      "montmartre's cemetery",
+      0.061
+     ],
+     [
+      "1886 impressionist exhibitions",
+      0.059
+     ],
+     [
+      "100 florins",
+      0.058
+     ],
+     [
+      "1695.)this huge commission",
+      0.056
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a large passenger jet",
+      0.024
+     ],
+     [
+      "suits",
+      0.013
+     ],
+     [
+      "a large jetliner",
+      0.013
+     ],
+     [
+      "plate",
+      0.012
+     ],
+     [
+      "a large air plane",
+      0.012
+     ],
+     [
+      "signs",
+      0.011
+     ]
+    ],
+    "u_own-": [
+     [
+      "the left predella panel",
+      0.198
+     ],
+     [
+      "five predella panels",
+      0.194
+     ],
+     [
+      "the five predella panels",
+      0.19
+     ],
+     [
+      "four frescoes",
+      0.187
+     ],
+     [
+      "another predella panel",
+      0.186
+     ],
+     [
+      "the six upper tier panels",
+      0.177
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a wall",
+      0.134
+     ],
+     [
+      "the wall",
+      0.126
+     ],
+     [
+      "the walls",
+      0.122
+     ],
+     [
+      "four men",
+      0.119
+     ],
+     [
+      "a ledge",
+      0.111
+     ],
+     [
+      "a stone wall",
+      0.109
+     ]
+    ],
+    "v_images+": [
+     "Hendrik van Balen was an Antwerp artist and the teacher of Anthony van Dyck. He mainly pai",
+     "The painting was commisioned in 1589 for the cathedral of Reggio Emilia",
+     "This altarpiece possesses a richness of colour that is unusual for Maratti. He was, in fac",
+     "The subject is taken from the Old Testament (Exodus, 17, 1-7)."
+    ],
+    "v_images-": [
+     "This canvas belongs to a group of paintings formerly attributed to an anonymous painter ca",
+     "This panel depicts a winter scene with a windmill and figures on a frozen river. Inspired ",
+     "The Piazza San Marco in Venice, with the Basilica di San Marco and the famous Campanile ha"
+    ]
+   },
+   {
+    "k": 5,
+    "s": 0.964,
+    "cos_uv": -0.02,
+    "specificity": 0.065,
+    "own_mean": 0.041,
+    "own_sd": 0.067,
+    "coco_mean": -0.024,
+    "v_own+": [
+     [
+      "odysseus",
+      0.095
+     ],
+     [
+      "the commedia dell'arte",
+      0.093
+     ],
+     [
+      "the procuress",
+      0.093
+     ],
+     [
+      "a procuress",
+      0.092
+     ],
+     [
+      "the odalisque",
+      0.092
+     ],
+     [
+      "the proconsul",
+      0.091
+     ]
+    ],
+    "v_coco+": [
+     [
+      "an umpire",
+      0.055
+     ],
+     [
+      "a curb",
+      0.045
+     ],
+     [
+      "a large kite",
+      0.044
+     ],
+     [
+      "zebra standing",
+      0.042
+     ],
+     [
+      "the dark",
+      0.041
+     ],
+     [
+      "a street corner",
+      0.039
+     ]
+    ],
+    "v_own-": [
+     [
+      "two polychrome scenes",
+      0.106
+     ],
+     [
+      "twenty-three enamel plaques",
+      0.094
+     ],
+     [
+      "his panel paintings",
+      0.091
+     ],
+     [
+      "a large polyptych",
+      0.091
+     ],
+     [
+      "seven decorating panels",
+      0.09
+     ],
+     [
+      "two murals",
+      0.086
+     ]
+    ],
+    "u_own+": [
+     [
+      "ghirlandaio's fresco",
+      0.177
+     ],
+     [
+      "these orvieto frescoes",
+      0.153
+     ],
+     [
+      "ceiling frescoes",
+      0.147
+     ],
+     [
+      "giotto's frescoes",
+      0.147
+     ],
+     [
+      "the ceiling fresco",
+      0.141
+     ],
+     [
+      "the ceiling frescoes",
+      0.141
+     ]
+    ],
+    "u_coco+": [
+     [
+      "nintendo wii",
+      0.08
+     ],
+     [
+      "a pacifier",
+      0.065
+     ],
+     [
+      "the middle",
+      0.057
+     ],
+     [
+      "fun",
+      0.056
+     ],
+     [
+      "video games",
+      0.055
+     ],
+     [
+      "her cell phone",
+      0.055
+     ]
+    ],
+    "u_own-": [
+     [
+      "a mountainous river landscape",
+      0.097
+     ],
+     [
+      "a wooded river landscape",
+      0.095
+     ],
+     [
+      "a nordic mountain landscape",
+      0.092
+     ],
+     [
+      "a moonlit river landscape",
+      0.091
+     ],
+     [
+      "an extensive river landscape",
+      0.091
+     ],
+     [
+      "a veneto landscape",
+      0.085
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a field flying kites",
+      0.08
+     ],
+     [
+      "the river",
+      0.065
+     ],
+     [
+      "a river",
+      0.063
+     ],
+     [
+      "a train yard",
+      0.058
+     ],
+     [
+      "a lush green forest",
+      0.056
+     ],
+     [
+      "a snowy hill",
+      0.056
+     ]
+    ],
+    "v_images+": [
+     "Catalogue numbers: F 142, JH 807",
+     "Catalogue number: Bredius 588.This painting shows the meeting at Jacob's well and Christ's",
+     "\"Legacy\" is the most important work of Tornyai. He never considered the first version of  ",
+     "The Island of the Dead is the Swiss artist Arnold B\u00f6cklin's most famous composition. Begin"
+    ],
+    "v_images-": [
+     "The High Altar (Marienretabel) in the Market Church in Halle was executed by the Cranach s",
+     "The picture shows the central panel of the polyptych",
+     "The High Altar (Marienretabel) in the Market Church in Halle was executed by the Cranach s"
+    ]
+   },
+   {
+    "k": 6,
+    "s": 0.897,
+    "cos_uv": 0.05,
+    "specificity": 0.011,
+    "own_mean": -0.021,
+    "own_sd": 0.048,
+    "coco_mean": -0.032,
+    "v_own+": [
+     [
+      "origins",
+      0.094
+     ],
+     [
+      "dead fish",
+      0.09
+     ],
+     [
+      "the politician",
+      0.09
+     ],
+     [
+      "a subtlety",
+      0.083
+     ],
+     [
+      "hokusai",
+      0.081
+     ],
+     [
+      "the eight saints",
+      0.08
+     ]
+    ],
+    "v_coco+": [
+     [
+      "one piece",
+      0.062
+     ],
+     [
+      "a white bed",
+      0.058
+     ],
+     [
+      "hard wood floors",
+      0.052
+     ],
+     [
+      "hot dogs",
+      0.052
+     ],
+     [
+      "a white dog",
+      0.051
+     ],
+     [
+      "his dog",
+      0.049
+     ]
+    ],
+    "v_own-": [
+     [
+      "a darkened interior",
+      0.073
+     ],
+     [
+      "82 x 83 cm",
+      0.065
+     ],
+     [
+      "a blue mantle",
+      0.064
+     ],
+     [
+      "the internal wings",
+      0.061
+     ],
+     [
+      "a large columned hall",
+      0.061
+     ],
+     [
+      "elsheimer's small copper",
+      0.06
+     ]
+    ],
+    "u_own+": [
+     [
+      "an oval ceiling panel",
+      0.205
+     ],
+     [
+      "the ceiling panels",
+      0.192
+     ],
+     [
+      "the central ceiling panel",
+      0.19
+     ],
+     [
+      "the lower spandrels",
+      0.186
+     ],
+     [
+      "triptych wings",
+      0.185
+     ],
+     [
+      "three tall rectangular panels",
+      0.184
+     ]
+    ],
+    "u_coco+": [
+     [
+      "three windows",
+      0.123
+     ],
+     [
+      "two windows",
+      0.118
+     ],
+     [
+      "a doorway",
+      0.106
+     ],
+     [
+      "door",
+      0.094
+     ],
+     [
+      "two twin beds",
+      0.092
+     ],
+     [
+      "the windows",
+      0.092
+     ]
+    ],
+    "u_own-": [
+     [
+      "plein air painting",
+      0.08
+     ],
+     [
+      "the plein air drawings",
+      0.079
+     ],
+     [
+      "a goatherd",
+      0.075
+     ],
+     [
+      "a preparatory oil sketch",
+      0.073
+     ],
+     [
+      "realistic landscape painting",
+      0.071
+     ],
+     [
+      "gouache",
+      0.071
+     ]
+    ],
+    "u_coco-": [
+     [
+      "a busy street",
+      0.062
+     ],
+     [
+      "a busy city street",
+      0.06
+     ],
+     [
+      "a zebra grazing",
+      0.056
+     ],
+     [
+      "a street scene",
+      0.048
+     ],
+     [
+      "a baseball game",
+      0.043
+     ],
+     [
+      "an umpire",
+      0.039
+     ]
+    ],
+    "v_images+": [
+     "Catalogue numbers: F 688, JH 1783",
+     "Catalogue numbers: F 670, JH 1886",
+     "Catalogue numbers: F 687, JH 1782.In autumn and winter 1889&#150;90, while a voluntary pat",
+     "Catalogue numbers: F 693, JH 1785"
+    ],
+    "v_images-": [
+     "This panel was part of a larger work. Another panel depicting the Flagellation (Frick Coll",
+     "This small icon is a Byzantine prototype from which several 13th-century paintings were de",
+     "This painting is probably an autonomous panel, painted for private devotion. Formerly it w"
+    ]
+   },
+   {
+    "k": 7,
+    "s": 0.893,
+    "cos_uv": 0.07,
+    "specificity": 0.037,
+    "own_mean": 0.008,
+    "own_sd": 0.066,
+    "coco_mean": -0.03,
+    "v_own+": [
+     [
+      "a high collar",
+      0.071
+     ],
+     [
+      "a small retinue",
+      0.059
+     ],
+     [
+      "the bustle",
+      0.059
+     ],
+     [
+      "amorous shepherds",
+      0.056
+     ],
+     [
+      "bustle",
+      0.055
+     ],
+     [
+      "the broad handling",
+      0.055
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a brown bird",
+      0.036
+     ],
+     [
+      "a smart phone",
+      0.032
+     ],
+     [
+      "sinks",
+      0.03
+     ],
+     [
+      "their backs",
+      0.029
+     ],
+     [
+      "a mobile phone",
+      0.029
+     ],
+     [
+      "a river",
+      0.029
+     ]
+    ],
+    "v_own-": [
+     [
+      "the iconostasisthe picture",
+      0.14
+     ],
+     [
+      "the iconostasis",
+      0.128
+     ],
+     [
+      "an iconostasis",
+      0.117
+     ],
+     [
+      "the doors",
+      0.109
+     ],
+     [
+      "the far side",
+      0.1
+     ],
+     [
+      "the calvary altarpiece",
+      0.1
+     ]
+    ],
+    "u_own+": [
+     [
+      "the altar fresco",
+      0.267
+     ],
+     [
+      "jacopino del conte's altarpiece",
+      0.253
+     ],
+     [
+      "lanfranco's altarpiece",
+      0.249
+     ],
+     [
+      "giotto's frescoes",
+      0.246
+     ],
+     [
+      "an iconostasis",
+      0.246
+     ],
+     [
+      "ghirlandaio's fresco",
+      0.243
+     ]
+    ],
+    "u_coco+": [
+     [
+      "a church",
+      0.187
+     ],
+     [
+      "a tall church tower",
+      0.176
+     ],
+     [
+      "the big ben clock tower",
+      0.164
+     ],
+     [
+      "a messy room",
+      0.141
+     ],
+     [
+      "a very tall clock tower",
+      0.141
+     ],
+     [
+      "graffiti",
+      0.138
+     ]
+    ],
+    "u_own-": [
+     [
+      "1669 top right",
+      0.036
+     ],
+     [
+      "fijnschilders",
+      0.023
+     ],
+     [
+      "interest",
+      0.019
+     ],
+     [
+      "the cobbler",
+      0.015
+     ],
+     [
+      "walberswick",
+      0.014
+     ],
+     [
+      "the schemer",
+      0.013
+     ]
+    ],
+    "u_coco-": [
+     [
+      "two plates",
+      -0.011
+     ],
+     [
+      "either side",
+      -0.014
+     ],
+     [
+      "the wilderness",
+      -0.015
+     ],
+     [
+      "two slices",
+      -0.017
+     ],
+     [
+      "the shoreline",
+      -0.018
+     ],
+     [
+      "side",
+      -0.019
+     ]
+    ],
+    "v_images+": [
+     "The portrait is of Captain Samuel Blodget, Jr. (1757-1814), an officer of the New Hampshir",
+     "Very early in his career, Giovanni Antonio Pellegrini, considerably influenced by Luca Gio",
+     "Theseus is a legendary Greek hero, king of Athens, and a famous slayer of monsters. Though",
+     "The artist treated the theme of the young St John the Baptist several times"
+    ],
+    "v_images-": [
+     "In a mandala of two concentric circle-shaped rainbows the Almighty is seated upon a throne",
+     "The iconographic scheme of the Dormition was formed in Byzantium in the course of the nint",
+     "His almost obsessional concern for realistic detail did not prevent Memling from using all"
+    ]
+   },
+   {
+    "k": 8,
+    "s": 0.832,
+    "cos_uv": 0.2,
+    "specificity": 0.009,
+    "own_mean": 0.006,
+    "own_sd": 0.051,
+    "coco_mean": -0.003,
+    "v_own+": [
+     [
+      "a blue coat",
+      0.046
+     ],
+     [
+      "gauguin's death",
+      0.046
+     ],
+     [
+      "a blue robe",
+      0.042
+     ],
+     [
+      "a red bed",
+      0.041
+     ],
+     [
+      "a blue tunic",
+      0.038
+     ],
+     [
+      "a blue dress",
+      0.037
+     ]
+    ],
+    "v_coco+": [
+     [
+      "a blue coat",
+      0.046
+     ],
+     [
+      "a blue jacket",
+      0.043
+     ],
+     [
+      "two apples",
+      0.033
+     ],
+     [
+      "a blue and green tennis court",
+      0.028
+     ],
+     [
+      "a red couch",
+      0.026
+     ],
+     [
+      "two twin beds",
+      0.022
+     ]
+    ],
+    "v_own-": [
+     [
+      "six elaborate faux-stucco cartouches",
+      0.196
+     ],
+     [
+      "the four evangelists",
+      0.154
+     ],
+     [
+      "the corner cartouches",
+      0.147
+     ],
+     [
+      "its exquisitely carved capitals",
+      0.143
+     ],
+     [
+      "five allegorical figures",
+      0.143
+     ],
+     [
+      "heraldic, ornamental, and figural motifs",
+      0.14
+     ]
+    ],
+    "u_own+": [
+     [
+      "the 1873 murals",
+      0.154
+     ],
+     [
+      "the two lateral paintings",
+      0.132
+     ],
+     [
+      "the two wall paintings",
+      0.13
+     ],
+     [
+      "28 scenes",
+      0.125
+     ],
+     [
+      "two murals",
+      0.124
+     ],
+     [
+      "thirty paintings",
+      0.123
+     ]
+    ],
+    "u_coco+": [
+     [
+      "the wall",
+      0.094
+     ],
+     [
+      "a painting",
+      0.094
+     ],
+     [
+      "a fenced area",
+      0.09
+     ],
+     [
+      "a wall",
+      0.088
+     ],
+     [
+      "a clear day",
+      0.087
+     ],
+     [
+      "the scene",
+      0.086
+     ]
+    ],
+    "u_own-": [
+     [
+      "grotesque figures",
+      0.158
+     ],
+     [
+      "dancing fauns",
+      0.148
+     ],
+     [
+      "the four evangelists",
+      0.139
+     ],
+     [
+      "grotesques",
+      0.127
+     ],
+     [
+      "the grotesque peasants",
+      0.124
+     ],
+     [
+      "a hurdy-gurdy player",
+      0.124
+     ]
+    ],
+    "u_coco-": [
+     [
+      "four men",
+      0.085
+     ],
+     [
+      "baseball players",
+      0.043
+     ],
+     [
+      "the lid",
+      0.042
+     ],
+     [
+      "two tall giraffes",
+      0.042
+     ],
+     [
+      "some cows",
+      0.041
+     ],
+     [
+      "a disk toy",
+      0.039
+     ]
+    ],
+    "v_images+": [
+     "This painting reflects the artist's fascination with Granada's Alhambra Palace, as well as",
+     "In this work, as often occurs in the painting of Allori, the composition is slightly over-",
+     "The number of major paintings that derive from Delacroix's Moroccan notes and sketchbooks ",
+     "The paintings of the Ferrarese Renaissance share a particularly sensitive observation of n"
+    ],
+    "v_images-": [
+     "The middle part from 1529 contains seventeen portraits, while the later added side pieces ",
+     "On the walls of the ballroom above the balcony windows, inside six elaborate faux-stucco c",
+     "With the Peace of Bratislava (1805), Venice was incorporated into the French Empire. It wa"
+    ]
+   }
+  ]
+ }
+}

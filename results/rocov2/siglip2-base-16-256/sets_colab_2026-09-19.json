@@ -1,0 +1,523 @@
+{
+ "imported_from": "story/sets/colab_results_2026-09-19.json",
+ "ties": "geq",
+ "collection": "rocov2",
+ "encoder": "siglip2-base-16-256",
+ "n": {
+  "train": 13326,
+  "val": 1651,
+  "test": 9927
+ },
+ "phrases_per_caption": 5.866527465467395,
+ "frozen": {
+  "R@1": 0.029515462879016824,
+  "R@5": 0.07786843960914677,
+  "R@10": 0.11614787952049965,
+  "R@50": 0.29031933111715524,
+  "median_rank": 166.0,
+  "R@10_ci": [
+   0.11020449279742117,
+   0.12229525536415835
+  ]
+ },
+ "pooled": {
+  "R@1": 0.02921325677445351,
+  "R@5": 0.09741110103757429,
+  "R@10": 0.15180819985897048,
+  "R@50": 0.3670796816762365,
+  "median_rank": 104.0,
+  "R@10_ci": [
+   0.14546187166314092,
+   0.1588647124005238
+  ],
+  "val_R@10": 0.652,
+  "lam": 1.0,
+  "tau": 0.05000000074505806
+ },
+ "set": {
+  "R@1": 0.05238239145764078,
+  "R@5": 0.1404251032537524,
+  "R@10": 0.20640676941674221,
+  "R@50": 0.42238339881132264,
+  "median_rank": 76.0,
+  "R@10_ci": [
+   0.1985468923138914,
+   0.21456885262415634
+  ],
+  "val_R@10": 0.698,
+  "lam": 5.324990749359131,
+  "tau": 0.010874981991946697
+ },
+ "phrases_only": {
+  "R@1": 0.04029414727510829,
+  "R@5": 0.11302508310667876,
+  "R@10": 0.1696383600282059,
+  "R@50": 0.3801752795406467,
+  "median_rank": 99.0,
+  "R@10_ci": [
+   0.16278835499143748,
+   0.17729424801047647
+  ],
+  "val_R@10": 0.654,
+  "lam": 5.899063587188721,
+  "tau": 0.04528486728668213
+ },
+ "patches_only": {
+  "R@1": 0.01772942480104765,
+  "R@5": 0.06950740404956181,
+  "R@10": 0.1125214062657399,
+  "R@50": 0.3007958094086834,
+  "median_rank": 138.0,
+  "R@10_ci": [
+   0.10657801954266143,
+   0.11896846982975723
+  ],
+  "val_R@10": 0.574,
+  "lam": 4.779850006103516,
+  "tau": 0.04206335172057152
+ },
+ "setw": {
+  "R@1": 0.05026694872569759,
+  "R@5": 0.1434471642993855,
+  "R@10": 0.20660824015311777,
+  "R@50": 0.42661428427520903,
+  "median_rank": 75.0,
+  "R@10_ci": [
+   0.19905308753903495,
+   0.21426412813538834
+  ],
+  "val_R@10": 0.698,
+  "lam": 4.070301055908203,
+  "tau": 0.012630296871066093,
+  "gate": {
+   "effective_phrases": 5.231002330780029,
+   "mean_phrases": 6.103656768798828,
+   "lowest": [
+    [
+     "the first postoperative day",
+     -1.2,
+     5
+    ],
+    [
+     "the same patient",
+     -1.2,
+     17
+    ],
+    [
+     "lesions",
+     -1.16,
+     8
+    ],
+    [
+     "a defect",
+     -1.14,
+     5
+    ],
+    [
+     "treatment",
+     -1.13,
+     47
+    ],
+    [
+     "no filling defect",
+     -1.13,
+     5
+    ],
+    [
+     "defect",
+     -1.09,
+     17
+    ],
+    [
+     "inflammatory changes",
+     -1.09,
+     8
+    ],
+    [
+     "the treatment",
+     -1.08,
+     8
+    ],
+    [
+     "cystic lesions",
+     -1.07,
+     6
+    ],
+    [
+     "no enhancement",
+     -1.07,
+     5
+    ],
+    [
+     "debridement",
+     -1.07,
+     6
+    ],
+    [
+     "the first visit",
+     -1.07,
+     5
+    ],
+    [
+     "a mass lesion",
+     -1.07,
+     5
+    ],
+    [
+     "thickening",
+     -1.06,
+     37
+    ],
+    [
+     "the defect",
+     -1.06,
+     5
+    ],
+    [
+     "absence",
+     -1.06,
+     24
+    ],
+    [
+     "significant improvement",
+     -1.05,
+     7
+    ],
+    [
+     "a lesion",
+     -1.05,
+     10
+    ],
+    [
+     "the cystic lesion",
+     -1.05,
+     5
+    ]
+   ],
+   "highest": [
+    [
+     "(yellow arrows",
+     1.26,
+     17
+    ],
+    [
+     "(yellow arrow",
+     1.23,
+     71
+    ],
+    [
+     "(blue arrow",
+     1.1,
+     20
+    ],
+    [
+     "yellow arrows",
+     1.08,
+     43
+    ],
+    [
+     "blue arrows",
+     1.03,
+     43
+    ],
+    [
+     "orange arrow",
+     1.02,
+     39
+    ],
+    [
+     "blue arrow",
+     1.02,
+     135
+    ],
+    [
+     "yellow arrow",
+     1.01,
+     88
+    ],
+    [
+     "red arrow).ct",
+     0.99,
+     5
+    ],
+    [
+     "the red arrow",
+     0.97,
+     31
+    ],
+    [
+     "red arrowhead",
+     0.96,
+     5
+    ],
+    [
+     "the yellow arrow",
+     0.96,
+     26
+    ],
+    [
+     "(red arrows",
+     0.96,
+     11
+    ],
+    [
+     "the orange arrow",
+     0.95,
+     5
+    ],
+    [
+     "(black arrow",
+     0.95,
+     14
+    ],
+    [
+     "the blue arrow",
+     0.94,
+     17
+    ],
+    [
+     "green arrows",
+     0.93,
+     14
+    ],
+    [
+     "(white arrows",
+     0.92,
+     15
+    ],
+    [
+     "red arrow",
+     0.9,
+     269
+    ],
+    [
+     "(green arrow",
+     0.9,
+     8
+    ]
+   ]
+  }
+ },
+ "phrases_only_w": {
+  "R@1": 0.03737282159766294,
+  "R@5": 0.11373023068399316,
+  "R@10": 0.17185453812833687,
+  "R@50": 0.38077969174977333,
+  "median_rank": 98.0,
+  "R@10_ci": [
+   0.16470232698700513,
+   0.17911000302206107
+  ],
+  "val_R@10": 0.664,
+  "lam": 4.809784412384033,
+  "tau": 0.05949098989367485,
+  "gate": {
+   "effective_phrases": 5.2336859703063965,
+   "mean_phrases": 6.103656768798828,
+   "lowest": [
+    [
+     "defect",
+     -1.23,
+     17
+    ],
+    [
+     "improvement",
+     -1.13,
+     11
+    ],
+    [
+     "absence",
+     -1.11,
+     24
+    ],
+    [
+     "a defect",
+     -1.11,
+     5
+    ],
+    [
+     "reduction",
+     -1.11,
+     11
+    ],
+    [
+     "concern",
+     -1.11,
+     5
+    ],
+    [
+     "loss",
+     -1.09,
+     23
+    ],
+    [
+     "no filling defect",
+     -1.09,
+     5
+    ],
+    [
+     "thickening",
+     -1.08,
+     37
+    ],
+    [
+     "expansion",
+     -1.08,
+     11
+    ],
+    [
+     "enhancement",
+     -1.07,
+     35
+    ],
+    [
+     "the defect",
+     -1.06,
+     5
+    ],
+    [
+     "no enhancement",
+     -1.06,
+     5
+    ],
+    [
+     "lesions",
+     -1.06,
+     8
+    ],
+    [
+     "separation",
+     -1.05,
+     5
+    ],
+    [
+     "interest",
+     -1.04,
+     33
+    ],
+    [
+     "the end",
+     -1.03,
+     20
+    ],
+    [
+     "respect",
+     -1.03,
+     6
+    ],
+    [
+     "care",
+     -1.02,
+     13
+    ],
+    [
+     "presence",
+     -1.02,
+     14
+    ]
+   ],
+   "highest": [
+    [
+     "(yellow arrows",
+     1.05,
+     17
+    ],
+    [
+     "(yellow arrow",
+     1.05,
+     71
+    ],
+    [
+     "parasternal long axis view",
+     0.99,
+     6
+    ],
+    [
+     "transoesophageal echocardiogram",
+     0.93,
+     9
+    ],
+    [
+     "parasternal short-axis view",
+     0.93,
+     5
+    ],
+    [
+     "transthoracic echocardiogram",
+     0.92,
+     49
+    ],
+    [
+     "(blue arrow",
+     0.91,
+     20
+    ],
+    [
+     "transesophageal echocardiogram",
+     0.89,
+     27
+    ],
+    [
+     "transvaginal ultrasound",
+     0.87,
+     22
+    ],
+    [
+     "parasternal long-axis view",
+     0.86,
+     11
+    ],
+    [
+     "transesophageal echocardiography",
+     0.84,
+     17
+    ],
+    [
+     "transoesophageal echocardiography",
+     0.84,
+     6
+    ],
+    [
+     "transthoracic echocardiography",
+     0.83,
+     39
+    ],
+    [
+     "the yellow arrow",
+     0.81,
+     26
+    ],
+    [
+     "postoperative panoramic radiograph",
+     0.77,
+     5
+    ],
+    [
+     "the left lateral ventricle",
+     0.77,
+     5
+    ],
+    [
+     "yellow arrows",
+     0.76,
+     43
+    ],
+    [
+     "the ultrasound image",
+     0.76,
+     6
+    ],
+    [
+     "(green arrow",
+     0.75,
+     8
+    ],
+    [
+     "the red arrow",
+     0.75,
+     31
+    ]
+   ]
+  }
+ }
+}

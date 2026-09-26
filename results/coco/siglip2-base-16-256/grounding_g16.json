@@ -1,0 +1,42 @@
+{
+ "imported_from": "story/sets/ground_coco_g16.json",
+ "ties": "geq",
+ "collection": "coco",
+ "encoder": "siglip2-base-16-256",
+ "n_images": 1000,
+ "n_phrases": 1250,
+ "chance_box_area": 0.3042125,
+ "center_patch_acc": 0.5632,
+ "frozen": {
+  "pointing_acc": 0.6744,
+  "any_instance_acc": 0.7384,
+  "small_object_acc": 0.4156171284634761,
+  "n_small": 397,
+  "person_acc": 0.6873563218390805,
+  "nonperson_acc": 0.6674846625766871
+ },
+ "pooled": {
+  "pointing_acc": 0.6776,
+  "any_instance_acc": 0.7344,
+  "small_object_acc": 0.44584382871536526,
+  "n_small": 397,
+  "person_acc": 0.6873563218390805,
+  "nonperson_acc": 0.6723926380368098
+ },
+ "set": {
+  "pointing_acc": 0.688,
+  "any_instance_acc": 0.7464,
+  "small_object_acc": 0.4534005037783375,
+  "n_small": 397,
+  "person_acc": 0.664367816091954,
+  "nonperson_acc": 0.7006134969325153
+ },
+ "setw": {
+  "pointing_acc": 0.6864,
+  "any_instance_acc": 0.7448,
+  "small_object_acc": 0.43828715365239296,
+  "n_small": 397,
+  "person_acc": 0.671264367816092,
+  "nonperson_acc": 0.694478527607362
+ }
+}

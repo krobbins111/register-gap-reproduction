@@ -1,0 +1,25 @@
+# the embedding cache never lives in the repo (see ltg/cache.py cache_root)
+cache/
+local.json
+# binaries anywhere
+*.npz
+*.npy
+*.tmp.npy
+*.pt
+# saved map checkpoints sit next to their results, git-ignored
+results/**/models/
+# logs
+results/logs/
+results/**/log_*.txt
+*.log
+# images / frames / crops under data/ (pairs.jsonl and annotation manifests ARE committed)
+/data/**/images/
+/data/**/frames/
+/data/**/crops/
+/data/**/*.jpg
+/data/**/*.png
+/data/**/*.avi
+docs/registergap/**/*.png
+**/__pycache__/
+*.pyc
+results/_reproduce/

@@ -1,0 +1,102 @@
+{
+ "imported_from": "story/sets/colab_results_sets_so400m_nomaps_2026-09-22.json",
+ "ties": "geq",
+ "collection": "skincap",
+ "encoder": "siglip2-so400m-16-384",
+ "config": {
+  "model": "google/siglip2-so400m-patch16-384",
+  "src_grid": 24,
+  "grid": 12,
+  "dim": 1152,
+  "pmax": 32,
+  "epochs": 30,
+  "batch": 128,
+  "tau_floor": 0.01,
+  "seeds": 2,
+  "lr": 0.0001,
+  "wd": 0.0001,
+  "loss_temp": 0.05
+ },
+ "n": {
+  "train": 2800,
+  "val": 600,
+  "test": 600
+ },
+ "protocol": {
+  "frozen": {
+   "R@1": 0.035,
+   "R@5": 0.105,
+   "R@10": 0.15166666666666667,
+   "R@50": 0.3383333333333333,
+   "median_rank": 133.5,
+   "gallery": 4000,
+   "queries": 600,
+   "note": "whole collection as gallery (Derm1M, ICCV 2025, Table 4 protocol)"
+  },
+  "nomaps_set": {
+   "R@1": 0.043333333333333335,
+   "R@5": 0.11333333333333333,
+   "R@10": 0.16833333333333333,
+   "R@50": 0.34,
+   "median_rank": 135.5,
+   "gallery": 4000,
+   "queries": 600,
+   "note": "whole collection as gallery (Derm1M, ICCV 2025, Table 4 protocol)"
+  }
+ },
+ "frozen": {
+  "R@1": 0.10833333333333334,
+  "R@5": 0.26666666666666666,
+  "R@10": 0.375,
+  "R@50": 0.6533333333333333,
+  "median_rank": 22.0,
+  "R@10_ci": [
+   0.3383333333333333,
+   0.41333333333333333
+  ]
+ },
+ "nomaps_set": {
+  "R@1": 0.11666666666666667,
+  "R@5": 0.27166666666666667,
+  "R@10": 0.38666666666666666,
+  "R@50": 0.6633333333333333,
+  "median_rank": 21.0,
+  "R@10_ci": [
+   0.34829166666666667,
+   0.4266666666666667
+  ],
+  "lam": 1.0,
+  "tau": 0.01,
+  "val_R@10": 0.436,
+  "val_grid": {
+   "lam0.25_tau0.01": 0.432,
+   "lam0.25_tau0.02": 0.424,
+   "lam0.25_tau0.05": 0.428,
+   "lam0.25_tau0.1": 0.43,
+   "lam0.5_tau0.01": 0.428,
+   "lam0.5_tau0.02": 0.428,
+   "lam0.5_tau0.05": 0.418,
+   "lam0.5_tau0.1": 0.416,
+   "lam1.0_tau0.01": 0.436,
+   "lam1.0_tau0.02": 0.426,
+   "lam1.0_tau0.05": 0.408,
+   "lam1.0_tau0.1": 0.41,
+   "lam2.0_tau0.01": 0.434,
+   "lam2.0_tau0.02": 0.414,
+   "lam2.0_tau0.05": 0.398,
+   "lam2.0_tau0.1": 0.388,
+   "lam4.0_tau0.01": 0.404,
+   "lam4.0_tau0.02": 0.374,
+   "lam4.0_tau0.05": 0.348,
+   "lam4.0_tau0.1": 0.326,
+   "lam8.0_tau0.01": 0.346,
+   "lam8.0_tau0.02": 0.316,
+   "lam8.0_tau0.05": 0.254,
+   "lam8.0_tau0.1": 0.23,
+   "lam16.0_tau0.01": 0.286,
+   "lam16.0_tau0.02": 0.238,
+   "lam16.0_tau0.05": 0.182,
+   "lam16.0_tau0.1": 0.158
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "imported_from": "story/sets/ground_cityflow_cam_all.json",
+ "ties": "geq",
+ "collection": "cityflow_cam",
+ "encoder": "siglip2-base-16-256",
+ "frozen": {
+  "subject": {
+   "hit": 0.2413793103448276,
+   "n": 348
+  },
+  "other": {
+   "hit": 0.027649769585253458,
+   "n": 434
+  },
+  "verb": {
+   "hit": 0.025096525096525095,
+   "n": 518
+  },
+  "chance_box_area": 0.019630561440677968
+ },
+ "set": {
+  "subject": {
+   "hit": 0.4482758620689655,
+   "n": 348
+  },
+  "other": {
+   "hit": 0.06221198156682028,
+   "n": 434
+  },
+  "verb": {
+   "hit": 0.03861003861003861,
+   "n": 518
+  },
+  "chance_box_area": 0.019630561440677968
+ },
+ "setw": {
+  "subject": {
+   "hit": 0.45689655172413796,
+   "n": 348,
+   "gate_mean_weight": 0.41638341653107225
+  },
+  "other": {
+   "hit": 0.06682027649769585,
+   "n": 434,
+   "gate_mean_weight": 0.23118205239764555
+  },
+  "verb": {
+   "hit": 0.04054054054054054,
+   "n": 518,
+   "gate_mean_weight": 0.20997212585565206
+  },
+  "chance_box_area": 0.019630561440677968
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "imported_from": "story/api/gemini_sweep_summary.json",
+ "ties": "geq",
+ "collection": "flickr",
+ "encoder": "gemini-embedding-2",
+ "n_test": 1000,
+ "gemini": {
+  "frozen": {
+   "R@1": 0.942,
+   "R@10": 0.995,
+   "R@50": 0.998
+  },
+  "N50": 0.0003333333333333333,
+  "maps": {
+   "R@1": 0.949,
+   "R@10": 0.995,
+   "R@50": 0.998
+  }
+ },
+ "siglip2": {
+  "frozen": {
+   "R@1": 0.836,
+   "R@10": 0.977,
+   "R@50": 0.997
+  },
+  "maps": {
+   "R@1": 0.849,
+   "R@10": 0.981,
+   "R@50": 0.994
+  }
+ }
+}

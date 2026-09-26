@@ -1,0 +1,132 @@
+{
+ "_doc": "Every collection in the paper. owner = who exports data/<id>/pairs.jsonl (id, image, caption, split). split = the canonical rule (outline step 1: the draft's seed-0 splits for the eleven grid collections; COCO Karpathy; ROCOv2 full train). role: grid = a row of the full grid; grounding = phrase-grounding set only; appendix = failure case.",
+ "rocov2": {
+  "name": "ROCOv2",
+  "domain": "medicine",
+  "source": "eltorio/ROCOv2-radiology",
+  "split": "official train/val/test, FULL train (59,962 / 9,903 / 9,927); the SigLIP2 cell is re-run on the full split (was a 20k/3k subsample)",
+  "owner": "grid",
+  "role": "grid",
+  "licence": "CC BY-NC-SA 4.0"
+ },
+ "skincap": {
+  "name": "SkinCAP",
+  "domain": "dermatology",
+  "source": "sercetexam9/skincap",
+  "split": "seed-0 2,800 / 598 / 598 (manifest skincap_split_seed0.json)",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "nwpu": {
+  "name": "NWPU-Captions",
+  "domain": "remote sensing",
+  "source": "NWPU-Captions (local images)",
+  "split": "seed-0 25,199 / 3,150 / 3,150",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "rsicd": {
+  "name": "RSICD",
+  "domain": "remote sensing",
+  "source": "arampacha/rsicd",
+  "split": "official 8,734 / 1,094 / 1,093; caption = longest of five",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "fashion200k": {
+  "name": "Fashion200k",
+  "domain": "fashion",
+  "source": "Marqo/fashion200k",
+  "split": "seed-0 50,000 / 4,999 / 4,999, first image per item_ID",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "facad": {
+  "name": "FACAD",
+  "domain": "fashion",
+  "source": "Luna288/image-captioning-FACAD-base",
+  "split": "seed-0 8,754 / 1,874 / 1,874",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "semart": {
+  "name": "SemArt",
+  "domain": "art",
+  "source": "leo20000306/SemArt zip (Garcia & Vogiatzis 2018)",
+  "split": "official 19,244 / 1,069 / 1,069, DESCRIPTION field",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "scimmir": {
+  "name": "SciMMIR",
+  "domain": "science",
+  "source": "m-a-p/SciMMIR",
+  "split": "seed-0 16,184 / 3,467 / 3,467",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "goodnews": {
+  "name": "GoodNews",
+  "domain": "news",
+  "source": "GoodNews (Biten et al. 2019)",
+  "split": "seed-0 49,998 / 5,000 / 4,999 (two images unavailable at cache build; pairs.jsonl must reproduce the drop)",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "treeoflife": {
+  "name": "TreeOfLife-10M",
+  "domain": "biodiversity",
+  "source": "imageomics/TreeOfLife-10M",
+  "split": "seed-0 8,400 / 1,793 / 1,793",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "coco": {
+  "name": "COCO (Karpathy)",
+  "domain": "web control",
+  "source": "yerevann/coco-karpathy",
+  "split": "Karpathy 20,000 / 3,000 / 5,000 (4,999 for the SigLIP2 cell); the registergap pipeline's 3.5k/0.5k/1k COCO-2017-val build is retired",
+  "owner": "grid",
+  "role": "grid"
+ },
+ "flickr": {
+  "name": "Flickr30k Entities",
+  "domain": "web (grounding)",
+  "source": "lmms-lab/flickr30k + BryanPlummer/flickr30k_entities",
+  "split": "Plummer 8,000 / 1,000 / 1,000 images, first caption",
+  "owner": "registergap",
+  "role": "grounding"
+ },
+ "cityflow": {
+  "name": "CityFlow-NL (frames)",
+  "domain": "traffic cameras (grounding)",
+  "source": "AI City Challenge 2023 Track 2 (NVIDIA licence, no redistribution of frames)",
+  "split": "seed-0 tracks 1,508 / 323 / 324; variants cityflow_crop, cityflow_cam (held-out cameras)",
+  "owner": "registergap",
+  "role": "grounding"
+ },
+ "duluth": {
+  "name": "Duluth harbor cam",
+  "domain": "webcam",
+  "source": "github.com/ANONYMIZED/duluth-harbor-cam-captions (5,077 pairs)",
+  "split": "by day, 70/15/15",
+  "owner": "registergap",
+  "role": "grid"
+ },
+ "popocatepetl": {
+  "name": "Popocatepetl",
+  "domain": "webcam",
+  "source": "github.com/ANONYMIZED/popocatepetl-cam-captions (795 pairs; harvest extendable to 2016)",
+  "split": "by day, 70/15/15",
+  "owner": "registergap",
+  "role": "grid"
+ },
+ "ospreys": {
+  "name": "UK ospreys",
+  "domain": "webcam",
+  "source": "public nest-cam captions",
+  "split": "by day",
+  "owner": "registergap",
+  "role": "appendix (failure case, optional)"
+ }
+}
